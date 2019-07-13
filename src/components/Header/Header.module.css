@@ -1,0 +1,37 @@
+.header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  background: #353551;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 50;
+}
+.headerContainer {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: max-content 1fr;
+}
+.logo {
+  margin: 0;
+  padding: 0 15px;
+}
+.logoLink {
+  font-size: 24px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #fff;
+}
+.nav {
+  display: flex;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
