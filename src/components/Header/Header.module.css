@@ -4,34 +4,94 @@
   top: 0;
   width: 100%;
   padding: 0;
-  background: #353551;
+  background: #212936;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   z-index: 50;
+  font-family: "Montserrat", sans-serif;
 }
-.headerContainer {
+.uh {
+  background: #171e26;
+}
+.uhContainer {
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: max-content 1fr max-content;
+  height: 64px;
+}
+.uhSubtitle {
+  opacity: 0.6;
+  color: #f1fa8c;
+  border-left: 1px solid #a5a9b2;
+  padding-left: 24px;
+
+  display: flex;
+  align-items: center;
+}
+.uhNav {
+  display: flex;
+}
+.uhNavLink {
+  color: #a5a9b2;
+  text-decoration: none;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+}
+.uhActiveNavLink {
+  color: #e8decc;
+  background: #212936;
 }
 .logo {
   margin: 0;
-  padding: 0 15px;
+  margin-right: 12px;
+  align-self: center;
 }
 .logoLink {
-  font-size: 24px;
-  line-height: 56px;
-  font-weight: 400;
-  color: #fff;
+  background: url("../../assets/kobogi_logo.png") no-repeat;
+  width: 145px;
+  height: 48px;
+  display: block;
 }
-.nav {
+.gh {
   display: flex;
 }
-.nav a {
-  color: #fff;
+.gameHeading {
+  margin: 0;
+  margin-right: 16px;
+  display: flex;
+}
+.gameLink {
+  display: flex;
+  color: #cdbe91;
   text-decoration: none;
-  width: 150px;
+  font-size: 22px;
+}
+.gameIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+  align-self: center;
+}
+.gameTitle {
+  align-self: center;
+}
+.tftLogo {
+  background: url("../../assets/tft_logo_small.png") no-repeat;
+}
+.secondaryNav {
+  display: flex;
+}
+.secondaryNav a {
+  color: #cdbe91;
+  text-decoration: none;
+  padding: 12px 24px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-bottom: 1px solid transparent;
+  animation: border 0.2s ease-in;
+}
+.secondaryNav a.secondaryActive {
+  color: #e8decc;
+  border-bottom: 1px solid #e8decc;
 }

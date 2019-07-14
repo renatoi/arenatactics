@@ -4,10 +4,11 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #121212;
-  font-family: "Roboto Slab", serif;
+  background: #141721;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: #e3ebee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,7 +30,10 @@ code {
   max-width: 1200px;
   margin: auto;
 }
-
+.PageContent {
+  margin-top: 24px;
+  min-height: 100%;
+}
 .Ell {
   max-width: 100%;
   white-space: nowrap;
