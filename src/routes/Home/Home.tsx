@@ -1,9 +1,10 @@
 import React from "react";
-import "./Home.module.css";
+import styles from "./Home.module.css";
+import cx from "classnames";
 
 const Home: React.FC = () => {
   return (
-    <div className="home">
+    <div className={cx(styles.homne, "PageContainer")}>
       <h2>Home</h2>
       <p>
         Kobogi is a new gamer community. Our vision is to create one of the best

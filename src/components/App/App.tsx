@@ -1,39 +1,53 @@
-import React from "react";
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { createStore, IModuleStore } from "redux-dynamic-modules-core";
+import { getSagaExtension } from "redux-dynamic-modules-saga";
+import { Provider } from "react-redux";
+import Loadable from "react-loadable";
+
 import styles from "./App.module.css";
-import { asyncComponent } from "../AsyncComponent/AsyncComponent";
 import { Header } from "../Header/Header";
 import { Home } from "../../routes/Home/Home";
 import { Login } from "../../routes/Login/Login";
 import { Register } from "../../routes/Register/Register";
+import { TFTState } from "../../routes/TFT/types";
 
-const AsyncTFTHome = asyncComponent(() => import("../../routes/TFTHome"));
-const AsyncTFTBuilds = asyncComponent(() => import("../../routes/TFTBuilds"));
-const AsyncTFTChampions = asyncComponent(() =>
-  import("../../routes/TFTChampions")
-);
-const AsyncTFTItems = asyncComponent(() => import("../../routes/TFTItems"));
+interface AppState {
+  readonly TFT: TFTState;
+}
 
-const App: React.FC = () => {
-  return (
-    <div className={styles.app}>
-      <Router>
-        <Route path="/" component={Header} />
-        <div className="PageContainer PageContent">
-          <Route path="/" exact component={Home} />
-          <Route exact path="/teamfight-tactics" component={AsyncTFTHome} />
-          <Route path="/teamfight-tactics/builds" component={AsyncTFTBuilds} />
-          <Route
-            path="/teamfight-tactics/champions"
-            component={AsyncTFTChampions}
-          />
-          <Route path="/teamfight-tactics/items" component={AsyncTFTItems} />
-          <Route path="/login" exact component={Login} />
-          <Route path="/register" exact component={Register} />
+class App extends Component {
+  store: IModuleStore<AppState>;
+
+  constructor(props: Readonly<{}>) {
+    super(props);
+    this.store = createStore<AppState>({
+      extensions: [getSagaExtension()]
+    });
+  }
+
+  render() {
+    return (
+      <Provider store={this.store}>
+        <div className={styles.app}>
+          <Router>
+            <Route path="/" component={Header} />
+            <Route path="/" exact component={Home} />
+            <Route path="/teamfight-tactics" component={this.getTFTHome()} />
+            <Route path="/login" exact component={Login} />
+            <Route path="/register" exact component={Register} />
+          </Router>
         </div>
-      </Router>
-    </div>
-  );
-};
+      </Provider>
+    );
+  }
+
+  getTFTHome() {
+    return Loadable({
+      loader: () => import("../../routes/TFT"),
+      loading: () => <div />
+    });
+  }
+}
 
 export { App };
