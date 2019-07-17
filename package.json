@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "csv-parse": "^4.4.3"
   }
 }

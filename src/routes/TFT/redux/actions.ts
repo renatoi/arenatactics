@@ -1,13 +1,13 @@
 import { TFTActions } from "../constants";
-import { TFTChampionDictionary } from "../types";
+import { TFTChampionDictionary, TFTState } from "../types";
 
-export interface ChampionsLoadedAction {
+export interface TFTDataLoadedAction {
   readonly type: TFTActions;
-  readonly payload: TFTChampionDictionary;
+  readonly payload: TFTState;
 }
-export const championsLoaded = (payload: TFTChampionDictionary) => ({
-  type: TFTActions.ChampionsLoaded,
+export const tftDataLoaded = (payload: TFTState): TFTDataLoadedAction => ({
+  type: TFTActions.DataLoaded,
   payload: payload
 });
 
-export type TFTActionTypes = ChampionsLoadedAction;
+export type TFTActionTypes = TFTDataLoadedAction;

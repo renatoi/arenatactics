@@ -2,6 +2,42 @@ import { TFTChampionTraits } from "./constants";
 
 export interface TFTState {
   readonly champions: TFTChampionDictionary;
+  readonly items: TFTItemDictionary;
+  readonly traits: TFTTrait[];
+}
+
+export interface TFTTraitVars {
+  readonly name: string;
+  readonly value: number;
+}
+
+export interface TFTTraitEffects {
+  readonly minUnits: 1;
+  readonly vars: TFTTraitVars[];
+}
+
+export interface TFTTrait {
+  readonly name: string;
+  readonly desc: string;
+  readonly icon: string;
+  readonly effects: TFTTraitEffects[];
+}
+
+export interface TFTItemEffect {
+  readonly name: string;
+  readonly value: number;
+}
+
+export interface TFTItem {
+  readonly name: string;
+  readonly desc: string;
+  readonly icon: string;
+  readonly from: string[];
+  readonly effects: TFTItemEffect[];
+}
+
+export interface TFTItemDictionary {
+  readonly [id: string]: TFTItem;
 }
 
 export interface TFTChampionStats {
@@ -31,6 +67,12 @@ export interface TFTChampionAbility {
   readonly variables: TFTChampionAbilityVariable[];
 }
 
+export interface TFTChampionBestSet {
+  readonly name: string;
+  readonly description: string;
+  readonly items: string[];
+}
+
 export interface TFTChampion {
   readonly id: string;
   readonly name: string;
@@ -39,6 +81,7 @@ export interface TFTChampion {
   readonly stats: TFTChampionStats;
   readonly traits: TFTChampionTraits[];
   readonly ability: TFTChampionAbility;
+  readonly bestSets: TFTChampionBestSet[];
 }
 
 export interface TFTChampionDictionary {

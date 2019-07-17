@@ -1,0 +1,1186 @@
+ITEM,ID,IMAGEM,,Champion,NAME S1,DESCR S1,S1I1,S1I2,S1I3,ID S1I1,ID S1I2,ID S1I3,CONC,NAME S2,DESCR S2,S2I1,S2I2,S2I3,ID S2I1,ID S2I2,ID S2I3,CONC,CODE,Tabulado,,,,Teste,Minimo,Máximo
+B. F. Sword,1,,,Aatrox,"""Attack Speed / Splash Damage / Survivability""","""Item set focused on attack speed, splash damage and survivability""",Statikk Shiv,Phantom Dancer,Dragon's Claw,24,25,66,"[24,25,66]","""Attack Speed / Life Steal / Survivability""","""Item set focused on attack speed, life steal from attacks and survivability""",The Bloodthirster,Dragon's Claw,Phantom Dancer,16,66,25,"[16,66,25]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Splash Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, splash damage and survivability"",
+          ""items"": [24,25,66]
+        },
+        {
+          ""name"": ""Attack Speed / Life Steal / Survivability"",
+          ""description"": ""Item set focused on attack speed, life steal from attacks and survivability"",
+          ""items"": [16,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Splash Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, splash damage and survivability"",
+          ""items"": [24,25,66]
+        },
+        {
+          ""name"": ""Attack Speed / Life Steal / Survivability"",
+          ""description"": ""Item set focused on attack speed, life steal from attacks and survivability"",
+          ""items"": [16,66,25]
+        }
+      ]",,P1,"""bestSets"": [
+        {
+          ""name"": ",,,
+Blade of the Ruined King,28,,,Ahri,"""Splash Damage / Spell Damage / Attack Speed""","""Item set focused on attack speed, splash damage and spell damage, besides mana on combat's start""",Luden's Echo,Guinsoo's Rageblade,Spear of Shojin,34,23,14,"[34,23,14]","""Ability Damage /  Mana Generation / Attack Speed""","""Item set focused on spell / ability damage, mana generation and attack speed""",Spear of Shojin,Guinsoo's Rageblade,Rabadon's Deathcap,14,23,33,"[14,23,33]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Spell Damage / Attack Speed"",
+          ""description"": ""Item set focused on attack speed, splash damage and spell damage, besides mana on combat's start"",
+          ""items"": [34,23,14]
+        },
+        {
+          ""name"": ""Ability Damage /  Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on spell / ability damage, mana generation and attack speed"",
+          ""items"": [14,23,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Spell Damage / Attack Speed"",
+          ""description"": ""Item set focused on attack speed, splash damage and spell damage, besides mana on combat's start"",
+          ""items"": [34,23,14]
+        },
+        {
+          ""name"": ""Ability Damage /  Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on spell / ability damage, mana generation and attack speed"",
+          ""items"": [14,23,33]
+        }
+      ]",,P2,",
+          ""description"": ",,,
+Chain Vest,5,,,Akali,"""Mana Generation / Ability Damage"" ","""Item set focused on strong mana generation and spell / ability damage""",Spear of Shojin,Seraph's Embrace,Rabadon's Deathcap,14,44,33,"[14,44,33]","""Mana Generation / Ability Damage"" ","""Item set focused on mana generation, spell / ability damage and some survivability""",Seraph's Embrace,Phantom Dancer,Rabadon's Deathcap,44,25,33,"[44,25,33]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on strong mana generation and spell / ability damage"",
+          ""items"": [14,44,33]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on mana generation, spell / ability damage and some survivability"",
+          ""items"": [44,25,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on strong mana generation and spell / ability damage"",
+          ""items"": [14,44,33]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on mana generation, spell / ability damage and some survivability"",
+          ""items"": [44,25,33]
+        }
+      ]",,P3,",
+          ""items"": ",,,
+Cursed Blade,26,,,Anivia,"""Ability Damage /  Attack Speed / Burn Damage"" ","""Item set focused on spell / ability damage, attack speed and burn damage on spells""",Morellonomicon,Rabadon's Deathcap,Guinsoo's Rageblade,37,33,23,"[37,33,23]","""Ability Damage /  Mana Generation / Attack Speed""","""Item set focused on spell / ability damage, mana generation and attack speed""",Spear of Shojin,Rabadon's Deathcap,Guinsoo's Rageblade,14,33,23,"[14,33,23]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Burn Damage"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and burn damage on spells"",
+          ""items"": [37,33,23]
+        },
+        {
+          ""name"": ""Ability Damage /  Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on spell / ability damage, mana generation and attack speed"",
+          ""items"": [14,33,23]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Burn Damage"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and burn damage on spells"",
+          ""items"": [37,33,23]
+        },
+        {
+          ""name"": ""Ability Damage /  Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on spell / ability damage, mana generation and attack speed"",
+          ""items"": [14,33,23]
+        }
+      ]",,P4,"
+        },
+        {
+          ""name"": ",,,
+Darkin,48,,,Ashe,"""Splash Damage / Mana Generation / Attack Speed""","""Item set focused on splash damage, mana generation and attack speed""",Statikk Shiv,Seraph's Embrace,Guinsoo's Rageblade,24,44,23,"[24,44,23]","""Mana Generation / Attack Speed""","""Item set focused on strong mana generation, attack damage and attack speed""",Spear of Shojin,Spear of Shojin,Rapid Firecannon,14,14,22,"[14,14,22]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on splash damage, mana generation and attack speed"",
+          ""items"": [24,44,23]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,22]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on splash damage, mana generation and attack speed"",
+          ""items"": [24,44,23]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,22]
+        }
+      ]",,P5,",
+          ""description"": ",,,
+Dragon's Claw,66,,,Aurelion Sol,"""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Spear of Shojin,Rabadon's Deathcap,Guinsoo's Rageblade,14,33,23,"[14,33,23]","""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Spear of Shojin,Guinsoo's Rageblade,Rabadon's Deathcap,14,23,33,"[14,23,33]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,33,23]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,23,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,33,23]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,23,33]
+        }
+      ]",,P6,",
+          ""items"": ",,,
+Force of Nature,88,,,Blitzcrank,"""Survivability / Buffer / Debbufer""","""Item set focused on survivability, buff allies and debuff enemies""",Dragon's Claw,Frozen Heart,Zeke's Herald,66,45,17,"[66,45,17]","""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Guinsoo's Rageblade,Spear of Shojin,Rabadon's Deathcap,23,14,33,"[23,14,33]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Buffer / Debbufer"",
+          ""description"": ""Item set focused on survivability, buff allies and debuff enemies"",
+          ""items"": [66,45,17]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [23,14,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Buffer / Debbufer"",
+          ""description"": ""Item set focused on survivability, buff allies and debuff enemies"",
+          ""items"": [66,45,17]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [23,14,33]
+        }
+      ]",,P7,"
+        }
+      ]",,,
+Frozen Heart,45,,,Brand,"""Ability Damage / Attack Speed / Life steal""","""Item set focused on spell / ability damage, attack speed and life steal""",Rabadon's Deathcap,Hextech Gunblade,Guinsoo's Rageblade,33,13,23,"[33,13,23]","""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Spear of Shojin,Guinsoo's Rageblade,Rabadon's Deathcap,14,23,33,"[14,23,33]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage / Attack Speed / Life steal"",
+          ""description"": ""Item set focused on spell / ability damage, attack speed and life steal"",
+          ""items"": [33,13,23]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,23,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage / Attack Speed / Life steal"",
+          ""description"": ""Item set focused on spell / ability damage, attack speed and life steal"",
+          ""items"": [33,13,23]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,23,33]
+        }
+      ]",,,,,,
+Frozen Mallet,78,,,Braum,"""Survivability / Buffer / Debuffer / Disable""","""Item set focused on survivability, buff allies, debuff enemies and disable one enemy on start of combat""",Zeke's Herald,Zephyr,Locket of the Iron Solari,17,67,35,"[17,67,35]","""Survivability / Buffer / Debuffer""","""Item set focused on survivability, buff allies and  debuff enemies""",Frozen Heart,Locket of the Iron Solari,Zeke's Herald,45,35,17,"[45,35,17]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Buffer / Debuffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies, debuff enemies and disable one enemy on start of combat"",
+          ""items"": [17,67,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Debuffer"",
+          ""description"": ""Item set focused on survivability, buff allies and  debuff enemies"",
+          ""items"": [45,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Buffer / Debuffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies, debuff enemies and disable one enemy on start of combat"",
+          ""items"": [17,67,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Debuffer"",
+          ""description"": ""Item set focused on survivability, buff allies and  debuff enemies"",
+          ""items"": [45,35,17]
+        }
+      ]",,,,,,
+Giant's Belt,7,,,Cho'gath,"""Survivability / Splash Damage""","""Item set focused on heavy HP survivability (max HP and HP regen) and splash damage based on max HP""",Titanic Hydra,Warmog's Armor,Warmog's Armor,27,77,77,"[27,77,77]","""Survivability / Debuffer""","""Item set focused on survivability and  debuff enemies and some attack speed""",Frozen Heart,Dragon's Claw,Phantom Dancer,45,66,25,"[45,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage"",
+          ""description"": ""Item set focused on heavy HP survivability (max HP and HP regen) and splash damage based on max HP"",
+          ""items"": [27,77,77]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage"",
+          ""description"": ""Item set focused on heavy HP survivability (max HP and HP regen) and splash damage based on max HP"",
+          ""items"": [27,77,77]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]",,,,,,
+Guardian Angel,15,,,Darius,"""Survivability / Life Steal / Buffer / Debuffer""","""Item set focused on survivability, buff allies, debuff enemies and life steal""",Hextech Gunblade,Locket of the Iron Solari,Frozen Heart,13,35,45,"[13,35,45]","""Survivability / Debuffer""","""Item set focused on survivability and  debuff enemies and some attack speed""",Frozen Heart,Dragon's Claw,Phantom Dancer,45,66,25,"[45,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Life Steal / Buffer / Debuffer"",
+          ""description"": ""Item set focused on survivability, buff allies, debuff enemies and life steal"",
+          ""items"": [13,35,45]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Life Steal / Buffer / Debuffer"",
+          ""description"": ""Item set focused on survivability, buff allies, debuff enemies and life steal"",
+          ""items"": [13,35,45]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]",,,,,,
+Guinsoo's Rageblade,23,,,Draven,"""Attack Speed / Life Steal""","""Item set focused on strong attack speed, attack range and life steal""",Guinsoo's Rageblade,Rapid Firecannon,The Bloodthirster,23,22,16,"[23,22,16]","""Attack Speed / Critical Damage / Spell Damage""","""Item set focused on strong attack speed, critical damage and spell damage""",Guinsoo's Rageblade,Infinity Edge,Rapid Firecannon,23,11,22,"[23,11,22]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Life Steal"",
+          ""description"": ""Item set focused on strong attack speed, attack range and life steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed, critical damage and spell damage"",
+          ""items"": [23,11,22]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Life Steal"",
+          ""description"": ""Item set focused on strong attack speed, attack range and life steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed, critical damage and spell damage"",
+          ""items"": [23,11,22]
+        }
+      ]",,,,,,
+Hextech Gunblade,13,,,Elise,"""Splash Damage / Survivability""","""Item set focused on strong splash damage and survivability (HP)""",Statikk Shiv,Titanic Hydra,Warmog's Armor,24,27,77,"[24,27,77]","""Survivability / Attack Speed""","""Item set focused on survivability, attack speed and max HP damage""",Titanic Hydra,Dragon's Claw,Phantom Dancer,27,66,25,"[27,66,25]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Survivability"",
+          ""description"": ""Item set focused on strong splash damage and survivability (HP)"",
+          ""items"": [24,27,77]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on survivability, attack speed and max HP damage"",
+          ""items"": [27,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Survivability"",
+          ""description"": ""Item set focused on strong splash damage and survivability (HP)"",
+          ""items"": [24,27,77]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on survivability, attack speed and max HP damage"",
+          ""items"": [27,66,25]
+        }
+      ]",,,,,,
+Hush,46,,,Evelynn,"""Splash Damage / Ability Damage / Life Steal""","""Item set focused on splash damage, life steal and ability / spell damage""",Luden's Echo,Hextech Gunblade,Rabadon's Deathcap,34,13,33,"[34,13,33]","""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Spear of Shojin,Guinsoo's Rageblade,Rabadon's Deathcap,14,23,33,"[14,23,33]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Ability Damage / Life Steal"",
+          ""description"": ""Item set focused on splash damage, life steal and ability / spell damage"",
+          ""items"": [34,13,33]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,23,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Ability Damage / Life Steal"",
+          ""description"": ""Item set focused on splash damage, life steal and ability / spell damage"",
+          ""items"": [34,13,33]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [14,23,33]
+        }
+      ]",,,,,,
+Infinity Edge,11,,,Fiora,"""Survivability / Attack Speed / Critical Damage""","""Item set focused on survivability (max HP and HP regen), attack speed and  critical damage""",Guinsoo's Rageblade,Sword of the Divine,Warmog's Armor,23,12,77,"[23,12,77]","""Survability / Mana Generation""","""Item set focused on survivability, mana generation and some attacks speed /attack damage""",Spear of Shojin,Dragon's Claw,Phantom Dancer,14,66,25,"[14,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed / Critical Damage"",
+          ""description"": ""Item set focused on survivability (max HP and HP regen), attack speed and  critical damage"",
+          ""items"": [23,12,77]
+        },
+        {
+          ""name"": ""Survability / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and some attacks speed /attack damage"",
+          ""items"": [14,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed / Critical Damage"",
+          ""description"": ""Item set focused on survivability (max HP and HP regen), attack speed and  critical damage"",
+          ""items"": [23,12,77]
+        },
+        {
+          ""name"": ""Survability / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and some attacks speed /attack damage"",
+          ""items"": [14,66,25]
+        }
+      ]",,,,,,
+Ionic Spark,36,,,Gangplank,"""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Guinsoo's Rageblade,Spear of Shojin,Rabadon's Deathcap,23,14,33,"[23,14,33]","""Survability / Mana Generation""","""Item set focused on survivability, mana generation and some attacks speed /attack damage""",Spear of Shojin,Dragon's Claw,Phantom Dancer,14,66,25,"[14,66,25]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [23,14,33]
+        },
+        {
+          ""name"": ""Survability / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and some attacks speed /attack damage"",
+          ""items"": [14,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [23,14,33]
+        },
+        {
+          ""name"": ""Survability / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and some attacks speed /attack damage"",
+          ""items"": [14,66,25]
+        }
+      ]",,,,,,
+Knight's Vow,58,,,Garen,"""Survivability / Revival / Debuff""","""Item set focused on survivability (HP and HP regen), debuff enemies and revive when die""",Guardian Angel,Warmog's Armor,Frozen Heart,15,77,45,"[15,77,45]","""Survivability / Debuffer / Burn Damage""","""Item set focused on survivability, debuff enemies and spell burn damage""",Morellonomicon,Frozen Heart,Phantom Dancer,37,45,25,"[37,45,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Revival / Debuff"",
+          ""description"": ""Item set focused on survivability (HP and HP regen), debuff enemies and revive when die"",
+          ""items"": [15,77,45]
+        },
+        {
+          ""name"": ""Survivability / Debuffer / Burn Damage"",
+          ""description"": ""Item set focused on survivability, debuff enemies and spell burn damage"",
+          ""items"": [37,45,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Revival / Debuff"",
+          ""description"": ""Item set focused on survivability (HP and HP regen), debuff enemies and revive when die"",
+          ""items"": [15,77,45]
+        },
+        {
+          ""name"": ""Survivability / Debuffer / Burn Damage"",
+          ""description"": ""Item set focused on survivability, debuff enemies and spell burn damage"",
+          ""items"": [37,45,25]
+        }
+      ]",,,,,,
+Locket of the Iron Solari,35,,,Gnar,"""Survivability / Attack Speed / Debuff""","""Item set focused on survivability, debuff enemies and attack speed, besides some mana at the start of the combat""",Frozen Heart,Phantom Dancer,Rapid Firecannon,45,25,22,"[45,25,22]","""Survivability / Attack Speed""","""Item set focused on survivability, attack speed and max HP damage""",Titanic Hydra,Dragon's Claw,Phantom Dancer,27,66,25,"[27,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed / Debuff"",
+          ""description"": ""Item set focused on survivability, debuff enemies and attack speed, besides some mana at the start of the combat"",
+          ""items"": [45,25,22]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on survivability, attack speed and max HP damage"",
+          ""items"": [27,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed / Debuff"",
+          ""description"": ""Item set focused on survivability, debuff enemies and attack speed, besides some mana at the start of the combat"",
+          ""items"": [45,25,22]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on survivability, attack speed and max HP damage"",
+          ""items"": [27,66,25]
+        }
+      ]",,,,,,
+Luden's Echo,34,,,Graves,"""Survivability / Splash Damage""","""Item set focused on survivability and Splash Damage""",Phantom Dancer,Statikk Shiv,Dragon's Claw,25,24,66,"[25,24,66]","""Survivability / Disarm / Burn Damage / Blademaster""","""Item set focused on survivability, burn damage, disarm and item that make wearer be also a blademaster""",Red Buff,Blade of the Ruined King,Sword Breaker,57,28,56,"[57,28,56]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage"",
+          ""description"": ""Item set focused on survivability and Splash Damage"",
+          ""items"": [25,24,66]
+        },
+        {
+          ""name"": ""Survivability / Disarm / Burn Damage / Blademaster"",
+          ""description"": ""Item set focused on survivability, burn damage, disarm and item that make wearer be also a blademaster"",
+          ""items"": [57,28,56]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage"",
+          ""description"": ""Item set focused on survivability and Splash Damage"",
+          ""items"": [25,24,66]
+        },
+        {
+          ""name"": ""Survivability / Disarm / Burn Damage / Blademaster"",
+          ""description"": ""Item set focused on survivability, burn damage, disarm and item that make wearer be also a blademaster"",
+          ""items"": [57,28,56]
+        }
+      ]",,,,,,
+Morellonomicon,37,,,Karthus,"""Mana Generation / Ability Damage"" ","""Item set focused on strong mana generation and spell / ability damage, besides great mana at start of combat""",Seraph's Embrace,Rabadon's Deathcap,Seraph's Embrace,44,33,44,"[44,33,44]","""Mana Generation / Ability Damage / Spell Damage""","""Item set focused on strong mana generation and ability / spell damage""",Seraph's Embrace,Seraph's Embrace,Rabadon's Deathcap,44,44,33,"[44,44,33]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on strong mana generation and spell / ability damage, besides great mana at start of combat"",
+          ""items"": [44,33,44]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage / Spell Damage"",
+          ""description"": ""Item set focused on strong mana generation and ability / spell damage"",
+          ""items"": [44,44,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on strong mana generation and spell / ability damage, besides great mana at start of combat"",
+          ""items"": [44,33,44]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage / Spell Damage"",
+          ""description"": ""Item set focused on strong mana generation and ability / spell damage"",
+          ""items"": [44,44,33]
+        }
+      ]",,,,,,
+Needlessly Large Rod,3,,,Kassadin,"""Attack Speed / Survivability""","""Item set focused on survivability (HP and HP regen) and strong attack speed""",Guinsoo's Rageblade,Guinsoo's Rageblade,Warmog's Armor,23,23,77,"[23,23,77]","""Survivability / Attack Speed""","""Item set focused on strong attack speed and survivability""",Phantom Dancer,Dragon's Claw,Guinsoo's Rageblade,25,66,23,"[25,66,23]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Survivability"",
+          ""description"": ""Item set focused on survivability (HP and HP regen) and strong attack speed"",
+          ""items"": [23,23,77]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on strong attack speed and survivability"",
+          ""items"": [25,66,23]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Survivability"",
+          ""description"": ""Item set focused on survivability (HP and HP regen) and strong attack speed"",
+          ""items"": [23,23,77]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on strong attack speed and survivability"",
+          ""items"": [25,66,23]
+        }
+      ]",,,,,,
+Negatron Cloak,6,,,Katarina,"""Splash Damage / Life Steal / Mana Generation""","""Item set focused on Splash Damage, Life Steal and mana generation""",Luden's Echo,Hextech Gunblade,Seraph's Embrace,34,13,44,"[34,13,44]","""Mana Generation / Spell Damage / Burn Damage""","""Item set focused on strong mana generation, spell damage and burn damage""",Morellonomicon,Seraph's Embrace,Seraph's Embrace,37,44,44,"[37,44,44]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Life Steal / Mana Generation"",
+          ""description"": ""Item set focused on Splash Damage, Life Steal and mana generation"",
+          ""items"": [34,13,44]
+        },
+        {
+          ""name"": ""Mana Generation / Spell Damage / Burn Damage"",
+          ""description"": ""Item set focused on strong mana generation, spell damage and burn damage"",
+          ""items"": [37,44,44]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Life Steal / Mana Generation"",
+          ""description"": ""Item set focused on Splash Damage, Life Steal and mana generation"",
+          ""items"": [34,13,44]
+        },
+        {
+          ""name"": ""Mana Generation / Spell Damage / Burn Damage"",
+          ""description"": ""Item set focused on strong mana generation, spell damage and burn damage"",
+          ""items"": [37,44,44]
+        }
+      ]",,,,,,
+Phantom Dancer,25,,,Kayle,"""Mana Generation"" ","""Item set focused on strong  mana generation and mana at start of the combat""",Seraph's Embrace,Spear of Shojin,Spear of Shojin,44,14,14,"[44,14,14]","""Mana Generation / Attack Speed / Attack Damage""","""Item set focused on strong mana generation, attack damage and attack speed""",Spear of Shojin,Spear of Shojin,Guinsoo's Rageblade,14,14,23,"[14,14,23]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation"" ,
+          ""description"": ""Item set focused on strong  mana generation and mana at start of the combat"",
+          ""items"": [44,14,14]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Damage"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,23]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation"" ,
+          ""description"": ""Item set focused on strong  mana generation and mana at start of the combat"",
+          ""items"": [44,14,14]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Damage"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,23]
+        }
+      ]",,,,,,
+Rabadon's Deathcap,33,,,Kennen,"""Abbility Damage / Splash Damage / Mana generation""","""Item set focused on  mana generation, ability / spell damage and splash damage""",Spear of Shojin,Rabadon's Deathcap,Statikk Shiv,14,33,24,"[14,33,24]","""Survivability / Buffer / Disable""","""Item set focused on survivability, buff allies and disable a enemy on start of combat""",Zephyr,Locket of the Iron Solari,Zeke's Herald,67,35,17,"[67,35,17]","""bestSets"": [
+        {
+          ""name"": ""Abbility Damage / Splash Damage / Mana generation"",
+          ""description"": ""Item set focused on  mana generation, ability / spell damage and splash damage"",
+          ""items"": [14,33,24]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Abbility Damage / Splash Damage / Mana generation"",
+          ""description"": ""Item set focused on  mana generation, ability / spell damage and splash damage"",
+          ""items"": [14,33,24]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]",,,,,,
+Rapid Firecannon,22,,,Kha'Zix,"""Survivability / Life Steal / Critical Damage""","""Item set focused on  survivability, life steal and critical damage""",Phantom Dancer,Hextech Gunblade,Infinity Edge,25,13,11,"[25,13,11]","""Attack Speed / Critical Damage / Survivability""","""Item set focused on attack speed, critical damage and some survivability""",Infinity Edge,Rapid Firecannon,Phantom Dancer,11,22,25,"[11,22,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Life Steal / Critical Damage"",
+          ""description"": ""Item set focused on  survivability, life steal and critical damage"",
+          ""items"": [25,13,11]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, critical damage and some survivability"",
+          ""items"": [11,22,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Life Steal / Critical Damage"",
+          ""description"": ""Item set focused on  survivability, life steal and critical damage"",
+          ""items"": [25,13,11]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, critical damage and some survivability"",
+          ""items"": [11,22,25]
+        }
+      ]",,,,,,
+Recurve Bow,2,,,Kindred,"""Survivability / Mana generation / Buff""","""Item set focused on  survivability, buff allies and mana generation""",Phantom Dancer,Seraph's Embrace,Locket of the Iron Solari,25,44,35,"[25,44,35]","""Survivability / Buffer / Disable""","""Item set focused on survivability, buff allies and disable a enemy on start of combat""",Zephyr,Locket of the Iron Solari,Zeke's Herald,67,35,17,"[67,35,17]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Mana generation / Buff"",
+          ""description"": ""Item set focused on  survivability, buff allies and mana generation"",
+          ""items"": [25,44,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Mana generation / Buff"",
+          ""description"": ""Item set focused on  survivability, buff allies and mana generation"",
+          ""items"": [25,44,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]",,,,,,
+Red Buff,57,,,Leona,"""Survivability / Heal / Debuff""","""Item set focused on  survivability, debuff enemies and heal allies""",Frozen Heart,Warmog's Armor,Redemption,45,77,47,"[45,77,47]","""Survivability / Buffer / Debuffer""","""Item set focused on survivability, buff allies and  debuff enemies""",Frozen Heart,Locket of the Iron Solari,Zeke's Herald,45,35,17,"[45,35,17]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Heal / Debuff"",
+          ""description"": ""Item set focused on  survivability, debuff enemies and heal allies"",
+          ""items"": [45,77,47]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Debuffer"",
+          ""description"": ""Item set focused on survivability, buff allies and  debuff enemies"",
+          ""items"": [45,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Heal / Debuff"",
+          ""description"": ""Item set focused on  survivability, debuff enemies and heal allies"",
+          ""items"": [45,77,47]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Debuffer"",
+          ""description"": ""Item set focused on survivability, buff allies and  debuff enemies"",
+          ""items"": [45,35,17]
+        }
+      ]",,,,,,
+Redemption,47,,,Lissandra,"""Survivability / Buff / Burn Damage""","""Item set focused on  burn damage, buff allies and survivability (max hp and hp regen)""",Morellonomicon,Warmog's Armor,Locket of the Iron Solari,37,77,35,"[37,77,35]","""Survivability / Buffer / Disable""","""Item set focused on survivability, buff allies and disable a enemy on start of combat""",Zephyr,Locket of the Iron Solari,Zeke's Herald,67,35,17,"[67,35,17]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Buff / Burn Damage"",
+          ""description"": ""Item set focused on  burn damage, buff allies and survivability (max hp and hp regen)"",
+          ""items"": [37,77,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Buff / Burn Damage"",
+          ""description"": ""Item set focused on  burn damage, buff allies and survivability (max hp and hp regen)"",
+          ""items"": [37,77,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]",,,,,,
+Runaan's Hurricane,68,,,Lucian,"""Critical Damage / Attack Damage / Attack Speed""","""Item set focused on strong critical damage, attack damage and attack speed""",Infinity Edge,Rapid Firecannon,Sword of the Divine,11,22,12,"[11,22,12]","""Ability Damage / Spell Damage / Splash Damage""","""Item set focused on strong ability / spell damage and splash damage""",Rabadon's Deathcap,Rabadon's Deathcap,Luden's Echo,33,33,34,"[33,33,34]","""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Attack Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong critical damage, attack damage and attack speed"",
+          ""items"": [11,22,12]
+        },
+        {
+          ""name"": ""Ability Damage / Spell Damage / Splash Damage"",
+          ""description"": ""Item set focused on strong ability / spell damage and splash damage"",
+          ""items"": [33,33,34]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Attack Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong critical damage, attack damage and attack speed"",
+          ""items"": [11,22,12]
+        },
+        {
+          ""name"": ""Ability Damage / Spell Damage / Splash Damage"",
+          ""description"": ""Item set focused on strong ability / spell damage and splash damage"",
+          ""items"": [33,33,34]
+        }
+      ]",,,,,,
+Seraph's Embrace,44,,,Lulu,"""Mana Generation / Attack Speed / Spell Damage""","""Item set focused on strong attack speed and mana regeneration""",Seraph's Embrace,Guinsoo's Rageblade,Guinsoo's Rageblade,44,23,23,"[44,23,23]","""Survivability / Buffer / Disable""","""Item set focused on survivability, buff allies and disable a enemy on start of combat""",Zephyr,Locket of the Iron Solari,Zeke's Herald,67,35,17,"[67,35,17]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Attack Speed / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed and mana regeneration"",
+          ""items"": [44,23,23]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Attack Speed / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed and mana regeneration"",
+          ""items"": [44,23,23]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]",,,,,,
+Spatula,8,,,Miss Fortune,"""Mana Generation / Ability Damage / Spell Damage"" ","""Item set focused on strong mana regeneration and abillity / spell damage""",Spear of Shojin,Rabadon's Deathcap,Seraph's Embrace,14,33,44,"[14,33,44]","""Mana Generation / Spell Damage / Burn Damage""","""Item set focused on strong mana generation, spell damage and burn damage""",Seraph's Embrace,Seraph's Embrace,Morellonomicon,44,44,37,"[44,44,37]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage / Spell Damage"" ,
+          ""description"": ""Item set focused on strong mana regeneration and abillity / spell damage"",
+          ""items"": [14,33,44]
+        },
+        {
+          ""name"": ""Mana Generation / Spell Damage / Burn Damage"",
+          ""description"": ""Item set focused on strong mana generation, spell damage and burn damage"",
+          ""items"": [44,44,37]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage / Spell Damage"" ,
+          ""description"": ""Item set focused on strong mana regeneration and abillity / spell damage"",
+          ""items"": [14,33,44]
+        },
+        {
+          ""name"": ""Mana Generation / Spell Damage / Burn Damage"",
+          ""description"": ""Item set focused on strong mana generation, spell damage and burn damage"",
+          ""items"": [44,44,37]
+        }
+      ]",,,,,,
+Spatula,100,,,Mordekaiser,"""Survivability / Debuff Enemies""","""Item set focused on strong survivability and debuff enemies""",Frozen Heart,Thornmail,Warmog's Armor,45,55,77,"[45,55,77]","""Survivability / Debuffer""","""Item set focused on survivability and  debuff enemies and some attack speed""",Frozen Heart,Dragon's Claw,Phantom Dancer,45,66,25,"[45,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Debuff Enemies"",
+          ""description"": ""Item set focused on strong survivability and debuff enemies"",
+          ""items"": [45,55,77]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Debuff Enemies"",
+          ""description"": ""Item set focused on strong survivability and debuff enemies"",
+          ""items"": [45,55,77]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]",,,,,,
+Spear of Shojin,14,,,Morgana,"""Survivability / Heal / Buff""","""Item set focused on strong attack speed and life steal""",Phantom Dancer,Redemption,Locket of the Iron Solari,25,47,35,"[25,47,35]","""Survivability / Buffer / Disable""","""Item set focused on survivability, buff allies and disable a enemy on start of combat""",Zephyr,Locket of the Iron Solari,Zeke's Herald,67,35,17,"[67,35,17]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Heal / Buff"",
+          ""description"": ""Item set focused on strong attack speed and life steal"",
+          ""items"": [25,47,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Heal / Buff"",
+          ""description"": ""Item set focused on strong attack speed and life steal"",
+          ""items"": [25,47,35]
+        },
+        {
+          ""name"": ""Survivability / Buffer / Disable"",
+          ""description"": ""Item set focused on survivability, buff allies and disable a enemy on start of combat"",
+          ""items"": [67,35,17]
+        }
+      ]",,,,,,
+Statikk Shiv,24,,,Nidalee,"""Attack Speed / Life Steal""","""Item set focused on strong attack speed and life steal""",Guinsoo's Rageblade,Rapid Firecannon,The Bloodthirster,23,22,16,"[23,22,16]","""Attack Speed / Spell Damage""","""Item set focused on strong attack speed and spell damage""",Guinsoo's Rageblade,Guinsoo's Rageblade,Rapid Firecannon,23,23,22,"[23,23,22]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Life Steal"",
+          ""description"": ""Item set focused on strong attack speed and life steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed and spell damage"",
+          ""items"": [23,23,22]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Life Steal"",
+          ""description"": ""Item set focused on strong attack speed and life steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed and spell damage"",
+          ""items"": [23,23,22]
+        }
+      ]",,,,,,
+Sword Breaker,56,,,Poppy,"""Survivability / Debuff""","""Item set focused on survivability and debuff enemies""",Dragon's Claw,Thornmail,Frozen Heart,66,55,45,"[66,55,45]","""Survivability / Debuffer""","""Item set focused on survivability and  debuff enemies and some attack speed""",Frozen Heart,Dragon's Claw,Phantom Dancer,45,66,25,"[45,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Debuff"",
+          ""description"": ""Item set focused on survivability and debuff enemies"",
+          ""items"": [66,55,45]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Debuff"",
+          ""description"": ""Item set focused on survivability and debuff enemies"",
+          ""items"": [66,55,45]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]",,,,,,
+Sword of the Divine,12,,,Pyke,"""Survivability / Mana Generation""","""Item set focused on strong mana generation and survivability""",Spear of Shojin,Spear of Shojin,Phantom Dancer,14,14,25,"[14,14,25]","""Mana Generation / Attack Speed / Attack Damage""","""Item set focused on strong mana generation, attack damage and attack speed""",Spear of Shojin,Spear of Shojin,Guinsoo's Rageblade,14,14,23,"[14,14,23]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Mana Generation"",
+          ""description"": ""Item set focused on strong mana generation and survivability"",
+          ""items"": [14,14,25]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Damage"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,23]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Mana Generation"",
+          ""description"": ""Item set focused on strong mana generation and survivability"",
+          ""items"": [14,14,25]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Damage"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,23]
+        }
+      ]",,,,,,
+Tear of the Goddess,4,,,Rek'Sai,"""Survivability / Splash Damage / Attack Speed""","""Item set focused on strong survivability (max HP and HP regen), max HP damage and attack speed""",Phantom Dancer,Titanic Hydra,Warmog's Armor,25,27,77,"[25,27,77]","""Survivability / Debuff / HP Damage""","""Item set focused on strong survivability, enemy debuff and max HP damage""",Frozen Heart,Warmog's Armor,Titanic Hydra,45,77,27,"[45,77,27]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong survivability (max HP and HP regen), max HP damage and attack speed"",
+          ""items"": [25,27,77]
+        },
+        {
+          ""name"": ""Survivability / Debuff / HP Damage"",
+          ""description"": ""Item set focused on strong survivability, enemy debuff and max HP damage"",
+          ""items"": [45,77,27]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong survivability (max HP and HP regen), max HP damage and attack speed"",
+          ""items"": [25,27,77]
+        },
+        {
+          ""name"": ""Survivability / Debuff / HP Damage"",
+          ""description"": ""Item set focused on strong survivability, enemy debuff and max HP damage"",
+          ""items"": [45,77,27]
+        }
+      ]",,,,,,
+The Bloodthirster,16,,,Rengar,"""Critical Damage / Attack Damage / Attack Speed""","""Item set focused on strong critical damage, attack damage and attack speed""",Guinsoo's Rageblade,Infinity Edge,Sword of the Divine,23,11,12,"[23,11,12]","""Attack Speed / Critical Damage / Survivability""","""Item set focused on attack speed, critical damage and some survivability""",Infinity Edge,Rapid Firecannon,Phantom Dancer,11,22,25,"[11,22,25]","""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Attack Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong critical damage, attack damage and attack speed"",
+          ""items"": [23,11,12]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, critical damage and some survivability"",
+          ""items"": [11,22,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Attack Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong critical damage, attack damage and attack speed"",
+          ""items"": [23,11,12]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, critical damage and some survivability"",
+          ""items"": [11,22,25]
+        }
+      ]",,,,,,
+Thornmail,55,,,Sejuani,"""Mana generation / Survivability /Debuf / Heal""","""Item set focused on survivability, mana generation, debuff enemies and heal allies""",Frozen Heart,Spear of Shojin,Redemption,45,14,47,"[45,14,47]","""Survability / Mana Generation""","""Item set focused on survivability, mana generation and some attacks speed /attack damage""",Spear of Shojin,Dragon's Claw,Phantom Dancer,14,66,25,"[14,66,25]","""bestSets"": [
+        {
+          ""name"": ""Mana generation / Survivability /Debuf / Heal"",
+          ""description"": ""Item set focused on survivability, mana generation, debuff enemies and heal allies"",
+          ""items"": [45,14,47]
+        },
+        {
+          ""name"": ""Survability / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and some attacks speed /attack damage"",
+          ""items"": [14,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana generation / Survivability /Debuf / Heal"",
+          ""description"": ""Item set focused on survivability, mana generation, debuff enemies and heal allies"",
+          ""items"": [45,14,47]
+        },
+        {
+          ""name"": ""Survability / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and some attacks speed /attack damage"",
+          ""items"": [14,66,25]
+        }
+      ]",,,,,,
+Titanic Hydra,27,,,Shen,"""Survavibility / Debuf / Heal / Mana Generation""","""Item set focused on survivability, mana generation, debuff enemies and heal allies""",Frozen Heart,Spear of Shojin,Redemption,45,14,47,"[45,14,47]","""Survivability / Debuffer""","""Item set focused on survivability and  debuff enemies and some attack speed""",Frozen Heart,Dragon's Claw,Phantom Dancer,45,66,25,"[45,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survavibility / Debuf / Heal / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation, debuff enemies and heal allies"",
+          ""items"": [45,14,47]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survavibility / Debuf / Heal / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation, debuff enemies and heal allies"",
+          ""items"": [45,14,47]
+        },
+        {
+          ""name"": ""Survivability / Debuffer"",
+          ""description"": ""Item set focused on survivability and  debuff enemies and some attack speed"",
+          ""items"": [45,66,25]
+        }
+      ]",,,,,,
+Warmog's Armor,77,,,Shyvana,"""Survivability / Attack Speed""","""Item set focused on strong survivability (hp and hp regen) and attack speed""",Guinsoo's Rageblade,Phantom Dancer,Warmog's Armor,23,25,77,"[23,25,77]","""Survivability / Attack Speed""","""Item set focused on strong HP survivability, attack speed and max HP damage""",Titanic Hydra,Warmog's Armor,Phantom Dancer,27,77,25,"[27,77,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on strong survivability (hp and hp regen) and attack speed"",
+          ""items"": [23,25,77]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on strong HP survivability, attack speed and max HP damage"",
+          ""items"": [27,77,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on strong survivability (hp and hp regen) and attack speed"",
+          ""items"": [23,25,77]
+        },
+        {
+          ""name"": ""Survivability / Attack Speed"",
+          ""description"": ""Item set focused on strong HP survivability, attack speed and max HP damage"",
+          ""items"": [27,77,25]
+        }
+      ]",,,,,,
+Youmuu's Ghostblade,18,,,Swain,"""Mana Generation / Ability Damage / Survivability""","""Item set focused on survivability (hp and hp regen), mana generation and ability / spell damage""",Seraph's Embrace,Rabadon's Deathcap,Warmog's Armor,44,33,77,"[44,33,77]","""Survivability / Revival""","""Item set focused on survivability and some attack damage and attack speed""",Guardian Angel,Dragon's Claw,Phantom Dancer,15,66,25,"[15,66,25]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage / Survivability"",
+          ""description"": ""Item set focused on survivability (hp and hp regen), mana generation and ability / spell damage"",
+          ""items"": [44,33,77]
+        },
+        {
+          ""name"": ""Survivability / Revival"",
+          ""description"": ""Item set focused on survivability and some attack damage and attack speed"",
+          ""items"": [15,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage / Survivability"",
+          ""description"": ""Item set focused on survivability (hp and hp regen), mana generation and ability / spell damage"",
+          ""items"": [44,33,77]
+        },
+        {
+          ""name"": ""Survivability / Revival"",
+          ""description"": ""Item set focused on survivability and some attack damage and attack speed"",
+          ""items"": [15,66,25]
+        }
+      ]",,,,,,
+Yuumi,38,,,Tristana,"""Attack Speed / Burn Damage""","""Item set focused on strong attack speed and burn damage""",Guinsoo's Rageblade,Rapid Firecannon,Red Buff,23,22,57,"[23,22,57]","""Survivability / Disarm / Attack Speed / Burn Damage""","""Item set focused on survivability, attack speed, disarm and burn damage""",Red Buff,Sword Breaker,Rapid Firecannon,57,56,22,"[57,56,22]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Burn Damage"",
+          ""description"": ""Item set focused on strong attack speed and burn damage"",
+          ""items"": [23,22,57]
+        },
+        {
+          ""name"": ""Survivability / Disarm / Attack Speed / Burn Damage"",
+          ""description"": ""Item set focused on survivability, attack speed, disarm and burn damage"",
+          ""items"": [57,56,22]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Burn Damage"",
+          ""description"": ""Item set focused on strong attack speed and burn damage"",
+          ""items"": [23,22,57]
+        },
+        {
+          ""name"": ""Survivability / Disarm / Attack Speed / Burn Damage"",
+          ""description"": ""Item set focused on survivability, attack speed, disarm and burn damage"",
+          ""items"": [57,56,22]
+        }
+      ]",,,,,,
+Zeke's Herald,17,,,Twisted Fate,"""Attack Speed / Mana Generation""","""Item set focused on strong attack speed, spell damage and mana generation""",Guinsoo's Rageblade,Guinsoo's Rageblade,Spear of Shojin,23,23,14,"[23,23,14]","""Mana Generation / Attack Speed / Attack Damage""","""Item set focused on strong mana generation, attack damage and attack speed""",Spear of Shojin,Spear of Shojin,Guinsoo's Rageblade,14,14,23,"[14,14,23]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Mana Generation"",
+          ""description"": ""Item set focused on strong attack speed, spell damage and mana generation"",
+          ""items"": [23,23,14]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Damage"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,23]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Mana Generation"",
+          ""description"": ""Item set focused on strong attack speed, spell damage and mana generation"",
+          ""items"": [23,23,14]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Damage"",
+          ""description"": ""Item set focused on strong mana generation, attack damage and attack speed"",
+          ""items"": [14,14,23]
+        }
+      ]",,,,,,
+Zephyr,67,,,Varus,"""Splash Damage / Mana Generation""","""Item set focused on strong mana Generation and splash damage""",Luden's Echo,Seraph's Embrace,Spear of Shojin,34,44,14,"[34,44,14]","""Ability Damage /  Attack Speed / Mana Generation"" ","""Item set focused on spell / ability damage, attack speed and mana generation""",Guinsoo's Rageblade,Spear of Shojin,Rabadon's Deathcap,23,14,33,"[23,14,33]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Mana Generation"",
+          ""description"": ""Item set focused on strong mana Generation and splash damage"",
+          ""items"": [34,44,14]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [23,14,33]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Mana Generation"",
+          ""description"": ""Item set focused on strong mana Generation and splash damage"",
+          ""items"": [34,44,14]
+        },
+        {
+          ""name"": ""Ability Damage /  Attack Speed / Mana Generation"" ,
+          ""description"": ""Item set focused on spell / ability damage, attack speed and mana generation"",
+          ""items"": [23,14,33]
+        }
+      ]",,,,,,
+,,,,Vayne,"""Attack Speed / Critical Damage""","""Item set focused on strong attack speed, critical damage and spell damage""",Guinsoo's Rageblade,Guinsoo's Rageblade,Infinity Edge,23,23,11,"[23,23,11]","""Attack Speed / Spell Damage""","""Item set focused on strong attack speed and spell damage""",Guinsoo's Rageblade,Guinsoo's Rageblade,Rapid Firecannon,23,23,22,"[23,23,22]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Critical Damage"",
+          ""description"": ""Item set focused on strong attack speed, critical damage and spell damage"",
+          ""items"": [23,23,11]
+        },
+        {
+          ""name"": ""Attack Speed / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed and spell damage"",
+          ""items"": [23,23,22]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Critical Damage"",
+          ""description"": ""Item set focused on strong attack speed, critical damage and spell damage"",
+          ""items"": [23,23,11]
+        },
+        {
+          ""name"": ""Attack Speed / Spell Damage"",
+          ""description"": ""Item set focused on strong attack speed and spell damage"",
+          ""items"": [23,23,22]
+        }
+      ]",,,,,,
+,,,,Veigar,"""Mana Generation / Ability Damage"" ","""Item set focused on strong mana generation and ability / spell damage""",Spear of Shojin,Rabadon's Deathcap,Seraph's Embrace,14,33,44,"[14,33,44]","""Mana Generation""","""Item set focused on strong mana generation and some attack damage""",Spear of Shojin,Spear of Shojin,Seraph's Embrace,14,14,44,"[14,14,44]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on strong mana generation and ability / spell damage"",
+          ""items"": [14,33,44]
+        },
+        {
+          ""name"": ""Mana Generation"",
+          ""description"": ""Item set focused on strong mana generation and some attack damage"",
+          ""items"": [14,14,44]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Ability Damage"" ,
+          ""description"": ""Item set focused on strong mana generation and ability / spell damage"",
+          ""items"": [14,33,44]
+        },
+        {
+          ""name"": ""Mana Generation"",
+          ""description"": ""Item set focused on strong mana generation and some attack damage"",
+          ""items"": [14,14,44]
+        }
+      ]",,,,,,
+,,,,Volibear,"""Survivability / Splash Damage / HP Damage""","""Item set focused on survivability, splash damage and max HP damage""",Statikk Shiv,Titanic Hydra,Warmog's Armor,24,27,77,"[24,27,77]","""Survivability / Disarm / Attack Speed / Burn Damage""","""Item set focused on survivability, attack speed, disarm and burn damage""",Rapid Firecannon,Red Buff,Sword Breaker,22,57,56,"[22,57,56]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage / HP Damage"",
+          ""description"": ""Item set focused on survivability, splash damage and max HP damage"",
+          ""items"": [24,27,77]
+        },
+        {
+          ""name"": ""Survivability / Disarm / Attack Speed / Burn Damage"",
+          ""description"": ""Item set focused on survivability, attack speed, disarm and burn damage"",
+          ""items"": [22,57,56]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Splash Damage / HP Damage"",
+          ""description"": ""Item set focused on survivability, splash damage and max HP damage"",
+          ""items"": [24,27,77]
+        },
+        {
+          ""name"": ""Survivability / Disarm / Attack Speed / Burn Damage"",
+          ""description"": ""Item set focused on survivability, attack speed, disarm and burn damage"",
+          ""items"": [22,57,56]
+        }
+      ]",,,,,,
+,,,,Warwick,"""Survivability / HP Damage""","""Item set focused on strong survivability and max HP damage""",Phantom Dancer,Titanic Hydra,Warmog's Armor,25,27,77,"[25,27,77]","""Survivability / Debuff / HP Damage""","""Item set focused on strong survivability, enemy debuff and max HP damage""",Frozen Heart,Warmog's Armor,Titanic Hydra,45,77,27,"[45,77,27]","""bestSets"": [
+        {
+          ""name"": ""Survivability / HP Damage"",
+          ""description"": ""Item set focused on strong survivability and max HP damage"",
+          ""items"": [25,27,77]
+        },
+        {
+          ""name"": ""Survivability / Debuff / HP Damage"",
+          ""description"": ""Item set focused on strong survivability, enemy debuff and max HP damage"",
+          ""items"": [45,77,27]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / HP Damage"",
+          ""description"": ""Item set focused on strong survivability and max HP damage"",
+          ""items"": [25,27,77]
+        },
+        {
+          ""name"": ""Survivability / Debuff / HP Damage"",
+          ""description"": ""Item set focused on strong survivability, enemy debuff and max HP damage"",
+          ""items"": [45,77,27]
+        }
+      ]",,,,,,
+,,,,Yasuo,"""Survivability / Attack Speed / Mana Generation""","""Item set focused on survivability, mana generation and attacks speed""",Guinsoo's Rageblade,Seraph's Embrace,Warmog's Armor,23,44,77,"[23,44,77]","""Mana Generation / Survivability""","""Item set focused on mana generation and survivability""",Seraph's Embrace,Dragon's Claw,Phantom Dancer,44,66,25,"[44,66,25]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and attacks speed"",
+          ""items"": [23,44,77]
+        },
+        {
+          ""name"": ""Mana Generation / Survivability"",
+          ""description"": ""Item set focused on mana generation and survivability"",
+          ""items"": [44,66,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Survivability / Attack Speed / Mana Generation"",
+          ""description"": ""Item set focused on survivability, mana generation and attacks speed"",
+          ""items"": [23,44,77]
+        },
+        {
+          ""name"": ""Mana Generation / Survivability"",
+          ""description"": ""Item set focused on mana generation and survivability"",
+          ""items"": [44,66,25]
+        }
+      ]",,,,,,
+,,,,Zed,"""Critical Damage / Attack Damage / Attack Speed""","""Item set focused on strong critical damage, attack damage and attack speed""",Infinity Edge,Sword of the Divine,Guinsoo's Rageblade,11,12,23,"[11,12,23]","""Attack Speed / Critical Damage / Survivability""","""Item set focused on attack speed, critical damage and some survivability""",Infinity Edge,Rapid Firecannon,Phantom Dancer,11,22,25,"[11,22,25]","""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Attack Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong critical damage, attack damage and attack speed"",
+          ""items"": [11,12,23]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, critical damage and some survivability"",
+          ""items"": [11,22,25]
+        }
+      ]","""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Attack Damage / Attack Speed"",
+          ""description"": ""Item set focused on strong critical damage, attack damage and attack speed"",
+          ""items"": [11,12,23]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Survivability"",
+          ""description"": ""Item set focused on attack speed, critical damage and some survivability"",
+          ""items"": [11,22,25]
+        }
+      ]",,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

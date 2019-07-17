@@ -9,7 +9,7 @@ var fs = require("fs");
 var https = require("https");
 var chalk = require("chalk");
 
-const filePath = path.resolve(__dirname, "tft-champions-raw-en_us.json");
+const filePath = path.resolve(__dirname, "tft-en_us.json");
 const fileContents = fs.readFileSync(filePath, { encoding: "utf-8" });
 const json = JSON.parse(fileContents);
 
@@ -47,7 +47,7 @@ const download = (url, dest, cb) => {
     });
 };
 
-for (let champion in json) {
+for (let champion in json.champions) {
   if (json.hasOwnProperty(champion)) {
     const newFilePath = path.resolve(
       __dirname,

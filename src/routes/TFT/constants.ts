@@ -25,5 +25,5 @@ export enum TFTChampionTraits {
 }
 
 export enum TFTActions {
-  ChampionsLoaded = "ChampionsLoaded"
+  DataLoaded = "DataLoaded"
 }
