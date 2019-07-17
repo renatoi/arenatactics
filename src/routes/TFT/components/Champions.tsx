@@ -21,14 +21,18 @@ const getPath = (path: string, championId: string): string =>
     .replace(/\s/g, "-")
     .toLocaleLowerCase();
 
-const getChampionListItem = (path: string, champion: TFTChampion) => (
+const getChampionListItem = (
+  path: string,
+  championId: string,
+  champion: TFTChampion
+) => (
   <li key={uuidv4()} className={styles.championsListItem}>
     <NavLink className={styles.championLink} to={getPath(path, champion.name)}>
       <img
         width="32"
         height="32"
         className={styles.championIcon}
-        src={champion.icon}
+        src={`${process.env.PUBLIC_URL}/tft/tft_${championId}.png`}
         alt=""
       />
       {champion.name}
@@ -40,11 +44,41 @@ const Champions: React.FC<TFTChampionsProps> = ({ match, champions }) => {
   const championsList =
     champions != null ? (
       <ul className={styles.championsList}>
-        {Object.keys(champions).map((id: string) =>
-          getChampionListItem(match.path, champions[id])
-        )}
+        {Object.keys(champions)
+          .sort()
+          .map((id: string) =>
+            getChampionListItem(match.path, id, champions[id])
+          )}
       </ul>
     ) : null;
+
+  let selectedChampion;
+  if (
+    match.params.championId != null &&
+    champions != null &&
+    champions[match.params.championId] != null
+  ) {
+    selectedChampion = champions[match.params.championId];
+  }
+
+  let championDetail;
+  if (selectedChampion == null) {
+    championDetail = (
+      <>
+        <h3>Select a champion to view details.</h3>
+      </>
+    );
+  } else {
+    championDetail = (
+      <>
+        <h3>{selectedChampion.name}</h3>
+        <ul>
+          <li />
+        </ul>
+      </>
+    );
+  }
+
   return (
     <div className={cx(styles.container, "PageContainer")}>
       <div className={styles.championsAside}>
@@ -53,11 +87,9 @@ const Champions: React.FC<TFTChampionsProps> = ({ match, champions }) => {
           type="text"
           placeholder="Filter"
         />
-        {championsList}
+        <div className={styles.championsListContainer}>{championsList}</div>
       </div>
-      <div className={styles.championDetail}>
-        <h3>Requested Param: {match.params.championId}</h3>
-      </div>
+      <div className={styles.championDetail}>{championDetail}</div>
     </div>
   );
 };
