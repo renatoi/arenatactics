@@ -1,6 +1,7 @@
 import { TFTChampionTraits } from "./constants";
 
 export interface TFTState {
+  readonly visibleChampions: string[];
   readonly champions: TFTChampionDictionary;
   readonly items: TFTItemDictionary;
   readonly traits: TFTTrait[];
@@ -12,7 +13,7 @@ export interface TFTTraitVars {
 }
 
 export interface TFTTraitEffects {
-  readonly minUnits: 1;
+  readonly minUnits: number;
   readonly vars: TFTTraitVars[];
 }
 

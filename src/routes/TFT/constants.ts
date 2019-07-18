@@ -25,5 +25,7 @@ export enum TFTChampionTraits {
 }
 
 export enum TFTActions {
-  DataLoaded = "DataLoaded"
+  DataLoaded = "TFTDataLoaded",
+  FilterChampions = "TFTFilterChampions",
+  SetSelectedChampionKey = "TFTSetSelectedChampionId"
 }

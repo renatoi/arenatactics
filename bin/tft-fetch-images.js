@@ -32,9 +32,9 @@ function ensureDirectoryExistence(filePath) {
 
 const download = (url, dest, cb) => {
   ensureDirectoryExistence(dest);
-  const file = fs.createWriteStream(dest);
   https
     .get(url, response => {
+      const file = fs.createWriteStream(dest);
       response.pipe(file);
       file.on("finish", function() {
         file.close(cb); // close() is async, call cb after close completes.
@@ -48,19 +48,45 @@ const download = (url, dest, cb) => {
 };
 
 for (let champion in json.champions) {
-  if (json.hasOwnProperty(champion)) {
-    const newFilePath = path.resolve(
+  if (json.champions.hasOwnProperty(champion)) {
+    // download square
+    const championSquarePath = path.resolve(
       __dirname,
-      `../src/assets/tft/tft_${getId(json[champion].name)}.png`
+      `../src/assets/tft/tft_${getId(json.champions[champion].name)}.png`
     );
     download(
       `https://cdn.communitydragon.org/${patch}/champion/${champion}/square`,
-      newFilePath,
+      championSquarePath,
       err => {
         if (err) {
-          console.error(`Error writing file ${newFilePath}: ${err.message}`);
+          console.error(
+            `Error writing file ${championSquarePath}: ${err.message}`
+          );
         } else {
-          console.error(chalk.cyan(`Successfully downloaded ${newFilePath}.`));
+          console.error(
+            chalk.cyan(`Successfully downloaded ${championSquarePath}.`)
+          );
+        }
+      }
+    );
+
+    // download splash
+    const championSplashPath = path.resolve(
+      __dirname,
+      `../public/tft/tft_${getId(json.champions[champion].name)}_splash.png`
+    );
+    download(
+      `https://cdn.communitydragon.org/${patch}/champion/${champion}/splash-art/centered`,
+      championSplashPath,
+      err => {
+        if (err) {
+          console.error(
+            `Error writing file ${championSplashPath}: ${err.message}`
+          );
+        } else {
+          console.error(
+            chalk.cyan(`Successfully downloaded ${championSplashPath}.`)
+          );
         }
       }
     );

@@ -8,8 +8,8 @@ export enum Routes {
   Forums = "forums"
 }
 
-const SecondaryNav: React.FC = ({ children }) => (
-  <nav className={styles.secondaryNav}>{children}</nav>
+const ContextualNav: React.FC = ({ children }) => (
+  <nav className={styles.chNav}>{children}</nav>
 );
 
 interface TFTNavProps {
@@ -17,33 +17,37 @@ interface TFTNavProps {
 }
 const TFTNav: React.FC<TFTNavProps> = ({ match }) => (
   <>
-    <SecondaryNav>
+    <ContextualNav>
       <NavLink
         exact
-        activeClassName={styles.secondaryActive}
+        className={styles.chNavLink}
+        activeClassName={styles.chNavLinkActive}
         to={`${match.url}`}
       >
         Home
       </NavLink>
       <NavLink
-        activeClassName={styles.secondaryActive}
+        className={styles.chNavLink}
+        activeClassName={styles.chNavLinkActive}
         to={`${match.url}/builds`}
       >
         Builds
       </NavLink>
       <NavLink
-        activeClassName={styles.secondaryActive}
+        className={styles.chNavLink}
+        activeClassName={styles.chNavLinkActive}
         to={`${match.url}/champions`}
       >
         Champions
       </NavLink>
       <NavLink
-        activeClassName={styles.secondaryActive}
+        className={styles.chNavLink}
+        activeClassName={styles.chNavLinkActive}
         to={`${match.url}/items`}
       >
         Items
       </NavLink>
-    </SecondaryNav>
+    </ContextualNav>
   </>
 );
 
@@ -55,40 +59,46 @@ const Header: React.FC<HeaderProps> = ({ match }) => {
   return (
     <header className={styles.header}>
       <div className={styles.uh}>
-        <div className={cx(styles.uhContainer, "PageContainer")}>
+        <nav className={styles.uhNav}>
           <h1 className={styles.logo}>
-            <Link className={styles.logoLink} to="/">
+            <NavLink
+              className={cx(styles.uhNavLink, styles.logoLink)}
+              activeClassName={styles.uhNavLinkActive}
+              exact
+              to="/"
+            >
               <span className="VisuallyHidden">Kobogi</span>
-            </Link>
+            </NavLink>
           </h1>
-          <p className={styles.uhSubtitle}>Games, Guides, Community, eSports</p>
-          <nav className={styles.uhNav}>
+          <span className={styles.uhNavPrimary}>
             <NavLink
               className={styles.uhNavLink}
-              activeClassName={styles.uhActiveNavLink}
+              activeClassName={styles.uhNavLinkActive}
               to="/teamfight-tactics"
             >
               <i className={cx(styles.gameIcon, styles.tftLogo)} aria-hidden />
               Teamfight Tactics
             </NavLink>
+          </span>
+          <span className={styles.uhNavSecondary}>
             <NavLink
               className={styles.uhNavLink}
-              activeClassName={styles.uhActiveNavLink}
+              activeClassName={styles.uhNavLinkActive}
               to="/login"
             >
               Login
             </NavLink>
             <NavLink
               className={styles.uhNavLink}
-              activeClassName={styles.uhActiveNavLink}
+              activeClassName={styles.uhNavLinkActive}
               to="/register"
             >
               Register
             </NavLink>
-          </nav>
-        </div>
+          </span>
+        </nav>
       </div>
-      <div className={cx(styles.gh, "PageContainer")}>
+      <div className={cx(styles.ch)}>
         <Route path={`/${Routes.TFT}`} component={TFTNav} />
       </div>
     </header>

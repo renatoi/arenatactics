@@ -1,5 +1,9 @@
 import produce from "immer";
-import { TFTDataLoadedAction, TFTActionTypes } from "./actions";
+import {
+  TFTActionDataLoaded,
+  TFTActionTypes,
+  TFTActionFilterChampions
+} from "./actions";
 import { TFTState } from "../types";
 import { TFTActions } from "../constants";
 
@@ -10,11 +14,26 @@ export const TFTReducer = (
   return produce<TFTState>(state || {}, draft => {
     switch (action.type) {
       case TFTActions.DataLoaded:
-        const typedAction = action as TFTDataLoadedAction;
-        draft.champions = typedAction.payload.champions;
-        draft.traits = typedAction.payload.traits;
-        draft.items = typedAction.payload.items;
+        const dataLoadedAction = action as TFTActionDataLoaded;
+        draft.champions = dataLoadedAction.payload.champions;
+        draft.traits = dataLoadedAction.payload.traits;
+        draft.items = dataLoadedAction.payload.items;
         break;
+
+      case TFTActions.FilterChampions:
+        const filterChampionsAction = action as TFTActionFilterChampions;
+        const visibleChampions = Object.keys(state.champions).filter(
+          championKey => {
+            return (
+              state.champions[championKey].name
+                .toLowerCase()
+                .search(filterChampionsAction.query.toLowerCase()) >= 0
+            );
+          }
+        );
+        draft.visibleChampions = visibleChampions;
+        break;
+
       default:
       // do nothing
     }

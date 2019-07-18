@@ -1,17 +1,14 @@
 import React from "react";
+import { PageContainer } from "../../../components/PageContainer/PageContainer";
 
 const Home: React.FC = () => (
-  <div className="PageContainer">
-    <h2>Lorem Ipsum</h2>
+  <PageContainer>
     <p>
-      Morgana fires chains to nearby enemies, dealing damage and stunning after
-      a short delay if they are still nearby.
+      We're working hard to create the best guides and tools for Teamfight
+      Fortress. You will get the latest updates live even if it's a little
+      rough.
     </p>
-    <p>
-      Attacks from Demons have a chance to burn all of an enemy's mana and deal
-      that much true damage.
-    </p>
-  </div>
+  </PageContainer>
 );
 
 export { Home };

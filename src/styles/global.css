@@ -13,9 +13,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.scrollable {
+:root {
+  --color-accent: #09bbdd;
+}
+
+.Scrollable {
   scrollbar-color: rgba(255, 255, 255, 0.2) hsla(255, 0%, 100%, 0.08);
   scrollbar-width: thin;
+  overflow: auto;
 }
 
 ::-webkit-scrollbar {
@@ -42,6 +47,7 @@ code {
 
 #root {
   height: 100%;
+  display: flex;
 }
 
 .PageContainer {

@@ -2,64 +2,48 @@
   width: 100%;
   padding: 0;
   background: #212936;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   z-index: 50;
   font-family: "Montserrat", sans-serif;
 }
+
+/* UH = Universal Header */
 .uh {
+  font-size: 16px;
   background: #171e26;
 }
-.uhContainer {
-  display: grid;
-  grid-template-columns: max-content 1fr max-content;
-  height: 64px;
-}
-.uhSubtitle {
-  opacity: 0.6;
-  border-left: 1px solid #a5a9b2;
-  padding-left: 24px;
-
-  display: flex;
-  align-items: center;
-}
 .uhNav {
-  display: flex;
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+  grid-template-rows: 48px;
 }
 .uhNavLink {
   color: #a5a9b2;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 0 12px;
   display: flex;
   align-items: center;
 }
-.uhActiveNavLink {
+.uhNavLinkActive {
   color: #e8decc;
-  background: #212936;
+  background-color: #212936 !important;
 }
 .logo {
   margin: 0;
-  margin-right: 12px;
-  align-self: center;
+  display: flex;
 }
 .logoLink {
-  background: url("../../assets/kobogi_logo.png") no-repeat;
-  width: 145px;
-  height: 48px;
+  background: url("../../assets/kobogi_logo_small.png") center center no-repeat;
+  width: 95px;
   display: block;
 }
-.gh {
+.uhNavPrimary {
   display: flex;
 }
-.gameHeading {
-  margin: 0;
-  margin-right: 16px;
+.uhNavSecondary {
   display: flex;
 }
-.gameLink {
+.ch {
   display: flex;
-  color: #cdbe91;
-  text-decoration: none;
-  font-size: 22px;
 }
 .gameIcon {
   width: 32px;
@@ -67,16 +51,16 @@
   margin-right: 4px;
   align-self: center;
 }
-.gameTitle {
-  align-self: center;
-}
 .tftLogo {
   background: url("../../assets/tft_logo_small.png") no-repeat;
 }
-.secondaryNav {
+
+/* CH = Contextual Header */
+.chNav {
   display: flex;
+  font-size: 14px;
 }
-.secondaryNav a {
+.chNavLink {
   color: #cdbe91;
   text-decoration: none;
   padding: 12px 24px;
@@ -87,7 +71,7 @@
   border-bottom: 1px solid transparent;
   animation: border 0.2s ease-in;
 }
-.secondaryNav a.secondaryActive {
+.chNavLinkActive {
   color: #e8decc;
   border-bottom: 1px solid #e8decc;
 }
