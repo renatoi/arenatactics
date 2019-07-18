@@ -1,0 +1,42 @@
+.itemContainer {
+  position: relative;
+}
+.tooltip {
+  position: absolute;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 12px;
+  width: 300px;
+  height: 150px;
+  margin-top: -162px;
+  margin-left: -134px;
+  border-radius: 4px;
+}
+.tooltip:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 12px;
+  margin-left: -12px;
+}
+.itemTitle {
+  font-size: 14px;
+  margin: 0;
+}
+.itemSourceList {
+  display: flex;
+  align-self: flex-end;
+}
+.itemSource {
+  margin-right: 12px;
+}
+.itemDesc {
+  font-size: 12px;
+}

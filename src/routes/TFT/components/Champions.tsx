@@ -12,7 +12,7 @@ import {
 import { AppState } from "../../../types";
 import { tftFilterChampions } from "../redux/actions";
 import { History } from "history";
-import { render } from "react-dom";
+import { ConnectedTFTItem } from "./Item";
 
 const getPath = (path: string, championId: string): string =>
   path
@@ -199,9 +199,11 @@ const ChampionDetail: React.FC<ChampionDetailProps> = ({
           <div key={uuidv4()}>
             <h4>{set.name}</h4>
             <p>{set.description}</p>
-            <ul>
+            <ul className={styles.setList}>
               {set.items.map(itemId => (
-                <li key={uuidv4()}>{items[itemId].name}</li>
+                <li className={styles.setListItem} key={uuidv4()}>
+                  {<ConnectedTFTItem itemId={itemId} />}
+                </li>
               ))}
             </ul>
           </div>

@@ -83,3 +83,13 @@
   flex-direction: column;
   height: 100%;
 }
+
+.setList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.setListItem {
+  margin-right: 12px;
+  list-style-type: none;
+}
