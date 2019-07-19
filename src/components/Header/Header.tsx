@@ -1,7 +1,7 @@
 import React from "react";
 import cx from "classnames";
 import styles from "./Header.module.css";
-import { Link, NavLink, Route, match } from "react-router-dom";
+import { NavLink, Route, match } from "react-router-dom";
 
 export enum Routes {
   TFT = "teamfight-tactics",

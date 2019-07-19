@@ -4,37 +4,21 @@ import ReactDOM from "react-dom";
 import { connect } from "react-redux";
 import { AppState } from "../../../types";
 import styles from "./Item.module.css";
-import { TFTItemDictionary, TFTItemEffect } from "../types";
-
-const getNormalizedItemName = (name: string): string =>
-  name.replace(/'|\s|\./g, "").toLocaleLowerCase();
-
-const getItemDescription = (
-  description: string,
-  effects: TFTItemEffect[]
-): string => {
-  let newDesc = description;
-  effects.forEach(
-    effect =>
-      (newDesc = newDesc.replace(
-        new RegExp(`@${effect.name}@`, "g"),
-        effect.value.toString()
-      ))
-  );
-  return newDesc;
-};
+import { TFTItems } from "../types";
+import { getItemDescription, getNormalizedItemName } from "./utils";
 
 export interface TFTItemOwnProps {
-  readonly items?: TFTItemDictionary;
-  readonly isLoading: boolean;
-}
-export interface TFTConnectedItemProps {
   readonly itemId: string;
   readonly width?: number;
   readonly height?: number;
 }
+export interface TFTItemStateProps {
+  readonly isLoading: boolean;
+  readonly items?: TFTItems;
+}
 
-interface TFTItemProps extends TFTItemOwnProps, TFTConnectedItemProps {}
+interface TFTItemProps extends TFTItemOwnProps, TFTItemStateProps {}
+
 interface TFTItemState {
   readonly isTooltipVisible: boolean;
   readonly tooltipAnchorPos: { top: number; left: number };
@@ -78,7 +62,7 @@ class TFTItem extends React.Component<TFTItemProps, TFTItemState> {
   render() {
     const { items, itemId, width = 32, height = 32 } = this.props;
     if (items == null || itemId == null) return <></>;
-    const currentItem = items[itemId];
+    const currentItem = items.byId[itemId] || items.byId[items.byKey[itemId]];
     return (
       <div
         className={styles.itemContainer}
@@ -103,10 +87,11 @@ class TFTItem extends React.Component<TFTItemProps, TFTItemState> {
                       src={`${
                         process.env.PUBLIC_URL
                       }/tft/tft_item_${getNormalizedItemName(
-                        items[fromId].name
+                        items.byId[fromId].name
                       )}.tft.png`}
                       width={width}
                       height={height}
+                      alt={items.byId[fromId].name}
                     />
                   ))}
               </div>
@@ -119,8 +104,8 @@ class TFTItem extends React.Component<TFTItemProps, TFTItemState> {
           )}.tft.png`}
           width={width}
           height={height}
+          alt={currentItem.name}
         />
-        <span className="VisuallyHidden">{currentItem.name}</span>
       </div>
     );
   }
@@ -128,22 +113,24 @@ class TFTItem extends React.Component<TFTItemProps, TFTItemState> {
 
 const mapStateToProps = (
   state: AppState,
-  connectedItemprops: TFTConnectedItemProps
-): TFTItemProps => {
+  ownProps: TFTItemOwnProps
+): TFTItemStateProps => {
   if (!state.TFT || !state.TFT.items) {
     return {
-      ...connectedItemprops,
+      ...ownProps,
       isLoading: true
     };
   }
   return {
-    ...connectedItemprops,
+    ...ownProps,
     isLoading: false,
-    items: state.TFT.items,
-    itemId: connectedItemprops.itemId
+    items: state.TFT.items
   };
 };
 
-// item.from.map(fromId => state.TFT.items[fromId].name)
-
-export const ConnectedTFTItem = connect(mapStateToProps)(TFTItem);
+export const ConnectedTFTItem = connect<
+  TFTItemStateProps,
+  {},
+  TFTItemOwnProps,
+  AppState
+>(mapStateToProps)(TFTItem);

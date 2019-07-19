@@ -1,7 +1,7 @@
-const getChampionId = name =>
+const getNormalizedKey = name =>
   name
-    .replace(/'/g, "")
+    .replace(/'|\./g, "")
     .replace(/\s/g, "-")
     .toLowerCase();
 
-module.exports = { getChampionId };
+module.exports = { getNormalizedKey };

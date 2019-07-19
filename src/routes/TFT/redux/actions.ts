@@ -21,4 +21,16 @@ export const tftFilterChampions = (
   query
 });
 
-export type TFTActionTypes = TFTActionDataLoaded | TFTActionFilterChampions;
+export interface TFTActionFilterItems {
+  readonly type: TFTActions;
+  readonly query: string;
+}
+export const tftFilterItems = (query: string): TFTActionFilterItems => ({
+  type: TFTActions.FilterItems,
+  query
+});
+
+export type TFTActionTypes =
+  | TFTActionDataLoaded
+  | TFTActionFilterChampions
+  | TFTActionFilterItems;

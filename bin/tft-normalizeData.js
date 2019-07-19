@@ -8,7 +8,7 @@ var path = require("path");
 var fs = require("fs");
 var parse = require("csv-parse/lib/sync");
 var chalk = require("chalk");
-var { getChampionId } = require("./utils");
+var { getNormalizedKey } = require("./utils");
 
 // process best-items data
 const csvPath = path.resolve(__dirname, "tft-best-sets.csv");
@@ -26,7 +26,7 @@ records.forEach(record => {
       /"bestSets":/,
       ""
     );
-    const championId = getChampionId(record.Champion);
+    const championId = getNormalizedKey(record.Champion);
     try {
       const bestItemSetsJSON = JSON.parse(bestItemSetsContent);
       bestItemsDictionary[championId] = bestItemSetsJSON;
@@ -44,22 +44,49 @@ const sourceDataContents = fs.readFileSync(sourceDataPath, {
 const sourceDataJSON = JSON.parse(sourceDataContents);
 
 const championsData = sourceDataJSON.champions;
-const newChampionsData = {};
-for (let champion in championsData) {
-  if (championsData.hasOwnProperty(champion)) {
-    const nameId = getChampionId(championsData[champion].name);
-    newChampionsData[nameId] = championsData[champion];
-    newChampionsData[nameId].id = parseInt(champion);
-    if (!bestItemsDictionary.hasOwnProperty(nameId)) {
-      throw new Error(`Missing best set data for ${nameId}`);
+const newChampionsData = {
+  byId: {},
+  byKey: {}
+};
+for (let championId in championsData) {
+  if (championsData.hasOwnProperty(championId)) {
+    const championKey = getNormalizedKey(championsData[championId].name);
+    newChampionsData.byKey[championKey] = championId;
+    newChampionsData.byId[championId] = championsData[championId];
+    newChampionsData.byId[championId].key = championKey;
+    delete newChampionsData.byId[championId].splash;
+    delete newChampionsData.byId[championId].ability.icon;
+    if (!bestItemsDictionary.hasOwnProperty(championKey)) {
+      throw new Error(`Missing best set data for ${championKey}`);
     }
-    newChampionsData[nameId].bestSets = bestItemsDictionary[nameId];
+    newChampionsData.byId[championId].bestSets =
+      bestItemsDictionary[championKey];
+  }
+}
+
+// process items data
+const itemsData = sourceDataJSON.items;
+const newItemsData = {
+  byId: {},
+  byKey: {}
+};
+for (let itemId in itemsData) {
+  if (itemsData.hasOwnProperty(itemId)) {
+    if (itemId !== "100") {
+      const itemKey = getNormalizedKey(itemsData[itemId].name);
+      newItemsData.byKey[itemKey] = itemId;
+      newItemsData.byId[itemId] = itemsData[itemId];
+      newItemsData.byId[itemId].id = itemId;
+      newItemsData.byId[itemId].key = itemKey;
+      delete newItemsData.icon;
+    }
   }
 }
 
 const newData = {
   ...sourceDataJSON,
-  champions: newChampionsData
+  champions: newChampionsData,
+  items: newItemsData
 };
 
 // write
