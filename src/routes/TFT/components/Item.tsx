@@ -1,6 +1,5 @@
 import React from "react";
 import uuidv4 from "uuid/v4";
-import ReactDOM from "react-dom";
 import { connect } from "react-redux";
 import { AppState } from "../../../types";
 import styles from "./Item.module.css";

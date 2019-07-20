@@ -42,7 +42,7 @@ const TFTChampion: React.FC<TFTChampionProps> = ({
         <p>Cost: {currentChampion.cost}</p>
         <ul className={styles.championTraits}>
           {currentChampion.traits.map(trait => (
-            <li>{trait}</li>
+            <li key={trait}>{trait}</li>
           ))}
         </ul>
       </div>
@@ -60,6 +60,7 @@ const TFTChampion: React.FC<TFTChampionProps> = ({
                   )}.tft.png`}
                   width="32"
                   height="32"
+                  alt={items.byId[itemId].name}
                 />
               ))}
             </li>

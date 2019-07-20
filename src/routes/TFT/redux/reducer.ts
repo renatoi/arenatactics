@@ -5,10 +5,9 @@ import {
   TFTActionFilterChampions,
   TFTActionFilterItems
 } from "./actions";
-import { TFTState, TFTChampion } from "../types";
+import { TFTState } from "../types";
 import { TFTActions } from "../constants";
 import escapeStringRegexp from "escape-string-regexp";
-import { getObjectByKey } from "../../../utils";
 
 export const TFTReducer = (
   state: TFTState,

@@ -20,6 +20,7 @@ import styles from "./Items.module.css";
 import { getObjectByKey } from "../../../utils";
 import { ConnectedTFTItem } from "../components/Item";
 import { getItemDescription } from "../components/utils";
+import { Helmet } from "react-helmet";
 
 export interface TFTItemsDispatchProps {
   readonly dispatchFilterItems: (query: string) => void;
@@ -78,10 +79,10 @@ class Items extends React.Component<TFTItemsProps> {
         <>
           <h2>Combinations</h2>
           <div className={styles.combinations} role="table">
-            <div role="rolegroup">
+            <div role="rowgroup">
               <div role="row" className={styles.combinationRow}>
                 <div
-                  role="columheader"
+                  role="columnheader"
                   className={cx(
                     styles.combinationRecipe,
                     styles.combinationHeading
@@ -90,14 +91,14 @@ class Items extends React.Component<TFTItemsProps> {
                   Recipe
                 </div>
                 <div
-                  role="columheader"
+                  role="columnheader"
                   className={cx(styles.combination, styles.combinationHeading)}
                 >
                   Combination
                 </div>
               </div>
             </div>
-            <div role="rolegroup">
+            <div role="rowgroup">
               {combinedItems.map(combinedItem => {
                 const from = combinedItem.from
                   .sort(firstEl =>
@@ -135,8 +136,23 @@ class Items extends React.Component<TFTItemsProps> {
       );
     };
 
+    const title = selectedItem
+      ? `${
+          selectedItem.name
+        } Item Stats and Combinations for Teamfight Tactics | Kobogi`
+      : "Item Stats and Combinations for Teamfight Tactics | Kobogi";
+    const description = selectedItem
+      ? `${
+          selectedItem.name
+        }'s Stats and Combinations for Teamfight Tactics (TFT)`
+      : "Items stats and combinations for Teamfight Tactics (TFT)";
+
     return (
       <MasterDetail className={styles.masterContainer}>
+        <Helmet>
+          <title>{title}</title>
+          <meta name="description" content={description} />
+        </Helmet>
         <Master className={styles.master}>
           <MasterGroup>
             <MasterHeader>

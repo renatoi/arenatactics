@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import cx from "classnames";
 import { withRouter, RouteComponentProps } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import styles from "./Champions.module.css";
 import { AppState } from "../../../types";
 import { tftFilterChampions } from "../redux/actions";
@@ -71,8 +72,23 @@ class Champions extends React.Component<TFTChampionsProps> {
           }
         : undefined;
 
+    const title = selectedChampion
+      ? `${
+          selectedChampion.name
+        } Best Items and Guides for Teamfight Tactics | Kobogi`
+      : "Best Champion Items and Guides for Teamfight Tactics";
+    const description = selectedChampion
+      ? `${
+          selectedChampion.name
+        }'s best builds/team compositions, items, and guides for Teamfight Tactics (TFT)`
+      : "Best builds/team compositions, items, and guides for Teamfight Tactics (TFT)";
+
     return (
       <MasterDetail>
+        <Helmet>
+          <title>{title}</title>
+          <meta name="description" content={description} />
+        </Helmet>
         <Master>
           <MasterHeader>
             <MasterSearchBox onSearchChange={this.handleSearchChange} />
@@ -122,7 +138,7 @@ class Champions extends React.Component<TFTChampionsProps> {
               <h2>Traits</h2>
               <ul>
                 {selectedChampion.traits.map(trait => (
-                  <li>{trait}</li>
+                  <li key={trait}>{trait}</li>
                 ))}
               </ul>
             </>
