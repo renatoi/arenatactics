@@ -3,6 +3,8 @@ import { TFTChampionTraits } from "./constants";
 export interface TFTState {
   readonly visibleItems: string[];
   readonly visibleChampions: string[];
+  readonly championsSearchQuery: string;
+  readonly itemsSearchQuery: string;
   readonly champions: TFTChampions;
   readonly items: TFTItems;
   readonly traits: TFTTrait[];

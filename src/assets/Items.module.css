@@ -1,0 +1,93 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker 
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:7bda79a036bc2f16adda6a596846bde4:4bcbd7a4b7e86ab7515a2078e65ca110:1431a56278a5bd99d10737c3fa8b969c$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(Items.module.png);}
+
+.tft_item_abyssalmask.tft {width:64px; height:64px; background-position: -1px -1px}
+.tft_item_ardentcenser.tft {width:64px; height:64px; background-position: -67px -1px}
+.tft_item_athenesunholygrail.tft {width:64px; height:64px; background-position: -133px -1px}
+.tft_item_atmasreckoning.tft {width:64px; height:64px; background-position: -199px -1px}
+.tft_item_bansheesveil.tft {width:64px; height:64px; background-position: -265px -1px}
+.tft_item_bfsword.tft {width:64px; height:64px; background-position: -331px -1px}
+.tft_item_blackcleaver.tft {width:64px; height:64px; background-position: -397px -1px}
+.tft_item_bladeoftheruinedking.tft {width:64px; height:64px; background-position: -1px -67px}
+.tft_item_brawlersglove.tft {width:64px; height:64px; background-position: -67px -67px}
+.tft_item_chainvest.tft {width:64px; height:64px; background-position: -133px -67px}
+.tft_item_cursedblade.tft {width:64px; height:64px; background-position: -199px -67px}
+.tft_item_darkin.tft {width:64px; height:64px; background-position: -265px -67px}
+.tft_item_deadmansplate.tft {width:64px; height:64px; background-position: -331px -67px}
+.tft_item_deathsdance.tft {width:64px; height:64px; background-position: -397px -67px}
+.tft_item_dragonsclaw.tft {width:64px; height:64px; background-position: -1px -133px}
+.tft_item_edgeofnight.tft {width:64px; height:64px; background-position: -67px -133px}
+.tft_item_essencereaver.tft {width:64px; height:64px; background-position: -133px -133px}
+.tft_item_forceofnature.tft {width:64px; height:64px; background-position: -199px -133px}
+.tft_item_frozenheart.tft {width:64px; height:64px; background-position: -265px -133px}
+.tft_item_frozenmallet.tft {width:64px; height:64px; background-position: -331px -133px}
+.tft_item_gargoylestoneplate.tft {width:64px; height:64px; background-position: -397px -133px}
+.tft_item_giantsbelt.tft {width:64px; height:64px; background-position: -1px -199px}
+.tft_item_guardianangel.tft {width:64px; height:64px; background-position: -67px -199px}
+.tft_item_guinsoosrageblade.tft {width:64px; height:64px; background-position: -133px -199px}
+.tft_item_hextechgunblade.tft {width:64px; height:64px; background-position: -199px -199px}
+.tft_item_hush.tft {width:64px; height:64px; background-position: -265px -199px}
+.tft_item_iceborngauntlet.tft {width:64px; height:64px; background-position: -331px -199px}
+.tft_item_infinityedge.tft {width:64px; height:64px; background-position: -397px -199px}
+.tft_item_ionicspark.tft {width:64px; height:64px; background-position: -1px -265px}
+.tft_item_knightsvow.tft {width:64px; height:64px; background-position: -67px -265px}
+.tft_item_liandrystorment.tft {width:64px; height:64px; background-position: -133px -265px}
+.tft_item_lichbane.tft {width:64px; height:64px; background-position: -199px -265px}
+.tft_item_locketoftheironsolari.tft {width:64px; height:64px; background-position: -265px -265px}
+.tft_item_ludensecho.tft {width:64px; height:64px; background-position: -331px -265px}
+.tft_item_mawofmalmortius.tft {width:64px; height:64px; background-position: -397px -265px}
+.tft_item_mercurialscimitar.tft {width:64px; height:64px; background-position: -1px -331px}
+.tft_item_mikaelscrucible.tft {width:64px; height:64px; background-position: -67px -331px}
+.tft_item_morellonomicon.tft {width:64px; height:64px; background-position: -133px -331px}
+.tft_item_mortalreminder.tft {width:64px; height:64px; background-position: -199px -331px}
+.tft_item_muramana.tft {width:64px; height:64px; background-position: -265px -331px}
+.tft_item_nashorstooth.tft {width:64px; height:64px; background-position: -331px -331px}
+.tft_item_needlesslylargerod.tft {width:64px; height:64px; background-position: -397px -331px}
+.tft_item_negatroncloak.tft {width:64px; height:64px; background-position: -1px -397px}
+.tft_item_phantomdancer.tft {width:64px; height:64px; background-position: -67px -397px}
+.tft_item_rabadonsdeathcap.tft {width:64px; height:64px; background-position: -133px -397px}
+.tft_item_randuinsomen.tft {width:64px; height:64px; background-position: -199px -397px}
+.tft_item_rapidfirecannon.tft {width:64px; height:64px; background-position: -265px -397px}
+.tft_item_recurvebow.tft {width:64px; height:64px; background-position: -331px -397px}
+.tft_item_redbuff.tft {width:64px; height:64px; background-position: -397px -397px}
+.tft_item_redemption.tft {width:64px; height:64px; background-position: -1px -463px}
+.tft_item_righteousglory.tft {width:64px; height:64px; background-position: -67px -463px}
+.tft_item_rodofages.tft {width:64px; height:64px; background-position: -133px -463px}
+.tft_item_runaanshurricane.tft {width:64px; height:64px; background-position: -199px -463px}
+.tft_item_rylaiscrystalscepter.tft {width:64px; height:64px; background-position: -265px -463px}
+.tft_item_seraphsembrace.tft {width:64px; height:64px; background-position: -331px -463px}
+.tft_item_shurelyasreverie.tft {width:64px; height:64px; background-position: -397px -463px}
+.tft_item_spatula.tft {width:64px; height:64px; background-position: -1px -529px}
+.tft_item_spearofshojin.tft {width:64px; height:64px; background-position: -67px -529px}
+.tft_item_spiritvisage.tft {width:64px; height:64px; background-position: -133px -529px}
+.tft_item_statikkshiv.tft {width:64px; height:64px; background-position: -199px -529px}
+.tft_item_statstick.tft {width:64px; height:64px; background-position: -265px -529px}
+.tft_item_steraksgage.tft {width:64px; height:64px; background-position: -331px -529px}
+.tft_item_stormrazor.tft {width:64px; height:64px; background-position: -397px -529px}
+.tft_item_sunfirecape.tft {width:64px; height:64px; background-position: -1px -595px}
+.tft_item_swordbreaker.tft {width:64px; height:64px; background-position: -67px -595px}
+.tft_item_swordofthedivine.tft {width:64px; height:64px; background-position: -133px -595px}
+.tft_item_tearofthegoddess.tft {width:64px; height:64px; background-position: -199px -595px}
+.tft_item_thebloodthirster.tft {width:64px; height:64px; background-position: -265px -595px}
+.tft_item_thornmail.tft {width:64px; height:64px; background-position: -331px -595px}
+.tft_item_titanichydra.tft {width:64px; height:64px; background-position: -397px -595px}
+.tft_item_trinityforce.tft {width:64px; height:64px; background-position: -1px -661px}
+.tft_item_voidstaff.tft {width:64px; height:64px; background-position: -67px -661px}
+.tft_item_warmogsarmor.tft {width:64px; height:64px; background-position: -133px -661px}
+.tft_item_witsend.tft {width:64px; height:64px; background-position: -199px -661px}
+.tft_item_youmuusghostblade.tft {width:64px; height:64px; background-position: -265px -661px}
+.tft_item_yuumi.tft {width:64px; height:64px; background-position: -331px -661px}
+.tft_item_zekesherald.tft {width:64px; height:64px; background-position: -397px -661px}
+.tft_item_zephyr.tft {width:64px; height:64px; background-position: -1px -727px}
+.tft_item_zhonyashourglass.tft {width:64px; height:64px; background-position: -67px -727px}

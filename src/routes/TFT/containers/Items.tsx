@@ -27,6 +27,7 @@ export interface TFTItemsDispatchProps {
 }
 export interface TFTItemsStateProps {
   readonly isLoading: boolean;
+  readonly itemsSearchQuery?: string;
   readonly baseIds?: string[];
   readonly combinedIds?: string[];
   readonly items?: TFTItems;
@@ -47,7 +48,14 @@ class Items extends React.Component<TFTItemsProps> {
   };
 
   render() {
-    const { match, items, isLoading, baseIds, combinedIds } = this.props;
+    const {
+      match,
+      items,
+      isLoading,
+      baseIds,
+      combinedIds,
+      itemsSearchQuery
+    } = this.props;
 
     if (isLoading || items == null || baseIds == null || combinedIds == null) {
       return <></>;
@@ -179,7 +187,10 @@ class Items extends React.Component<TFTItemsProps> {
               <MasterHeading className={styles.itemsHeading}>
                 Combined items
               </MasterHeading>
-              <MasterSearchBox onSearchChange={this.handleSearchChange} />
+              <MasterSearchBox
+                value={itemsSearchQuery}
+                onSearchChange={this.handleSearchChange}
+              />
             </MasterHeader>
             <MasterList>
               {combinedIds.map(combinedId => {
@@ -232,7 +243,8 @@ const mapStateToProps = (
     isLoading: false,
     items: state.TFT.items,
     baseIds,
-    combinedIds
+    combinedIds,
+    itemsSearchQuery: state.TFT.itemsSearchQuery
   };
 };
 

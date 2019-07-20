@@ -43,6 +43,7 @@ export const TFTReducer = (
                 ) >= 0
           );
           draft.visibleChampions = visibleChampions;
+          draft.championsSearchQuery = filterChampionsAction.query;
           break;
 
         case TFTActions.FilterItems:
@@ -57,6 +58,7 @@ export const TFTReducer = (
             );
           });
           draft.visibleItems = visibleItems;
+          draft.itemsSearchQuery = filterItemsAction.query;
           break;
 
         default:

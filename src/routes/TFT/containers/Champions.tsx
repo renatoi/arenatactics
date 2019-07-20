@@ -26,6 +26,7 @@ export interface TFTChampionsDispatchProps {
 }
 export interface TFTChampionsStateProps {
   readonly isLoading: boolean;
+  readonly championsSearchQuery?: string;
   readonly visibleChampions?: string[];
   readonly champions?: TFTChampions;
   readonly items?: TFTItems;
@@ -47,7 +48,14 @@ class Champions extends React.Component<TFTChampionsProps> {
   };
 
   render() {
-    const { match, champions, visibleChampions, items, isLoading } = this.props;
+    const {
+      match,
+      champions,
+      visibleChampions,
+      items,
+      isLoading,
+      championsSearchQuery
+    } = this.props;
 
     const selectedChampionKey = match.params.championKey;
     const selectedChampion =
@@ -93,7 +101,10 @@ class Champions extends React.Component<TFTChampionsProps> {
         </Helmet>
         <Master>
           <MasterHeader>
-            <MasterSearchBox onSearchChange={this.handleSearchChange} />
+            <MasterSearchBox
+              value={championsSearchQuery}
+              onSearchChange={this.handleSearchChange}
+            />
           </MasterHeader>
           <MasterList className={styles.championsList}>
             {visibleChampions.map(championId => {
@@ -199,7 +210,8 @@ const mapStateToProps = (
     isLoading: false,
     visibleChampions: state.TFT.visibleChampions,
     champions: state.TFT.champions,
-    items: state.TFT.items
+    items: state.TFT.items,
+    championsSearchQuery: state.TFT.championsSearchQuery
   };
 };
 
