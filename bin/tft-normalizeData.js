@@ -72,12 +72,23 @@ const newItemsData = {
 };
 for (let itemId in itemsData) {
   if (itemsData.hasOwnProperty(itemId)) {
-    if (itemId !== "100") {
+    // 100: duplicate spatula
+    // 541: mortal reminder
+    if (itemId !== "100" && itemId !== "541") {
       const itemKey = getNormalizedKey(itemsData[itemId].name);
       newItemsData.byKey[itemKey] = itemId;
       newItemsData.byId[itemId] = itemsData[itemId];
       newItemsData.byId[itemId].id = itemId;
       newItemsData.byId[itemId].key = itemKey;
+      newItemsData.byId[itemId].desc = newItemsData.byId[itemId].desc
+        .replace(/\<i\>(.+)\<\/i\>/g, "$1")
+        .replace(/\<br\>/g, " | ")
+        .replace("%i:scaleHealth%", "health")
+        .replace("%i:scaleAD%", "attack damage")
+        .replace("%i:scaleAP%", "attack power")
+        .replace("%i:scaleAS%", "attack speed")
+        .replace("%i:scaleArmor%", "armor")
+        .replace("%i:scaleMana%", "mana");
       delete newItemsData.icon;
     }
   }

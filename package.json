@@ -13,10 +13,13 @@
     "@types/react-redux": "^7.1.1",
     "@types/react-router-dom": "^4.3.4",
     "@types/uuid": "^3.4.5",
+    "@types/warning": "^3.0.0",
     "classnames": "^2.2.6",
     "escape-string-regexp": "^2.0.0",
+    "fastdom": "^1.0.9",
     "immer": "^3.1.3",
     "lodash.find": "^4.6.0",
+    "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
@@ -30,7 +33,8 @@
     "redux-dynamic-modules-saga": "^5.0.1",
     "redux-saga": "^1.0.5",
     "typescript": "3.5.3",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "warning": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

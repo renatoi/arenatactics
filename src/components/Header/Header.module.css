@@ -27,10 +27,6 @@
   color: #e8decc;
   background-color: #212936 !important;
 }
-.logo {
-  margin: 0;
-  display: flex;
-}
 .logoLink {
   background: url("../../assets/kobogi_logo_small.png") center center no-repeat;
   width: 95px;

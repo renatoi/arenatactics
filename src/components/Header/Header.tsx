@@ -60,16 +60,14 @@ const Header: React.FC<HeaderProps> = ({ match }) => {
     <header className={styles.header}>
       <div className={styles.uh}>
         <nav className={styles.uhNav}>
-          <h1 className={styles.logo}>
-            <NavLink
-              className={cx(styles.uhNavLink, styles.logoLink)}
-              activeClassName={styles.uhNavLinkActive}
-              exact
-              to="/"
-            >
-              <span className="VisuallyHidden">Kobogi</span>
-            </NavLink>
-          </h1>
+          <NavLink
+            className={cx(styles.uhNavLink, styles.logoLink)}
+            activeClassName={styles.uhNavLinkActive}
+            exact
+            to="/"
+          >
+            <span className="VisuallyHidden">Kobogi</span>
+          </NavLink>
           <span className={styles.uhNavPrimary}>
             <NavLink
               className={styles.uhNavLink}

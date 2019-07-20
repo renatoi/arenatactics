@@ -1,0 +1,32 @@
+.championTitle {
+  margin-top: 0;
+}
+.championsList {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.bestSets {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 12px;
+}
+.itemSet {
+  background: rgba(0, 0, 0, 0.5);
+}
+.itemSetTitle {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 12px;
+  font-size: 16px;
+  margin: 0;
+}
+.itemSetBody {
+  padding: 0 12px 12px 12px;
+}
+.itemSetList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-column-gap: 4px;
+}

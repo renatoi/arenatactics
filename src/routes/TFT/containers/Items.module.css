@@ -1,0 +1,33 @@
+.masterContainer {
+  grid-template-columns: 200px auto;
+}
+.master {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 25% 75%;
+}
+.combinations {
+  background: rgba(0, 0, 0, 0.5);
+}
+.combinationRow {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+.combinationRow:nth-child(even) {
+  background: rgba(0, 0, 0, 0.7);
+}
+.combinationHeading {
+  background: rgba(0, 0, 0, 0.9);
+}
+.combination *,
+.combinationRecipe * {
+  vertical-align: middle;
+}
+.combination,
+.combinationRecipe {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  grid-column-gap: 12px;
+}

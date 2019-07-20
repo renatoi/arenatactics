@@ -1,0 +1,32 @@
+.championTooltip {
+  padding: 12px;
+}
+.championTitle {
+  font-size: 14px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-column-gap: 4px;
+  align-content: center;
+}
+.championDesc {
+  font-size: 12px;
+}
+.championTraits {
+  margin: 12px 0;
+  padding: 0;
+  list-style-type: none;
+}
+.championBestSets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.championBestSet {
+  margin-bottom: 4px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 4px;
+}
