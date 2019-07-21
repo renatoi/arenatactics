@@ -7,7 +7,7 @@ export const Detail: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   className,
   ...rest
 }) => (
-  <div className={cx(styles.detail, className)} {...rest}>
+  <main className={cx(styles.detail, className)} {...rest}>
     {children}
-  </div>
+  </main>
 );

@@ -11,6 +11,7 @@ export interface TFTItemOwnProps {
   readonly itemId: string;
   readonly width?: number;
   readonly height?: number;
+  readonly key?: string;
 }
 export interface TFTItemStateProps {
   readonly isLoading: boolean;
@@ -23,7 +24,8 @@ const TFTItem: React.FC<TFTItemProps> = ({
   items,
   itemId,
   width = 32,
-  height = 32
+  height = 32,
+  key
 }) => {
   if (items == null || itemId == null) return <></>;
   const currentItem = items.byId[itemId] || items.byId[items.byKey[itemId]];
@@ -70,6 +72,7 @@ const TFTItem: React.FC<TFTItemProps> = ({
   return (
     <Tooltip title={tooltipContent}>
       <img
+        key={key}
         src={`${process.env.PUBLIC_URL}/tft/tft_item_${getNormalizedItemName(
           currentItem.name
         )}.tft.png`}

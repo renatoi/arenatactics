@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { withRouter, RouteComponentProps } from "react-router-dom";
 import cx from "classnames";
+import ReactGA from "react-ga";
+import uuidv4 from "uuid/v4";
 import { tftFilterItems } from "../redux/actions";
 import { TFTItems, TFTItem } from "../types";
 import { AppState } from "../../../types";
@@ -61,6 +63,8 @@ class Items extends React.Component<TFTItemsProps> {
       itemsSearchQuery
     } = this.props;
 
+    ReactGA.pageview(match.url);
+
     if (isLoading || items == null || baseIds == null || combinedIds == null) {
       return <></>;
     }
@@ -73,7 +77,7 @@ class Items extends React.Component<TFTItemsProps> {
 
     const getItemDetails = () => {
       if (selectedItem == null) {
-        return <h3>Select an item to view details.</h3>;
+        return <h1>Select an item to view details.</h1>;
       }
 
       let combinedItems = [];
@@ -115,9 +119,15 @@ class Items extends React.Component<TFTItemsProps> {
                   .sort(firstEl =>
                     items.byId[firstEl].id === selectedItem.id ? -1 : 1
                   )
-                  .map(fromId => <ConnectedTFTItem itemId={fromId} />);
+                  .map(fromId => (
+                    <ConnectedTFTItem key={uuidv4()} itemId={fromId} />
+                  ));
                 return (
-                  <div role="row" className={styles.combinationRow}>
+                  <div
+                    key={uuidv4()}
+                    role="row"
+                    className={styles.combinationRow}
+                  >
                     <div role="cell" className={styles.combinationRecipe}>
                       {from}
                     </div>
@@ -180,6 +190,7 @@ class Items extends React.Component<TFTItemsProps> {
                 const item = items.byId[baseId];
                 return (
                   <MasterItem
+                    key={item.key}
                     to={match.path.replace(":itemKey", item.key)}
                     isSelected={item.key === selectedItemKey}
                   >
@@ -205,6 +216,7 @@ class Items extends React.Component<TFTItemsProps> {
                 const item = items.byId[combinedId];
                 return (
                   <MasterItem
+                    key={item.key}
                     to={match.path.replace(":itemKey", item.key)}
                     isSelected={item.key === selectedItemKey}
                   >

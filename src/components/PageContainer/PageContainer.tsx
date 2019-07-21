@@ -7,9 +7,9 @@ const PageContainer: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   className,
   ...rest
 }) => (
-  <div className={cx(styles.container, "Scrollable", className)} {...rest}>
+  <main className={cx(styles.container, "Scrollable", className)} {...rest}>
     {children}
-  </div>
+  </main>
 );
 
 export { PageContainer };

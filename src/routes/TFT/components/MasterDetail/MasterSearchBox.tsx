@@ -27,6 +27,7 @@ export const MasterSearchBox: React.FC<MasterSearchProps> = ({
       })}
     >
       <input
+        aria-label="Search"
         className={styles.searchBox}
         type="text"
         placeholder="Filter"

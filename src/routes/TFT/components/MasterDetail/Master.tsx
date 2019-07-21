@@ -7,7 +7,7 @@ export const Master: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   className,
   ...rest
 }) => (
-  <div className={cx(styles.master, className)} {...rest}>
+  <aside className={cx(styles.master, className)} {...rest}>
     {children}
-  </div>
+  </aside>
 );

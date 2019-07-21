@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5054"
+   version="1.1"
+   viewBox="0 0 23.018753 5.2916688"
+   height="20"
+   width="87"
+   sodipodi:docname="kobogi_logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     id="namedview22"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="12.175252"
+     inkscape:cx="55.819115"
+     inkscape:cy="3.7370455"
+     inkscape:window-x="1912"
+     inkscape:window-y="1432"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5054" />
+  <defs
+     id="defs5048" />
+  <metadata
+     id="metadata5051">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="matrix(0.12167609,0,0,0.12167609,-0.25769554,-0.33404906)">
+    <path
+       d="m 174.24884,3.014483 h 15.96402 v 42.552559 h -15.96402 z m -68.52066,0.12703 0.0683,42.82382 h 31.80855 V 3.141513 Z m 12.48754,9.23367 h 7.00077 l 0.13601,23.949738 h -7.13678 z m 21.87394,-9.23445 v 42.82537 h 31.8786 V 19.900286 h -19.46461 v -7.458643 h 19.46461 v -9.30091 z m 12.64962,26.220373 h 8.30984 v 7.149077 h -8.30984 z M 37.536656,3.141513 l 0.0683,42.82382 h 31.80857 V 3.141513 Z m 12.48754,9.23367 h 7.00077 l 0.13602,23.949738 h -7.13679 z m -46.8206895,-9.15664 13.4328195,-0.071 0.0738,12.77985 4.4284,-12.77984 13.80185,0.071 -7.30686,21.086763 7.38067,21.512744 -13.87566,0.071 -4.35459,-13.134895 -0.0738,13.205875 H 3.2035065 Z m 68.6491595,-0.07703 0.0678,42.82382 H 103.72953 V 3.141513 Z m 12.17746,9.33617 h 8.15616 v 7.149463 h -8.15616 z m 0.13602,16.729023 h 8.15617 v 7.149465 h -8.15617 z"
+       style="fill:#37abc8;stroke:none;stroke-width:0.22805744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path527"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import cx from "classnames";
 import { withRouter, RouteComponentProps } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import ReactGA from "react-ga";
+import uuidv4 from "uuid/v4";
 import styles from "./Champions.module.css";
 import traitIcons from "../../../assets/Traits.module.css";
 import { AppState } from "../../../types";
@@ -60,7 +62,7 @@ class Champions extends React.Component<TFTChampionsProps> {
       isLoading,
       championsSearchQuery
     } = this.props;
-
+    ReactGA.pageview(match.url);
     const selectedChampionKey = match.params.championKey;
     const selectedChampion =
       selectedChampionKey != null && champions != null
@@ -170,6 +172,7 @@ class Champions extends React.Component<TFTChampionsProps> {
                                 <h5>Recipe:</h5>
                                 {item.from.map(fromId => (
                                   <ConnectedTFTItem
+                                    key={uuidv4()}
                                     itemId={fromId}
                                     width={24}
                                     height={24}

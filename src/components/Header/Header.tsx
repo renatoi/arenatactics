@@ -66,6 +66,18 @@ const Header: React.FC<HeaderProps> = ({ match }) => {
             exact
             to="/"
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="87"
+              height="20"
+              viewBox="0 0 23.019 5.292"
+              aria-hidden
+            >
+              <path
+                fill="#37abc8"
+                d="M20.944.033h1.943V5.21h-1.943zm-8.337.015l.008 5.21h3.87V.049zm1.52 1.124h.851l.017 2.914h-.869zm2.66-1.124v5.21h3.88v-3.17h-2.369V1.18h2.369V.048zm1.54 3.19h1.011v.87h-1.011zM4.31.048l.008 5.21h3.87V.049zm1.52 1.124h.85l.017 2.914H5.83zM.131.058l1.635-.01.009 1.556.538-1.555 1.68.009-.89 2.565.899 2.618-1.689.009-.53-1.599-.008 1.607H.132zm8.353-.01l.008 5.21h3.87V.049zm1.482 1.136h.992v.87h-.992zm.016 2.036h.993v.87h-.993z"
+              />
+            </svg>
             <span className="VisuallyHidden">Kobogi</span>
           </NavLink>
           <span className={styles.uhNavPrimary}>

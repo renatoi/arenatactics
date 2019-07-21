@@ -74,7 +74,7 @@ const TFTChampion: React.FC<TFTChampionProps> = ({
         src={`${process.env.PUBLIC_URL}/tft/tft_${currentChampion.key}.png`}
         width={width}
         height={height}
-        alt={currentChampion.name}
+        alt=""
       />
     </Tooltip>
   );

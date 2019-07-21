@@ -2,8 +2,10 @@ import React from "react";
 // import styles from "./Register.module.css";
 import { PageContainer } from "../../components/PageContainer/PageContainer";
 import { Helmet } from "react-helmet";
+import ReactGA from "react-ga";
 
 const Register: React.FC = () => {
+  ReactGA.pageview("/register");
   return (
     <PageContainer>
       <Helmet>
