@@ -31,3 +31,33 @@
   align-items: center;
   grid-column-gap: 12px;
 }
+.itemHeader {
+  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-bottom: 1px dotted #333;
+  padding: 12px;
+  display: flex;
+}
+.itemTitle {
+  font-size: 16px;
+  margin: 0;
+}
+.itemTitle:after {
+  content: ":";
+  margin-right: 8px;
+}
+.itemDesc {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.details {
+  display: grid;
+  grid-template-columns: max-content auto;
+}

@@ -34,14 +34,23 @@ export const TFTReducer = (
 
         case TFTActions.FilterChampions:
           const filterChampionsAction = action as TFTActionFilterChampions;
-          const visibleChampions = Object.keys(state.champions.byId).filter(
-            championId =>
-              state.champions.byId[championId].name
-                .toLowerCase()
-                .search(
-                  escapeStringRegexp(filterChampionsAction.query.toLowerCase())
-                ) >= 0
-          );
+          const visibleChampions = Object.keys(state.champions.byId)
+            .filter(
+              championId =>
+                state.champions.byId[championId].name
+                  .toLowerCase()
+                  .search(
+                    escapeStringRegexp(
+                      filterChampionsAction.query.toLowerCase()
+                    )
+                  ) >= 0
+            )
+            .sort((championId1, championId2) =>
+              state.champions.byId[championId1].name >
+              state.champions.byId[championId2].name
+                ? 1
+                : -1
+            );
           draft.visibleChampions = visibleChampions;
           draft.championsSearchQuery = filterChampionsAction.query;
           break;

@@ -47,6 +47,10 @@ class Champions extends React.Component<TFTChampionsProps> {
     this.props.dispatchFilterChampions(e.currentTarget.value);
   };
 
+  handleClearSearch = (e: React.MouseEvent<HTMLButtonElement>) => {
+    this.props.dispatchFilterChampions("");
+  };
+
   render() {
     const {
       match,
@@ -104,6 +108,7 @@ class Champions extends React.Component<TFTChampionsProps> {
             <MasterSearchBox
               value={championsSearchQuery}
               onSearchChange={this.handleSearchChange}
+              onClearSearch={this.handleClearSearch}
             />
           </MasterHeader>
           <MasterList className={styles.championsList}>

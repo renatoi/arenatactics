@@ -47,6 +47,10 @@ class Items extends React.Component<TFTItemsProps> {
     this.props.dispatchFilterItems(e.currentTarget.value);
   };
 
+  handleClearSearch = (e: React.MouseEvent<HTMLButtonElement>) => {
+    this.props.dispatchFilterItems("");
+  };
+
   render() {
     const {
       match,
@@ -85,7 +89,6 @@ class Items extends React.Component<TFTItemsProps> {
       }
       const combinations = combinedItems.length > 0 && (
         <>
-          <h2>Combinations</h2>
           <div className={styles.combinations} role="table">
             <div role="rowgroup">
               <div role="row" className={styles.combinationRow}>
@@ -137,8 +140,12 @@ class Items extends React.Component<TFTItemsProps> {
 
       return (
         <>
-          <h1>{selectedItem.name}</h1>
-          <p>{getItemDescription(selectedItem.desc, selectedItem.effects)}</p>
+          <header className={styles.itemHeader}>
+            <h1 className={styles.itemTitle}>{selectedItem.name}</h1>
+            <p className={styles.itemDesc}>
+              {getItemDescription(selectedItem.desc, selectedItem.effects)}
+            </p>
+          </header>
           {combinations}
         </>
       );
@@ -190,6 +197,7 @@ class Items extends React.Component<TFTItemsProps> {
               <MasterSearchBox
                 value={itemsSearchQuery}
                 onSearchChange={this.handleSearchChange}
+                onClearSearch={this.handleClearSearch}
               />
             </MasterHeader>
             <MasterList>
@@ -207,7 +215,7 @@ class Items extends React.Component<TFTItemsProps> {
             </MasterList>
           </MasterGroup>
         </Master>
-        <Detail>{getItemDetails()}</Detail>
+        <Detail className={styles.itemDetails}>{getItemDetails()}</Detail>
       </MasterDetail>
     );
   }

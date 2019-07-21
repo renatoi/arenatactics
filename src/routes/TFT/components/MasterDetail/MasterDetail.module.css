@@ -59,20 +59,34 @@
 .navLinkSelected {
   background: #465973;
 }
-.searchBox {
-  color: white;
-  font-size: 16px;
-  padding: 6px;
-  border: 1px solid #333;
+.searchBoxWrapper {
+  display: grid;
+  grid-template-columns: auto max-content;
+  align-items: center;
   background: #171e26;
-  outline: 0;
   border: 1px solid transparent;
   border-radius: 4px;
   width: 100%;
   margin-bottom: 8px;
+  padding: 4px 12px;
 }
-.searchBox:focus {
+.searchBoxWrapperFocus {
   border: 1px solid #09bbdd;
+}
+.searchBox {
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  padding: 6px;
+  outline: 0;
+}
+.searchBoxClear {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* detail */
