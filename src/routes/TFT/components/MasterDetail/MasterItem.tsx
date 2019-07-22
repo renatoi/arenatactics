@@ -1,7 +1,7 @@
 import React from "react";
 import cx from "classnames";
 import { NavLink } from "react-router-dom";
-import styles from "./MasterDetail.module.css";
+import styles from "./MasterDetail.module.scss";
 
 export interface MasterItemProps extends React.HTMLProps<HTMLLIElement> {
   readonly to: string;

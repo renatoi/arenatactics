@@ -30,6 +30,7 @@ import { MasterGroup } from "./MasterGroup";
 import { MasterHeader } from "./MasterHeader";
 import { MasterHeading } from "./MasterHeading";
 import { MasterSearchBox } from "./MasterSearchBox";
+import { MasterFilterBox } from "./MasterFilterBox";
 import { MasterList } from "./MasterList";
 import { MasterItem } from "./MasterItem";
 import { Detail } from "./Detail";
@@ -41,6 +42,7 @@ export {
   MasterHeader,
   MasterHeading,
   MasterSearchBox,
+  MasterFilterBox,
   MasterList,
   MasterItem,
   Detail

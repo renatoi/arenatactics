@@ -207,6 +207,8 @@ class Items extends React.Component<TFTItemsProps> {
               </MasterHeading>
               <MasterSearchBox
                 value={itemsSearchQuery}
+                label="Search combined items"
+                placeholder="Search"
                 onSearchChange={this.handleSearchChange}
                 onClearSearch={this.handleClearSearch}
               />

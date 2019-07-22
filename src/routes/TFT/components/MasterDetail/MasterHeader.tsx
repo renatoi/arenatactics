@@ -1,6 +1,13 @@
 import React from "react";
-import styles from "./MasterDetail.module.css";
+import cx from "classnames";
+import styles from "./MasterDetail.module.scss";
 
-export const MasterHeader: React.FC = ({ children }) => (
-  <div className={styles.masterHeader}>{children}</div>
+export const MasterHeader: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  children,
+  className,
+  ...rest
+}) => (
+  <div className={cx(styles.masterHeader, className)} {...rest}>
+    {children}
+  </div>
 );

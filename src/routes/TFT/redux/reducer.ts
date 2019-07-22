@@ -35,16 +35,21 @@ export const TFTReducer = (
         case TFTActions.FilterChampions:
           const filterChampionsAction = action as TFTActionFilterChampions;
           const visibleChampions = Object.keys(state.champions.byId)
-            .filter(
-              championId =>
-                state.champions.byId[championId].name
-                  .toLowerCase()
-                  .search(
-                    escapeStringRegexp(
-                      filterChampionsAction.query.toLowerCase()
-                    )
-                  ) >= 0
-            )
+            .filter(championId => {
+              const champion = state.champions.byId[championId];
+              const traits = [...champion.traits].map(trait =>
+                trait.toLowerCase()
+              );
+              const searchItems = [
+                champion.name,
+                ...traits,
+                champion.cost.toString()
+              ];
+              const query = escapeStringRegexp(
+                filterChampionsAction.query.toLowerCase()
+              );
+              return searchItems.find(item => item.includes(query));
+            })
             .sort((championId1, championId2) =>
               state.champions.byId[championId1].name >
               state.champions.byId[championId2].name

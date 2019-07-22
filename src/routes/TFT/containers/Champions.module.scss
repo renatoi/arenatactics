@@ -6,16 +6,16 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: grid;
-  grid-template-columns: max-content auto;
-  grid-column-gap: 24px;
+  display: flex;
   align-items: center;
 }
 .championTrait {
-  display: grid;
-  grid-template-columns: max-content auto;
-  grid-column-gap: 4px;
+  margin-left: 12px;
   align-items: center;
+  display: flex;
+}
+.traitIcon {
+  margin-right: 4px;
 }
 .championTitle {
   margin: 0;
@@ -24,13 +24,9 @@
   display: grid;
   grid-template-columns: auto auto;
 }
-.bestSets {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 24px;
-}
-.itemSets {
+.itemSet {
   background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
 }
 .itemSetTitle {
   background: rgba(0, 0, 0, 0.9);
@@ -41,13 +37,16 @@
 .itemSetBody {
   padding: 12px;
 }
+.itemSetDescription {
+  margin-top: 0;
+}
 .itemSetItemsList {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-rows: auto auto auto;
-  grid-row-gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 12px;
 }
 .itemSetItem {
   background: rgba(0, 0, 0, 0.9);
@@ -67,4 +66,7 @@
   grid-template-columns: repeat(3, max-content);
   align-items: center;
   grid-column-gap: 12px;
+}
+.itemSetitemDescription {
+  margin: 0;
 }

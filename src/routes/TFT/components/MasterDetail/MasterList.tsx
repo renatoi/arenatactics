@@ -1,6 +1,6 @@
 import React from "react";
 import cx from "classnames";
-import styles from "./MasterDetail.module.css";
+import styles from "./MasterDetail.module.scss";
 
 export const MasterList: React.FC<React.HTMLAttributes<HTMLElement>> = ({
   children,

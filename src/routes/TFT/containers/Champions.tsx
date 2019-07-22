@@ -5,8 +5,8 @@ import { withRouter, RouteComponentProps } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import ReactGA from "react-ga";
 import uuidv4 from "uuid/v4";
-import styles from "./Champions.module.css";
-import traitIcons from "../../../assets/Traits.module.css";
+import styles from "./Champions.module.scss";
+import traitStyles from "../../../assets/Traits.module.scss";
 import { AppState } from "../../../types";
 import { tftFilterChampions } from "../redux/actions";
 import {
@@ -16,7 +16,8 @@ import {
   MasterSearchBox,
   Master,
   MasterList,
-  MasterItem
+  MasterItem,
+  MasterFilterBox
 } from "../components/MasterDetail";
 import { TFTChampions, TFTItems } from "../types";
 import { ConnectedTFTChampion } from "../components/Champion";
@@ -84,7 +85,8 @@ class Champions extends React.Component<TFTChampionsProps> {
             background: `linear-gradient(180deg, rgba(33,41,54,0.9) 0%, rgba(33,41,54,1) 75%, rgba(33,41,54,1) 95%),
         url(${
           process.env.PUBLIC_URL
-        }/tft/tft_${selectedChampionKey}_splash.png) 0 0 no-repeat fixed`
+        }/tft/tft_${selectedChampionKey}_splash.png) 0 0 no-repeat fixed`,
+            backgroundSize: "cover"
           }
         : undefined;
 
@@ -109,9 +111,12 @@ class Champions extends React.Component<TFTChampionsProps> {
           <MasterHeader>
             <MasterSearchBox
               value={championsSearchQuery}
+              label="Search champions"
+              placeholder="Search by name, trait, or cost"
               onSearchChange={this.handleSearchChange}
               onClearSearch={this.handleClearSearch}
             />
+            <MasterFilterBox />
           </MasterHeader>
           <MasterList className={styles.championsList}>
             {visibleChampions.map(championId => {
@@ -141,11 +146,19 @@ class Champions extends React.Component<TFTChampionsProps> {
                 </h1>
                 <ul className={styles.championTraits}>
                   {selectedChampion.traits.map(trait => (
-                    <li key={trait} className={styles.championTrait}>
+                    <li
+                      key={trait}
+                      className={cx(
+                        styles.championTrait,
+                        traitStyles.trait_pill,
+                        traitStyles[`trait_pill_${trait.toLowerCase()}`]
+                      )}
+                    >
                       <i
-                        className={
-                          traitIcons[`trait_icon_${trait.toLowerCase()}`]
-                        }
+                        className={cx(
+                          styles.traitIcon,
+                          traitStyles[`trait_icon_${trait.toLowerCase()}`]
+                        )}
                       />
                       {trait}
                     </li>
@@ -153,44 +166,44 @@ class Champions extends React.Component<TFTChampionsProps> {
                 </ul>
               </header>
               <h2>Best item sets</h2>
-              <div className={styles.bestSets}>
-                {/* Using index as keys since these don't change, it's fine! */}
-                {selectedChampion.bestSets.map((set, setIndex) => (
-                  <div className={styles.itemSets} key={setIndex}>
-                    <h3 className={styles.itemSetTitle}>{set.name}</h3>
-                    <div className={styles.itemSetBody}>
-                      <ul className={styles.itemSetItemsList}>
-                        {set.items.map((itemId, itemIndex) => {
-                          const item = items.byId[itemId];
-                          return (
-                            <li key={itemIndex} className={styles.itemSetItem}>
-                              <h4 className={styles.itemSetItemName}>
-                                {<ConnectedTFTItem itemId={itemId} />}
-                                {item.name}
-                              </h4>
-                              <div className={styles.itemSetItemRecipe}>
-                                <h5>Recipe:</h5>
-                                {item.from.map(fromId => (
-                                  <ConnectedTFTItem
-                                    key={uuidv4()}
-                                    itemId={fromId}
-                                    width={24}
-                                    height={24}
-                                  />
-                                ))}
-                              </div>
-                              <p>
-                                {getItemDescription(item.desc, item.effects)}
-                              </p>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                      <p>{set.description}</p>
-                    </div>
+              {/* Using index as keys since these don't change, it's fine! */}
+              {selectedChampion.bestSets.map((set, setIndex) => (
+                <div className={styles.itemSet} key={setIndex}>
+                  <h3 className={styles.itemSetTitle}>{set.name}</h3>
+                  <div className={styles.itemSetBody}>
+                    <p className={styles.itemSetDescription}>
+                      {set.description}
+                    </p>
+                    <ul className={styles.itemSetItemsList}>
+                      {set.items.map((itemId, itemIndex) => {
+                        const item = items.byId[itemId];
+                        return (
+                          <li key={itemIndex} className={styles.itemSetItem}>
+                            <h4 className={styles.itemSetItemName}>
+                              {<ConnectedTFTItem itemId={itemId} />}
+                              {item.name}
+                            </h4>
+                            <div className={styles.itemSetItemRecipe}>
+                              <h5>Recipe:</h5>
+                              {item.from.map(fromId => (
+                                <ConnectedTFTItem
+                                  key={uuidv4()}
+                                  itemId={fromId}
+                                  width={24}
+                                  height={24}
+                                />
+                              ))}
+                            </div>
+                            <p className={styles.itemSetitemDescription}>
+                              {getItemDescription(item.desc, item.effects)}
+                            </p>
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </>
           ) : (
             <h1 className={styles.championTitle}>

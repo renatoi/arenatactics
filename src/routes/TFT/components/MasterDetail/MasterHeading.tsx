@@ -1,6 +1,6 @@
 import React from "react";
 import cx from "classnames";
-import styles from "./MasterDetail.module.css";
+import styles from "./MasterDetail.module.scss";
 
 export const MasterHeading: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   children,

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./MasterDetail.module.css";
+import styles from "./MasterDetail.module.scss";
 import cx from "classnames";
 
 export const MasterDetail: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({

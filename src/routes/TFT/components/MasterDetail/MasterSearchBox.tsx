@@ -1,16 +1,20 @@
 import React, { ChangeEventHandler, MouseEventHandler, useState } from "react";
-import styles from "./MasterDetail.module.css";
+import styles from "./MasterDetail.module.scss";
 import cx from "classnames";
 
 export interface MasterSearchProps {
   readonly onSearchChange: ChangeEventHandler<HTMLInputElement>;
   readonly onClearSearch: MouseEventHandler<HTMLButtonElement>;
   readonly value?: string;
+  readonly label?: string;
+  readonly placeholder?: string;
 }
 export const MasterSearchBox: React.FC<MasterSearchProps> = ({
   onSearchChange,
   onClearSearch,
-  value
+  value,
+  label,
+  placeholder
 }) => {
   const shouldShowClearButton = value != null && value !== "";
   const [isFocused, setFocused] = useState(false);
@@ -27,10 +31,10 @@ export const MasterSearchBox: React.FC<MasterSearchProps> = ({
       })}
     >
       <input
-        aria-label="Search"
+        aria-label={label}
         className={styles.searchBox}
         type="text"
-        placeholder="Filter"
+        placeholder={placeholder}
         value={value}
         onChange={onSearchChange}
         onFocus={handleSearchFocus}
