@@ -21,7 +21,7 @@ const TFTHome: React.FC<TFTHomeProps> = ({ match }) => {
       <h1>Teamfight Tactics</h1>
       <p>
         We're working hard to create the best guides and tools for Teamfight
-        Fortress. You will get the latest updates live even if it's a little
+        Tactics. You will get the latest updates live even if it's a little
         rough.
       </p>
     </PageContainer>
