@@ -12,6 +12,7 @@ import { Home } from "../../routes/Home/Home";
 import { Login } from "../../routes/Login/Login";
 import { Register } from "../../routes/Register/Register";
 import { TFTState } from "../../routes/TFT/types";
+import { GlobalMousePos } from "../../globals";
 
 ReactGA.initialize("UA-144208019-1", {
   debug: process.env.NODE_ENV === "development"
@@ -31,10 +32,15 @@ class App extends Component {
     });
   }
 
+  handleMouseMove = (event: React.MouseEvent) => {
+    GlobalMousePos.mouseX = event.clientX;
+    GlobalMousePos.mouseY = event.clientY;
+  };
+
   render() {
     return (
       <Provider store={this.store}>
-        <div className={styles.app}>
+        <div className={styles.app} onMouseMove={this.handleMouseMove}>
           <Router>
             <Route path="/" component={Header} />
             <Route path="/" exact component={Home} />

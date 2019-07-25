@@ -1,5 +1,5 @@
 import { call, put } from "redux-saga/effects";
-import { tftDataLoaded } from "./actions";
+import { dataLoaded } from "./actions";
 
 export function* championsSaga() {
   yield call(loadChampionsData);
@@ -11,5 +11,5 @@ function* loadChampionsData() {
   const response = yield call(fetch, url);
   const json = yield call([response, response.json]);
 
-  yield put(tftDataLoaded(json));
+  yield put(dataLoaded(json));
 }

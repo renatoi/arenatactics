@@ -4,7 +4,7 @@ import { withRouter, RouteComponentProps } from "react-router-dom";
 import cx from "classnames";
 import ReactGA from "react-ga";
 import uuidv4 from "uuid/v4";
-import { tftFilterItems } from "../redux/actions";
+import { searchItems } from "../redux/actions";
 import { TFTItems, TFTItem } from "../types";
 import { AppState } from "../../../types";
 import {
@@ -25,7 +25,7 @@ import { getItemDescription } from "../components/utils";
 import { Helmet } from "react-helmet";
 
 export interface TFTItemsDispatchProps {
-  readonly dispatchFilterItems: (query: string) => void;
+  readonly dispatchSearchItems: (query: string) => void;
 }
 export interface TFTItemsStateProps {
   readonly isLoading: boolean;
@@ -46,11 +46,11 @@ export interface TFTItemsProps
 
 class Items extends React.Component<TFTItemsProps> {
   handleSearchChange = (e: React.FormEvent<HTMLInputElement>) => {
-    this.props.dispatchFilterItems(e.currentTarget.value);
+    this.props.dispatchSearchItems(e.currentTarget.value);
   };
 
   handleClearSearch = (e: React.MouseEvent<HTMLButtonElement>) => {
-    this.props.dispatchFilterItems("");
+    this.props.dispatchSearchItems("");
   };
 
   render() {
@@ -271,7 +271,7 @@ const mapStateToProps = (
 };
 
 const mapDispatchToProps = {
-  dispatchFilterItems: tftFilterItems
+  dispatchSearchItems: searchItems
 };
 
 export const ConnectedItems = withRouter(

@@ -4,28 +4,36 @@ export interface TFTState {
   readonly visibleItems: string[];
   readonly visibleChampions: string[];
   readonly championsSearchQuery: string;
+  readonly championsFilterTraits: string[];
+  readonly championsFilterCosts: number[];
   readonly itemsSearchQuery: string;
   readonly champions: TFTChampions;
   readonly items: TFTItems;
-  readonly traits: TFTTrait[];
+  readonly traits: TFTTraits;
 }
 
 // Traits
-export interface TFTTraitVars {
-  readonly name: string;
-  readonly value: number;
+export interface TFTTraits {
+  readonly byId: TFTTraitMap;
 }
-
-export interface TFTTraitEffects {
-  readonly minUnits: number;
-  readonly vars: TFTTraitVars[];
+export interface TFTTraitMap {
+  readonly [id: string]: TFTTrait;
 }
-
 export interface TFTTrait {
+  readonly id: string;
+  readonly key: string;
   readonly name: string;
   readonly desc: string;
   readonly icon: string;
   readonly effects: TFTTraitEffects[];
+}
+export interface TFTTraitVars {
+  readonly name: string;
+  readonly value: number;
+}
+export interface TFTTraitEffects {
+  readonly minUnits: number;
+  readonly vars: TFTTraitVars[];
 }
 
 // Items
@@ -71,7 +79,7 @@ export interface TFTChampion {
   readonly name: string;
   readonly cost: number;
   readonly stats: TFTChampionStats;
-  readonly traits: TFTChampionTraits[];
+  readonly traits: string[];
   readonly ability: TFTChampionAbility;
   readonly bestSets: TFTChampionBestSet[];
   readonly key: string;

@@ -26,6 +26,18 @@ export enum TFTChampionTraits {
 
 export enum TFTActions {
   DataLoaded = "TFTDataLoaded",
-  FilterChampions = "TFTFilterChampions",
+
+  SearchChampions = "TFTSearchChampions",
+
+  AddTraitToChampionsFilter = "TFTAddTraitToChampionsFilter",
+  RemoveTraitFromChampionsFilter = "TFTRemoveTraitFromChampionsFilter",
+  ResetTraitsInChampionsFilter = "TFTResetTraitsInChampionsFilter",
+
+  AddCostToChampionsFilter = "TFTAddCostToChampionsFilter",
+  RemoveCostFromChampionsFilter = "TFTRemoveCostFromChampionsFilter",
+  ResetCostsInChampionsFilter = "TFTResetCostsInChampionsFilter",
+
+  ResetChampionsFilter = "TFTResetChampionsFilter",
+
   FilterItems = "TFTFilterItems"
 }

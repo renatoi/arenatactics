@@ -1,3 +1,6 @@
+.masterHeader {
+  display: flex;
+}
 .championHeader {
   display: flex;
   justify-content: space-between;
@@ -69,4 +72,62 @@
 }
 .itemSetitemDescription {
   margin: 0;
+}
+.filterList {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  min-width: 100px;
+}
+.filterListTraits {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.filterListButton {
+  border: 0;
+  padding: 8px 4px;
+  background: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.filterListItem {
+  display: flex;
+  align-items: center;
+}
+.filterListLabel {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px;
+  width: 100%;
+}
+
+.filterListItem:hover .filterListLabel,
+.filterListCheckbox:focus + .filterListLabel,
+.filterListButton:focus,
+.filterListButton:hover {
+  background: lighten($color: #171e26, $amount: 20%);
+}
+.filterBoxButton {
+  color: rgba(255, 255, 255, 0.5);
+  border: 0;
+  font-size: 12px;
+  background: lighten($color: #171e26, $amount: 20%);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 8px;
+}
+.filterListMore::after,
+.filterBoxButton::after {
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid transparent;
+  border-right: 0;
+  border-bottom: 0.3em solid transparent;
+  border-left: 0.3em solid;
 }

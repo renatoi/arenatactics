@@ -13,8 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-:root {
-  --color-accent: #09bbdd;
+button {
+  cursor: pointer;
 }
 
 .Scrollable {

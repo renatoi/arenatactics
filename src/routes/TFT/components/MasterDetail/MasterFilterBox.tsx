@@ -10,7 +10,7 @@ const portalRoot = document.body;
 export interface MasterFilterBoxProps
   extends React.HTMLAttributes<HTMLButtonElement> {}
 
-export const MasterFilterBox: React.FC<MasterFilterBoxProps> = ({}) => {
+export const MasterFilterBox: React.FC<MasterFilterBoxProps> = () => {
   const anchorRef = useRef<HTMLButtonElement>(null);
   const dropRightRef = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
