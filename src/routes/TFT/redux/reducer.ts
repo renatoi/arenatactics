@@ -131,11 +131,11 @@ const getFilteredChampions = (state: TFTState): string[] => {
         // search
         const traits = [...champion.traits].map(trait => trait.toLowerCase());
         const searchItems = [
-          champion.name,
+          champion.name.toLowerCase(),
           ...traits,
           champion.cost.toString()
         ];
-        const matchesSearch = searchItems.find(item => item.includes(query));
+        const matchesSearch = searchItems.some(item => item.includes(query));
 
         // trait
         const matchesTrait =
