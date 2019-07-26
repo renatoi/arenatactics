@@ -91,7 +91,7 @@ const Header: React.FC<HeaderProps> = ({ match }) => {
             </NavLink>
           </span>
           <span className={styles.uhNavSecondary}>
-            <NavLink
+            {/* <NavLink
               className={styles.uhNavLink}
               activeClassName={styles.uhNavLinkActive}
               to="/login"
@@ -104,7 +104,7 @@ const Header: React.FC<HeaderProps> = ({ match }) => {
               to="/register"
             >
               Register
-            </NavLink>
+            </NavLink> */}
           </span>
         </nav>
       </div>

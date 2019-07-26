@@ -16,14 +16,14 @@
   grid-template-columns: max-content auto max-content;
   grid-template-rows: 48px;
 }
-.uhNavLink {
+a.uhNavLink {
   color: #a5a9b2;
   text-decoration: none;
   padding: 0 12px;
   display: flex;
   align-items: center;
 }
-.uhNavLinkActive {
+a.uhNavLinkActive {
   color: #e8decc;
   background-color: #212936 !important;
 }
@@ -57,7 +57,7 @@
   display: flex;
   font-size: 14px;
 }
-.chNavLink {
+a.chNavLink {
   color: #cdbe91;
   text-decoration: none;
   padding: 12px 24px;
@@ -68,7 +68,7 @@
   border-bottom: 1px solid transparent;
   animation: border 0.2s ease-in;
 }
-.chNavLinkActive {
+a.chNavLinkActive {
   color: #e8decc;
   border-bottom: 1px solid #e8decc;
 }

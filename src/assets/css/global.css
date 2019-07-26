@@ -40,6 +40,13 @@ button {
   box-sizing: border-box;
 }
 
+a:link {
+  color: #37abc8;
+}
+a:visited {
+  color: #329db8;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

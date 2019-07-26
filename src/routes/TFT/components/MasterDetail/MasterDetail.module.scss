@@ -7,6 +7,13 @@
   height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows: 30% 70%;
+  }
+}
+
 /* master */
 .master {
   background: #212936;
@@ -42,7 +49,7 @@
 .masterItem {
   list-style-type: none;
 }
-.navLink {
+a.navLink {
   display: grid;
   grid-template-columns: max-content auto;
   grid-column-gap: 4px;
@@ -55,13 +62,13 @@
   background: #171e26;
   border: 1px solid transparent;
 }
-.navLink:focus,
-.navLink:hover {
+a.navLink:focus,
+a.navLink:hover {
   background: #364559;
   outline: none;
   border: 1px solid #09bbdd;
 }
-.navLinkSelected {
+a.navLinkSelected {
   background: #465973;
 }
 .searchBoxWrapper {
