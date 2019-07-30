@@ -1,0 +1,30 @@
+.gridContainer {
+  position: relative;
+}
+.svg {
+  width: 800px;
+  flex: 1;
+}
+.hexGroup {
+  transform: scale(0.8);
+}
+.hex {
+  transition: 0.4s;
+  fill: #bbdefb;
+}
+.hexEnemy {
+  fill: #ffcdd2;
+}
+.gridChampion {
+  position: absolute;
+  font-size: 12px;
+  color: black;
+}
+.gridChampionAvatar {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  border-radius: 10em;
+  border: 3px solid #333;
+}
