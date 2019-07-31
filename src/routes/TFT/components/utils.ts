@@ -1,11 +1,5 @@
 import { TFTItemEffect } from "../types";
 
-export const getPath = (path: string, from: string, to: string): string =>
-  path
-    .replace(from, to.replace(/'|\./g, ""))
-    .replace(/\s/g, "-")
-    .toLocaleLowerCase();
-
 export const getNormalizedItemName = (name: string): string =>
   name.replace(/'|\s|\./g, "").toLocaleLowerCase();
 

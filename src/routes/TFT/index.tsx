@@ -2,7 +2,7 @@ import React from "react";
 import { Route, RouteComponentProps } from "react-router-dom";
 import { DynamicModuleLoader } from "redux-dynamic-modules-react";
 import { TFTHome } from "./containers/Home";
-import { TFTBuilds } from "./containers/Builds";
+import { ConnectedBuilds } from "./containers/Builds";
 import { TFTModule } from "./redux/module";
 import { ConnectedItems } from "./containers/Items";
 import { ConnectedChampions } from "./containers/Champions";
@@ -11,7 +11,7 @@ interface TFTProps extends RouteComponentProps {}
 
 const TFT: React.FC<TFTProps> = ({ match }) => (
   <DynamicModuleLoader modules={[TFTModule]}>
-    <Route path={`${match.url}/builds`} component={TFTBuilds} />
+    <Route path={`${match.url}/builds`} component={ConnectedBuilds} />
     <Route
       path={`${match.url}/champions/:championKey?`}
       component={ConnectedChampions}

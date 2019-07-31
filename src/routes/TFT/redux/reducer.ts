@@ -25,18 +25,26 @@ export const TFTReducer = (
           const dataLoadedAction = action as IDataLoaded;
           const champions = dataLoadedAction.payload.champions;
           const items = dataLoadedAction.payload.items;
+          const builds = dataLoadedAction.payload.builds;
           draft.champions = champions;
           draft.traits = dataLoadedAction.payload.traits;
           draft.items = items;
+          draft.builds = builds;
           draft.visibleChampions = Object.keys(champions.byKey)
             .sort()
             .map(key => champions.byKey[key]);
           draft.visibleItems = Object.keys(items.byKey)
             .sort()
             .map(key => items.byKey[key]);
+          draft.visibleBuilds = Object.keys(builds.byKey)
+            .sort()
+            .map(key => builds.byKey[key]);
           draft.championsSearchQuery = "";
           draft.championsFilterTraits = [];
           draft.championsFilterCosts = [];
+          draft.buildsSearchQuery = "";
+          draft.buildsFilterTraits = [];
+          draft.buildsFilterTiers = [];
           break;
 
         case TFTActions.SearchChampions:
@@ -95,7 +103,7 @@ export const TFTReducer = (
           draft.visibleChampions = getFilteredChampions(draft);
           break;
 
-        case TFTActions.FilterItems:
+        case TFTActions.SearchItems:
           const filterItemsAction = action as ISearchItems;
           const visibleItems = Object.keys(state.items.byId).filter(itemId => {
             return (

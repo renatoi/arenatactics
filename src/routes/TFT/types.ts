@@ -1,15 +1,49 @@
-import { TFTChampionTraits } from "./constants";
-
 export interface TFTState {
   readonly visibleItems: string[];
+  readonly itemsSearchQuery: string;
+
   readonly visibleChampions: string[];
   readonly championsSearchQuery: string;
   readonly championsFilterTraits: string[];
   readonly championsFilterCosts: number[];
-  readonly itemsSearchQuery: string;
+
+  readonly visibleBuilds: string[];
+  readonly buildsSearchQuery: string;
+  readonly buildsFilterTraits: string[];
+  readonly buildsFilterTiers: string[];
+
   readonly champions: TFTChampions;
   readonly items: TFTItems;
   readonly traits: TFTTraits;
+  readonly builds: TFTBuilds;
+}
+
+// Builds
+export interface TFTBuilds {
+  readonly byId: TFTBuildMap;
+  readonly byKey: TFTBuildKeyMap;
+}
+export interface TFTBuildMap {
+  readonly [key: string]: TFTBuild;
+}
+export interface TFTBuildKeyMap {
+  readonly [key: string]: string;
+}
+export interface TFTBuild {
+  readonly id: string;
+  readonly key: string;
+  readonly name: string;
+  readonly tier: string;
+  readonly composition: TFTBuildComposition[];
+  readonly positioning: TFTBuildPositioning;
+  readonly guide: string; // TODO: Change to EditorState from DraftJS
+}
+export interface TFTBuildComposition {
+  readonly champion: string;
+  readonly items: string[];
+}
+export interface TFTBuildPositioning {
+  readonly [id: string]: string;
 }
 
 // Traits

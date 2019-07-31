@@ -4,18 +4,36 @@
 
 process.title = "normalize champions";
 
-var path = require("path");
-var fs = require("fs");
-var parse = require("csv-parse/lib/sync");
-var chalk = require("chalk");
-var { getNormalizedKey } = require("./utils");
+const path = require("path");
+const fs = require("fs");
+const parse = require("csv-parse/lib/sync");
+const chalk = require("chalk");
+const { getNormalizedKey, hashFnv32a } = require("./utils");
+
+// process best builds data
+const bestBuildsPath = path.resolve(__dirname, "tft-best-builds.json");
+const bestBuildsContent = fs.readFileSync(bestBuildsPath, {
+  encoding: "utf-8"
+});
+const bestBuildsJSON = JSON.parse(bestBuildsContent);
+const newBuildsData = { byId: {}, byKey: {} };
+
+bestBuildsJSON.forEach(bestBuild => {
+  const newBestBuild = { ...bestBuild };
+  const key = getNormalizedKey(newBestBuild.name);
+  const id = hashFnv32a(key, true);
+  newBestBuild.key = key;
+  newBestBuild.id = id;
+  newBuildsData.byId[id] = newBestBuild;
+  newBuildsData.byKey[key] = id;
+});
 
 // process best-items data
-const csvPath = path.resolve(__dirname, "tft-best-sets.csv");
-const csvContents = fs.readFileSync(csvPath, { encoding: "utf-8" });
+const bestItemsPath = path.resolve(__dirname, "tft-best-sets.csv");
+const bestItemsContents = fs.readFileSync(bestItemsPath, { encoding: "utf-8" });
 const bestItemsDictionary = {};
 
-const records = parse(csvContents, {
+const records = parse(bestItemsContents, {
   columns: true,
   skip_empty_lines: true
 });
@@ -56,6 +74,7 @@ for (let championId in championsData) {
     newChampionsData.byId[championId].key = championKey;
     delete newChampionsData.byId[championId].splash;
     delete newChampionsData.byId[championId].ability.icon;
+    delete newChampionsData.byId[championId].icon;
     if (!bestItemsDictionary.hasOwnProperty(championKey)) {
       throw new Error(`Missing best set data for ${championKey}`);
     }
@@ -89,23 +108,10 @@ for (let itemId in itemsData) {
         .replace("%i:scaleAS%", "attack speed")
         .replace("%i:scaleArmor%", "armor")
         .replace("%i:scaleMana%", "mana");
-      delete newItemsData.icon;
+      delete newItemsData.byId[itemId].icon;
     }
   }
 }
-
-String.prototype.hashCode = function() {
-  var hash = 0,
-    i,
-    chr;
-  if (this.length === 0) return hash;
-  for (i = 0; i < this.length; i++) {
-    chr = this.charCodeAt(i);
-    hash = (hash << 5) - hash + chr;
-    hash |= 0; // Convert to 32bit integer
-  }
-  return hash;
-};
 
 // process traits data
 const traitsData = sourceDataJSON.traits;
@@ -114,6 +120,7 @@ const newTraitsData = {
 };
 traitsData.forEach(trait => {
   newTraitsData.byId[trait.name] = trait;
+  delete newTraitsData.byId[trait.name].icon;
 });
 
 // put them all together
@@ -121,7 +128,8 @@ const newData = {
   ...sourceDataJSON,
   champions: newChampionsData,
   items: newItemsData,
-  traits: newTraitsData
+  traits: newTraitsData,
+  builds: newBuildsData
 };
 
 // write
