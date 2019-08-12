@@ -72,3 +72,6 @@ a.chNavLinkActive {
   color: #e8decc;
   border-bottom: 1px solid #e8decc;
 }
+a.hidden {
+  display: none;
+}

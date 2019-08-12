@@ -26,13 +26,6 @@ const TFTNav: React.FC<TFTNavProps> = ({ match }) => (
       >
         Home
       </NavLink>
-      {/* <NavLink
-        className={styles.chNavLink}
-        activeClassName={styles.chNavLinkActive}
-        to={`${match.url}/builds`}
-      >
-        Builds
-      </NavLink> */}
       <NavLink
         className={styles.chNavLink}
         activeClassName={styles.chNavLinkActive}
@@ -46,6 +39,20 @@ const TFTNav: React.FC<TFTNavProps> = ({ match }) => (
         to={`${match.url}/items`}
       >
         Items
+      </NavLink>
+      <NavLink
+        className={cx(styles.chNavLink, styles.hidden)}
+        activeClassName={styles.chNavLinkActive}
+        to={`${match.url}/builds`}
+      >
+        Builds
+      </NavLink>
+      <NavLink
+        className={cx(styles.chNavLink, styles.hidden)}
+        activeClassName={styles.chNavLinkActive}
+        to={`${match.url}/create-build`}
+      >
+        Create Build
       </NavLink>
     </ContextualNav>
   </>
