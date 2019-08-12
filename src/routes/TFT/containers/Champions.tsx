@@ -28,10 +28,17 @@ import {
   MasterItem
 } from "../components/MasterDetail";
 import { TFTChampions, TFTItems, TFTTraits } from "../types";
-import { ConnectedTFTChampion } from "../components/Champion";
-import { ConnectedTFTItem } from "../components/Item";
+import { Champion } from "../components/Champion/Champion";
+import { Item } from "../components/Item/Item";
 import { getItemDescription } from "../components/utils";
-import { Popover, PopoverEvents } from "../../../components/Popover/Popover";
+import {
+  FilterButton,
+  FilterPopover,
+  FilterItem,
+  FilterItemCheckbox
+} from "../components/Filter";
+import { TraitImage } from "../components/TraitImage/TraitImage";
+import { Disclaimer } from "../components/Disclaimer/Disclaimer";
 
 export interface TFTChampionsDispatchProps {
   readonly dispatchResetFilter: () => void;
@@ -150,123 +157,6 @@ const Champions: React.FC<TFTChampionsProps> = ({
     }
   };
 
-  const traitListFilter = () => {
-    return (
-      <ul className={cx(styles.filterList, styles.filterListTraits)}>
-        <li>
-          <button
-            className={styles.filterListButton}
-            type="button"
-            onClick={dispatchResetTraits}
-          >
-            Reset
-          </button>
-        </li>
-        {Object.keys(traits.byId)
-          .sort()
-          .map(trait => (
-            <li className={styles.filterListItem} key={trait}>
-              <input
-                id={`trait_${trait}`}
-                type="checkbox"
-                value={trait}
-                className={styles.filterListCheckbox}
-                onChange={handleTraitCheckboxChange}
-                checked={
-                  Array.isArray(championsFilterTraits) &&
-                  championsFilterTraits.includes(trait)
-                }
-              />
-              <label
-                htmlFor={`trait_${trait}`}
-                className={styles.filterListLabel}
-              >
-                {trait}
-              </label>
-            </li>
-          ))}
-      </ul>
-    );
-  };
-
-  const costListFilter = () => {
-    return (
-      <ul className={cx(styles.filterList, styles.filterListTraits)}>
-        <li>
-          <button
-            className={styles.filterListButton}
-            type="button"
-            onClick={dispatchResetCosts}
-          >
-            Reset
-          </button>
-        </li>
-        {[1, 2, 3, 4, 5].sort().map(cost => (
-          <li className={styles.filterListItem} key={cost}>
-            <input
-              id={`cost_${cost}`}
-              type="checkbox"
-              value={cost}
-              className={styles.filterListCheckbox}
-              onChange={handleCostCheckboxChange}
-              checked={
-                Array.isArray(championsFilterCosts) &&
-                championsFilterCosts.includes(cost)
-              }
-            />
-            <label htmlFor={`cost_${cost}`} className={styles.filterListLabel}>
-              {cost}
-            </label>
-          </li>
-        ))}
-      </ul>
-    );
-  };
-
-  const filterPopover = () => {
-    return (
-      <ul className={styles.filterList}>
-        <li>
-          <button
-            className={styles.filterListButton}
-            type="button"
-            onClick={dispatchResetFilter}
-          >
-            Reset All
-          </button>
-        </li>
-        <li>
-          <Popover
-            placement="right-start"
-            content={traitListFilter()}
-            eventType={PopoverEvents.MouseOver}
-          >
-            <button
-              className={cx(styles.filterListButton, styles.filterListMore)}
-              type="button"
-            >
-              Traits
-            </button>
-          </Popover>
-        </li>
-        <li>
-          <Popover
-            placement="right-start"
-            content={costListFilter()}
-            eventType={PopoverEvents.MouseOver}
-          >
-            <button
-              className={cx(styles.filterListButton, styles.filterListMore)}
-              type="button"
-            >
-              Costs
-            </button>
-          </Popover>
-        </li>
-      </ul>
-    );
-  };
-
   return (
     <MasterDetail>
       <Helmet>
@@ -282,11 +172,59 @@ const Champions: React.FC<TFTChampionsProps> = ({
             onSearchChange={handleSearchChange}
             onClearSearch={handleClearSearch}
           />
-          <Popover placement="right-start" content={filterPopover}>
-            <button type="button" className={styles.filterBoxButton}>
-              Filter
-            </button>
-          </Popover>
+          <FilterButton>
+            <FilterPopover>
+              <FilterItem onClick={dispatchResetFilter}>Reset All</FilterItem>
+              <FilterItem
+                content={
+                  <FilterPopover shouldSplitColumns={true}>
+                    <FilterItem onClick={dispatchResetTraits}>Reset</FilterItem>
+                    {Object.keys(traits.byId)
+                      .sort()
+                      .map(trait => (
+                        <FilterItemCheckbox
+                          key={`trait_${trait}`}
+                          id={`trait_${trait}`}
+                          value={trait}
+                          onChange={handleTraitCheckboxChange}
+                          checked={
+                            Array.isArray(championsFilterTraits) &&
+                            championsFilterTraits.includes(trait)
+                          }
+                        >
+                          {trait}
+                        </FilterItemCheckbox>
+                      ))}
+                  </FilterPopover>
+                }
+              >
+                Traits
+              </FilterItem>
+              <FilterItem
+                content={
+                  <FilterPopover>
+                    <FilterItem onClick={dispatchResetCosts}>Reset</FilterItem>
+                    {[1, 2, 3, 4, 5].sort().map(cost => (
+                      <FilterItemCheckbox
+                        key={`cost_${cost}`}
+                        id={`cost_${cost}`}
+                        value={cost.toString()}
+                        onChange={handleCostCheckboxChange}
+                        checked={
+                          Array.isArray(championsFilterCosts) &&
+                          championsFilterCosts.includes(cost)
+                        }
+                      >
+                        {cost.toString()}
+                      </FilterItemCheckbox>
+                    ))}
+                  </FilterPopover>
+                }
+              >
+                Costs
+              </FilterItem>
+            </FilterPopover>
+          </FilterButton>
         </MasterHeader>
         <MasterList className={styles.championsList}>
           {visibleChampions.map(championId => {
@@ -296,8 +234,9 @@ const Champions: React.FC<TFTChampionsProps> = ({
                 key={champion.key}
                 to={match.path.replace(":championKey", champion.key)}
                 isSelected={selectedChampionKey === champion.key}
+                linkClassName={styles.championsListItemLink}
               >
-                <ConnectedTFTChampion championId={championId} />
+                <Champion championId={championId} />
                 {champion.name}
               </MasterItem>
             );
@@ -322,12 +261,7 @@ const Champions: React.FC<TFTChampionsProps> = ({
                       traitStyles[`trait_pill_${trait.toLowerCase()}`]
                     )}
                   >
-                    <i
-                      className={cx(
-                        styles.traitIcon,
-                        traitStyles[`trait_icon_${trait.toLowerCase()}`]
-                      )}
-                    />
+                    <TraitImage name={trait.toLocaleLowerCase()} />
                     {trait}
                   </li>
                 ))}
@@ -335,47 +269,52 @@ const Champions: React.FC<TFTChampionsProps> = ({
             </header>
             <h2>Best item sets</h2>
             {/* Using index as keys since these don't change, it's fine! */}
-            {selectedChampion.bestSets.map((set, setIndex) => (
-              <div className={styles.itemSet} key={setIndex}>
-                <h3 className={styles.itemSetTitle}>{set.name}</h3>
-                <div className={styles.itemSetBody}>
-                  <p className={styles.itemSetDescription}>{set.description}</p>
-                  <ul className={styles.itemSetItemsList}>
-                    {set.items.map((itemId, itemIndex) => {
-                      const item = items.byId[itemId];
-                      return (
-                        <li key={itemIndex} className={styles.itemSetItem}>
-                          <h4 className={styles.itemSetItemName}>
-                            {<ConnectedTFTItem itemId={itemId} />}
-                            {item.name}
-                          </h4>
-                          <div className={styles.itemSetItemRecipe}>
-                            <h5>Recipe:</h5>
-                            {item.from.map(fromId => (
-                              <ConnectedTFTItem
-                                key={uuidv4()}
-                                itemId={fromId}
-                                width={24}
-                                height={24}
-                              />
-                            ))}
-                          </div>
-                          <p className={styles.itemSetitemDescription}>
-                            {getItemDescription(item.desc, item.effects)}
-                          </p>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              </div>
-            ))}
+            {selectedChampion.bestSets != null
+              ? selectedChampion.bestSets.map((set, setIndex) => (
+                  <div className={styles.itemSet} key={setIndex}>
+                    <h3 className={styles.itemSetTitle}>{set.name}</h3>
+                    <div className={styles.itemSetBody}>
+                      <p className={styles.itemSetDescription}>
+                        {set.description}
+                      </p>
+                      <ul className={styles.itemSetItemsList}>
+                        {set.items.map((itemId, itemIndex) => {
+                          const item = items.byId[itemId];
+                          return (
+                            <li key={itemIndex} className={styles.itemSetItem}>
+                              <h4 className={styles.itemSetItemName}>
+                                {<Item itemId={itemId} />}
+                                {item.name}
+                              </h4>
+                              <div className={styles.itemSetItemRecipe}>
+                                <h5>Recipe:</h5>
+                                {item.from.map(fromId => (
+                                  <Item
+                                    key={uuidv4()}
+                                    itemId={fromId}
+                                    width={24}
+                                    height={24}
+                                  />
+                                ))}
+                              </div>
+                              <p className={styles.itemSetitemDescription}>
+                                {getItemDescription(item.desc, item.effects)}
+                              </p>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  </div>
+                ))
+              : "Coming soon"}
           </>
         ) : (
           <h1 className={styles.championTitle}>
             Select a champion to view details.
           </h1>
         )}
+        <Disclaimer />
       </Detail>
     </MasterDetail>
   );

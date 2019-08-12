@@ -11,7 +11,7 @@ const chalk = require("chalk");
 const { getNormalizedKey, hashFnv32a } = require("./utils");
 
 // process best builds data
-const bestBuildsPath = path.resolve(__dirname, "tft-best-builds.json");
+const bestBuildsPath = path.resolve(__dirname, "tft-best-builds-en_us.json");
 const bestBuildsContent = fs.readFileSync(bestBuildsPath, {
   encoding: "utf-8"
 });
@@ -72,14 +72,15 @@ for (let championId in championsData) {
     newChampionsData.byKey[championKey] = championId;
     newChampionsData.byId[championId] = championsData[championId];
     newChampionsData.byId[championId].key = championKey;
+    newChampionsData.byId[championId].id = championId;
     delete newChampionsData.byId[championId].splash;
     delete newChampionsData.byId[championId].ability.icon;
     delete newChampionsData.byId[championId].icon;
-    if (!bestItemsDictionary.hasOwnProperty(championKey)) {
-      throw new Error(`Missing best set data for ${championKey}`);
+    delete newChampionsData.byId[championId].stats.initalMana;
+    if (bestItemsDictionary.hasOwnProperty(championKey)) {
+      newChampionsData.byId[championId].bestSets =
+        bestItemsDictionary[championKey];
     }
-    newChampionsData.byId[championId].bestSets =
-      bestItemsDictionary[championKey];
   }
 }
 
@@ -93,7 +94,8 @@ for (let itemId in itemsData) {
   if (itemsData.hasOwnProperty(itemId)) {
     // 100: duplicate spatula
     // 541: mortal reminder
-    if (itemId !== "100" && itemId !== "541") {
+    // 10002: Jammed (new item?)
+    if (itemId !== "100" && itemId !== "541" && itemId !== "10002") {
       const itemKey = getNormalizedKey(itemsData[itemId].name);
       newItemsData.byKey[itemKey] = itemId;
       newItemsData.byId[itemId] = itemsData[itemId];

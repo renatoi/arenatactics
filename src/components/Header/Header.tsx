@@ -26,13 +26,13 @@ const TFTNav: React.FC<TFTNavProps> = ({ match }) => (
       >
         Home
       </NavLink>
-      <NavLink
+      {/* <NavLink
         className={styles.chNavLink}
         activeClassName={styles.chNavLinkActive}
         to={`${match.url}/builds`}
       >
         Builds
-      </NavLink>
+      </NavLink> */}
       <NavLink
         className={styles.chNavLink}
         activeClassName={styles.chNavLinkActive}

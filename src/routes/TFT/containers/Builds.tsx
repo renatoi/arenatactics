@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, ChangeEvent } from "react";
 import { Helmet } from "react-helmet";
 import { RouteComponentProps, withRouter } from "react-router";
 import ReactGA from "react-ga";
@@ -14,8 +14,6 @@ import {
   MasterItem
 } from "../components/MasterDetail";
 import { TFTChampions, TFTItems, TFTTraits, TFTBuilds } from "../types";
-import { Popover } from "../../../components/Popover/Popover";
-import { ConnectedTFTChampion } from "../components/Champion";
 import cx from "classnames";
 import { AppState } from "../../../types";
 import { connect } from "react-redux";
@@ -29,6 +27,14 @@ import {
   removeTierFromBuildsFilter,
   resetTiersInBuildsFilter
 } from "../redux/actions";
+import {
+  FilterButton,
+  FilterItem,
+  FilterPopover,
+  FilterItemCheckbox
+} from "../components/Filter";
+import { ChampionCard } from "../components/ChampionCard";
+import { PageContainer } from "../../../components/PageContainer/PageContainer";
 
 export interface BuildsDispatchProps {
   readonly dispatchResetFilter: () => void;
@@ -70,7 +76,16 @@ const Builds: React.FC<BuildsProps> = ({
   items,
   traits,
   buildsSearchQuery,
-  dispatchSearchBuilds
+  buildsFilterTraits,
+  buildsFilterTiers,
+  dispatchSearchBuilds,
+  dispatchResetFilter,
+  dispatchResetTraits,
+  dispatchAddTraitToFilter,
+  dispatchRemoveTraitFromFilter,
+  dispatchAddTierToFilter,
+  dispatchRemoveTierFromFilter,
+  dispatchResetTiers
 }) => {
   // page view
   useEffect(() => {
@@ -78,13 +93,8 @@ const Builds: React.FC<BuildsProps> = ({
   }, [match.url]);
 
   const buildKeyParam = match.params.buildKey;
-  let selectedBuildId: string | undefined;
-  if (buildKeyParam != null) {
-    const buildIdMatch = buildKeyParam.match(/^\d+/);
-    if (buildIdMatch != null) {
-      selectedBuildId = buildIdMatch[0];
-    }
-  }
+  let selectedBuildId =
+    buildKeyParam != null ? buildKeyParam.substr(0, 8) : null;
   const selectedBuild =
     selectedBuildId != null && builds != null
       ? builds.byId[selectedBuildId]
@@ -102,6 +112,22 @@ const Builds: React.FC<BuildsProps> = ({
     return <></>;
   }
 
+  const handleTraitCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
+    if (event.currentTarget.checked) {
+      dispatchAddTraitToFilter(event.currentTarget.value);
+    } else {
+      dispatchRemoveTraitFromFilter(event.currentTarget.value);
+    }
+  };
+
+  const handleTierCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
+    if (event.currentTarget.checked) {
+      dispatchAddTierToFilter(event.currentTarget.value);
+    } else {
+      dispatchRemoveTierFromFilter(event.currentTarget.value);
+    }
+  };
+
   const handleSearchChange = (e: React.FormEvent<HTMLInputElement>) => {
     dispatchSearchBuilds(e.currentTarget.value);
   };
@@ -110,57 +136,125 @@ const Builds: React.FC<BuildsProps> = ({
     dispatchSearchBuilds("");
   };
 
-  return (
-    <MasterDetail>
-      <Helmet>
-        <title>Best Team Compositions / Builds for Teamfight Tactics</title>
-        <meta
-          name="description"
-          content="Detailed step-by-step builds / team compositions guides for Teamfight Tactics (TFT)"
-        />
-      </Helmet>
-      <Master>
-        <MasterHeader className={styles.masterHeader}>
-          <MasterSearchBox
-            value={buildsSearchQuery}
-            label="Search champions"
-            placeholder="Search by name, trait, or tier"
-            onSearchChange={handleSearchChange}
-            onClearSearch={handleClearSearch}
+  const isBuildsEnabled = localStorage.getItem("isBuildsEnabled");
+
+  if (isBuildsEnabled != null) {
+    return (
+      <MasterDetail>
+        <Helmet>
+          <title>Best Team Compositions / Builds for Teamfight Tactics</title>
+          <meta
+            name="description"
+            content="Detailed step-by-step builds / team compositions guides for Teamfight Tactics (TFT)"
           />
-          {/* <Popover placement="right-start" content={filterPopover}>
-            <button type="button" className={styles.filterBoxButton}>
-              Filter
-            </button>
-          </Popover> */}
-        </MasterHeader>
-        <MasterList className={styles.buildsList}>
-          {visibleBuilds.map(buildId => {
-            const build = builds.byId[buildId];
-            return (
-              <MasterItem
-                key={build.id}
-                to={match.path.replace(":buildKey", build.id)}
-                isSelected={selectedBuildId === build.id}
-              >
-                <span className={styles.buildName}>{build.name}</span>
-                <span className={styles.buildTier}>{build.tier}</span>
-              </MasterItem>
-            );
-          })}
-        </MasterList>
-      </Master>
-      <Detail className={cx(styles.championsDetail, "Scrollable")}>
-        <h1>Phantom Glacial Rangers</h1>
-        <p>by Lysandra, last updated July 30, 2019 (Patch 9.15).</p>
-        <h2 id="team-composition">Team composition</h2>
-        <h2 id="position">Positioning</h2>
-        <Grid />
-        <h2 id="build-guide">Build guide</h2>
-        <p>Detailed guide here</p>
-      </Detail>
-    </MasterDetail>
-  );
+        </Helmet>
+        <Master>
+          <MasterHeader className={cx(styles.masterHeader)}>
+            <MasterSearchBox
+              value={buildsSearchQuery}
+              label="Search champions"
+              placeholder="Search by name, trait, or tier"
+              onSearchChange={handleSearchChange}
+              onClearSearch={handleClearSearch}
+            />
+            <FilterButton>
+              <FilterPopover>
+                <FilterItem onClick={dispatchResetFilter}>Reset All</FilterItem>
+                <FilterItem
+                  content={
+                    <FilterPopover>
+                      <FilterItem onClick={dispatchResetTiers}>
+                        Reset
+                      </FilterItem>
+                      {["S", "A", "B", "C", "D"].map(tier => (
+                        <FilterItemCheckbox
+                          key={`tier_${tier}`}
+                          id={`tier_${tier}`}
+                          value={tier}
+                          onChange={handleTierCheckboxChange}
+                          checked={
+                            Array.isArray(buildsFilterTiers) &&
+                            buildsFilterTiers.includes(tier)
+                          }
+                        >
+                          {tier}
+                        </FilterItemCheckbox>
+                      ))}
+                    </FilterPopover>
+                  }
+                >
+                  Tier
+                </FilterItem>
+                {/* <FilterItem>Traits</FilterItem> */}
+              </FilterPopover>
+            </FilterButton>
+          </MasterHeader>
+          <MasterList className={styles.buildsList}>
+            {visibleBuilds.map(buildId => {
+              const build = builds.byId[buildId];
+              return (
+                <MasterItem
+                  key={build.id}
+                  to={match.path.replace(
+                    ":buildKey",
+                    `${build.id}-${build.key}`
+                  )}
+                  isSelected={selectedBuildId === build.id}
+                  linkClassName={styles.buildLink}
+                >
+                  <span className={styles.buildName}>{build.name}</span>
+                  <span
+                    className={cx(
+                      styles.buildTier,
+                      styles[`tier${build.tier}`]
+                    )}
+                  >
+                    {build.tier}
+                  </span>
+                </MasterItem>
+              );
+            })}
+          </MasterList>
+        </Master>
+        <Detail className={cx(styles.buildsDetail, "Scrollable")}>
+          {selectedBuild != null ? (
+            <>
+              <h1 className={styles.buildsTitle}>{selectedBuild.name}</h1>
+              <p>by Lysandra, last updated July 30, 2019 (Patch 9.15).</p>
+              <h2 id="team-composition" className={styles.heading}>
+                Team composition
+              </h2>
+              <div className={styles.cards}>
+                {selectedBuild.composition.map(championInfo => (
+                  <ChampionCard
+                    key={championInfo.champion}
+                    championId={championInfo.champion}
+                    championItems={championInfo.items}
+                    isCarry={championInfo.isCarry}
+                  />
+                ))}
+              </div>
+              <h2 id="position" className={styles.heading}>
+                Positioning
+              </h2>
+              <Grid
+                positions={selectedBuild.positioning}
+                champions={champions}
+              />
+              <h2 id="build-guide" className={styles.heading}>
+                Build guide
+              </h2>
+              <p>Detailed guide here</p>
+            </>
+          ) : (
+            <h1 className={styles.buildsTitle}>Please select a build</h1>
+          )}
+        </Detail>
+      </MasterDetail>
+    );
+  } else {
+    return <PageContainer>Coming soon</PageContainer>;
+  }
 };
 
 const mapStateToProps = (

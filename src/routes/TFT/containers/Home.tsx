@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import ReactGA from "react-ga";
 import { RouteComponentProps } from "react-router";
 import { NavLink } from "react-router-dom";
+import { Disclaimer } from "../components/Disclaimer/Disclaimer";
 
 export interface TFTHomeProps extends RouteComponentProps {}
 const TFTHome: React.FC<TFTHomeProps> = ({ match }) => {
@@ -31,6 +32,7 @@ const TFTHome: React.FC<TFTHomeProps> = ({ match }) => {
         ready. If you have any feedback, please send them to{" "}
         <a href="mailto:feedback@kobogi.com">feedback@kobogi.com</a>.
       </p>
+      <Disclaimer />
     </PageContainer>
   );
 };

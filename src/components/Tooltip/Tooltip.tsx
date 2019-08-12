@@ -1,7 +1,7 @@
 import React from "react";
 import warning from "warning";
 import ReactDOM from "react-dom";
-import styles from "./Tooltip.module.css";
+import styles from "./Tooltip.module.scss";
 import PopperJS from "popper.js";
 import cx from "classnames";
 
@@ -35,6 +35,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
 
   React.useEffect(() => {
     if (isOpen && anchorRef.current != null && tooltipRef.current != null) {
+      console.log("ENTERED");
       const handlePopperCreate = (data: PopperJS.Data) => {
         setPlacement(data.placement);
       };

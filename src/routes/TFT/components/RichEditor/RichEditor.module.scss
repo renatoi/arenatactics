@@ -1,0 +1,25 @@
+@import "../../../../assets/css/vars.scss";
+
+.toolbar {
+  display: flex;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.editor {
+  background: $main-color;
+  padding: 12px;
+  min-height: 600px;
+  cursor: text;
+}
+.formatButton {
+  background: inherit;
+  color: inherit;
+  border: 1px;
+  border: 1px solid transparent;
+  padding: 12px;
+}
+.formatButtonActive {
+  background: $selected-color;
+  border: 1px solid $selected-outline-color;
+}

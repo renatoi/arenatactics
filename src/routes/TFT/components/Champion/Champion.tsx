@@ -1,24 +1,24 @@
 import React from "react";
 import { connect } from "react-redux";
-import { AppState } from "../../../types";
+import { AppState } from "../../../../types";
 import styles from "./Champion.module.css";
-import { TFTChampions, TFTItems } from "../types";
-import { Tooltip } from "../../../components/Tooltip/Tooltip";
-import { getNormalizedItemName } from "./utils";
+import { TFTChampions, TFTItems } from "../../types";
+import { Tooltip } from "../../../../components/Tooltip/Tooltip";
+import { getNormalizedItemName } from "../utils";
 
-export interface TFTChampionOwnProps {
+export interface ChampionOwnProps {
   readonly championId: string;
   readonly width?: number;
   readonly height?: number;
 }
-interface TFTChampionStateProps {
+interface ChampionStateProps {
   readonly isLoading: boolean;
   readonly champions?: TFTChampions;
   readonly items?: TFTItems;
 }
-interface TFTChampionProps extends TFTChampionOwnProps, TFTChampionStateProps {}
+interface ChampionProps extends ChampionOwnProps, ChampionStateProps {}
 
-const TFTChampion: React.FC<TFTChampionProps> = ({
+const ChampionSFC: React.FC<ChampionProps> = ({
   champions,
   championId,
   items,
@@ -82,8 +82,8 @@ const TFTChampion: React.FC<TFTChampionProps> = ({
 
 const mapStateToProps = (
   state: AppState,
-  ownProps: TFTChampionOwnProps
-): TFTChampionStateProps => {
+  ownProps: ChampionOwnProps
+): ChampionStateProps => {
   if (!state.TFT || !state.TFT.champions || !state.TFT.items) {
     return {
       ...ownProps,
@@ -98,9 +98,9 @@ const mapStateToProps = (
   };
 };
 
-export const ConnectedTFTChampion = connect<
-  TFTChampionStateProps,
+export const Champion = connect<
+  ChampionStateProps,
   {},
-  TFTChampionOwnProps,
+  ChampionOwnProps,
   AppState
->(mapStateToProps)(TFTChampion);
+>(mapStateToProps)(ChampionSFC);

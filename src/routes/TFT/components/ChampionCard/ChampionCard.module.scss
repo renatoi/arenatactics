@@ -1,0 +1,49 @@
+.card {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.cardCarry {
+  border: 1px solid gold;
+}
+.items {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 4px;
+}
+.item {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+.itemCarry {
+  opacity: 1;
+}
+.itemSources {
+  display: flex;
+}
+.itemImage {
+  width: 100%;
+  height: auto;
+}
+.itemSourceImage {
+  opacity: 0.5;
+}
+
+.cardTitle {
+  margin: 0;
+  text-align: center;
+}
+.championImage {
+  border-radius: 100%;
+  margin: 12px;
+}

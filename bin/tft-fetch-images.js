@@ -13,7 +13,7 @@ const filePath = path.resolve(__dirname, "tft-en_us.json");
 const fileContents = fs.readFileSync(filePath, { encoding: "utf-8" });
 const json = JSON.parse(fileContents);
 
-const patch = "9.13.1";
+const patch = "9.15.1";
 
 const getId = name =>
   name
@@ -47,12 +47,13 @@ const download = (url, dest, cb) => {
     });
 };
 
+// CHAMPIONS + SPLASH
 for (let champion in json.champions) {
   if (json.champions.hasOwnProperty(champion)) {
     // download square
     const championSquarePath = path.resolve(
       __dirname,
-      `../src/assets/tft/tft_${getId(json.champions[champion].name)}.png`
+      `../public/tft/tft_${getId(json.champions[champion].name)}.png`
     );
     download(
       `https://cdn.communitydragon.org/${patch}/champion/${champion}/square`,
@@ -87,6 +88,31 @@ for (let champion in json.champions) {
           console.error(
             chalk.cyan(`Successfully downloaded ${championSplashPath}.`)
           );
+        }
+      }
+    );
+  }
+}
+
+// http://raw.communitydragon.org/pbe/game/assets/ux/traiticons/
+// TRAITS
+for (let trait in json.traits) {
+  if (json.traits.hasOwnProperty(trait)) {
+    // download square
+    const traitPath = path.resolve(
+      __dirname,
+      `../public/tft/trait_icon_${getId(json.traits[trait].name)}.png`
+    );
+    download(
+      `https://raw.communitydragon.org/pbe/game/assets/ux/traiticons/trait_icon_${getId(
+        json.traits[trait].name
+      )}.png`,
+      traitPath,
+      err => {
+        if (err) {
+          console.error(`Error writing file ${traitPath}: ${err.message}`);
+        } else {
+          console.error(chalk.cyan(`Successfully downloaded ${traitPath}.`));
         }
       }
     );

@@ -20,9 +20,10 @@ import {
 } from "../components/MasterDetail";
 import styles from "./Items.module.css";
 import { getObjectByKey } from "../../../utils";
-import { ConnectedTFTItem } from "../components/Item";
+import { Item } from "../components/Item/Item";
 import { getItemDescription } from "../components/utils";
 import { Helmet } from "react-helmet";
+import { Disclaimer } from "../components/Disclaimer/Disclaimer";
 
 export interface TFTItemsDispatchProps {
   readonly dispatchSearchItems: (query: string) => void;
@@ -119,9 +120,7 @@ class Items extends React.Component<TFTItemsProps> {
                   .sort(firstEl =>
                     items.byId[firstEl].id === selectedItem.id ? -1 : 1
                   )
-                  .map(fromId => (
-                    <ConnectedTFTItem key={uuidv4()} itemId={fromId} />
-                  ));
+                  .map(fromId => <Item key={uuidv4()} itemId={fromId} />);
                 return (
                   <div
                     key={uuidv4()}
@@ -132,7 +131,7 @@ class Items extends React.Component<TFTItemsProps> {
                       {from}
                     </div>
                     <div role="cell" className={styles.combination}>
-                      <ConnectedTFTItem itemId={combinedItem.id} />
+                      <Item itemId={combinedItem.id} />
                       <span className={styles.combinationDescription}>
                         {getItemDescription(
                           combinedItem.desc,
@@ -185,7 +184,7 @@ class Items extends React.Component<TFTItemsProps> {
                 Base items
               </MasterHeading>
             </MasterHeader>
-            <MasterList>
+            <MasterList className={styles.masterList}>
               {baseIds.map(baseId => {
                 const item = items.byId[baseId];
                 return (
@@ -194,7 +193,7 @@ class Items extends React.Component<TFTItemsProps> {
                     to={match.path.replace(":itemKey", item.key)}
                     isSelected={item.key === selectedItemKey}
                   >
-                    <ConnectedTFTItem itemId={item.id} />
+                    <Item itemId={item.id} />
                   </MasterItem>
                 );
               })}
@@ -213,7 +212,7 @@ class Items extends React.Component<TFTItemsProps> {
                 onClearSearch={this.handleClearSearch}
               />
             </MasterHeader>
-            <MasterList>
+            <MasterList className={styles.masterList}>
               {combinedIds.map(combinedId => {
                 const item = items.byId[combinedId];
                 return (
@@ -222,14 +221,17 @@ class Items extends React.Component<TFTItemsProps> {
                     to={match.path.replace(":itemKey", item.key)}
                     isSelected={item.key === selectedItemKey}
                   >
-                    <ConnectedTFTItem itemId={item.id} />
+                    <Item itemId={item.id} />
                   </MasterItem>
                 );
               })}
             </MasterList>
           </MasterGroup>
         </Master>
-        <Detail className={styles.itemDetails}>{getItemDetails()}</Detail>
+        <Detail className={styles.itemDetails}>
+          {getItemDetails()}
+          <Disclaimer />
+        </Detail>
       </MasterDetail>
     );
   }

@@ -6,12 +6,20 @@ import { ConnectedBuilds } from "./containers/Builds";
 import { TFTModule } from "./redux/module";
 import { ConnectedItems } from "./containers/Items";
 import { ConnectedChampions } from "./containers/Champions";
+import { ConnectedCreateBuild } from "./containers/CreateBuild";
 
 interface TFTProps extends RouteComponentProps {}
 
 const TFT: React.FC<TFTProps> = ({ match }) => (
   <DynamicModuleLoader modules={[TFTModule]}>
-    <Route path={`${match.url}/builds`} component={ConnectedBuilds} />
+    <Route
+      path={`${match.url}/builds/:buildKey?`}
+      component={ConnectedBuilds}
+    />
+    <Route
+      path={`${match.url}/create-build`}
+      component={ConnectedCreateBuild}
+    />
     <Route
       path={`${match.url}/champions/:championKey?`}
       component={ConnectedChampions}

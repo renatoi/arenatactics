@@ -34,6 +34,8 @@ export interface TFTBuild {
   readonly key: string;
   readonly name: string;
   readonly tier: string;
+  readonly author: string;
+  readonly lang: string;
   readonly composition: TFTBuildComposition[];
   readonly positioning: TFTBuildPositioning;
   readonly guide: string; // TODO: Change to EditorState from DraftJS
@@ -41,6 +43,7 @@ export interface TFTBuild {
 export interface TFTBuildComposition {
   readonly champion: string;
   readonly items: string[];
+  readonly isCarry: boolean;
 }
 export interface TFTBuildPositioning {
   readonly [id: string]: string;

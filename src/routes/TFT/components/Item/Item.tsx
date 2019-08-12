@@ -1,31 +1,34 @@
 import React from "react";
 import uuidv4 from "uuid/v4";
 import { connect } from "react-redux";
-import { AppState } from "../../../types";
+import { AppState } from "../../../../types";
 import styles from "./Item.module.css";
-import { TFTItems } from "../types";
-import { getItemDescription, getNormalizedItemName } from "./utils";
-import { Tooltip } from "../../../components/Tooltip/Tooltip";
+import { TFTItems } from "../../types";
+import { getItemDescription, getNormalizedItemName } from "../utils";
+import { Tooltip } from "../../../../components/Tooltip/Tooltip";
+import { ItemImage } from "../ItemImage/ItemImage";
 
-export interface TFTItemOwnProps {
+export interface ItemOwnProps {
   readonly itemId: string;
   readonly width?: number;
   readonly height?: number;
   readonly key?: string;
+  readonly className?: string;
 }
-export interface TFTItemStateProps {
+export interface ItemStateProps {
   readonly isLoading: boolean;
   readonly items?: TFTItems;
 }
 
-interface TFTItemProps extends TFTItemOwnProps, TFTItemStateProps {}
+interface ItemProps extends ItemOwnProps, ItemStateProps {}
 
-const TFTItem: React.FC<TFTItemProps> = ({
+const ItemSFC: React.FC<ItemProps> = ({
   items,
   itemId,
   width = 32,
   height = 32,
-  key
+  key,
+  className
 }) => {
   if (items == null || itemId == null) return <></>;
   const currentItem = items.byId[itemId] || items.byId[items.byKey[itemId]];
@@ -71,14 +74,13 @@ const TFTItem: React.FC<TFTItemProps> = ({
   };
   return (
     <Tooltip title={tooltipContent}>
-      <img
+      <ItemImage
         key={key}
-        src={`${process.env.PUBLIC_URL}/tft/tft_item_${getNormalizedItemName(
-          currentItem.name
-        )}.tft.png`}
+        name={currentItem.name}
         width={width}
         height={height}
         alt={currentItem.name}
+        className={className}
       />
     </Tooltip>
   );
@@ -86,8 +88,8 @@ const TFTItem: React.FC<TFTItemProps> = ({
 
 const mapStateToProps = (
   state: AppState,
-  ownProps: TFTItemOwnProps
-): TFTItemStateProps => {
+  ownProps: ItemOwnProps
+): ItemStateProps => {
   if (!state.TFT || !state.TFT.items) {
     return {
       ...ownProps,
@@ -101,9 +103,6 @@ const mapStateToProps = (
   };
 };
 
-export const ConnectedTFTItem = connect<
-  TFTItemStateProps,
-  {},
-  TFTItemOwnProps,
-  AppState
->(mapStateToProps)(TFTItem);
+export const Item = connect<ItemStateProps, {}, ItemOwnProps, AppState>(
+  mapStateToProps
+)(ItemSFC);

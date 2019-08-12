@@ -1,0 +1,87 @@
+@import "../../../assets/css/vars.scss";
+
+.field {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+.fieldExpanded {
+  width: 100%;
+}
+.fieldLabel {
+  margin: 4px 0;
+}
+.fieldSelect {
+  height: 48px;
+}
+.fieldSelect,
+.fieldTextInput,
+.json {
+  border: 0;
+  background: #171e26;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  font-family: inherit;
+}
+.json {
+  width: 100%;
+  height: 300px;
+}
+.composition {
+  display: flex;
+  flex-wrap: wrap;
+}
+.championButton {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  background: none;
+  color: white;
+  align-items: center;
+  margin-bottom: 12px;
+  border: 1px solid transparent;
+  margin-right: 12px;
+  border-radius: 12px;
+  padding: 12px;
+  width: 128px;
+}
+.championButton:hover {
+  border: 1px solid $selected-outline-color;
+}
+.championButtonSelected {
+  background-color: $selected-outline-color;
+}
+.championImage {
+  border-radius: 100%;
+}
+.championName {
+  font-size: 12px;
+}
+.championsInfo {
+  display: flex;
+}
+.championsInfo fieldset > * {
+  margin-bottom: 8px;
+}
+.championItems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 4px;
+}
+.itemButton {
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+.itemsSelectList {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+}
+.itemSelectButton {
+  border: 0;
+  padding: 2px;
+  background: none;
+}

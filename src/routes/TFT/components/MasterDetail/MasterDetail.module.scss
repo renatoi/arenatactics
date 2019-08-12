@@ -40,25 +40,19 @@
   margin: 0;
   padding: 0 8px 0 0;
   height: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-column-gap: 2px;
-  grid-template-rows: repeat(auto-fill, 40px);
-  grid-row-gap: 2px;
 }
 .masterItem {
   list-style-type: none;
 }
-a.navLink {
-  display: grid;
-  grid-template-columns: max-content auto;
-  grid-column-gap: 4px;
-  align-items: center;
-  color: white;
-  text-decoration: none;
+.navLink {
+  display: block;
   margin-bottom: 2px;
   padding: 2px;
   font-size: 12px;
+}
+a.navLink {
+  color: white;
+  text-decoration: none;
   background: #171e26;
   border: 1px solid transparent;
 }

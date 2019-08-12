@@ -1,0 +1,57 @@
+.masterHeader {
+  display: flex;
+}
+.buildsList {
+  display: flex;
+  flex-direction: column;
+}
+a.buildLink {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+.buildTier {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 100%;
+}
+.tierS {
+  background-color: #ff7f7f;
+  color: black;
+}
+.tierA {
+  color: #ffbf7f;
+}
+.tierB {
+  color: #ffff7f;
+}
+.tierC {
+  color: #7fff7f;
+}
+.buildsTitle {
+  margin: 8px 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+.heading {
+  display: grid;
+  grid-template-columns: auto max-content auto;
+  align-items: center;
+  grid-column-gap: 12px;
+  margin: 24px 0;
+}
+.heading::before,
+.heading::after {
+  content: "";
+  height: 2px;
+  background: #fff;
+}

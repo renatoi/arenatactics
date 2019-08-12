@@ -1,3 +1,5 @@
+@import "../../assets/css/vars.scss";
+
 .tooltip {
   position: absolute;
   background: rgba(0, 0, 0, 0.95);
@@ -6,6 +8,7 @@
   top: 0;
   left: 0;
   visibility: hidden;
+  border: 3px solid $popover-border-color;
 }
 .tooltip[x-placement] {
   visibility: visible;

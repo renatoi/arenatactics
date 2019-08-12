@@ -7,7 +7,12 @@ import {
   IAddTraitToChampionsFilter,
   IRemoveTraitFromChampionsFilter,
   IRemoveCostFromChampionsFilter,
-  IAddCostToChampionsFilter
+  IAddCostToChampionsFilter,
+  ISearchBuilds,
+  IAddTraitToBuildsFilter,
+  IRemoveTraitFromBuildsFilter,
+  IAddTierToBuildsFilter,
+  IRemoveTierFromBuildsFilter
 } from "./actions";
 import { TFTState } from "../types";
 import { TFTActions } from "../constants";
@@ -47,6 +52,7 @@ export const TFTReducer = (
           draft.buildsFilterTiers = [];
           break;
 
+        //#region CHAMPIONS
         case TFTActions.SearchChampions:
           const filterChampionsAction = action as ISearchChampions;
           draft.championsSearchQuery = filterChampionsAction.query || "";
@@ -67,11 +73,11 @@ export const TFTReducer = (
           break;
 
         case TFTActions.RemoveTraitFromChampionsFilter:
-          const traitIndex = draft.championsFilterTraits.indexOf(
+          const championsTraitIndex = draft.championsFilterTraits.indexOf(
             (action as IRemoveTraitFromChampionsFilter).trait
           );
-          if (traitIndex !== -1) {
-            draft.championsFilterTraits.splice(traitIndex, 1);
+          if (championsTraitIndex !== -1) {
+            draft.championsFilterTraits.splice(championsTraitIndex, 1);
             draft.visibleChampions = getFilteredChampions(draft);
           }
           break;
@@ -102,6 +108,63 @@ export const TFTReducer = (
           draft.championsFilterCosts = [];
           draft.visibleChampions = getFilteredChampions(draft);
           break;
+        //#endregion
+
+        //#region BUILDS
+        case TFTActions.SearchBuilds:
+          const filterBuildsAction = action as ISearchBuilds;
+          draft.buildsSearchQuery = filterBuildsAction.query || "";
+          draft.visibleBuilds = getFilteredBuilds(draft);
+          break;
+
+        case TFTActions.ResetBuildsFilter:
+          draft.buildsFilterTraits = [];
+          draft.buildsFilterTiers = [];
+          draft.visibleBuilds = getFilteredBuilds(draft);
+          break;
+
+        case TFTActions.AddTraitToBuildsFilter:
+          draft.buildsFilterTraits.push(
+            (action as IAddTraitToBuildsFilter).trait
+          );
+          draft.visibleBuilds = getFilteredBuilds(draft);
+          break;
+
+        case TFTActions.RemoveTraitFromBuildsFilter:
+          const buildsTraitIndex = draft.buildsFilterTraits.indexOf(
+            (action as IRemoveTraitFromBuildsFilter).trait
+          );
+          if (buildsTraitIndex !== -1) {
+            draft.buildsFilterTraits.splice(buildsTraitIndex, 1);
+            draft.visibleBuilds = getFilteredBuilds(draft);
+          }
+          break;
+
+        case TFTActions.ResetTraitsInBuildsFilter:
+          draft.buildsFilterTraits = [];
+          draft.visibleBuilds = getFilteredBuilds(draft);
+          break;
+
+        case TFTActions.AddTierToBuildsFilter:
+          draft.buildsFilterTiers.push((action as IAddTierToBuildsFilter).tier);
+          draft.visibleBuilds = getFilteredBuilds(draft);
+          break;
+
+        case TFTActions.RemoveTierFromBuildsFilter:
+          const tierIndex = draft.buildsFilterTiers.indexOf(
+            (action as IRemoveTierFromBuildsFilter).tier
+          );
+          if (tierIndex !== -1) {
+            draft.buildsFilterTiers.splice(tierIndex, 1);
+            draft.visibleBuilds = getFilteredBuilds(draft);
+          }
+          break;
+
+        case TFTActions.ResetTiersInBuildsFilter:
+          draft.buildsFilterTiers = [];
+          draft.visibleBuilds = getFilteredBuilds(draft);
+          break;
+        //#endregion
 
         case TFTActions.SearchItems:
           const filterItemsAction = action as ISearchItems;
@@ -167,6 +230,51 @@ const getFilteredChampions = (state: TFTState): string[] => {
         champions.byId[championId1].name > champions.byId[championId2].name
           ? 1
           : -1
+      )
+  );
+};
+
+const getFilteredBuilds = (state: TFTState): string[] => {
+  const {
+    builds,
+    buildsSearchQuery,
+    buildsFilterTraits,
+    buildsFilterTiers
+  } = state;
+  const query = escapeStringRegexp(buildsSearchQuery.toLowerCase());
+  return (
+    Object.keys(builds.byId)
+      .filter(buildId => {
+        const build = builds.byId[buildId];
+        // search
+        //TODO: Handle trait const traits = [...build.traits].map(trait => trait.toLowerCase());
+        const searchItems = [
+          build.name.toLowerCase(),
+          // ...traits,
+          build.tier.toLowerCase()
+        ];
+        const matchesSearch = searchItems.some(item => item.includes(query));
+
+        // trait
+        // const matchesTrait =
+        //   buildsFilterTraits.length === 0
+        //     ? true
+        //     : buildsFilterTraits.some(filterTrait => {
+        //         return build.traits.includes(filterTrait);
+        //       });
+
+        // tier
+        const matchesTier =
+          buildsFilterTiers.length === 0
+            ? true
+            : buildsFilterTiers.includes(build.tier);
+
+        // if it matches all, then return true to filter item
+        return matchesSearch && matchesTier;
+      })
+      // sort result by build name
+      .sort((buildId1, buildId2) =>
+        builds.byId[buildId1].name > builds.byId[buildId2].name ? 1 : -1
       )
   );
 };
