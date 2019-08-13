@@ -1,3 +1,5 @@
+import { Value } from "slate";
+
 export interface TFTState {
   readonly visibleItems: string[];
   readonly itemsSearchQuery: string;
@@ -38,7 +40,7 @@ export interface TFTBuild {
   readonly lang: string;
   readonly composition: TFTBuildComposition[];
   readonly positioning: TFTBuildPositioning;
-  readonly guide: string; // TODO: Change to EditorState from DraftJS
+  readonly guide: Value;
 }
 export interface TFTBuildComposition {
   readonly champion: string;

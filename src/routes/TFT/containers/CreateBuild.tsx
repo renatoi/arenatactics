@@ -1,14 +1,10 @@
 import React, { ChangeEvent } from "react";
+import Plain from "slate-plain-serializer";
 import uuidv4 from "uuid/v4";
 import styles from "./CreateBuild.module.scss";
 import { PageContainer } from "../../../components/PageContainer/PageContainer";
 import Helmet from "react-helmet";
-import {
-  TFTChampions,
-  TFTItems,
-  TFTBuild,
-  TFTBuildComposition
-} from "../types";
+import { TFTChampions, TFTItems, TFTBuild } from "../types";
 import { AppState } from "../../../types";
 import { connect } from "react-redux";
 import produce from "immer";
@@ -18,6 +14,7 @@ import { Value } from "slate";
 import { ChampionImage } from "../components/ChampionImage/ChampionImage";
 import { Popover } from "../../../components/Popover/Popover";
 import { ItemImage } from "../components/ItemImage/ItemImage";
+import { Grid } from "../components/Grid/Grid";
 
 interface CreateBuildOwnProps {}
 interface CreateBuildStateProps {
@@ -31,122 +28,313 @@ interface CreateBuildProps
     CreateBuildStateProps,
     CreateBuildDispatchProps {}
 
-interface CreateBuildState extends TFTBuild {
-  readonly editorValue: string;
+interface CreateBuildState {
+  readonly userBuilds: TFTBuild[];
+  readonly currentBuild: TFTBuild;
 }
 class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
-  state: CreateBuildState = {
-    id: "",
-    key: "",
-    name: "",
-    tier: "",
-    author: "",
-    lang: "",
-    composition: [],
-    positioning: {},
-    guide: "",
-    editorValue: ""
-  };
+  constructor(props: CreateBuildProps) {
+    super(props);
+    const userBuilds = this.loadLocalJSON();
+    this.state = {
+      userBuilds,
+      currentBuild: userBuilds[0]
+    };
+  }
+
+  loadLocalJSON() {
+    const localBuilds = localStorage.getItem("userBuilds");
+    let userBuilds =
+      localBuilds != null ? (JSON.parse(localBuilds) as TFTBuild[]) : [];
+
+    if (!Array.isArray(userBuilds) || userBuilds.length === 0) {
+      userBuilds = [this.getEmptyBuild()];
+    }
+
+    return userBuilds.map(userBuild => ({
+      ...userBuild,
+      guide: Value.fromJSON(userBuild.guide)
+    }));
+  }
 
   handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
-    this.setState({ name: e.target.value });
+    const value = e.target.value;
+    this.setState(
+      prevState => ({
+        userBuilds: prevState.userBuilds.map(userBuild =>
+          userBuild.id === prevState.currentBuild.id
+            ? { ...userBuild, name: value }
+            : userBuild
+        ),
+        currentBuild: { ...prevState.currentBuild, name: value }
+      }),
+      () => this.saveLocalJSON()
+    );
   };
 
   handleAuthorChange = (e: ChangeEvent<HTMLInputElement>) => {
-    this.setState({ author: e.target.value });
+    const value = e.target.value;
+    this.setState(
+      prevState => ({
+        userBuilds: prevState.userBuilds.map(userBuild =>
+          userBuild.id === prevState.currentBuild.id
+            ? { ...userBuild, author: value }
+            : userBuild
+        ),
+        currentBuild: { ...prevState.currentBuild, author: value }
+      }),
+      () => this.saveLocalJSON()
+    );
   };
 
   handleLangChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    this.setState({ lang: e.target.value });
+    const value = e.target.value;
+    this.setState(
+      prevState => ({
+        userBuilds: prevState.userBuilds.map(userBuild =>
+          userBuild.id === prevState.currentBuild.id
+            ? { ...userBuild, lang: value }
+            : userBuild
+        ),
+        currentBuild: { ...prevState.currentBuild, lang: value }
+      }),
+      () => this.saveLocalJSON()
+    );
+  };
+
+  handleTierChange = (e: ChangeEvent<HTMLSelectElement>) => {
+    const value = e.target.value;
+    this.setState(
+      prevState => ({
+        userBuilds: prevState.userBuilds.map(userBuild =>
+          userBuild.id === prevState.currentBuild.id
+            ? { ...userBuild, tier: value }
+            : userBuild
+        ),
+        currentBuild: { ...prevState.currentBuild, tier: value }
+      }),
+      () => this.saveLocalJSON()
+    );
   };
 
   handleEditorChange = (value: Value) => {
-    this.setState({
-      editorValue: JSON.stringify(value.toJSON())
-    });
+    this.setState(
+      prevState => ({
+        userBuilds: prevState.userBuilds.map(userBuild =>
+          userBuild.id === prevState.currentBuild.id
+            ? { ...userBuild, guide: value }
+            : userBuild
+        ),
+        currentBuild: {
+          ...prevState.currentBuild,
+          guide: value
+        }
+      }),
+      () => this.saveLocalJSON()
+    );
   };
+
+  getEmptyBuild = () => {
+    return {
+      id: uuidv4(),
+      key: "",
+      name: "Untitled",
+      tier: "",
+      author: "",
+      lang: "",
+      composition: [],
+      positioning: {},
+      guide: Plain.deserialize("")
+    };
+  };
+
+  createNewBuild = () => {
+    this.setState(
+      prevState => {
+        const newBuild = this.getEmptyBuild();
+        return {
+          userBuilds: [...prevState.userBuilds, newBuild],
+          currentBuild: newBuild
+        };
+      },
+      () => this.saveLocalJSON()
+    );
+  };
+
+  editBuild = (buildId: string) => {
+    this.setState(
+      prevState => {
+        const currentBuild = prevState.userBuilds.find(
+          userBuild => userBuild.id === buildId
+        );
+        if (currentBuild == null) {
+          return prevState;
+        }
+        return {
+          currentBuild
+        };
+      },
+      () => this.saveLocalJSON()
+    );
+  };
+
+  deleteBuild = (buildId: string) => {
+    if (window.confirm("Are you sure")) {
+      if (this.state.userBuilds.length === 1) {
+        const currentBuild = this.getEmptyBuild();
+        this.setState(
+          {
+            userBuilds: [currentBuild],
+            currentBuild
+          },
+          () => this.saveLocalJSON()
+        );
+      } else {
+        this.setState(
+          prevState => {
+            const userBuilds = prevState.userBuilds.filter(
+              userBuild => userBuild.id !== buildId
+            );
+            return {
+              userBuilds,
+              currentBuild: { ...userBuilds[userBuilds.length - 1] }
+            };
+          },
+          () => this.saveLocalJSON()
+        );
+      }
+    }
+  };
+
+  saveLocalJSON() {
+    const jsonToSave = [...this.state.userBuilds].map(userBuild => {
+      return {
+        ...userBuild,
+        guide: userBuild.guide.toJSON()
+      };
+    });
+    localStorage.setItem("userBuilds", JSON.stringify(jsonToSave));
+  }
 
   getJSON = () => {
     const json = produce<CreateBuildState>(this.state, draft => {
-      draft.guide = draft.editorValue;
-      delete draft.editorValue;
-      delete draft.id;
-      delete draft.key;
+      delete draft.currentBuild.id;
+      delete draft.currentBuild.key;
     });
-    return JSON.stringify(json, null, 2);
+    return JSON.stringify(json.currentBuild, null, 2);
   };
 
-  handleChampionClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const championId = e.currentTarget.dataset.champion || "";
+  handleChampionClick = (championId: string, x: number, y: number) => {
+    const positioningKey = `${x},${y}`;
+    if (championId === "-1") {
+      this.setState(
+        prevState => {
+          let previousChampionId =
+            prevState.currentBuild.positioning[positioningKey];
+          const newPositioning = { ...prevState.currentBuild.positioning };
+          delete newPositioning[positioningKey];
+          return {
+            currentBuild: {
+              ...prevState.currentBuild,
+              positioning: newPositioning,
+              composition: prevState.currentBuild.composition.filter(
+                championInfo => championInfo.champion !== previousChampionId
+              )
+            }
+          };
+        },
+        () => this.saveLocalJSON()
+      );
+      return;
+    }
+
     if (
-      this.state.composition.some(
+      this.state.currentBuild.composition.some(
         championInfo => championInfo.champion === championId
       )
     ) {
-      this.setState(prevState => ({
-        composition: prevState.composition.filter(
-          championInfo => championInfo.champion !== championId
-        )
-      }));
+      this.setState(
+        prevState => {
+          const newPositioning = { ...prevState.currentBuild.positioning };
+          for (let position in newPositioning) {
+            if (newPositioning.hasOwnProperty(position)) {
+              if (newPositioning[position] === championId) {
+                delete newPositioning[position];
+              }
+            }
+          }
+          return {
+            currentBuild: {
+              ...prevState.currentBuild,
+              positioning: {
+                ...newPositioning,
+                [`${x},${y}`]: championId
+              }
+            }
+          };
+        },
+        () => this.saveLocalJSON()
+      );
       return;
     }
 
-    if (this.state.composition.length === 9) {
+    if (this.state.currentBuild.composition.length === 9) {
       return;
     }
-    const championInfo: TFTBuildComposition = {
-      champion: championId,
-      items: ["-1", "-1", "-1"],
-      isCarry: false
-    };
-    this.setState(prevState => ({
-      composition: [...prevState.composition, championInfo]
-    }));
-  };
 
-  handleIsCarryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const currentTarget = e.currentTarget;
-    const championId = currentTarget.dataset.champion;
-    this.setState(prevState => ({
-      composition: prevState.composition.map(championInfo => {
-        if (championInfo.champion !== championId) {
-          return championInfo;
-        }
-        return {
-          ...championInfo,
-          isCarry: currentTarget.checked
+    this.setState(
+      prevState => {
+        const newPositioning = {
+          ...prevState.currentBuild.positioning,
+          [`${x},${y}`]: championId
         };
-      })
-    }));
+        return {
+          currentBuild: {
+            ...prevState.currentBuild,
+            positioning: newPositioning,
+            composition: Object.values(newPositioning).map(championId => ({
+              champion: championId,
+              items: ["-1", "-1", "-1"],
+              isCarry: false
+            }))
+          }
+        };
+      },
+      () => this.saveLocalJSON()
+    );
   };
 
-  renderComposition() {
+  championSelectPopover = (x: number, y: number) => {
     const { champions } = this.props;
     if (champions == null) {
       return <></>;
     }
     return (
-      <div className={styles.composition}>
+      <div className={styles.championsSelect}>
+        <button
+          key="none"
+          type="button"
+          className={styles.championButton}
+          onClick={() => this.handleChampionClick("-1", x, y)}
+        >
+          <span className={styles.championName}>None</span>
+        </button>
         {Object.keys(champions.byKey)
           .sort()
           .map(championKey => {
             const championId = champions.byKey[championKey];
-            const isChampionSelected = this.state.composition.some(
-              championInfo => championInfo.champion === championId
-            );
             return (
               <button
                 key={championId}
                 type="button"
-                className={cx(styles.championButton, {
-                  [styles.championButtonSelected]: isChampionSelected
-                })}
-                onClick={this.handleChampionClick}
-                data-champion={championId}
+                className={styles.championButton}
+                onClick={() => this.handleChampionClick(championId, x, y)}
               >
                 <ChampionImage
                   championKey={championKey}
                   className={styles.championImage}
+                  width={32}
+                  height={32}
                 />
                 <span className={styles.championName}>
                   {champions.byId[champions.byKey[championKey]].name}
@@ -156,22 +344,65 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
           })}
       </div>
     );
+  };
+
+  renderPositioning() {
+    const { champions } = this.props;
+    if (champions == null) {
+      return <></>;
+    }
+    return (
+      <Grid
+        positions={this.state.currentBuild.positioning}
+        champions={champions}
+        popoverContent={this.championSelectPopover}
+      />
+    );
   }
 
-  handleItemClick = (championId: string, itemId: string, slotIndex: number) => {
-    this.setState(prevState => ({
-      composition: prevState.composition.map(championInfo => {
-        if (championInfo.champion !== championId) {
-          return championInfo;
+  // ITEMS + CHAMPION INFO
+  handleIsCarryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const currentTarget = e.currentTarget;
+    const championId = currentTarget.dataset.champion;
+    this.setState(
+      prevState => ({
+        currentBuild: {
+          ...prevState.currentBuild,
+          composition: prevState.currentBuild.composition.map(championInfo => {
+            if (championInfo.champion !== championId) {
+              return championInfo;
+            }
+            return {
+              ...championInfo,
+              isCarry: currentTarget.checked
+            };
+          })
         }
-        return {
-          ...championInfo,
-          items: championInfo.items.map((item, index) =>
-            index === slotIndex ? itemId : item
-          )
-        };
-      })
-    }));
+      }),
+      () => this.saveLocalJSON()
+    );
+  };
+
+  handleItemClick = (championId: string, itemId: string, slotIndex: number) => {
+    this.setState(
+      prevState => ({
+        currentBuild: {
+          ...prevState.currentBuild,
+          composition: prevState.currentBuild.composition.map(championInfo => {
+            if (championInfo.champion !== championId) {
+              return championInfo;
+            }
+            return {
+              ...championInfo,
+              items: championInfo.items.map((item, index) =>
+                index === slotIndex ? itemId : item
+              )
+            };
+          })
+        }
+      }),
+      () => this.saveLocalJSON()
+    );
   };
 
   itemsPopover = (championId: string, slotIndex: number) => {
@@ -209,7 +440,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     }
     return (
       <div className={styles.championsInfo}>
-        {this.state.composition.map(championInfo => {
+        {this.state.currentBuild.composition.map(championInfo => {
           const champion = champions.byId[championInfo.champion];
           const isCarryId = `isCarry-${champion.id}`;
           return (
@@ -254,67 +485,168 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     );
   }
 
+  download(filename: string, text: string) {
+    const el = document.createElement("a");
+    el.setAttribute(
+      "href",
+      "data:text/plain;charset=utf-8," + encodeURIComponent(text)
+    );
+    el.setAttribute("download", filename);
+    el.style.display = "none";
+    document.body.appendChild(el);
+    el.click();
+    document.body.removeChild(el);
+  }
+
+  exportActiveBuild = () => {
+    const { currentBuild } = this.state;
+    this.download(
+      `${currentBuild.name}.json`,
+      JSON.stringify(currentBuild, null, 2)
+    );
+  };
+
+  exportAllBuilds = () => {
+    const { userBuilds } = this.state;
+    this.download("builds.json", JSON.stringify(userBuilds, null, 2));
+  };
+
   render() {
+    const { lang, tier } = this.state.currentBuild;
     return (
       <PageContainer>
         <Helmet>
           <title>Create builds for Teamfight Tactics</title>
           <meta name="robots" content="noindex" />
         </Helmet>
-        <h1>Create build</h1>
-        <h2>Build info</h2>
-        <div className={styles.field}>
-          <label className={styles.fieldLabel} htmlFor="lang">
-            Language:
-          </label>
-          <select
-            id="lang"
-            name="lang"
-            className={styles.fieldSelect}
-            onChange={this.handleLangChange}
-          >
-            <option value="" />
-            <option value="pt-br">Português - Brasil</option>
-            <option value="en-us">English - US</option>
-          </select>
+        <div className={styles.userBuilds}>
+          <h2 className={styles.userBuildsHeading}>Builds</h2>
+          <div className={styles.userBuildsBar}>
+            <button
+              className={cx(styles.button, styles.createNewBuildButton)}
+              type="button"
+              onClick={this.createNewBuild}
+            >
+              Create new build
+            </button>
+            <button
+              className={styles.button}
+              type="button"
+              onClick={this.exportActiveBuild}
+            >
+              Export active build
+            </button>
+            <button
+              className={styles.button}
+              type="button"
+              onClick={this.exportAllBuilds}
+            >
+              Export all builds
+            </button>
+          </div>
+          <ul className={styles.userBuildsList}>
+            {this.state.userBuilds.map(userBuild => {
+              const isCurrentBuild =
+                userBuild.id === this.state.currentBuild.id;
+              return (
+                <li key={userBuild.id} className={styles.userBuild}>
+                  <button
+                    className={cx(
+                      styles.userBuildName,
+                      {
+                        [styles.userBuildNameActive]: isCurrentBuild
+                      },
+                      "Ell"
+                    )}
+                    onClick={() => this.editBuild(userBuild.id)}
+                  >
+                    {userBuild.name}
+                  </button>
+                  <button
+                    type="button"
+                    className={styles.button}
+                    onClick={() => this.deleteBuild(userBuild.id)}
+                  >
+                    Delete
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
         </div>
-        <div className={styles.field}>
-          <label className={styles.fieldLabel} htmlFor="name">
-            Name:
-          </label>
-          <input
-            className={styles.fieldTextInput}
-            id="name"
-            name="name"
-            type="text"
-            onChange={this.handleNameChange}
-          />
+        <h2>Current build</h2>
+        <div className={styles.sideBySide}>
+          <div className={styles.field}>
+            <label className={styles.fieldLabel} htmlFor="lang">
+              Language:
+            </label>
+            <select
+              id="lang"
+              className={styles.fieldSelect}
+              onChange={this.handleLangChange}
+              value={lang}
+            >
+              <option value="" />
+              <option value="pt-br">Português - Brasil</option>
+              <option value="en-us">English - US</option>
+            </select>
+          </div>
+          <div className={styles.field}>
+            <label className={styles.fieldLabel} htmlFor="tier">
+              Tier:
+            </label>
+            <select
+              id="tier"
+              className={styles.fieldSelect}
+              onChange={this.handleTierChange}
+              value={tier}
+            >
+              <option value="" />
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+            </select>
+          </div>
         </div>
-        <div className={styles.field}>
-          <label className={styles.fieldLabel} htmlFor="author">
-            Author:
-          </label>
-          <input
-            className={styles.fieldTextInput}
-            id="author"
-            name="author"
-            type="text"
-            onChange={this.handleAuthorChange}
-          />
+        <div className={styles.sideBySide}>
+          <div className={styles.field}>
+            <label className={styles.fieldLabel} htmlFor="name">
+              Name:
+            </label>
+            <input
+              className={styles.fieldTextInput}
+              id="name"
+              name="name"
+              type="text"
+              value={this.state.currentBuild.name}
+              onChange={this.handleNameChange}
+            />
+          </div>
+          <div className={styles.field}>
+            <label className={styles.fieldLabel} htmlFor="author">
+              Author:
+            </label>
+            <input
+              className={styles.fieldTextInput}
+              id="author"
+              name="author"
+              type="text"
+              value={this.state.currentBuild.author}
+              onChange={this.handleAuthorChange}
+            />
+          </div>
         </div>
-        <h2>Composition:</h2>
-        {this.renderComposition()}
-        <h3>Champions Info:</h3>
-        {this.renderChampionsInfo()}
+        <div className={styles.sideBySide}>
+          <div>{this.renderPositioning()}</div>
+          <div>{this.renderChampionsInfo()}</div>
+        </div>
         <div className={cx(styles.field, styles.fieldExpanded)}>
-          <h2>Guide:</h2>
-          <RichEditor onChange={this.handleEditorChange} />
-        </div>
-        <div className={cx(styles.field, styles.fieldExpanded)}>
-          <label className={styles.fieldLabel} htmlFor="author">
-            Generated JSON:
-          </label>
-          <textarea readOnly className={styles.json} value={this.getJSON()} />
+          <RichEditor
+            onChange={this.handleEditorChange}
+            value={this.state.currentBuild.guide}
+          />
         </div>
       </PageContainer>
     );

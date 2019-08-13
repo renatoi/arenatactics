@@ -1,7 +1,11 @@
 import React from "react";
-import Plain from "slate-plain-serializer";
 import { isKeyHotkey } from "is-hotkey";
-import { Editor, RenderMarkProps, RenderBlockProps } from "slate-react";
+import {
+  Editor,
+  RenderMarkProps,
+  RenderBlockProps,
+  OnChangeParam
+} from "slate-react";
 import { Value, Editor as CoreEditor, Block } from "slate";
 import cx from "classnames";
 import styles from "./RichEditor.module.scss";
@@ -16,32 +20,27 @@ const isCodeHotkey = isKeyHotkey("mod+`");
 
 interface RichEditorProps {
   readonly onChange: (value: Value) => void;
-}
-interface RichEditorState {
   readonly value: Value;
 }
-class RichEditor extends React.Component<RichEditorProps, RichEditorState> {
-  public state: RichEditorState;
+class RichEditor extends React.Component<RichEditorProps> {
   private editorRef: React.RefObject<Editor>;
 
   constructor(props: RichEditorProps) {
     super(props);
     this.editorRef = React.createRef();
-    this.state = { value: Plain.deserialize("") };
   }
 
   hasMark = (type: string) => {
-    const { value } = this.state;
+    const { value } = this.props;
     return value.activeMarks.some(mark => mark != null && mark.type === type);
   };
 
   hasBlock = (type: string) => {
-    const { value } = this.state;
+    const { value } = this.props;
     return value.blocks.some(node => node != null && node.type === type);
   };
 
-  onChange = ({ value }: RichEditorState) => {
-    this.setState({ value });
+  onChange = ({ value }: OnChangeParam) => {
     this.props.onChange(value);
   };
 
@@ -193,7 +192,7 @@ class RichEditor extends React.Component<RichEditorProps, RichEditorState> {
     if (["numbered-list", "bulleted-list"].includes(type)) {
       const {
         value: { document, blocks }
-      } = this.state;
+      } = this.props;
 
       if (blocks.size > 0) {
         const parent = document.getParent(blocks.first().key);
@@ -237,7 +236,7 @@ class RichEditor extends React.Component<RichEditorProps, RichEditorState> {
             autoFocus
             placeholder="Guide goes here, make it easy to understand..."
             ref={this.editorRef}
-            value={this.state.value}
+            value={this.props.value}
             onChange={this.onChange}
             onKeyDown={this.onKeyDown}
             renderBlock={this.renderBlock}

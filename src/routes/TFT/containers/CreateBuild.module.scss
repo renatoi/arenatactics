@@ -1,7 +1,6 @@
 @import "../../../assets/css/vars.scss";
 
 .field {
-  width: 600px;
   display: flex;
   flex-direction: column;
   margin: 12px 0;
@@ -29,29 +28,28 @@
   width: 100%;
   height: 300px;
 }
-.composition {
-  display: flex;
-  flex-wrap: wrap;
+.sideBySide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 12px;
+}
+.championsSelect {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
 }
 .championButton {
   display: flex;
-  flex-direction: column;
   border: 0;
   background: none;
   color: white;
   align-items: center;
   margin-bottom: 12px;
   border: 1px solid transparent;
-  margin-right: 12px;
   border-radius: 12px;
-  padding: 12px;
-  width: 128px;
+  width: 100%;
 }
 .championButton:hover {
   border: 1px solid $selected-outline-color;
-}
-.championButtonSelected {
-  background-color: $selected-outline-color;
 }
 .championImage {
   border-radius: 100%;
@@ -84,4 +82,56 @@
   border: 0;
   padding: 2px;
   background: none;
+}
+.buildsListItemActive {
+  font-weight: bold;
+}
+.userBuilds {
+  width: 600px;
+}
+.userBuildsBar {
+  margin: 12px 0;
+  display: flex;
+}
+.userBuildsBar button {
+  margin-right: 12px;
+}
+.userBuildsHeading {
+  width: 600px;
+  margin: 4px 0;
+}
+.userBuildsList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.userBuild {
+  display: grid;
+  grid-template-columns: auto max-content max-content;
+  grid-column-gap: 12px;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.userBuildName {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: rgba(255, 255, 255, 0.1);
+  color: inherit;
+  font: inherit;
+  width: 600px;
+  height: 100%;
+}
+.userBuildNameActive {
+  background: #3d5066;
+}
+.button {
+  color: rgba(255, 255, 255, 0.5);
+  border: 0;
+  background: #3d5066;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
 }

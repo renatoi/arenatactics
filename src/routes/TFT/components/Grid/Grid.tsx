@@ -1,7 +1,9 @@
 import React from "react";
+import cx from "classnames";
 import styles from "./Grid.module.css";
 import { ChampionImage } from "../ChampionImage/ChampionImage";
 import { TFTBuildPositioning, TFTChampions } from "../../types";
+import { Popover } from "../../../../components/Popover/Popover";
 
 const xOffset = 11.5;
 const yOffset = 20;
@@ -16,33 +18,53 @@ const leftOffset = 105;
 interface PodProps {
   readonly x: number;
   readonly y: number;
+  readonly popoverContent?: (x: number, y: number) => React.ReactNode;
 }
-const Pod: React.FC<PodProps> = ({ x, y }) => {
-  return (
+const Pod: React.FC<PodProps> = ({ x, y, popoverContent }) => {
+  const useElement = (
     <use
-      className={styles.hex}
+      className={cx(styles.hex, { [styles.clickable]: popoverContent != null })}
       xlinkHref="#pod"
       transform={`translate(${xOffset * x * 2 + (!(y % 2) ? xOffset : 0)}, ${y *
         yOffset})`}
     />
   );
+  if (popoverContent != null) {
+    return (
+      <Popover
+        key={`${x},${y}`}
+        content={() => popoverContent(y + 1, x + 1)}
+        placement="auto"
+      >
+        {useElement}
+      </Popover>
+    );
+  } else {
+    return useElement;
+  }
 };
 
 export interface GridProps {
   readonly positions: TFTBuildPositioning;
   readonly champions: TFTChampions;
+  readonly popoverContent?: (x: number, y: number) => React.ReactNode;
 }
-export const Grid: React.FC<GridProps> = ({ positions, champions }) => {
+export const Grid: React.FC<GridProps> = ({
+  positions,
+  champions,
+  popoverContent
+}) => {
   const pods = [];
   for (let y = 0; y < 3; y++) {
     for (let x = 0; x < 7; x++) {
-      pods.push(<Pod key={`${x},${y}`} x={x} y={y} />);
+      pods.push(
+        <Pod key={`${x},${y}`} x={x} y={y} popoverContent={popoverContent} />
+      );
     }
   }
   return (
     <div className={styles.gridContainer}>
       {Object.keys(positions).map(position => {
-        console.log(position);
         const pos = position.split(",");
         const row = parseInt(pos[0]);
         const column = parseInt(pos[1]);
@@ -61,8 +83,6 @@ export const Grid: React.FC<GridProps> = ({ positions, champions }) => {
           left += leftInitialOffsetRow2;
         }
         left += 1;
-        if (row === 3) {
-        }
 
         left += (column - 1) * leftOffset;
 
