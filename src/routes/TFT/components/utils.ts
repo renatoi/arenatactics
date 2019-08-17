@@ -1,6 +1,6 @@
 import { TFTItemEffect } from "../types";
 
-export const getNormalizedItemName = (name: string): string =>
+export const getNormalizedName = (name: string = ""): string =>
   name.replace(/'|\s|\./g, "").toLocaleLowerCase();
 
 export const getItemDescription = (

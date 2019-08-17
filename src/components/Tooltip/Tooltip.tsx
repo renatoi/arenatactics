@@ -35,7 +35,6 @@ export const Tooltip: React.FC<TooltipProps> = ({
 
   React.useEffect(() => {
     if (isOpen && anchorRef.current != null && tooltipRef.current != null) {
-      console.log("ENTERED");
       const handlePopperCreate = (data: PopperJS.Data) => {
         setPlacement(data.placement);
       };

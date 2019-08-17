@@ -1,5 +1,3 @@
-import { Value } from "slate";
-
 export interface TFTState {
   readonly visibleItems: string[];
   readonly itemsSearchQuery: string;
@@ -40,7 +38,7 @@ export interface TFTBuild {
   readonly lang: string;
   readonly composition: TFTBuildComposition[];
   readonly positioning: TFTBuildPositioning;
-  readonly guide: Value;
+  readonly guide: string;
 }
 export interface TFTBuildComposition {
   readonly champion: string;

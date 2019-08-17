@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+}
+.toolbar {
+  display: flex;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.sideBySide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.preview {
+  padding: 12px;
+}
+.formatButton {
+  background: inherit;
+  color: inherit;
+  font-size: 16px;
+  border: 0;
+  padding: 8px;
+}
+.editor {
+  font-size: 16px;
+  min-height: 600px;
+  width: 100%;
+  padding: 12px;
+}

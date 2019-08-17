@@ -1,5 +1,4 @@
 import React, { ChangeEvent } from "react";
-import Plain from "slate-plain-serializer";
 import uuidv4 from "uuid/v4";
 import styles from "./CreateBuild.module.scss";
 import { PageContainer } from "../../../components/PageContainer/PageContainer";
@@ -7,14 +6,13 @@ import Helmet from "react-helmet";
 import { TFTChampions, TFTItems, TFTBuild } from "../types";
 import { AppState } from "../../../types";
 import { connect } from "react-redux";
-import produce from "immer";
 import cx from "classnames";
-import { RichEditor } from "../components/RichEditor/RichEditor";
-import { Value } from "slate";
 import { ChampionImage } from "../components/ChampionImage/ChampionImage";
 import { Popover } from "../../../components/Popover/Popover";
 import { ItemImage } from "../components/ItemImage/ItemImage";
 import { Grid } from "../components/Grid/Grid";
+import { TextEditor } from "../components/TextEditor/TextEditor";
+import { Icon } from "../../../components/Icon/Icon";
 
 interface CreateBuildOwnProps {}
 interface CreateBuildStateProps {
@@ -31,6 +29,7 @@ interface CreateBuildProps
 interface CreateBuildState {
   readonly userBuilds: TFTBuild[];
   readonly currentBuild: TFTBuild;
+  readonly activeTab: number;
 }
 class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
   constructor(props: CreateBuildProps) {
@@ -38,7 +37,8 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     const userBuilds = this.loadLocalJSON();
     this.state = {
       userBuilds,
-      currentBuild: userBuilds[0]
+      currentBuild: userBuilds[0],
+      activeTab: 0
     };
   }
 
@@ -51,24 +51,43 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
       userBuilds = [this.getEmptyBuild()];
     }
 
-    return userBuilds.map(userBuild => ({
-      ...userBuild,
-      guide: Value.fromJSON(userBuild.guide)
-    }));
+    return userBuilds;
+  }
+
+  saveLocalJSON() {
+    localStorage.setItem(
+      "userBuilds",
+      JSON.stringify([...this.state.userBuilds])
+    );
+  }
+
+  copyCurrentBuildToUserBuildsAndSave() {
+    this.setState(
+      prevState => {
+        const { currentBuild, userBuilds } = prevState;
+        if (userBuilds.some(userBuild => userBuild.id === currentBuild.id)) {
+          return {
+            userBuilds: userBuilds.map(userBuild =>
+              userBuild.id === currentBuild.id ? currentBuild : userBuild
+            )
+          };
+        } else {
+          return {
+            userBuilds: [...userBuilds, currentBuild]
+          };
+        }
+      },
+      () => this.saveLocalJSON()
+    );
   }
 
   handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     this.setState(
       prevState => ({
-        userBuilds: prevState.userBuilds.map(userBuild =>
-          userBuild.id === prevState.currentBuild.id
-            ? { ...userBuild, name: value }
-            : userBuild
-        ),
         currentBuild: { ...prevState.currentBuild, name: value }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -76,14 +95,9 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     const value = e.target.value;
     this.setState(
       prevState => ({
-        userBuilds: prevState.userBuilds.map(userBuild =>
-          userBuild.id === prevState.currentBuild.id
-            ? { ...userBuild, author: value }
-            : userBuild
-        ),
         currentBuild: { ...prevState.currentBuild, author: value }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -91,14 +105,9 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     const value = e.target.value;
     this.setState(
       prevState => ({
-        userBuilds: prevState.userBuilds.map(userBuild =>
-          userBuild.id === prevState.currentBuild.id
-            ? { ...userBuild, lang: value }
-            : userBuild
-        ),
         currentBuild: { ...prevState.currentBuild, lang: value }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -106,31 +115,21 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     const value = e.target.value;
     this.setState(
       prevState => ({
-        userBuilds: prevState.userBuilds.map(userBuild =>
-          userBuild.id === prevState.currentBuild.id
-            ? { ...userBuild, tier: value }
-            : userBuild
-        ),
         currentBuild: { ...prevState.currentBuild, tier: value }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
-  handleEditorChange = (value: Value) => {
+  handleEditorChange = (value: string) => {
     this.setState(
       prevState => ({
-        userBuilds: prevState.userBuilds.map(userBuild =>
-          userBuild.id === prevState.currentBuild.id
-            ? { ...userBuild, guide: value }
-            : userBuild
-        ),
         currentBuild: {
           ...prevState.currentBuild,
           guide: value
         }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -144,20 +143,16 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
       lang: "",
       composition: [],
       positioning: {},
-      guide: Plain.deserialize("")
+      guide: ""
     };
   };
 
   createNewBuild = () => {
     this.setState(
-      prevState => {
-        const newBuild = this.getEmptyBuild();
-        return {
-          userBuilds: [...prevState.userBuilds, newBuild],
-          currentBuild: newBuild
-        };
+      {
+        currentBuild: this.getEmptyBuild()
       },
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -174,12 +169,12 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
           currentBuild
         };
       },
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
   deleteBuild = (buildId: string) => {
-    if (window.confirm("Are you sure")) {
+    if (window.confirm("Are you sure you want to delete this build?")) {
       if (this.state.userBuilds.length === 1) {
         const currentBuild = this.getEmptyBuild();
         this.setState(
@@ -206,24 +201,6 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     }
   };
 
-  saveLocalJSON() {
-    const jsonToSave = [...this.state.userBuilds].map(userBuild => {
-      return {
-        ...userBuild,
-        guide: userBuild.guide.toJSON()
-      };
-    });
-    localStorage.setItem("userBuilds", JSON.stringify(jsonToSave));
-  }
-
-  getJSON = () => {
-    const json = produce<CreateBuildState>(this.state, draft => {
-      delete draft.currentBuild.id;
-      delete draft.currentBuild.key;
-    });
-    return JSON.stringify(json.currentBuild, null, 2);
-  };
-
   handleChampionClick = (championId: string, x: number, y: number) => {
     const positioningKey = `${x},${y}`;
     if (championId === "-1") {
@@ -243,7 +220,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
             }
           };
         },
-        () => this.saveLocalJSON()
+        () => this.copyCurrentBuildToUserBuildsAndSave()
       );
       return;
     }
@@ -273,7 +250,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
             }
           };
         },
-        () => this.saveLocalJSON()
+        () => this.copyCurrentBuildToUserBuildsAndSave()
       );
       return;
     }
@@ -300,7 +277,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
           }
         };
       },
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -360,7 +337,6 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     );
   }
 
-  // ITEMS + CHAMPION INFO
   handleIsCarryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const currentTarget = e.currentTarget;
     const championId = currentTarget.dataset.champion;
@@ -379,7 +355,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
           })
         }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -401,7 +377,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
           })
         }
       }),
-      () => this.saveLocalJSON()
+      () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
@@ -511,8 +487,19 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     this.download("builds.json", JSON.stringify(userBuilds, null, 2));
   };
 
+  handleActiveBuildChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    this.editBuild(e.currentTarget.value);
+  };
+
+  handleTabChange = (tab: number) => {
+    this.setState({
+      activeTab: tab
+    });
+  };
+
   render() {
-    const { lang, tier } = this.state.currentBuild;
+    const { activeTab } = this.state;
+    const { lang, tier, id: currentBuildId } = this.state.currentBuild;
     return (
       <PageContainer>
         <Helmet>
@@ -520,134 +507,149 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
           <meta name="robots" content="noindex" />
         </Helmet>
         <div className={styles.userBuilds}>
-          <h2 className={styles.userBuildsHeading}>Builds</h2>
-          <div className={styles.userBuildsBar}>
-            <button
-              className={cx(styles.button, styles.createNewBuildButton)}
-              type="button"
-              onClick={this.createNewBuild}
-            >
-              Create new build
-            </button>
-            <button
-              className={styles.button}
-              type="button"
-              onClick={this.exportActiveBuild}
-            >
-              Export active build
-            </button>
-            <button
-              className={styles.button}
-              type="button"
-              onClick={this.exportAllBuilds}
-            >
-              Export all builds
-            </button>
-          </div>
-          <ul className={styles.userBuildsList}>
-            {this.state.userBuilds.map(userBuild => {
-              const isCurrentBuild =
-                userBuild.id === this.state.currentBuild.id;
-              return (
-                <li key={userBuild.id} className={styles.userBuild}>
-                  <button
-                    className={cx(
-                      styles.userBuildName,
-                      {
-                        [styles.userBuildNameActive]: isCurrentBuild
-                      },
-                      "Ell"
-                    )}
-                    onClick={() => this.editBuild(userBuild.id)}
-                  >
+          <div className={styles.toolbar}>
+            <div className={styles.buildToolbar}>
+              <label className={styles.fieldLabel} htmlFor="build-select">
+                Build:
+              </label>
+              <select
+                id="build-select"
+                className={cx(styles.fieldSelect, styles.fieldBuilds)}
+                value={currentBuildId}
+                onChange={this.handleActiveBuildChange}
+              >
+                {this.state.userBuilds.map(userBuild => (
+                  <option key={userBuild.id} value={userBuild.id}>
                     {userBuild.name}
-                  </button>
-                  <button
-                    type="button"
-                    className={styles.button}
-                    onClick={() => this.deleteBuild(userBuild.id)}
-                  >
-                    Delete
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <h2>Current build</h2>
-        <div className={styles.sideBySide}>
-          <div className={styles.field}>
-            <label className={styles.fieldLabel} htmlFor="lang">
-              Language:
-            </label>
-            <select
-              id="lang"
-              className={styles.fieldSelect}
-              onChange={this.handleLangChange}
-              value={lang}
-            >
-              <option value="" />
-              <option value="pt-br">Português - Brasil</option>
-              <option value="en-us">English - US</option>
-            </select>
-          </div>
-          <div className={styles.field}>
-            <label className={styles.fieldLabel} htmlFor="tier">
-              Tier:
-            </label>
-            <select
-              id="tier"
-              className={styles.fieldSelect}
-              onChange={this.handleTierChange}
-              value={tier}
-            >
-              <option value="" />
-              <option value="S">S</option>
-              <option value="A">A</option>
-              <option value="B">B</option>
-              <option value="C">C</option>
-              <option value="D">D</option>
-            </select>
-          </div>
-        </div>
-        <div className={styles.sideBySide}>
-          <div className={styles.field}>
-            <label className={styles.fieldLabel} htmlFor="name">
-              Name:
-            </label>
-            <input
-              className={styles.fieldTextInput}
-              id="name"
-              name="name"
-              type="text"
-              value={this.state.currentBuild.name}
-              onChange={this.handleNameChange}
-            />
-          </div>
-          <div className={styles.field}>
-            <label className={styles.fieldLabel} htmlFor="author">
-              Author:
-            </label>
-            <input
-              className={styles.fieldTextInput}
-              id="author"
-              name="author"
-              type="text"
-              value={this.state.currentBuild.author}
-              onChange={this.handleAuthorChange}
-            />
+                  </option>
+                ))}
+              </select>
+              <button
+                type="button"
+                onClick={() => this.deleteBuild(currentBuildId)}
+              >
+                <Icon type="bin">Delete active build</Icon>
+              </button>
+              <button
+                className={cx(styles.button, styles.createNewBuildButton)}
+                type="button"
+                onClick={this.createNewBuild}
+              >
+                <Icon type="plus">Add new build</Icon>
+              </button>
+              <button
+                className={styles.button}
+                type="button"
+                onClick={this.exportActiveBuild}
+              >
+                <Icon type="download-active">Export active build</Icon>
+              </button>
+              <button
+                className={styles.button}
+                type="button"
+                onClick={this.exportAllBuilds}
+              >
+                <Icon type="download-all">Export all builds</Icon>
+              </button>
+            </div>
+            <div className={styles.tabs}>
+              <button
+                type="button"
+                className={cx(styles.tab, {
+                  [styles.tabActive]: activeTab === 0
+                })}
+                onClick={() => this.handleTabChange(0)}
+              >
+                Data
+              </button>
+              <button
+                type="button"
+                className={cx(styles.tab, {
+                  [styles.tabActive]: activeTab === 1
+                })}
+                onClick={() => this.handleTabChange(1)}
+              >
+                Guide
+              </button>
+            </div>
           </div>
         </div>
-        <div className={styles.sideBySide}>
-          <div>{this.renderPositioning()}</div>
-          <div>{this.renderChampionsInfo()}</div>
-        </div>
-        <div className={cx(styles.field, styles.fieldExpanded)}>
-          <RichEditor
+        {activeTab === 0 ? (
+          <>
+            <div className={styles.sideBySide}>
+              <div className={styles.field}>
+                <label className={styles.fieldLabel} htmlFor="lang">
+                  Language:
+                </label>
+                <select
+                  id="lang"
+                  className={styles.fieldSelect}
+                  onChange={this.handleLangChange}
+                  value={lang}
+                >
+                  <option value="" />
+                  <option value="pt-br">Português - Brasil</option>
+                  <option value="en-us">English - US</option>
+                </select>
+              </div>
+              <div className={styles.field}>
+                <label className={styles.fieldLabel} htmlFor="tier">
+                  Tier:
+                </label>
+                <select
+                  id="tier"
+                  className={styles.fieldSelect}
+                  onChange={this.handleTierChange}
+                  value={tier}
+                >
+                  <option value="" />
+                  <option value="S">S</option>
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+                  <option value="D">D</option>
+                </select>
+              </div>
+            </div>
+            <div className={styles.sideBySide}>
+              <div className={styles.field}>
+                <label className={styles.fieldLabel} htmlFor="name">
+                  Name:
+                </label>
+                <input
+                  className={styles.fieldTextInput}
+                  id="name"
+                  name="name"
+                  type="text"
+                  value={this.state.currentBuild.name}
+                  onChange={this.handleNameChange}
+                />
+              </div>
+              <div className={styles.field}>
+                <label className={styles.fieldLabel} htmlFor="author">
+                  Author:
+                </label>
+                <input
+                  className={styles.fieldTextInput}
+                  id="author"
+                  name="author"
+                  type="text"
+                  value={this.state.currentBuild.author}
+                  onChange={this.handleAuthorChange}
+                />
+              </div>
+            </div>
+            <div className={styles.sideBySide}>
+              <div>{this.renderPositioning()}</div>
+              <div>{this.renderChampionsInfo()}</div>
+            </div>
+          </>
+        ) : (
+          <TextEditor
             onChange={this.handleEditorChange}
             value={this.state.currentBuild.guide}
           />
-        </div>
+        )}
       </PageContainer>
     );
   }

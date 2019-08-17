@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { AppState } from "../../../../types";
 import styles from "./Item.module.css";
 import { TFTItems } from "../../types";
-import { getItemDescription, getNormalizedItemName } from "../utils";
+import { getItemDescription, getNormalizedName } from "../utils";
 import { Tooltip } from "../../../../components/Tooltip/Tooltip";
 import { ItemImage } from "../ItemImage/ItemImage";
 
@@ -40,9 +40,9 @@ const ItemSFC: React.FC<ItemProps> = ({
       <div className={styles.tooltip}>
         <h3 className={styles.itemTitle}>
           <img
-            src={`${
-              process.env.PUBLIC_URL
-            }/tft/tft_item_${getNormalizedItemName(currentItem.name)}.tft.png`}
+            src={`${process.env.PUBLIC_URL}/tft/tft_item_${getNormalizedName(
+              currentItem.name
+            )}.tft.png`}
             width={16}
             height={16}
             alt=""
@@ -60,7 +60,7 @@ const ItemSFC: React.FC<ItemProps> = ({
                 className={styles.itemSource}
                 src={`${
                   process.env.PUBLIC_URL
-                }/tft/tft_item_${getNormalizedItemName(
+                }/tft/tft_item_${getNormalizedName(
                   items.byId[fromId].name
                 )}.tft.png`}
                 width={width}

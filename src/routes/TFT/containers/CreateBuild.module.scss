@@ -1,5 +1,28 @@
 @import "../../../assets/css/vars.scss";
 
+.toolbar {
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 12px;
+  display: flex;
+}
+.tabs {
+  display: flex;
+}
+.tab {
+  border: 0;
+  background: none;
+  color: white;
+}
+.tabActive {
+  color: aqua;
+}
+.buildToolbar button {
+  color: white;
+  background: none;
+  border: 0;
+  font-size: 16px;
+}
 .field {
   display: flex;
   flex-direction: column;
@@ -9,19 +32,24 @@
   width: 100%;
 }
 .fieldLabel {
-  margin: 4px 0;
+  margin: 4px 4px 4px 0;
 }
 .fieldSelect {
   height: 48px;
 }
+.fieldBuilds {
+  width: 400px;
+  height: auto;
+}
+.fieldTextInput {
+  padding: 12px;
+}
 .fieldSelect,
-.fieldTextInput,
-.json {
+.fieldTextInput {
   border: 0;
   background: #171e26;
+  font-size: inherit;
   color: white;
-  font-size: 16px;
-  padding: 12px;
   font-family: inherit;
 }
 .json {
@@ -85,53 +113,4 @@
 }
 .buildsListItemActive {
   font-weight: bold;
-}
-.userBuilds {
-  width: 600px;
-}
-.userBuildsBar {
-  margin: 12px 0;
-  display: flex;
-}
-.userBuildsBar button {
-  margin-right: 12px;
-}
-.userBuildsHeading {
-  width: 600px;
-  margin: 4px 0;
-}
-.userBuildsList {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-.userBuild {
-  display: grid;
-  grid-template-columns: auto max-content max-content;
-  grid-column-gap: 12px;
-  align-items: center;
-  margin-bottom: 2px;
-}
-.userBuildName {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background: rgba(255, 255, 255, 0.1);
-  color: inherit;
-  font: inherit;
-  width: 600px;
-  height: 100%;
-}
-.userBuildNameActive {
-  background: #3d5066;
-}
-.button {
-  color: rgba(255, 255, 255, 0.5);
-  border: 0;
-  background: #3d5066;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  padding: 12px;
 }

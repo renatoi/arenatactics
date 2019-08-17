@@ -93,11 +93,11 @@ code {
 /* ICONS */
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?3ad7ck");
-  src: url("../fonts/icomoon.eot?3ad7ck#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?3ad7ck") format("truetype"),
-    url("../fonts/icomoon.woff?3ad7ck") format("woff"),
-    url("../fonts/icomoon.svg?3ad7ck#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?88k86p");
+  src: url("../fonts/icomoon.eot?88k86p#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?88k86p") format("truetype"),
+    url("../fonts/icomoon.woff?88k86p") format("woff"),
+    url("../fonts/icomoon.svg?88k86p#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -118,12 +118,65 @@ code {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-h1:before {
+  content: "\e900";
+}
+.icon-h2:before {
+  content: "\e901";
+}
+.icon-download-active:before {
+  content: "\e933";
+}
+.icon-download-all:before {
+  content: "\e95e";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
 .icon-search:before {
   content: "\e986";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-list-numbered:before {
+  content: "\e9b9";
+}
+.icon-list:before {
+  content: "\e9bb";
+}
+.icon-frustrated:before {
+  content: "\e9ff";
+}
+.icon-plus:before {
+  content: "\ea0a";
 }
 .icon-cancel-circle:before {
   content: "\ea0d";
 }
 .icon-cross:before {
   content: "\ea0f";
+}
+.icon-bold:before {
+  content: "\ea62";
+}
+.icon-italic:before {
+  content: "\ea64";
+}
+.icon-code:before {
+  content: "\ea80";
+}
+
+.Markdown {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 4px 0;
+  }
 }
