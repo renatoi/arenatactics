@@ -401,6 +401,7 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
                   type="checkbox"
                   data-champion={champion.id}
                   onChange={this.handleIsCarryChange}
+                  checked={championInfo.isCarry}
                 />
               </div>
               <div className={styles.championItems}>
