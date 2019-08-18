@@ -6,6 +6,9 @@ import { Icon, Icons } from "../../../../components/Icon/Icon";
 import { Champion } from "../Champion/Champion";
 import CustomMark from "./CustomMark";
 import { Item } from "../Item/Item";
+import { Popover } from "../../../../components/Popover/Popover";
+import { ChampionsPopover } from "../ChampionsPopover/ChampionsPopover";
+import { ItemsPopover } from "../ItemsPopover/ItemsPopover";
 
 type Format =
   | "champion"
@@ -60,7 +63,7 @@ export class TextEditor extends React.Component<TextEditorProps> {
     }
   };
 
-  addFormat(format: Format) {
+  addFormat(format: Format, param?: string) {
     switch (format) {
       case "h1":
         this.insertTextAt("start", "# ");
@@ -87,10 +90,10 @@ export class TextEditor extends React.Component<TextEditorProps> {
         this.insertTextAt("start", "> ");
         break;
       case "champion":
-        this.insertTextAt("cursor", "[champion=123]");
+        this.insertTextAt("cursor", `[[champion=${param}]]`);
         break;
       case "item":
-        this.insertTextAt("cursor", "[item=123]");
+        this.insertTextAt("cursor", `[[item=${param}]]`);
         break;
     }
   }
@@ -105,7 +108,22 @@ export class TextEditor extends React.Component<TextEditorProps> {
 
     switch (where) {
       case "start":
-        newValue = text + newValue;
+        const searchText = newValue.substr(0, selectionStart);
+        let strLength = searchText.length;
+        let blockStartIndex = 0;
+        while (strLength--) {
+          if (
+            searchText.charAt(strLength) === "\n" &&
+            searchText.charAt(strLength - 1) === "\n"
+          ) {
+            blockStartIndex = strLength + 1;
+            break;
+          }
+        }
+        newValue =
+          newValue.substring(0, blockStartIndex) +
+          text +
+          newValue.substring(blockStartIndex, newValue.length);
         break;
       case "cursor":
         newValue =
@@ -138,11 +156,32 @@ export class TextEditor extends React.Component<TextEditorProps> {
     );
   }
 
+  renderPopoverButton(format: Format, icon: Icons, label: string) {
+    const content =
+      format === "champion"
+        ? () => (
+            <ChampionsPopover
+              onClick={championKey => this.addFormat(format, championKey)}
+            />
+          )
+        : () => (
+            <ItemsPopover
+              onClick={itemKey => this.addFormat(format, itemKey)}
+            />
+          );
+    return (
+      <Popover placement="bottom-start" content={content}>
+        <button type="button" className={styles.formatButton}>
+          <Icon type={icon}>{label}</Icon>
+        </button>
+      </Popover>
+    );
+  }
+
   render() {
     const { value } = this.props;
     const renderers = {
       customMark: (props: any) => {
-        console.log(props);
         if (props.identifier.toLowerCase() === "champion") {
           return <Champion championKey={props.param} showItems={false} />;
         }
@@ -164,8 +203,8 @@ export class TextEditor extends React.Component<TextEditorProps> {
           {this.renderFormatButton("ul", "list", "Add unordered list")}
           {this.renderFormatButton("code", "code", "Add code")}
           {this.renderFormatButton("quote", "quotes-left", "Add quote")}
-          {this.renderFormatButton("champion", "frustrated", "Add champion")}
-          {this.renderFormatButton("item", "shield", "Add item")}
+          {this.renderPopoverButton("champion", "frustrated", "Add champion")}
+          {this.renderPopoverButton("item", "shield", "Add item")}
         </div>
         <div className={styles.sideBySide}>
           <textarea

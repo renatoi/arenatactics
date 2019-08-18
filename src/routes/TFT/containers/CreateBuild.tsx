@@ -1,7 +1,6 @@
 import React, { ChangeEvent } from "react";
 import uuidv4 from "uuid/v4";
 import styles from "./CreateBuild.module.scss";
-import { PageContainer } from "../../../components/PageContainer/PageContainer";
 import Helmet from "react-helmet";
 import { TFTChampions, TFTItems, TFTBuild } from "../types";
 import { AppState } from "../../../types";
@@ -13,6 +12,7 @@ import { ItemImage } from "../components/ItemImage/ItemImage";
 import { Grid } from "../components/Grid/Grid";
 import { TextEditor } from "../components/TextEditor/TextEditor";
 import { Icon } from "../../../components/Icon/Icon";
+import { ItemsPopover } from "../components/ItemsPopover/ItemsPopover";
 
 interface CreateBuildOwnProps {}
 interface CreateBuildStateProps {
@@ -381,34 +381,6 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     );
   };
 
-  itemsPopover = (championId: string, slotIndex: number) => {
-    const { items } = this.props;
-    if (items == null) {
-      return <></>;
-    }
-    const listItems = [];
-    for (let itemId in items.byId) {
-      if (items.byId.hasOwnProperty(itemId)) {
-        const item = items.byId[itemId];
-        if (item.from.length > 0) {
-          listItems.push(
-            <button
-              type="button"
-              className={styles.itemSelectButton}
-              key={uuidv4()}
-              onClick={() =>
-                this.handleItemClick(championId, itemId, slotIndex)
-              }
-            >
-              <ItemImage name={item.name} width={32} height={32} />
-            </button>
-          );
-        }
-      }
-    }
-    return <div className={styles.itemsSelectList}>{listItems}</div>;
-  };
-
   renderChampionsInfo() {
     const { champions, items } = this.props;
     if (champions == null || items == null) {
@@ -436,9 +408,18 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
                   <Popover
                     key={uuidv4()}
                     placement="bottom-start"
-                    content={() =>
-                      this.itemsPopover(championInfo.champion, index)
-                    }
+                    content={() => (
+                      <ItemsPopover
+                        showByType="combined"
+                        onClick={itemKey =>
+                          this.handleItemClick(
+                            champion.id,
+                            items.byKey[itemKey],
+                            index
+                          )
+                        }
+                      />
+                    )}
                   >
                     <button type="button" className={styles.itemButton}>
                       {item !== "-1" ? (
@@ -501,57 +482,42 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
     const { activeTab } = this.state;
     const { lang, tier, id: currentBuildId } = this.state.currentBuild;
     return (
-      <PageContainer>
+      <>
         <Helmet>
           <title>Create builds for Teamfight Tactics</title>
           <meta name="robots" content="noindex" />
         </Helmet>
-        <div className={styles.userBuilds}>
-          <div className={styles.toolbar}>
-            <div className={styles.buildToolbar}>
-              <label className={styles.fieldLabel} htmlFor="build-select">
-                Build:
-              </label>
-              <select
-                id="build-select"
-                className={cx(styles.fieldSelect, styles.fieldBuilds)}
-                value={currentBuildId}
-                onChange={this.handleActiveBuildChange}
-              >
-                {this.state.userBuilds.map(userBuild => (
-                  <option key={userBuild.id} value={userBuild.id}>
-                    {userBuild.name}
-                  </option>
-                ))}
-              </select>
-              <button
-                type="button"
-                onClick={() => this.deleteBuild(currentBuildId)}
-              >
-                <Icon type="bin">Delete active build</Icon>
-              </button>
-              <button
-                className={cx(styles.button, styles.createNewBuildButton)}
-                type="button"
-                onClick={this.createNewBuild}
-              >
-                <Icon type="plus">Add new build</Icon>
-              </button>
-              <button
-                className={styles.button}
-                type="button"
-                onClick={this.exportActiveBuild}
-              >
-                <Icon type="download-active">Export active build</Icon>
-              </button>
-              <button
-                className={styles.button}
-                type="button"
-                onClick={this.exportAllBuilds}
-              >
-                <Icon type="download-all">Export all builds</Icon>
-              </button>
-            </div>
+        <div className={styles.toolbar}>
+          <div className={styles.buildToolbar}>
+            <label className={styles.fieldLabel} htmlFor="build-select">
+              Build:
+            </label>
+            <select
+              id="build-select"
+              className={cx(styles.fieldSelect, styles.fieldBuilds)}
+              value={currentBuildId}
+              onChange={this.handleActiveBuildChange}
+            >
+              {this.state.userBuilds.map(userBuild => (
+                <option key={userBuild.id} value={userBuild.id}>
+                  {userBuild.name}
+                </option>
+              ))}
+            </select>
+            <button
+              type="button"
+              className={styles.button}
+              onClick={() => this.deleteBuild(currentBuildId)}
+            >
+              <Icon type="bin">Delete active build</Icon>
+            </button>
+            <button
+              className={cx(styles.button, styles.createNewBuildButton)}
+              type="button"
+              onClick={this.createNewBuild}
+            >
+              <Icon type="plus">Add new build</Icon>
+            </button>
             <div className={styles.tabs}>
               <button
                 type="button"
@@ -573,9 +539,25 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
               </button>
             </div>
           </div>
+          <div>
+            <button
+              className={styles.button}
+              type="button"
+              onClick={this.exportActiveBuild}
+            >
+              <Icon type="download-active">Export active build</Icon>
+            </button>
+            <button
+              className={styles.button}
+              type="button"
+              onClick={this.exportAllBuilds}
+            >
+              <Icon type="download-all">Export all builds</Icon>
+            </button>
+          </div>
         </div>
         {activeTab === 0 ? (
-          <>
+          <div className={styles.dataTab}>
             <div className={styles.sideBySide}>
               <div className={styles.field}>
                 <label className={styles.fieldLabel} htmlFor="lang">
@@ -639,18 +621,18 @@ class CreateBuild extends React.Component<CreateBuildProps, CreateBuildState> {
                 />
               </div>
             </div>
-            <div className={styles.sideBySide}>
+            <div className={cx(styles.sideBySide, styles.positioning)}>
               <div>{this.renderPositioning()}</div>
               <div>{this.renderChampionsInfo()}</div>
             </div>
-          </>
+          </div>
         ) : (
           <TextEditor
             onChange={this.handleEditorChange}
             value={this.state.currentBuild.guide}
           />
         )}
-      </PageContainer>
+      </>
     );
   }
 }

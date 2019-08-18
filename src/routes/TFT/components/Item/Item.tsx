@@ -32,10 +32,10 @@ const ItemSFC: React.FC<ItemProps> = ({
 }) => {
   if (items == null || itemId == null) return <></>;
   const currentItem = items.byId[itemId] || items.byId[items.byKey[itemId]];
+  if (currentItem == null) {
+    return <></>;
+  }
   const tooltipContent = () => {
-    if (currentItem == null) {
-      return <></>;
-    }
     return (
       <div className={styles.tooltip}>
         <h3 className={styles.itemTitle}>

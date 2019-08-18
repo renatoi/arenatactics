@@ -5,6 +5,7 @@
   background: rgba(0, 0, 0, 0.8);
   padding: 12px;
   display: flex;
+  justify-content: space-between;
 }
 .tabs {
   display: flex;
@@ -17,7 +18,13 @@
 .tabActive {
   color: aqua;
 }
-.buildToolbar button {
+.dataTab {
+  padding: 12px;
+}
+.buildToolbar {
+  display: flex;
+}
+.button {
   color: white;
   background: none;
   border: 0;
@@ -56,6 +63,9 @@
   width: 100%;
   height: 300px;
 }
+.positioning {
+  margin-top: 24px;
+}
 .sideBySide {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -87,6 +97,7 @@
 }
 .championsInfo {
   display: flex;
+  flex-wrap: wrap;
 }
 .championsInfo fieldset > * {
   margin-bottom: 8px;
