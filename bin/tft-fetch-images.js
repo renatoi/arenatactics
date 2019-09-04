@@ -9,11 +9,11 @@ var fs = require("fs");
 var https = require("https");
 var chalk = require("chalk");
 
-const filePath = path.resolve(__dirname, "tft-en_us.json");
+const filePath = path.resolve(__dirname, "en-us_TFT.json");
 const fileContents = fs.readFileSync(filePath, { encoding: "utf-8" });
 const json = JSON.parse(fileContents);
 
-const patch = "9.15.1";
+const patch = "9.17.1";
 
 const getId = name =>
   name

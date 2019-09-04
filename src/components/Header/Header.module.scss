@@ -1,0 +1,76 @@
+@import "../../assets/css/vars.scss";
+
+.header {
+  width: 100%;
+  padding: 0;
+  background: #171e26;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* UH = Universal Header */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.navPrimary {
+  display: flex;
+}
+.gameIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+  align-self: center;
+}
+.tftLogo {
+  background: url("../../assets/tft_logo_small.png") no-repeat;
+}
+a.navLink {
+  color: $link-color;
+  text-decoration: none;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  animation: border 0.2s ease-in;
+}
+a.navLinkActive {
+  color: $link-color;
+  border-bottom: 1px solid lighten($link-color, 10%);
+}
+a.hidden {
+  display: none;
+}
+
+.lang {
+  border: 0;
+  margin: 0;
+  background: none;
+  color: $link-color;
+  font: inherit;
+  display: flex;
+  align-items: center;
+}
+.lang::after {
+  margin-left: 8px;
+  content: "";
+  border: solid $link-color;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+}
+.langContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+a.langLink {
+  padding: 4px 12px;
+  color: $link-color;
+  text-decoration: none;
+}
+a.langLink:hover {
+  background: $selected-color;
+}

@@ -1,9 +1,9 @@
-import React from "react";
-import warning from "warning";
-import ReactDOM from "react-dom";
-import styles from "./Tooltip.module.scss";
-import PopperJS from "popper.js";
 import cx from "classnames";
+import PopperJS from "popper.js";
+import React from "react";
+import ReactDOM from "react-dom";
+import warning from "warning";
+import styles from "./Tooltip.module.scss";
 
 const portalRoot = document.body;
 

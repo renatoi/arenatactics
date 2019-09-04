@@ -1,0 +1,18 @@
+{
+  "disclaimer": "Arena Tactics isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.",
+  "champions": {
+    "navText": "Champions",
+    "title": "Best Champion Items and Guides for Teamfight Tactics",
+    "titleWithChampion": "{championName} Best Items and Guides for Teamfight Tactics",
+    "description": "Best builds/team compositions, items, and guides for Teamfight Tactics (TFT)",
+    "descriptionWithChampion": "{championName}'s best builds/team compositions, items, and guides for Teamfight Tactics (TFT)."
+  },
+  "items": {
+    "navText": "Items",
+    "title": "Best Team Compositions / Builds for Teamfight Tactics"
+  },
+  "builds": {
+    "navText": "Builds",
+    "title": "Best Team Compositions / Builds for Teamfight Tactics"
+  }
+}

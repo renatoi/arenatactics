@@ -1,0 +1,128 @@
+@import "../../assets/css/vars.scss";
+
+.toolbar {
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs {
+  display: flex;
+}
+.tab {
+  border: 0;
+  background: none;
+  color: white;
+}
+.tabActive {
+  color: aqua;
+}
+.dataTab {
+  padding: 12px;
+}
+.buildToolbar {
+  display: flex;
+}
+.button {
+  color: white;
+  background: none;
+  border: 0;
+  font-size: 16px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+.fieldExpanded {
+  width: 100%;
+}
+.fieldLabel {
+  margin: 4px 4px 4px 0;
+}
+.fieldSelect {
+  height: 48px;
+}
+.fieldBuilds {
+  width: 400px;
+  height: auto;
+}
+.fieldTextInput {
+  padding: 12px;
+}
+.fieldSelect,
+.fieldTextInput {
+  border: 0;
+  background: #171e26;
+  font-size: inherit;
+  color: white;
+  font-family: inherit;
+}
+.json {
+  width: 100%;
+  height: 300px;
+}
+.positioning {
+  margin-top: 24px;
+}
+.sideBySide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 12px;
+}
+.championsSelect {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+}
+.championButton {
+  display: flex;
+  border: 0;
+  background: none;
+  color: white;
+  align-items: center;
+  margin-bottom: 12px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  width: 100%;
+}
+.championButton:hover {
+  border: 1px solid $selected-outline-color;
+}
+.championImage {
+  border-radius: 100%;
+}
+.championName {
+  font-size: 12px;
+}
+.championsInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.championsInfo fieldset > * {
+  margin-bottom: 8px;
+}
+.championItems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 4px;
+}
+.itemButton {
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+.itemsSelectList {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+}
+.itemSelectButton {
+  border: 0;
+  padding: 2px;
+  background: none;
+}
+.buildsListItemActive {
+  font-weight: bold;
+}

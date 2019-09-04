@@ -13,6 +13,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.Foreground {
+  z-index: 10;
+}
+
+.Midground {
+  z-index: 5;
+}
+
+.Background {
+  z-index: 0;
+}
+
 button {
   cursor: pointer;
 }

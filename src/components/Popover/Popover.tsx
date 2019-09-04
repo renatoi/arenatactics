@@ -1,9 +1,9 @@
-import React from "react";
-import uuidv4 from "uuid/v4";
-import styles from "./Popover.module.scss";
-import ReactDOM from "react-dom";
 import PopperJS, { Placement } from "popper.js";
+import React from "react";
+import ReactDOM from "react-dom";
+import uuidv4 from "uuid/v4";
 import { GlobalMousePos } from "../../globals";
+import styles from "./Popover.module.scss";
 
 const portalRootId = "popovers-root";
 let portalRoot = document.getElementById(portalRootId);
