@@ -1,5 +1,8 @@
 {
   "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
   "headers": {
     "/service-worker.js": {
       "Cache-Control": "max-age=0"
