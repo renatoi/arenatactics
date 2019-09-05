@@ -1,28 +1,20 @@
 import React from "react";
-import { connect } from "react-redux";
-import { AppState } from "../../types";
-import { interpolateText } from "../../utils";
+import { dig, getLocale, interpolateText } from "../../utils";
+import { localizedTexts } from "./localizedTexts";
 
-interface LocalizedTextOwnProps {
+interface IValues {
+  readonly [key: string]: string;
+}
+
+interface LocalizedTextProps {
   readonly id: string;
-  readonly values?: { readonly [key: string]: string };
+  readonly values?: IValues;
 }
-interface LocalizedTextStateProps {
-  readonly isLoading: boolean;
-  readonly localizedStrings?: any;
-}
-interface LocalizedTextProps
-  extends LocalizedTextOwnProps,
-    LocalizedTextStateProps {}
 
-const LocalizedTextComponent: React.FC<LocalizedTextProps> = ({
-  id,
-  localizedStrings,
-  values
-}) => {
-  let text = localizedStrings[id];
-  if (typeof text === "string" && text.length > 0) {
-    return <>{interpolateText(text, values)}</>;
+export const LocalizedText: React.FC<LocalizedTextProps> = ({ id, values }) => {
+  const text = getLocalizedText(id, values);
+  if (text != null) {
+    return <>{text}</>;
   }
   if (process.env.NODE_ENV === "development") {
     return (
@@ -34,26 +26,9 @@ const LocalizedTextComponent: React.FC<LocalizedTextProps> = ({
   return <></>;
 };
 
-const mapStateToProps = (
-  state: AppState,
-  ownProps: LocalizedTextOwnProps
-): LocalizedTextStateProps => {
-  if (!state.localizedStrings) {
-    return {
-      ...ownProps,
-      isLoading: true
-    };
+export const getLocalizedText = (id: string, values?: IValues) => {
+  let text = dig(localizedTexts, [getLocale() as string].concat(id.split(".")));
+  if (typeof text === "string" && text.length > 0) {
+    return interpolateText(text, values);
   }
-  return {
-    ...ownProps,
-    isLoading: false,
-    localizedStrings: state.localizedStrings
-  };
 };
-
-export const LocalizedText = connect<
-  LocalizedTextStateProps,
-  {},
-  LocalizedTextOwnProps,
-  AppState
->(mapStateToProps)(LocalizedTextComponent);

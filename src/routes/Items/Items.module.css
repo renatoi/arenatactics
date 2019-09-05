@@ -4,7 +4,7 @@
 .master {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 25% 75%;
+  grid-template-rows: max-content auto;
 }
 .masterList {
   display: grid;
@@ -21,7 +21,7 @@
   grid-template-columns: max-content auto;
 }
 .combinationRow:nth-child(even) {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.05);
 }
 .combinationHeading {
   background: rgba(0, 0, 0, 0.9);
@@ -34,7 +34,7 @@
 .combinationRecipe {
   padding: 12px;
   display: grid;
-  grid-template-columns: max-content max-content;
+  grid-template-columns: max-content auto;
   align-items: center;
   grid-column-gap: 12px;
 }
@@ -54,15 +54,12 @@
   font-size: 16px;
   margin: 0;
 }
-.itemTitle:after {
-  content: ":";
-  margin-right: 8px;
-}
 .itemDesc {
   margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+.itemDesc:before {
+  content: ":";
+  margin-right: 8px;
 }
 .details {
   display: grid;

@@ -3,7 +3,9 @@ import React from "react";
 export type Icons =
   | "h1"
   | "h2"
+  | "copy"
   | "download-active"
+  | "upload"
   | "download-all"
   | "quotes-left"
   | "search"

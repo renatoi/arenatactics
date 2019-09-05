@@ -16,8 +16,7 @@ import {
   IChampionsRemoveTraitFromFilter,
   IChampionsSearch,
   IGameDataLoaded,
-  IItemsSearch,
-  ILocalizedStringsLoaded
+  IItemsSearch
 } from "./actions";
 import { emptyState } from "./emptyState";
 
@@ -190,18 +189,6 @@ const TFTReducer = (
   });
 };
 
-const localizedStringsReducer = (state: any, action: ActionTypes): any => {
-  if (action.type === Actions.LocalizedStringsLoaded) {
-    return {
-      ...state,
-      ...(action as ILocalizedStringsLoaded).localizedStrings
-    };
-  }
-  return {
-    ...state
-  };
-};
-
 const getFilteredChampions = (state: TFTState): string[] => {
   const {
     champions,
@@ -295,6 +282,5 @@ const getFilteredBuilds = (state: TFTState): string[] => {
 };
 
 export const reducers = combineReducers<AppState, ActionTypes>({
-  TFT: TFTReducer,
-  localizedStrings: localizedStringsReducer
+  TFT: TFTReducer
 });

@@ -1,10 +1,13 @@
 import cx from "classnames";
-import { getIn } from "immutable";
 import React, { ChangeEvent, useEffect } from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import { connect } from "react-redux";
-import { RouteComponentProps, withRouter } from "react-router-dom";
+import {
+  generatePath,
+  RouteComponentProps,
+  withRouter
+} from "react-router-dom";
 import uuidv4 from "uuid/v4";
 import traitStyles from "../../assets/Traits.module.scss";
 import { Champion } from "../../components/Champion/Champion";
@@ -16,6 +19,7 @@ import {
   FilterPopover
 } from "../../components/Filter";
 import { Item } from "../../components/Item/Item";
+import { getLocalizedText } from "../../components/LocalizedText/LocalizedText";
 import {
   Detail,
   Master,
@@ -38,7 +42,7 @@ import {
   championsSearch
 } from "../../redux/actions";
 import { AppState, TFTChampions, TFTItems, TFTTraits } from "../../types";
-import { interpolateText } from "../../utils";
+import { getLocale, interpolateText } from "../../utils";
 import styles from "./Champions.module.scss";
 
 export interface TFTChampionsDispatchProps {
@@ -60,8 +64,6 @@ export interface TFTChampionsStateProps {
   readonly champions?: TFTChampions;
   readonly items?: TFTItems;
   readonly traits?: TFTTraits;
-  readonly titleText?: string;
-  readonly titleTextWithChampion?: string;
   readonly descriptionText?: string;
   readonly descriptionTextWithChampion?: string;
 }
@@ -93,11 +95,7 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
   isLoading,
   championsSearchQuery,
   championsFilterTraits,
-  championsFilterCosts,
-  titleText,
-  titleTextWithChampion,
-  descriptionText,
-  descriptionTextWithChampion
+  championsFilterCosts
 }) => {
   const selectedChampionKey = match.params.championKey;
   const selectedChampion =
@@ -127,30 +125,27 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
     dispatchSearchChampions("");
   };
 
+  const locale = getLocale();
+
   const championArtStyle =
     selectedChampionKey != null
       ? {
-          background: `linear-gradient(180deg, rgba(33,41,54,0.9) 0%, rgba(33,41,54,1) 75%, rgba(33,41,54,1) 95%),
-      url(${
-        process.env.PUBLIC_URL
-      }/tft/tft_${selectedChampionKey}_splash.png) 0 0 no-repeat fixed`,
-          backgroundSize: "cover"
+          background: `
+      url(${process.env.PUBLIC_URL}/tft/tft_${selectedChampionKey}_splash.png) 0 0 no-repeat fixed / cover`
         }
       : undefined;
 
-  const title =
-    selectedChampion && titleTextWithChampion != null
-      ? interpolateText(titleTextWithChampion, {
-          championName: selectedChampion.name
-        })
-      : titleText;
+  const title = selectedChampion
+    ? interpolateText(getLocalizedText("champions.titleWithChampion"), {
+        championName: selectedChampion.name
+      })
+    : getLocalizedText("champions.title");
 
-  const description =
-    selectedChampion && descriptionTextWithChampion != null
-      ? interpolateText(descriptionTextWithChampion, {
-          championName: selectedChampion.name
-        })
-      : descriptionText;
+  const description = selectedChampion
+    ? interpolateText(getLocalizedText("champions.descriptionWithChampion"), {
+        championName: selectedChampion.name
+      })
+    : getLocalizedText("champions.description");
 
   const handleTraitCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
     if (event.currentTarget.checked) {
@@ -178,18 +173,22 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
         <MasterHeader className={styles.masterHeader}>
           <MasterSearchBox
             value={championsSearchQuery}
-            label="Search champions"
-            placeholder="Search by name, trait, or cost"
+            label={getLocalizedText("champions.searchLabel")}
+            placeholder={getLocalizedText("champions.searchPlaceholder")}
             onSearchChange={handleSearchChange}
             onClearSearch={handleClearSearch}
           />
           <FilterButton>
             <FilterPopover>
-              <FilterItem onClick={dispatchResetFilter}>Reset All</FilterItem>
+              <FilterItem onClick={dispatchResetFilter}>
+                {getLocalizedText("filter.resetAll")}
+              </FilterItem>
               <FilterItem
                 content={
                   <FilterPopover shouldSplitColumns={true}>
-                    <FilterItem onClick={dispatchResetTraits}>Reset</FilterItem>
+                    <FilterItem onClick={dispatchResetTraits}>
+                      {getLocalizedText("filter.reset")}
+                    </FilterItem>
                     {Object.keys(traits.byId)
                       .sort()
                       .map(trait => (
@@ -209,12 +208,14 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
                   </FilterPopover>
                 }
               >
-                Traits
+                {getLocalizedText("filter.traits")}
               </FilterItem>
               <FilterItem
                 content={
                   <FilterPopover>
-                    <FilterItem onClick={dispatchResetCosts}>Reset</FilterItem>
+                    <FilterItem onClick={dispatchResetCosts}>
+                      {getLocalizedText("filter.reset")}
+                    </FilterItem>
                     {[1, 2, 3, 4, 5].sort().map(cost => (
                       <FilterItemCheckbox
                         key={`cost_${cost}`}
@@ -232,7 +233,7 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
                   </FilterPopover>
                 }
               >
-                Costs
+                {getLocalizedText("filter.costs")}
               </FilterItem>
             </FilterPopover>
           </FilterButton>
@@ -243,7 +244,10 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
             return (
               <MasterItem
                 key={champion.key}
-                to={match.path.replace(":championKey", champion.key)}
+                to={generatePath(match.path, {
+                  locale,
+                  championKey: champion.key
+                })}
                 isSelected={selectedChampionKey === champion.key}
                 linkClassName={styles.championsListItemLink}
               >
@@ -254,40 +258,38 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
           })}
         </MasterList>
       </Master>
-      <Detail
-        className={cx(styles.championsDetail, "Scrollable")}
-        style={championArtStyle}
-      >
+      <Detail className="Scrollable" style={championArtStyle}>
         {selectedChampion != null ? (
           <>
             <header className={styles.championHeader}>
               <h1 className={styles.championTitle}>{selectedChampion.name}</h1>
               <ul className={styles.championTraits}>
-                {selectedChampion.traits.map(trait => (
-                  <li
-                    key={trait}
-                    className={cx(
-                      styles.championTrait,
-                      traitStyles.trait_pill,
-                      traitStyles[`trait_pill_${trait.toLowerCase()}`]
-                    )}
-                  >
-                    <TraitImage name={trait.toLocaleLowerCase()} />
-                    {trait}
-                  </li>
-                ))}
+                {selectedChampion.traits.map((trait, index) => {
+                  const traitKey = selectedChampion.traitsSource[
+                    index
+                  ].toLocaleLowerCase();
+                  return (
+                    <li
+                      key={traitKey}
+                      className={cx(
+                        styles.championTrait,
+                        traitStyles.trait_pill,
+                        traitStyles[`trait_pill_${traitKey.toLowerCase()}`]
+                      )}
+                    >
+                      <TraitImage name={traitKey} />
+                      {trait}
+                    </li>
+                  );
+                })}
               </ul>
             </header>
-            <h2>Best item sets</h2>
             {/* Using index as keys since these don't change, it's fine! */}
             {selectedChampion.bestSets != null
               ? selectedChampion.bestSets.map((set, setIndex) => (
                   <div className={styles.itemSet} key={setIndex}>
                     <h3 className={styles.itemSetTitle}>{set.name}</h3>
                     <div className={styles.itemSetBody}>
-                      <p className={styles.itemSetDescription}>
-                        {set.description}
-                      </p>
                       <ul className={styles.itemSetItemsList}>
                         {set.items.map((itemId, itemIndex) => {
                           const item = items.byId[itemId];
@@ -321,9 +323,9 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
               : "Coming soon"}
           </>
         ) : (
-          <h1 className={styles.championTitle}>
-            Select a champion to view details.
-          </h1>
+          <p style={{ minHeight: "80%" }}>
+            {getLocalizedText("champions.championSelect")}
+          </p>
         )}
         <Disclaimer />
       </Detail>
@@ -335,7 +337,7 @@ const mapStateToProps = (
   state: AppState,
   ownProps: TFTChampionsOwnProps
 ): TFTChampionsStateProps => {
-  if (!state.TFT || !state.TFT.champions || !state.localizedStrings) {
+  if (!state.TFT || !state.TFT.champions) {
     return {
       ...ownProps,
       isLoading: true
@@ -350,23 +352,7 @@ const mapStateToProps = (
     traits: state.TFT.traits,
     championsSearchQuery: state.TFT.championsSearchQuery,
     championsFilterTraits: state.TFT.championsFilterTraits,
-    championsFilterCosts: state.TFT.championsFilterCosts,
-    titleText: getIn(state.localizedStrings, ["champions", "title"], ""),
-    titleTextWithChampion: getIn(
-      state.localizedStrings,
-      ["champions", "titleWithChampion"],
-      ""
-    ),
-    descriptionText: getIn(
-      state.localizedStrings,
-      ["champions", "description"],
-      ""
-    ),
-    descriptionTextWithChampion: getIn(
-      state.localizedStrings,
-      ["champions", "descriptionWithChampion"],
-      ""
-    )
+    championsFilterCosts: state.TFT.championsFilterCosts
   };
 };
 

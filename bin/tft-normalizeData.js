@@ -11,9 +11,10 @@ const chalk = require("chalk");
 const { getNormalizedKey, hashFnv32a } = require("./utils");
 
 function normalizeData(locale) {
+  const baseDataPath = path.resolve(__dirname, "data");
   // process best builds data
   const bestBuildsPath = path.resolve(
-    __dirname,
+    baseDataPath,
     `${locale}_TFT_best-builds.json`
   );
   const bestBuildsContent = fs.readFileSync(bestBuildsPath, {
@@ -33,7 +34,7 @@ function normalizeData(locale) {
   });
 
   // process best-items data
-  const bestItemsPath = path.resolve(__dirname, `${locale}_TFT_best-sets.csv`);
+  const bestItemsPath = path.resolve(baseDataPath, `best-sets_TFT.csv`);
   const bestItemsContents = fs.readFileSync(bestItemsPath, {
     encoding: "utf-8"
   });
@@ -45,11 +46,11 @@ function normalizeData(locale) {
   });
 
   records.forEach(record => {
-    if (record.CODE && record.Champion) {
-      const bestItemSetsContent = record.CODE.replace(/\\n/g).replace(
-        /"bestSets":/,
-        ""
-      );
+    const codeKey = locale === "en_us" ? "CODE_EN" : "CODE_PT";
+    if (record[codeKey] && record.Champion) {
+      const bestItemSetsContent = record[codeKey]
+        .replace(/\\n/g)
+        .replace(/"bestSets":/, "");
       const championId = getNormalizedKey(record.Champion);
       try {
         const bestItemSetsJSON = JSON.parse(bestItemSetsContent);
@@ -62,13 +63,13 @@ function normalizeData(locale) {
 
   // PROCESS SOURCE
   // always get english source to get key names
-  const sourceDataPathEn = path.resolve(__dirname, `en-us_TFT.json`);
+  const sourceDataPathEn = path.resolve(baseDataPath, `en_us_TFT.json`);
   const sourceDataContentsEn = fs.readFileSync(sourceDataPathEn, {
     encoding: "utf-8"
   });
   const sourceDataJSONEn = JSON.parse(sourceDataContentsEn);
 
-  const sourceDataPath = path.resolve(__dirname, `${locale}_TFT.json`);
+  const sourceDataPath = path.resolve(baseDataPath, `${locale}_TFT.json`);
   const sourceDataContents = fs.readFileSync(sourceDataPath, {
     encoding: "utf-8"
   });
@@ -79,13 +80,24 @@ function normalizeData(locale) {
     byId: {},
     byKey: {}
   };
+  //sourceDataJSON.traits.forEach(trait => console.log(trait.name));
   for (let championId in championsData) {
     if (championsData.hasOwnProperty(championId)) {
       const championKey = getNormalizedKey(
         sourceDataJSONEn.champions[championId].name
       );
+      let newChampionData = championsData[championId];
+      newChampionData.traitsSource = [...newChampionData.traits];
+      if (locale === "pt_br") {
+        newChampionData.traits = newChampionData.traits.map(trait => {
+          const indexOfTrait = sourceDataJSONEn.traits
+            .map(trait => trait.name)
+            .indexOf(trait);
+          return sourceDataJSON.traits[indexOfTrait].name;
+        });
+      }
       newChampionsData.byKey[championKey] = championId;
-      newChampionsData.byId[championId] = championsData[championId];
+      newChampionsData.byId[championId] = newChampionData;
       newChampionsData.byId[championId].key = championKey;
       newChampionsData.byId[championId].id = championId;
       delete newChampionsData.byId[championId].splash;
@@ -175,7 +187,7 @@ function normalizeData(locale) {
   // write
   const writeToPath = path.resolve(
     __dirname,
-    `../public/data/tft-${locale}.json`
+    `../public/data/tft-${locale.replace(/_/g, "-")}.json`
   );
   fs.writeFileSync(writeToPath, JSON.stringify(newData));
   const stats = fs.statSync(writeToPath);
@@ -187,5 +199,5 @@ function normalizeData(locale) {
   );
 }
 
-normalizeData("en-us");
-normalizeData("pt-br");
+normalizeData("en_us");
+normalizeData("pt_br");

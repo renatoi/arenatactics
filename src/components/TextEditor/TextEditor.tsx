@@ -1,13 +1,10 @@
 import isHotkey from "is-hotkey";
 import React from "react";
-import ReactMarkdown from "react-markdown";
 import { Icon, Icons } from "../../components/Icon/Icon";
 import { Popover } from "../../components/Popover/Popover";
-import { Champion } from "../Champion/Champion";
 import { ChampionsPopover } from "../ChampionsPopover/ChampionsPopover";
-import { Item } from "../Item/Item";
 import { ItemsPopover } from "../ItemsPopover/ItemsPopover";
-import CustomMark from "./CustomMark";
+import { MarkdownViewer } from "../MarkdownViewer/MarkdownViewer";
 import styles from "./TextEditor.module.scss";
 
 type Format =
@@ -180,18 +177,6 @@ export class TextEditor extends React.Component<TextEditorProps> {
 
   render() {
     const { value } = this.props;
-    const renderers = {
-      customMark: (props: any) => {
-        if (props.identifier.toLowerCase() === "champion") {
-          return <Champion championKey={props.param} showItems={false} />;
-        }
-        if (props.identifier.toLowerCase() === "item") {
-          return <Item itemId={props.param} />;
-        }
-        return <>{`[[${props.identifier}]]`}</>;
-      }
-    };
-    const plugins = [CustomMark];
     return (
       <div className={styles.container}>
         <div className={styles.toolbar}>
@@ -215,11 +200,7 @@ export class TextEditor extends React.Component<TextEditorProps> {
             onChange={this.handleOnChange}
           />
           <div className={`${styles.preview} Markdown`}>
-            <ReactMarkdown
-              source={value}
-              renderers={renderers}
-              plugins={plugins}
-            />
+            <MarkdownViewer value={value} />
           </div>
         </div>
       </div>

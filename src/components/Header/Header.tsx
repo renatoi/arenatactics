@@ -2,13 +2,23 @@ import cx from "classnames";
 import React from "react";
 import { RouteComponentProps, withRouter } from "react-router-dom";
 import { getLocale } from "../../utils";
+import { LocalizedText } from "../LocalizedText/LocalizedText";
 import { PathNavLink } from "../PathNavlink/PathNavLink";
 import { Popover } from "../Popover/Popover";
 import styles from "./Header.module.scss";
 
 const isLangSelected = (lang: "en-us" | "pt-br") => getLocale() === lang;
 
+const replaceWithLang = (lang: string) => {
+  const parsedUrl = new URL(window.location.href);
+  return parsedUrl.pathname.replace(
+    /^\/([a-zA-Z]{2}-[a-zA-Z]{2}\/)?/,
+    `/${lang}/`
+  );
+};
+
 interface HeaderProps extends RouteComponentProps {}
+
 const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
   return (
     <header className={styles.header}>
@@ -28,22 +38,22 @@ const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
             activeClassName={styles.navLinkActive}
             to="/champions"
           >
-            Champions
+            <LocalizedText id="champions.navText" />
           </PathNavLink>
           <PathNavLink
             className={styles.navLink}
             activeClassName={styles.navLinkActive}
             to="/items"
           >
-            Items
+            <LocalizedText id="items.navText" />
           </PathNavLink>
-          <PathNavLink
+          {/* <PathNavLink
             className={styles.navLink}
             activeClassName={styles.navLinkActive}
-            to="/builds"
+            to="/comps"
           >
-            Builds
-          </PathNavLink>
+            <LocalizedText id="comps.navText" />
+          </PathNavLink> */}
           <PathNavLink
             className={cx(styles.navLink, styles.hidden)}
             activeClassName={styles.navLinkActive}
@@ -58,7 +68,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
             content={
               <div className={styles.langContainer}>
                 <a
-                  href={`${match.url}?hl=en-us`}
+                  href={replaceWithLang("en-us")}
                   className={cx(styles.langLink, {
                     [styles.langLinkActive]: isLangSelected("en-us")
                   })}
@@ -66,7 +76,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
                   English
                 </a>
                 <a
-                  href={`${match.url}?hl=pt-br`}
+                  href={replaceWithLang("pt-br")}
                   className={cx(styles.langLink, {
                     [styles.langLinkActive]: isLangSelected("pt-br")
                   })}

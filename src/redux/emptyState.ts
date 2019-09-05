@@ -16,6 +16,5 @@ export const emptyState: AppState = {
     items: { byId: {}, byKey: {} },
     traits: { byId: {} },
     builds: { byId: {}, byKey: {} }
-  },
-  localizedStrings: undefined
+  }
 };

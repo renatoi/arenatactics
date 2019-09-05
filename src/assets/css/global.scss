@@ -1,7 +1,5 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
   padding: 0;
   margin: 0;
   background: #141721;
@@ -11,6 +9,11 @@ body {
   color: #e3ebee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: url("../tft_bg.png") no-repeat fixed;
+  background-size: cover;
 }
 
 .Foreground {
@@ -105,13 +108,14 @@ code {
 /* ICONS */
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?88k86p");
-  src: url("../fonts/icomoon.eot?88k86p#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?88k86p") format("truetype"),
-    url("../fonts/icomoon.woff?88k86p") format("woff"),
-    url("../fonts/icomoon.svg?88k86p#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?l65s8n");
+  src: url("../fonts/icomoon.eot?l65s8n#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?l65s8n") format("truetype"),
+    url("../fonts/icomoon.woff?l65s8n") format("woff"),
+    url("../fonts/icomoon.svg?l65s8n#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"],
@@ -136,8 +140,14 @@ code {
 .icon-h2:before {
   content: "\e901";
 }
+.icon-copy:before {
+  content: "\e92c";
+}
 .icon-download-active:before {
   content: "\e933";
+}
+.icon-upload:before {
+  content: "\e934";
 }
 .icon-download-all:before {
   content: "\e95e";

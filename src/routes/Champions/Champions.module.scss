@@ -4,6 +4,7 @@
 .championHeader {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 12px;
 }
 .championTraits {
   margin: 0;
@@ -22,6 +23,7 @@
 }
 .championTitle {
   margin: 8px 0;
+  text-shadow: 2px 2px 0 #000, 0px 0 3px #000;
 }
 .championsList {
   display: grid;
@@ -35,20 +37,18 @@ a.championsListItemLink {
   align-items: center;
 }
 .itemSet {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 .itemSetTitle {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(50, 0, 0, 0.9);
   padding: 12px;
   font-size: 16px;
   margin: 0;
 }
 .itemSetBody {
   padding: 12px;
-}
-.itemSetDescription {
-  margin-top: 0;
 }
 .itemSetItemsList {
   list-style-type: none;

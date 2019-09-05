@@ -2,10 +2,7 @@ export type Locale = "en-us" | "pt-br";
 
 export interface AppState {
   readonly TFT: TFTState;
-  readonly localizedStrings: LocalizedStrings;
 }
-
-export type LocalizedStrings = any;
 
 export interface TFTState {
   readonly visibleItems: string[];
@@ -126,6 +123,7 @@ export interface TFTChampion {
   readonly cost: number;
   readonly stats: TFTChampionStats;
   readonly traits: string[];
+  readonly traitsSource: string[];
   readonly ability: TFTChampionAbility;
   readonly bestSets: TFTChampionBestSet[];
   readonly key: string;
@@ -163,6 +161,5 @@ export interface TFTChampionAbility {
 
 export interface TFTChampionBestSet {
   readonly name: string;
-  readonly description: string;
   readonly items: string[];
 }

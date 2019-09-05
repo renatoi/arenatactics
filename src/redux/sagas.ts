@@ -1,20 +1,5 @@
 import { all, call, put, takeEvery } from "redux-saga/effects";
-import {
-  Actions,
-  gameDataLoaded,
-  IGameDataFetch,
-  ILocalizedStringsFetch,
-  localizedStringsLoaded
-} from "./actions";
-
-export function* localizedStringsSaga() {
-  yield takeEvery(Actions.LocalizedStringsFetch, localizedStringsFetch);
-}
-function* localizedStringsFetch(action: ILocalizedStringsFetch) {
-  const response = yield call(fetch, `/i18n/${action.locale}.json`);
-  const json = yield call([response, response.json]);
-  yield put(localizedStringsLoaded(json));
-}
+import { Actions, gameDataLoaded, IGameDataFetch } from "./actions";
 
 export function* gameDataSaga() {
   yield takeEvery(Actions.GameDataFetch, gameDataFetch);
@@ -26,5 +11,5 @@ function* gameDataFetch(action: IGameDataFetch) {
 }
 
 export default function* rootSaga() {
-  yield all([localizedStringsSaga(), gameDataSaga()]);
+  yield all([gameDataSaga()]);
 }

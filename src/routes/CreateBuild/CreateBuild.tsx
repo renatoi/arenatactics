@@ -11,7 +11,23 @@ import { ItemsPopover } from "../../components/ItemsPopover/ItemsPopover";
 import { Popover } from "../../components/Popover/Popover";
 import { TextEditor } from "../../components/TextEditor/TextEditor";
 import { AppState, TFTBuild, TFTChampions, TFTItems } from "../../types";
+import { hasKey } from "../../utils";
 import styles from "./CreateBuild.module.scss";
+
+const isValidBuildJSON = (json: object) => {
+  return (
+    hasKey(json, "key") &&
+    hasKey(json, "name") &&
+    hasKey(json, "author") &&
+    hasKey(json, "id") &&
+    hasKey(json, "author") &&
+    hasKey(json, "lang") &&
+    hasKey(json, "positioning") &&
+    hasKey(json, "composition") &&
+    hasKey(json, "guide") &&
+    hasKey(json, "tier")
+  );
+};
 
 interface CreateBuildOwnProps {}
 interface CreateBuildStateProps {
@@ -156,6 +172,66 @@ class CreateBuildComponent extends React.Component<
       },
       () => this.copyCurrentBuildToUserBuildsAndSave()
     );
+  };
+
+  duplicateBuild = () => {
+    this.setState(
+      prevState => {
+        const dupe: TFTBuild = {
+          ...prevState.currentBuild,
+          id: uuidv4(),
+          name: prevState.currentBuild.name + " COPY"
+        };
+        return {
+          currentBuild: dupe
+        };
+      },
+      () => this.copyCurrentBuildToUserBuildsAndSave()
+    );
+  };
+
+  uploadBuild = () => {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.addEventListener("change", event => {
+      if (event.target == null) return;
+      const file = (event.target as any).files[0];
+      const reader = new FileReader();
+      reader.readAsText(file, "UTF-8");
+      reader.onload = readerEvent => {
+        const content = (readerEvent.target as any).result;
+        try {
+          const parsedContent = JSON.parse(content);
+          if (
+            Array.isArray(parsedContent) &&
+            parsedContent.every(build => isValidBuildJSON(build))
+          ) {
+            this.setState(
+              prevState => {
+                return {
+                  userBuilds: [...prevState.userBuilds, ...parsedContent]
+                };
+              },
+              () => this.saveLocalJSON()
+            );
+          } else if (isValidBuildJSON(parsedContent)) {
+            this.setState(
+              {
+                currentBuild: parsedContent
+              },
+              () => this.copyCurrentBuildToUserBuildsAndSave()
+            );
+          } else {
+            alert("JSON is valid but it doesn't look like a build file");
+          }
+        } catch {
+          alert(
+            "Error trying to parse file. Please verify if it's valid JSON file."
+          );
+        }
+      };
+    });
+    input.click();
   };
 
   editBuild = (buildId: string) => {
@@ -503,7 +579,7 @@ class CreateBuildComponent extends React.Component<
             >
               {this.state.userBuilds.map(userBuild => (
                 <option key={userBuild.id} value={userBuild.id}>
-                  {userBuild.name}
+                  {`${userBuild.name} (${userBuild.lang})`}
                 </option>
               ))}
             </select>
@@ -520,6 +596,20 @@ class CreateBuildComponent extends React.Component<
               onClick={this.createNewBuild}
             >
               <Icon type="plus">Add new build</Icon>
+            </button>
+            <button
+              className={cx(styles.button, styles.duplicateBuildButton)}
+              type="button"
+              onClick={this.duplicateBuild}
+            >
+              <Icon type="copy">Duplicate build</Icon>
+            </button>
+            <button
+              className={cx(styles.button, styles.uploadNewBuildButton)}
+              type="button"
+              onClick={this.uploadBuild}
+            >
+              <Icon type="upload">Upload a build</Icon>
             </button>
             <div className={styles.tabs}>
               <button

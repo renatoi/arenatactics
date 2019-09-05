@@ -1,0 +1,5477 @@
+{
+  "champions": {
+    "4": {
+      "name": "Twisted Fate",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.png",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Escolha uma Carta",
+        "desc": "Twisted Fate escolhe uma carta aleatoriamente, depois a arremessa em seu alvo atual, causando @ModifiedDamage@ de Dano Mágico e criando um efeito especial com base na cor da carta.<br><br>Azul: restaura @BlueCardManaRestore@ de Mana de todos os aliados adjacentes a Twisted Fate.<br>Vermelha: causa @ModifiedDamage@ de dano a todos os inimigos adjacentes ao alvo.<br>Dourada: atordoa o alvo por @GoldCardStunDuration@s.",
+        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.png",
+        "variables": [
+          {
+            "key": "RedCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardManaRestore",
+            "values": [
+              5.0,
+              20.0,
+              35.0,
+              50.0,
+              65.0,
+              80.0,
+              95.0
+            ]
+          },
+          {
+            "key": "GoldCardStunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "GoldCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "name": "Kayle",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.png",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 50.0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Sentença Divina",
+        "desc": "Kayle protege com um escudo seu(s) @Targets@ aliado(s) mais fraco(s), tornando-o(s) imune(s) a todo dano por @ShieldDuration@s.",
+        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.png",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "Targets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "name": "Tristana",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 4
+      },
+      "traits": [
+        "Yordle",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Carga Explosiva",
+        "desc": "Tristana coloca uma bomba no alvo atual, que detonará se ela atingir o alvo com 3 ataques básicos ou após @ExplosiveChargeDuration@s sem que ela o ataque.<br><br>Quanto a bomba detona, causa @ModifiedDamage@ de Dano Mágico a todos os inimigos próximos, mais @PercentDamageIncrease@ por cada ataque básico, até um máximo de @ModifiedMaxDamage@ de dano.",
+        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.png",
+        "variables": [
+          {
+            "key": "ExplosiveChargeDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ChargeBaseDamage",
+            "values": [
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0,
+              210.0
+            ]
+          },
+          {
+            "key": "PercentDamageIncreasePerStack",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "MaxChargeDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "name": "Warwick",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Coerção Infinita",
+        "desc": "Warwick salta sobre o inimigo mais fraco, atordoando-o por @Duration@s e golpeando @Hits@ vezes, causando @ModifiedDamage@ de Dano Mágico. Cada golpe ativa efeitos ao contato e cura Warwick em 100% do dano causado.",
+        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.png",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BaseDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "DashHexSpeed",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Hits",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "name": "Miss Fortune",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.85,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Metendo Bala",
+        "desc": "Miss Fortune canaliza e dispara ondas de balas em uma área em cone por @ChannelDuration@s, causando @ModifiedDamage@ de Dano Mágico ao longo da duração a todos os inimigos dentro do alcance.",
+        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.png",
+        "variables": [
+          {
+            "key": "Waves",
+            "values": [
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              500.0,
+              900.0,
+              1300.0,
+              1700.0,
+              2100.0,
+              2500.0,
+              2900.0
+            ]
+          },
+          {
+            "key": "ChannelDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "name": "Ashe",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Glacial",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Flecha de Cristal Encantada",
+        "desc": "Ashe dispara uma flecha no inimigo mais distante. A flecha para no primeiro alvo atingido, causando @ModifiedDamage@ de Dano Mágico e atordoando-o por @StunDurationPerSquare@s por cada casa percorrida.",
+        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "StunDurationPerSquare",
+            "values": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "name": "Morgana",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Grilhões da Alma",
+        "desc": "Morgana dispara correntes em todos os inimigos próximos, causando @ModifiedDamage@ de Dano Mágico.<br><br>Após @ChainDuration@s, todos os inimigos acorrentados que permanecerem no alcance de Morgana são atordoados por @StunDuration@s e sofrem @ModifiedDamage@ de Dano Mágico novamente.",
+        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              175.0,
+              300.0,
+              425.0,
+              550.0,
+              675.0,
+              800.0
+            ]
+          },
+          {
+            "key": "ChainDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              0.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          },
+          {
+            "key": "SlowPercent",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "CanCastRange",
+            "values": [
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "name": "Evelynn",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Última Carícia",
+        "desc": "Evelynn causa @ModifiedDamage@ de Dano Mágico a até 3 inimigos próximos e depois se teleporta para longe.<br><br>Esse dano é aumentado para @ModifiedCritDamage@ contra alvos abaixo de @ExecuteThreshholdPercent@ de Vida.",
+        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.png",
+        "variables": [
+          {
+            "key": "CritMultiplier",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          },
+          {
+            "key": "CritThreshold",
+            "values": [
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "BlinkBackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "name": "Karthus",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.png",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 40.0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Réquiem",
+        "desc": "Karthus canaliza por 2,25s e causa @ModifiedDamage@ de Dano Mágico a @NumberOfTargets@ inimigos aleatórios.",
+        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              350.0,
+              600.0,
+              850.0,
+              1100.0,
+              1350.0,
+              1600.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0,
+              15.0
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "name": "Cho'Gath",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.png",
+      "stats": {
+        "hp": 1000.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Ruptura",
+        "desc": "Cho'Gath rompe uma grande área, causando @ModifiedDamage@ de Dano Mágico e arremessando ao ar todos os inimigos dentro dela por @KnockDuration@s.",
+        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              175.0,
+              350.0,
+              525.0,
+              700.0,
+              875.0,
+              1050.0
+            ]
+          },
+          {
+            "key": "KnockDuration",
+            "values": [
+              1.25,
+              1.5,
+              1.75,
+              2.0,
+              2.25,
+              2.5,
+              2.75
+            ]
+          },
+          {
+            "key": "RuptureDelay",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "34": {
+      "name": "Anivia",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Tempestade Glacial",
+        "desc": "Anivia cria uma grande tempestade de granizo que dura @StormDuration@s, causando @ModifiedDamage@ de Dano Mágico ao longo da duração e reduzindo a Velocidade de Ataque de todos os inimigos dentro da tempestade em @AttackSpeedSlow@%.",
+        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.png",
+        "variables": [
+          {
+            "key": "TotalDamage",
+            "values": [
+              450.0,
+              700.0,
+              950.0,
+              1200.0,
+              1450.0,
+              1700.0,
+              1950.0
+            ]
+          },
+          {
+            "key": "AttackSpeedSlow",
+            "values": [
+              30.0,
+              50.0,
+              70.0,
+              90.0,
+              110.0,
+              130.0,
+              150.0
+            ]
+          },
+          {
+            "key": "StormDuration",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "38": {
+      "name": "Kassadin",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Lâmina Ínfera",
+        "desc": "Passivo: os ataques básicos de Kassadin roubam @ManaSteal@ de Mana e concedem a ele um escudo contra @ModifiedShield@ de dano por @ShieldDuration@s.",
+        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.png",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ManaSteal",
+            "values": [
+              0.0,
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0
+            ]
+          }
+        ]
+      }
+    },
+    "41": {
+      "name": "Gangplank",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Barris de Pólvora",
+        "desc": "Passivo: Gangplank posiciona barris perto de inimigos periodicamente.<br><br>Ativo: Gangplank dispara nos barris, fazendo com que explodam, causem @ModifiedDamage@ de Dano Mágico a inimigos próximos e apliquem efeitos ao contato.",
+        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "45": {
+      "name": "Veigar",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Explosão Primordial",
+        "desc": "Veigar dispara uma explosão de energia mágica em um inimigo, causando @ModifiedDamage@ de Dano Mágico. Se o nível de estrela de Veigar for maior que o do alvo, o dano é aumentado para @ModifiedLowerStarDamage@.",
+        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              300.0,
+              550.0,
+              800.0,
+              1050.0,
+              1300.0,
+              1550.0
+            ]
+          },
+          {
+            "key": "LowerStarDamage",
+            "values": [
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0
+            ]
+          }
+        ]
+      }
+    },
+    "50": {
+      "name": "Swain",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.png",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Imperial",
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Chama Demoníaca",
+        "desc": "Swain se transforma em demônio por @TransformDuration@s.<br><br>Na forma de demônio, ele drena Vida de inimigos próximos, causando @ModifiedDamage@ de Dano Mágico e curando-se em @ModifiedHeal@ de Vida ao longo da duração por cada inimigo dentro do alcance. No fim da transformação, Swain dispara Chama Demoníaca, causando @ModifiedSoulFlareDamage@ de Dano Mágico a todos os inimigos próximos.",
+        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.png",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0
+            ]
+          },
+          {
+            "key": "HealPerTick",
+            "values": [
+              10.0,
+              40.0,
+              70.0,
+              100.0,
+              130.0,
+              160.0,
+              190.0
+            ]
+          },
+          {
+            "key": "SoulFlareDamage",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "HealthIncrease",
+            "values": null
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              0.0,
+              600.0,
+              1200.0,
+              1800.0,
+              2400.0,
+              3000.0,
+              3600.0
+            ]
+          },
+          {
+            "key": "TotalHeal",
+            "values": [
+              120.0,
+              600.0,
+              1080.0,
+              1560.0,
+              2040.0,
+              2520.0,
+              3000.0
+            ]
+          }
+        ]
+      }
+    },
+    "53": {
+      "name": "Blitzcrank",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Robot",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Puxão Biônico",
+        "desc": "Blitzcrank puxa até ele o inimigo mais distante, causando @ModifiedDamage@ de Dano Mágico e atordoando-o por @StunDuration@s.<br><br>Seu próximo ataque depois de puxar arremessará o inimigo ao ar por 1s.<br><br>Aliados dentro do alcance focarão seus ataques no alvo de Blitzcrank.",
+        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -250.0,
+              100.0,
+              450.0,
+              800.0,
+              1150.0,
+              1500.0,
+              1850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          }
+        ]
+      }
+    },
+    "55": {
+      "name": "Katarina",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.png",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Lótus da Morte",
+        "desc": "Katarina canaliza por @Duration@s, arremessando facas em @NumberOfTargets@ inimigos próximos, causando @ModifiedDamage@ de Dano Mágico ao longo da duração e impedindo que se curem por @GrievousWoundsDuration@s.",
+        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.png",
+        "variables": [
+          {
+            "key": "DamagePerTick",
+            "values": [
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0,
+              140.0
+            ]
+          },
+          {
+            "key": "TicksPerSecond",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          },
+          {
+            "key": "GrievousWoundsDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              14.0
+            ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0,
+              2100.0
+            ]
+          }
+        ]
+      }
+    },
+    "60": {
+      "name": "Elise",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Forma de Aranha",
+        "desc": "Elise se transforma em uma aranha gigante e invoca @NumSpiderlings@ Cria(s) para lutarem ao seu lado.<br><br>Enquanto estiver na Forma de Aranha, ela recebe @LifestealPercent@ de Roubo de Vida adicional. Crias são beneficiadas pelos efeitos ativos da característica Demônio.",
+        "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
+        "variables": [
+          {
+            "key": "NumSpiderlings",
+            "values": [
+              1.0,
+              1.0,
+              2.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "Lifesteal",
+            "values": [
+              0.3,
+              0.6,
+              0.9,
+              1.2,
+              1.5,
+              1.8,
+              2.1
+            ]
+          },
+          {
+            "key": "SpiderFormDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "63": {
+      "name": "Brand",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Demon",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Piroclasma",
+        "desc": "Brand dispara uma bola de fogo em um inimigo. Ela ricocheteia para inimigos próximos até @MaxBounces@ vezes, causando @ModifiedDamage@ de Dano Mágico cada vez que acertar.",
+        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              450.0,
+              650.0,
+              850.0,
+              1050.0,
+              1250.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              4.0,
+              4.0,
+              6.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          }
+        ]
+      }
+    },
+    "67": {
+      "name": "Vayne",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Dardos de Prata",
+        "desc": "Passivo: sempre que Vayne atinge o mesmo alvo com 3 ataques básicos, ela causa @ModifiedDamage@ da Vida máxima do alvo como Dano Verdadeiro.",
+        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.png",
+        "variables": [
+          {
+            "key": "PercentDamage",
+            "values": [
+              0.04,
+              0.08,
+              0.12,
+              0.16,
+              0.2,
+              0.24,
+              0.28
+            ]
+          }
+        ]
+      }
+    },
+    "76": {
+      "name": "Nidalee",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Ímpeto Selvagem",
+        "desc": "Nidalee cura a si mesma e a um aliado, restaurando @ModifiedHeal@ de Vida ao longo de @HoTDuration@s, depois se transforma em puma.<br><br>Na forma de puma, seu alcance é reduzido para 1 casa e ela recebe @ADinCougar@ de Dano de Ataque adicional.",
+        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.png",
+        "variables": [
+          {
+            "key": "HoTDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "HoTTotalHeal",
+            "values": [
+              -75.0,
+              150.0,
+              375.0,
+              600.0,
+              825.0,
+              1050.0,
+              1275.0
+            ]
+          },
+          {
+            "key": "ADInCougar",
+            "values": [
+              -30.0,
+              20.0,
+              70.0,
+              120.0,
+              170.0,
+              220.0,
+              270.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AnimTime",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "78": {
+      "name": "Poppy",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.png",
+      "stats": {
+        "hp": 800.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Yordle",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Veredito da Guardiã",
+        "desc": "Poppy cria uma onda de choque em linha reta que pode atingir até @NumberOfTargets@ inimigo(s), causando @ModifiedDamage@ de Dano Mágico, arremessando ao ar e atordoando por @StunDuration@s.",
+        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.png",
+        "variables": [
+          {
+            "key": "DamagePart2",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "KnockbackDurationPart2",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "PoppyAnimLockDuration",
+            "values": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "80": {
+      "name": "Pantheon",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pantheon.png",
+      "stats": {
+        "hp": 1000.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 100.0,
+        "damage": 80.0,
+        "damageScaleFactor": 1.25,
+        "armor": 120.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 1
+      },
+      "traits": [
+        "Dragon",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Constelação Cadente",
+        "desc": "Pantheon salta no ar, fica inalvejável e aterrissa em direção ao inimigo mais distante, atordoando-o por @StunDuration@s.<br><br>Ao aterrissar, Pantheon causa Dano Mágico a todos os inimigos no caminho equivalente a @ModifiedDamage@ da Vida máxima deles.",
+        "icon": "ASSETS/Characters/TFT_Pantheon/HUD/Icons2D/TFT_Pantheon_Spell.TFT_Pantheon.png",
+        "variables": [
+          {
+            "key": "PercentHealthDamage",
+            "values": [
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.8
+            ]
+          },
+          {
+            "key": "Radius",
+            "values": [
+              450.0,
+              450.0,
+              450.0,
+              450.0,
+              450.0,
+              450.0,
+              450.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              14.0
+            ]
+          },
+          {
+            "key": "BurnPercent",
+            "values": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0
+            ]
+          }
+        ]
+      }
+    },
+    "82": {
+      "name": "Mordekaiser",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Phantom",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Obliterar",
+        "desc": "Mordekaiser golpeia com a maça duas casas à frente, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos dentro do alcance.",
+        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "MaceStartDistance",
+            "values": [
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0
+            ]
+          },
+          {
+            "key": "MaceLength",
+            "values": [
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0
+            ]
+          },
+          {
+            "key": "RectangleWidth",
+            "values": [
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0
+            ]
+          }
+        ]
+      }
+    },
+    "84": {
+      "name": "Akali",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 80.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Golpe dos Cinco Pontos",
+        "desc": "Akali arremessa kunais em seu alvo, causando @ModifiedDamage@ de Dano Mágico.<br><br>Há uma chance de @CritChance@ que essa habilidade seja um Acerto Crítico, causando @CritDamage@ de Dano Mágico.",
+        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "ConeDeg",
+            "values": [
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "85": {
+      "name": "Kennen",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Ninja",
+        "Yordle",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Turbilhão Cortante",
+        "desc": "Kennen invoca uma tempestade ao redor de si por @Duration@s, atingindo todos os inimigos na área com raios a cada @TickRate@s e causando @ModifiedDamage@ de Dano Mágico ao longo da duração. Cada inimigo atingido por 3 raios é atordoado por @StunDuration@s.",
+        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.png",
+        "variables": [
+          {
+            "key": "TickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              225.0,
+              450.0,
+              675.0,
+              900.0,
+              1125.0,
+              1350.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "86": {
+      "name": "Garen",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Julgamento",
+        "desc": "Garen gira a espada por @SpinDuration@s, tornando-se imune a Dano Mágico e causando @ModifiedDamage@ de Dano Mágico a inimigos próximos ao longo da duração.",
+        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.png",
+        "variables": [
+          {
+            "key": "SpinDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ETotalTicks",
+            "values": [
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              15.0,
+              40.0,
+              65.0,
+              90.0,
+              115.0,
+              140.0,
+              165.0
+            ]
+          }
+        ]
+      }
+    },
+    "89": {
+      "name": "Leona",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.png",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 50.0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 100.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Labareda Solar",
+        "desc": "Leona invoca um raio solar em uma área, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos no interior e atordoando o inimigo no centro por @CCDuration@s.",
+        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.png",
+        "variables": [
+          {
+            "key": "DelayTime",
+            "values": [
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0,
+              15.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0,
+              550.0
+            ]
+          }
+        ]
+      }
+    },
+    "98": {
+      "name": "Shen",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 100.0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Refúgio Espiritual",
+        "desc": "Shen cria uma zona ao redor de si por @ZoneDuration@s, concedendo a todos os aliados próximos 100% de chance de esquiva contra ataques básicos.",
+        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.png",
+        "variables": [
+          {
+            "key": "ZoneDuration",
+            "values": [
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "102": {
+      "name": "Shyvana",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Dragon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Descida do Dragão",
+        "desc": "Shyvana avança para longe do seu alvo atual e se transforma em dragão.<br><br>Na forma de dragão, ela recebe @ADWhileDragon@ de Dano de Ataque e seus ataques básicos se tornam ataques a distância, queimando os inimigos por @BurnDuration@s, causando @ModifiedDamage@ de Dano Mágico e evitando que se curem ao longo da duração.",
+        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.png",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "ADWhileDragon",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "BurnDamage",
+            "values": [
+              125.0,
+              250.0,
+              375.0,
+              500.0,
+              625.0,
+              750.0,
+              875.0
+            ]
+          },
+          {
+            "key": "ExtraAARange",
+            "values": [
+              480.0,
+              480.0,
+              480.0,
+              480.0,
+              480.0,
+              480.0,
+              480.0
+            ]
+          }
+        ]
+      }
+    },
+    "103": {
+      "name": "Ahri",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.png",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Orbe da Ilusão",
+        "desc": "Ahri dispara um orbe em linha, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos pelos quais passar.<br><br>O orbe retorna para ela, causando @ModifiedDamage@ de Dano Verdadeiro a todos os inimigos no caminho.",
+        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              475.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "104": {
+      "name": "Graves",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.png",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Chumbo Grosso",
+        "desc": "Passivo: os ataques básicos de Graves causam @BonusDamage@ de Dano Físico adicional e acertam todos os inimigos em uma área de cone à frente dele. Ele aplica efeitos de contato a todos os inimigos atingidos.",
+        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.png",
+        "variables": [
+          {
+            "key": "DamageMultiplier",
+            "values": [
+              0.0,
+              0.05,
+              0.1,
+              0.15,
+              0.2,
+              0.25,
+              0.3
+            ]
+          }
+        ]
+      }
+    },
+    "106": {
+      "name": "Volibear",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Garras do Trovão",
+        "desc": "Volibear fortalece seus ataques pelos próximos @BuffDuration@s, fazendo com que acertem em cadeia até @MaxBounces@ inimigos próximos. Os ataques em cadeia causam @ChainDamage@ de Dano Físico e aplicam efeitos ao contato.",
+        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.png",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ChainADMult",
+            "values": [
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3
+            ]
+          },
+          {
+            "key": "SizeIncrease",
+            "values": [
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "107": {
+      "name": "Rengar",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Selvageria",
+        "desc": "Rengar salta até o inimigo mais fraco e o apunhala, causando @LeapDamage@ de Dano Físico e aplicando efeitos ao contato.<br><br>Depois disso, ele recebe @ASBuffPercent@ de Velocidade de Ataque e @CritBuffPercent@ de Chance de Acerto Crítico pelos próximos @BuffDuration@s.",
+        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.png",
+        "variables": [
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              0.1,
+              0.3,
+              0.5,
+              0.7,
+              0.9,
+              1.1,
+              1.3
+            ]
+          },
+          {
+            "key": "CritBuff",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "110": {
+      "name": "Varus",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Demon",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Flecha Perfurante",
+        "desc": "Varus canaliza por 1,5s, depois dispara uma Flecha Perfurante, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos no trajeto.",
+        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              300.0,
+              550.0,
+              800.0,
+              1050.0,
+              1300.0,
+              1550.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "113": {
+      "name": "Sejuani",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.png",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Prisão Glacial",
+        "desc": "Após um intervalo de @ExplosionDelay@s, Sejuani lança uma Prisão Glacial em um inimigo, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos próximos e atordoando-os por @StunDuration@s.",
+        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.png",
+        "variables": [
+          {
+            "key": "ExplosionDelay",
+            "values": [
+              0.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          }
+        ]
+      }
+    },
+    "114": {
+      "name": "Fiora",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.png",
+      "stats": {
+        "hp": 400.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Ripostar",
+        "desc": "Fiora assume uma postura defensiva por @BlockDuration@s, tornando-se imune a dano e efeitos de habilidades inimigas. Ao sair dessa postura, ela riposta, causando @ModifiedDamage@ de Dano Mágico a um inimigo próximo e atordoando-o por @StunDuration@s.",
+        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BlockDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "117": {
+      "name": "Lulu",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Crescimento Virente",
+        "desc": "Lulu transforma @Targets@ aliado(s) em gigante(s), concedendo @ModifiedBonusHealth@ de Vida adicional e arremessando ao ar inimigos adjacentes a ele(s) por @CCDuration@s.",
+        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.png",
+        "variables": [
+          {
+            "key": "BonusHealth",
+            "values": [
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0,
+              800.0
+            ]
+          },
+          {
+            "key": "Targets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    "119": {
+      "name": "Draven",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Imperial",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Revolução do Machado",
+        "desc": "Draven começa a girar um machado, concedendo a ele @BonusADDamage@ de Dano Físico adicional ao contato em seu próximo ataque.<br><br>O machado retorna depois de atingir o alvo e, se Draven pegá-lo, o efeito reinicia.<br><br>Ele pode pegar até dois machados giratórios de uma vez.",
+        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.png",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75
+            ]
+          },
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "121": {
+      "name": "Kha'Zix",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Sabor de Medo",
+        "desc": "Kha'Zix corta o inimigo mais próximo, causando @ModifiedDamage@ de Dano Mágico. Se o inimigo não tiver aliados adjacentes, o dano é aumentado para @ModifiedIsolationDamage@.",
+        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "IsolationDamage",
+            "values": [
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0,
+              1400.0
+            ]
+          }
+        ]
+      }
+    },
+    "122": {
+      "name": "Darius",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Dizimar",
+        "desc": "Darius golpeia com seu machado em um círculo, causando @ModifiedDamage@ de Dano Mágico e curando-se em @ModifiedHeal@ de Vida para cada inimigo atingido.",
+        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "Heal",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "126": {
+      "name": "Jayce",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 50.0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Transformar Canhão de Mercúrio",
+        "desc": "Jayce empurra um inimigo em alcance corpo a corpo e depois se transforma, ganhando Alcance de Ataque e Velocidade de Ataque temporária.",
+        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.png",
+        "variables": [
+          {
+            "key": "RangeIncrease",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              0.75,
+              2.5,
+              4.25,
+              6.0,
+              7.75,
+              9.5,
+              11.25
+            ]
+          },
+          {
+            "key": "KnockbackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "AAMax",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "127": {
+      "name": "Lissandra",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.png",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Túmulo Congelado",
+        "desc": "Lissandra aprisiona um inimigo no gelo, atordoando-o por @EnemyStunDuration@s e causando @ModifiedDamage@ de Dano Mágico a todos os inimigos na área ao redor.<br><br>Se estiver com menos de @SelfUltPercentage@ de Vida, ela aprisiona a si mesma, ficando inalvejável por @SelfDuration@s e causando @ModifiedDamage@ de Dano Mágico a todos os inimigos na área ao redor.",
+        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.png",
+        "variables": [
+          {
+            "key": "EnemyStunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "SelfDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "SlowDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SlowAmount",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "SlowFieldDuration",
+            "values": [
+              0.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "MaxHexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SelfUltHealthPercent",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "136": {
+      "name": "Aurelion Sol",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Dragon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Voz da Luz",
+        "desc": "Aurelion Sol cospe fogo cósmico em linha, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos na área.",
+        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              500.0,
+              750.0,
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "150": {
+      "name": "Gnar",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.png",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 2
+      },
+      "traits": [
+        "Wild",
+        "Yordle",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "GNAR!",
+        "desc": "Gnar salta na direção de um inimigo e se transforma em Mega-Gnar, arremessando inimigos próximos, causando @ModifiedDamage@ de Dano Mágico e atordoando-os por @RCCDuration@s.<br><br>Enquanto estiver na forma Mega-Gnar, ele recebe @TransformHealth@ de Vida e @TransformAD@ de Dano de Ataque.",
+        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "RCCDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "RKnockbackDistance",
+            "values": [
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "TransformHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "TransformAD",
+            "values": [
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0
+            ]
+          }
+        ]
+      }
+    },
+    "157": {
+      "name": "Yasuo",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Exile",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Tempestade de Aço",
+        "desc": "Yasuo ataca com a espada em duas casas à frente, causando @ModifiedDamage@ de Dano Mágico e aplicando efeitos ao contato a todos os inimigos dentro do alcance. A cada terceira conjuração, ele invoca um tornado que percorre @QEmpowerHexRange@ casas em linha e arremessa inimigos ao ar por @QKnockupDuration@s.",
+        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              150.0,
+              350.0,
+              550.0,
+              750.0,
+              950.0,
+              1150.0
+            ]
+          },
+          {
+            "key": "QHexRange",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QEmpowerHexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "QCountForEmpower",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QWidth",
+            "values": [
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0
+            ]
+          },
+          {
+            "key": "QKnockupDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "164": {
+      "name": "Camille",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 75.0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Ultimato Hextec",
+        "desc": "Camille causa dano e enraíza um inimigo, ordenando à sua equipe que o ataque.",
+        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.png",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "201": {
+      "name": "Braum",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 75.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Inquebrável",
+        "desc": "Braum ergue seu escudo por @ShieldDuration@s, absorvendo e interceptando todos os projéteis enquanto reduz seu dano sofrido daquela direção em @ShieldDR@%.",
+        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.png",
+        "variables": [
+          {
+            "key": "ShieldDR",
+            "values": [
+              60.0,
+              70.0,
+              80.0,
+              90.0,
+              100.0,
+              110.0,
+              120.0
+            ]
+          },
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "203": {
+      "name": "Kindred",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Refúgio da Ovelha",
+        "desc": "Os Kindred criam uma zona ao redor de si mesmos por @Duration@s que evita que aliados dentro do alcance morram ou fiquem com menos de @MinHealth@ de Vida.",
+        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.png",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "MinHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          }
+        ]
+      }
+    },
+    "222": {
+      "name": "Jinx",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Hextech",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Anime-se!",
+        "desc": "Jinx fica animada conforme participa de abates, primeiro recebendo Velocidade de Ataque e depois sacando seu lança-mísseis.",
+        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.png",
+        "variables": [
+          {
+            "key": "HitWindow",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AttackSpeedBonus",
+            "values": [
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.2,
+              1.4,
+              1.6
+            ]
+          },
+          {
+            "key": "RocketDamage",
+            "values": [
+              0.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0
+            ]
+          }
+        ]
+      }
+    },
+    "236": {
+      "name": "Lucian",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 35.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Perseguição Implacável",
+        "desc": "Lucian avança para longe do seu alvo atual, depois o atinge com um ataque básico e um segundo tiro que causa @ModifiedDamage@ de Dano Mágico.",
+        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.png",
+        "variables": [
+          {
+            "key": "FirstShotRatio",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "SecondShotDamage",
+            "values": [
+              -25.0,
+              100.0,
+              225.0,
+              350.0,
+              475.0,
+              600.0,
+              725.0
+            ]
+          }
+        ]
+      }
+    },
+    "238": {
+      "name": "Zed",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.png",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Shuriken Laminado",
+        "desc": "Zed lança uma shuriken em linha, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos no trajeto.",
+        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "254": {
+      "name": "Vi",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 75.0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Saque e Enterrada",
+        "desc": "Vi persegue o inimigo mais distante, empurrando para o lado qualquer um em seu caminho. Quando chega ao alvo, ela causa dano e arremessa-o ao ar.",
+        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              450.0,
+              650.0,
+              850.0,
+              1050.0,
+              1250.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "MoveSpeed",
+            "values": [
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "OthersCCDuration",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          }
+        ]
+      }
+    },
+    "266": {
+      "name": "Aatrox",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.png",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "A Espada Darkin",
+        "desc": "Aatrox golpeia a área em frente, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos dentro dela.",
+        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          }
+        ]
+      }
+    },
+    "421": {
+      "name": "Rek'Sai",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.png",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 50.0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Escavar",
+        "desc": "Rek'Sai se enterra, tornando-se inalvejável por @BurrowDuration@s e curando-se em @ModifiedHeal@ de Vida.<br><br>Depois, ela emerge na localização do alvo, causando @ModifiedDamage@ de Dano Mágico e arremessando-o ao ar por @KnockupDuration@s.",
+        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.png",
+        "variables": [
+          {
+            "key": "HealAmount",
+            "values": [
+              75.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "BurrowDuration",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "HealTickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "KnockupDuration",
+            "values": [
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75
+            ]
+          },
+          {
+            "key": "KnockupDamage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          }
+        ]
+      }
+    },
+    "555": {
+      "name": "Pyke",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.png",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 75.0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Ressaca Espectral",
+        "desc": "Pyke deixa uma miragem em sua localização e avança para trás do inimigo mais distante. Após @StunDelay@s, a miragem retorna para ele, causando @ModifiedDamage@ de Dano Mágico a todos os inimigos pelos quais passar e atordoando-os por @StunDuration@s.",
+        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.png",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0
+            ]
+          },
+          {
+            "key": "StunDelay",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "traits": [
+    {
+      "name": "Pirata",
+      "desc": "<row>(@MinUnits@) No fim de cada combate contra outro jogador, um tesouro surge na sua arena contendo até 4 de ouro</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "Elementalista",
+      "desc": "Inato: Elementalistas recebem o dobro de Mana ao desferirem ataques básicos.<br><br><row>(@MinUnits@) No início do combate, invoca um Golem com 2200 de Vida para lutar ao lado de seus aliados.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPMultiplier",
+              "value": null
+            },
+            {
+              "name": "558229DF",
+              "value": null
+            },
+            {
+              "name": "SizeCoefficient",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Demônio",
+      "desc": "Ataques básicos de Demônios têm @ManaDrainProcChance@% de chance de reduzir a Mana do alvo em @ManaDrainBurn@ e restaurar Mana para o Demônio.<br><br><expandRow>(@MinUnits@) @ManaDrainDrain@ de Mana restaurada</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ManaDrainProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "ManaDrainBurn",
+              "value": 20.0
+            },
+            {
+              "name": "ManaDrainDrain",
+              "value": 15.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ManaDrainProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "ManaDrainBurn",
+              "value": 20.0
+            },
+            {
+              "name": "ManaDrainDrain",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ManaDrainProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "ManaDrainBurn",
+              "value": 20.0
+            },
+            {
+              "name": "ManaDrainDrain",
+              "value": 45.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selvagem",
+      "desc": "Aliados selecionados são fortalecidos, fazendo com que seus ataques básicos gerem acúmulos de Fúria (acumula até 5 vezes), concedendo@AttackSpeedPercent@% de Velocidade de Ataque adicional por acúmulo.<br><br><row>(@MinUnits@) Apenas aliados Selvagens</row><br><row>(@MinUnits@) Todos os aliados</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 12.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 12.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vastinata",
+      "desc": "<row>(@MinUnits@) Ataques básicos e habilidades de Campeões Vastinatas causam Dano Verdadeiro</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "PercentArmorPen",
+              "value": 100.0
+            },
+            {
+              "name": "CB42693F",
+              "value": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lutador",
+      "desc": "Lutadores ganham Vida máxima adicional.<br><br><expandRow>(@MinUnits@) @BonusHealth@ de Vida adicional</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 250.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 500.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 900.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragão",
+      "desc": "<row>(@MinUnits@) Dragões ganham @MagicReduction@% de resistência a Dano Mágico</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MagicReduction",
+              "value": 83.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exilado",
+      "desc": "<row>(@MinUnits@) Se um Exilado não tiver aliados adjacentes no início do combate, ele recebe um escudo equivalente a @ShieldPercent@% da sua Vida máxima</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.png",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ShieldPercent",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yordle",
+      "desc": "Yordles têm a chance de se esquivar de ataques básicos de inimigos.<br><br><expandRow>(@MinUnits@) @MissPercent@% de Chance de Esquiva</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 35.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guardião",
+      "desc": "<row>(@MinUnits@) No início do combate, Guardiões concedem +@Armor@ de Armadura para aliados adjacentes (não há limite de acúmulo para este efeito)</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cavaleiro",
+      "desc": "Todos os aliados bloqueiam uma quantidade fixa de dano de todas as origens.<br><br><expandRow>(@MinUnits@) @BlockAmount@ de dano bloqueado</expandRow>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 15.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ninja",
+      "desc": "Ninjas recebem Dano de Ataque e Poder de Habilidade adicionais.<br><br>Essa característica só é ativada quando você tiver exatamente 1 ou 4 Ninjas diferentes.<br><br><row>(@MinUnits@) O Ninja recebe +@ADValue@ de Dano de Ataque e +@APValue@% de Poder de Habilidade</row><br><row>(@MinUnits@) Todos os Ninjas recebem +@ADValue@ de Dano de Ataque e +@APValue@% de Poder de Habilidade</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.png",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 1,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 50.0
+            },
+            {
+              "name": "APValue",
+              "value": 50.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 4,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 70.0
+            },
+            {
+              "name": "APValue",
+              "value": 70.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patrulheiro",
+      "desc": "A cada @ProcRate@s, Patrulheiros têm uma chance de dobrar sua Velocidade de Ataque por @ProcRate@s. <br><br><expandRow>(@MinUnits@) @ProcPercent@% de chance de dobrar Velocidade de Ataque</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 30.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 70.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metamorfo",
+      "desc": "Metamorfos recebem Vida máxima adicional ao se transformarem.<br><br><expandRow>(@MinUnits@) @HPPercent@% de Vida máxima adicional</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pistoleiro",
+      "desc": "Ataques básicos de Pistoleiros têm @ProcPercent@% de chance de disparar tiros adicionais contra outros inimigos dentro do alcance.<br><br>Esses tiros causam dano como ataques básicos e aplicam efeitos ao contato.<br><br><row>(@MinUnits@) Ataca @ExtraTargetsHit@ inimigo adicional</row><br><row>(@MinUnits@) Ataca @ExtraTargetsHit@ inimigos adicionais</row><br><row>(@MinUnits@) Ataca @ExtraTargetsHit@ inimigos adicionais</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 1.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 2.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 3.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feiticeiro",
+      "desc": "Inato: Feiticeiros recebem o dobro de Mana ao desferirem ataques básicos.<br><br>Todos os aliados têm Poder de Habilidade aumentado.<br><br><expandRow>(@MinUnits@) +@AP@% de Poder de Habilidade</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 40.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Robô",
+      "desc": "(@MinUnits@) Robôs começam o combate com Mana cheia",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.png",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "Hextec",
+      "desc": "No início do combate, um aliado Hextec lança e detona uma bomba eletromagnética que desabilita itens inimigos próximos por @DisableDuration@s.<br><br><row>(@MinUnits@) Raio de @HexSize@ casas</row><br><row>(@MinUnits@) Raio de @HexSize@ casas</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "DisableDuration",
+              "value": 8.0
+            },
+            {
+              "name": "HexSize",
+              "value": 1.0
+            },
+            {
+              "name": "A004F927",
+              "value": 1.25
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "DisableDuration",
+              "value": 8.0
+            },
+            {
+              "name": "HexSize",
+              "value": 2.0
+            },
+            {
+              "name": "A004F927",
+              "value": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fantasma",
+      "desc": "<row>(@MinUnits@) No início do combate, a Vida de um inimigo aleatório é alterada para @HPToSet@</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPToSet",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nobre",
+      "desc": "No início do combate, aliados selecionados recebem +@Armor@ de Armadura, +@MagicResist@ de Resistência Mágica e curam @Heal@ de Vida ao contato<br><br><row>(@MinUnits@) 1 aliado aleatório</row><br><row>(@MinUnits@) Todos os aliados</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            },
+            {
+              "name": "Heal",
+              "value": 25.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 50.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            },
+            {
+              "name": "Heal",
+              "value": 25.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 50.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assassino",
+      "desc": "Inato: no início do combate, Assassinos saltam até o inimigo mais distante.<br><br>Eles recebem Chance de Acerto Crítico e Dano de Acerto Crítico adicionais.<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% de Dano de Acerto Crítico e +@CritChanceAmpPercent@% de Chance de Acerto Crítico</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 75.0
+            },
+            {
+              "name": "CritChanceAmpPercent",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 150.0
+            },
+            {
+              "name": "CritChanceAmpPercent",
+              "value": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Glacial",
+      "desc": "Ataques básicos de Glaciais têm chance de atordoar o alvo por @StunDuration@s.<br><br><expandRow>(@MinUnits@) @ProcPercent@% de chance de atordoar</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 20.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 30.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 45.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Imperial",
+      "desc": "No início do combate, Imperiais selecionados são fortalecidos e causam o dobro de dano.<br><br><row>(@MinUnits@) 1 Imperial aleatório</row><br><row>(@MinUnits@) Todos os Imperiais</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.png",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mestre das Lâminas",
+      "desc": "Ataques básicos de Mestres das Lâminas têm @ProcChance@% de chance de ativar ataques adicionais contra seu alvo.<br><br>Esses ataques adicionais causam dano como ataques básicos e ativam efeitos ao contato.<br><br><row>(@MinUnits@) Um ataque adicional</row><br><row>(@MinUnits@) Dois ataques adicionais</row><br><row>(@MinUnits@) Quatro ataques adicionais</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.png",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": {
+    "1": {
+      "name": "Espada G. p. C.",
+      "desc": " +@AD@ de Dano de Ataque",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "2": {
+      "name": "Arco Recurvo",
+      "desc": " +@AS@% de Velocidade de Ataque",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "3": {
+      "name": "Bastão Desnecessariamente Grande",
+      "desc": " +@AP@% de Poder de Habilidade",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "4": {
+      "name": "Lágrima da Deusa",
+      "desc": " +@Mana@ de Mana",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "5": {
+      "name": "Cota de Malha",
+      "desc": "+@Armor@ de Armadura",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "6": {
+      "name": "Capa Negatron",
+      "desc": "+@MagicResist@ de Resistência Mágica",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "MagicResist",
+          "value": 20.0
+        }
+      ]
+    },
+    "7": {
+      "name": "Cinto do Gigante",
+      "desc": " +@Health@ de Vida",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "8": {
+      "name": "Espátula",
+      "desc": "Isso deve fazer <i>alguma coisa</i>...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "FE9818EF",
+          "value": 5.0
+        }
+      ]
+    },
+    "11": {
+      "name": "Gume do Infinito",
+      "desc": "O usuário recebe +@CriticalStrikeAmp@% de dano de Acerto Crítico.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.png",
+      "from": [
+        "1",
+        "1"
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 200.0
+        }
+      ]
+    },
+    "12": {
+      "name": "Espada do Divino",
+      "desc": "A cada segundo, o usuário tem @ChanceToProc@% de chance de receber 100% de Chance de Acerto Crítico pelo resto do combate.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.png",
+      "from": [
+        "1",
+        "2"
+      ],
+      "effects": [
+        {
+          "name": "ChanceToProc",
+          "value": 7.0
+        }
+      ]
+    },
+    "13": {
+      "name": "Pistola Laminar Hextec",
+      "desc": "Ataques básicos e habilidades curam o usuário em @OmniVamp@% do dano causado.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.png",
+      "from": [
+        "1",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "OmniVamp",
+          "value": 25.0
+        }
+      ]
+    },
+    "14": {
+      "name": "Lança de Shojin",
+      "desc": "Após conjurar sua habilidade, os ataques básicos do usuário restauram @ManaPercentRestore@% de sua Mana máxima.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.png",
+      "from": [
+        "1",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15.0
+        }
+      ]
+    },
+    "15": {
+      "name": "Anjo Guardião",
+      "desc": "Quando o usuário morre, seus efeitos negativos são purificados e ele ressuscita com até @HealthRestore@ de Vida após um intervalo de @StasisDuration@s.<br><br>Esse efeito só pode ser ativado uma vez por combate.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.png",
+      "from": [
+        "1",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 500.0
+        },
+        {
+          "name": "StasisDuration",
+          "value": 2.0
+        }
+      ]
+    },
+    "16": {
+      "name": "A Sedenta por Sangue",
+      "desc": "Ataques básicos curam o usuário em @Lifesteal@% do dano causado.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.png",
+      "from": [
+        "1",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Lifesteal",
+          "value": 40.0
+        }
+      ]
+    },
+    "17": {
+      "name": "Arauto de Zeke",
+      "desc": "No início do combate, o usuário e todos os aliados em até @HexRange@ casas adjacentes na mesma linha recebem +@AttackSpeed@% de Velocidade de Ataque pelo resto do combate.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.png",
+      "from": [
+        "1",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeed",
+          "value": 15.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "18": {
+      "name": "Lâmina Fantasma de Youmuu",
+      "desc": "%i:scaleAD% +@AD@ adicionais<br>Usuário também é um Assassino",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.png",
+      "from": [
+        "1",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "22": {
+      "name": "Canhão Fumegante",
+      "desc": "O usuário recebe +100% de Alcance de Ataque e seus ataques básicos não podem ser esquivados.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.png",
+      "from": [
+        "2",
+        "2"
+      ],
+      "effects": []
+    },
+    "23": {
+      "name": "Lâmina da Fúria de Guinsoo",
+      "desc": "Ataques básicos concedem ao usuário +@AttackSpeedPerStack@% de Velocidade de Ataque adicional pelo resto do combate.<br><br>Não há limite de acúmulo para este efeito.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.png",
+      "from": [
+        "2",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedPerStack",
+          "value": 5.0
+        }
+      ]
+    },
+    "24": {
+      "name": "Faca de Statikk",
+      "desc": "Cada terceiro ataque básico do usuário causa @Damage@ de Dano Mágico a @BouncesTooltip@ inimigos.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.png",
+      "from": [
+        "2",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 100.0
+        },
+        {
+          "name": "Bounces",
+          "value": 2.0
+        },
+        {
+          "name": "BouncesTooltip",
+          "value": 3.0
+        }
+      ]
+    },
+    "25": {
+      "name": "Dançarina Fantasma",
+      "desc": "O usuário se esquiva de todos os ataques básicos que seriam Acertos Críticos.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.png",
+      "from": [
+        "2",
+        "5"
+      ],
+      "effects": []
+    },
+    "26": {
+      "name": "Lâmina Amaldiçoada",
+      "desc": "Ataques básicos têm @ChanceOnHitToShrink@% de chance ao contato de reduzir o nível de estrela do alvo em 1 pelo resto do combate.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.png",
+      "from": [
+        "2",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "ChanceOnHitToShrink",
+          "value": 20.0
+        }
+      ]
+    },
+    "27": {
+      "name": "Hidra Titânica",
+      "desc": "Ataques básicos causam @MaxHealth@% da Vida máxima do usuário como Dano Físico em uma área em cone atrás do alvo.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.png",
+      "from": [
+        "2",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "MaxHealth",
+          "value": 10.0
+        }
+      ]
+    },
+    "28": {
+      "name": "Espada do Rei Destruído",
+      "desc": "%i:scaleAS% +@AS@ adicionais<br>Usuário também é um Mestre das Lâminas",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.png",
+      "from": [
+        "2",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "33": {
+      "name": "Capuz da Morte de Rabadon",
+      "desc": "O usuário recebe +@APPercentAmp@% de amplificação de Poder de Habilidade.<br><br>(Todas as origens de Poder de Habilidade são @APPercentAmp@% mais eficazes).",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.png",
+      "from": [
+        "3",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "APPercentAmp",
+          "value": 50.0
+        }
+      ]
+    },
+    "34": {
+      "name": "Eco de Luden",
+      "desc": "Quando o usuário causa dano com sua habilidade, o primeiro alvo atingido e até @ExtraBounces@ inimigos próximos sofrem @Damage@ de Dano Mágico adicional.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.png",
+      "from": [
+        "3",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 180.0
+        },
+        {
+          "name": "Bounces",
+          "value": 4.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        },
+        {
+          "name": "ExtraBounces",
+          "value": 3.0
+        }
+      ]
+    },
+    "35": {
+      "name": "Medalhão dos Solari de Ferro",
+      "desc": "No início do combate, o usuário e todos os aliados em até @HexRange@ casas na mesma linha recebem um escudo que bloqueia @ShieldValue@ de dano por @ShieldDuration@s.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.png",
+      "from": [
+        "3",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "ShieldValue",
+          "value": 250.0
+        },
+        {
+          "name": "ShieldDuration",
+          "value": 6.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "36": {
+      "name": "Centelha Iônica",
+      "desc": "Sempre que um inimigo conjura uma habilidade, o usuário causa @Damage@ de Dano Verdadeiro ao conjurador.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.png",
+      "from": [
+        "3",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 125.0
+        }
+      ]
+    },
+    "37": {
+      "name": "Morellonomicon",
+      "desc": "Quando o usuário causa dano com sua habilidade, ele queima o alvo, causando @BurnPercent@% da Vida máxima do alvo como Dano Verdadeiro ao longo de @BurnDuration@s e impedindo que se cure enquanto a queimadura persistir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.png",
+      "from": [
+        "3",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 20.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 10.0
+        }
+      ]
+    },
+    "38": {
+      "name": "Yuumi",
+      "desc": "%i:scaleAP% +@AP@ adicionais<br>Usuário também é um Feiticeiro",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.png",
+      "from": [
+        "3",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "44": {
+      "name": "Abraço de Seraph",
+      "desc": "Após conjurar sua habilidade, o usuário restaura @ManaRestore@ de Mana.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.png",
+      "from": [
+        "4",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaRestore",
+          "value": 20.0
+        }
+      ]
+    },
+    "45": {
+      "name": "Coração Congelado",
+      "desc": "Reduz a Velocidade de Ataque de inimigos adjacentes em @AttackSpeedSlow@%.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.png",
+      "from": [
+        "4",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedSlow",
+          "value": 25.0
+        },
+        {
+          "name": "0020F716",
+          "value": 2.875
+        }
+      ]
+    },
+    "46": {
+      "name": "Quietude",
+      "desc": "Ataques básicos têm @ChanceOnHitToSilence@% de chance ao contato de silenciar o alvo, impedindo que ele receba Mana por @SilenceDuration@s.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.png",
+      "from": [
+        "4",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "ChanceOnHitToSilence",
+          "value": 33.0
+        },
+        {
+          "name": "SilenceDuration",
+          "value": 4.0
+        },
+        {
+          "name": "4516A18D",
+          "value": 4.0
+        }
+      ]
+    },
+    "47": {
+      "name": "Redenção",
+      "desc": "Quando o usuário fica com menos de @HPThreshold@% de Vida, aliados próximos são curados em @HealthRestore@ de Vida após um intervalo de 2,5s.<br><br>Esse efeito só pode ser ativado uma vez por combate.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.png",
+      "from": [
+        "4",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1500.0
+        },
+        {
+          "name": "HPThreshold",
+          "value": 25.0
+        },
+        {
+          "name": "5FFBBD48",
+          "value": 50.0
+        },
+        {
+          "name": "1E0630E9",
+          "value": 25.0
+        }
+      ]
+    },
+    "48": {
+      "name": "Darkin",
+      "desc": "%i:scaleMana% +@Mana@ adicionais<br>Usuário também é um Demônio",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.png",
+      "from": [
+        "4",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "55": {
+      "name": "Armadura de Espinhos",
+      "desc": "Quando o usuário é atingido por ataques básicos, ele reflete @DamageReflect@% do dano mitigado como Dano Mágico.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.png",
+      "from": [
+        "5",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "DamageReflect",
+          "value": 100.0
+        }
+      ]
+    },
+    "56": {
+      "name": "Quebra-espada",
+      "desc": "Ataques básicos do usuário têm @ChanceOnHitToDisarm@% de chance de desarmar o alvo por @DisarmDuration@s, impedindo que o inimigo desfira ataques básicos.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.png",
+      "from": [
+        "5",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "ChanceOnHitToDisarm",
+          "value": 25.0
+        },
+        {
+          "name": "DisarmDuration",
+          "value": 4.0
+        }
+      ]
+    },
+    "57": {
+      "name": "Efeito Vermelho",
+      "desc": "Os ataques básicos do usuário queimam o alvo ao contato, causando @BurnPercent@% da Vida máxima do alvo como Dano Verdadeiro ao longo de @BurnDuration@s e impedindo que se cure enquanto a queimadura persistir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.png",
+      "from": [
+        "5",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 20.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 10.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        }
+      ]
+    },
+    "58": {
+      "name": "Juramento do Cavaleiro",
+      "desc": "%i:scaleArmor% +@Armor@ adicionais<br>Usuário também é um Cavaleiro",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.png",
+      "from": [
+        "5",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "66": {
+      "name": "Garra do Dragão",
+      "desc": "O usuário recebe @MagicReduction@% de resistência a Dano Mágico.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.png",
+      "from": [
+        "6",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "MagicReduction",
+          "value": 83.0
+        }
+      ]
+    },
+    "67": {
+      "name": "Zéfiro",
+      "desc": "No início do combate, o usuário invoca um furacão no lado oposto da arena que remove do combate o inimigo mais próximo por @BanishDuration@s.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.png",
+      "from": [
+        "6",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BanishDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "68": {
+      "name": "Furacão de Runaan",
+      "desc": "%i:scaleMR% +@ExtraMR@ adicionais<br>Ataques básicos disparam um projétil adicional em outro inimigo próximo, causando @MultiplierForDamage@% do Dano de Ataque do usuário e aplicando efeitos ao contato.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.png",
+      "from": [
+        "6",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AdditionalTargets",
+          "value": 1.0
+        },
+        {
+          "name": "MultiplierForDamage",
+          "value": 75.0
+        },
+        {
+          "name": "ExtraMR",
+          "value": 20.0
+        }
+      ]
+    },
+    "77": {
+      "name": "Armadura de Warmog",
+      "desc": "O usuário regenera @HealthRegen@% da sua Vida perdida por segundo.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.png",
+      "from": [
+        "7",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRegen",
+          "value": 6.0
+        },
+        {
+          "name": "0C90F194",
+          "value": 400.0
+        }
+      ]
+    },
+    "78": {
+      "name": "Malho Congelado",
+      "desc": "%i:scaleHealth% +@Health@ adicionais<br>Usuário também é um Glacial",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.png",
+      "from": [
+        "8",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "88": {
+      "name": "Força da Natureza",
+      "desc": "A equipe do usuário recebe +@MaxArmySizeIncrease@ de tamanho máximo.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.png",
+      "from": [
+        "8",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "MaxArmySizeIncrease",
+          "value": 1.0
+        }
+      ]
+    },
+    "100": {
+      "name": "Espátula",
+      "desc": "Isso deve fazer <i>alguma coisa</i>...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.png",
+      "from": [],
+      "effects": []
+    },
+    "541": {
+      "name": "Lembrete Mortal",
+      "desc": "TFT_item_description_MortalReminder",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.png",
+      "from": [],
+      "effects": []
+    },
+    "10002": {
+      "name": "Travado!",
+      "desc": "Item temporariamente desativado",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.png",
+      "from": [],
+      "effects": []
+    }
+  }
+}

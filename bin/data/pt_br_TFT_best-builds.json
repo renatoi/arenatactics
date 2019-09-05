@@ -1,0 +1,63 @@
+[
+  {
+    "id": "2cb3a569-c6df-44ef-bd47-5ac880ddfa4d",
+    "key": "",
+    "name": "Yordles Feiticeiros",
+    "tier": "A",
+    "author": "KenjiHimura",
+    "lang": "pt-br",
+    "composition": [
+      {
+        "champion": "18",
+        "items": ["57", "46", "26"],
+        "isCarry": false
+      },
+      {
+        "champion": "136",
+        "items": ["14", "14", "37"],
+        "isCarry": false
+      },
+      {
+        "champion": "30",
+        "items": ["44", "44", "33"],
+        "isCarry": false
+      },
+      {
+        "champion": "45",
+        "items": ["14", "14", "44"],
+        "isCarry": true
+      },
+      {
+        "champion": "85",
+        "items": ["67", "35", "66"],
+        "isCarry": false
+      },
+      {
+        "champion": "117",
+        "items": ["14", "14", "23"],
+        "isCarry": false
+      },
+      {
+        "champion": "78",
+        "items": ["55", "66", "25"],
+        "isCarry": false
+      },
+      {
+        "champion": "150",
+        "items": ["77", "27", "66"],
+        "isCarry": true
+      }
+    ],
+    "positioning": {
+      "3,1": "18",
+      "3,2": "136",
+      "3,3": "30",
+      "2,1": "45",
+      "2,2": "85",
+      "2,3": "117",
+      "1,1": "78",
+      "1,2": "150"
+    },
+    "guide": "## 1. PRÓS \n\n- Forte dano em área;\n- Forte controle de multidão;\n- Baixa necessidade de mudanças no posicionamento;\n- Forte contra inimigos agrupados;\n- Campeões primários obtidos relativamente rápido.\n\n\n## 2. CONTRAS\n\n- Necessita troca de campeões ao longo da partida;\n- Composição fortemente dependente de Gnar;\n- Eficiência de controle e de dano reduzidos contra campeões espalhados;\n- Necessita 8 campeões para obter eficiência completa.\n\n\n## 3. FRAQUEZA\n\nO time de Yordles e Feiticeiros são fracos contra:\n\n\n### 3.1 Classe / origem e habilidades:\n\n- **Dragões:** resistência a dano mágico;\n- **Habilidades:** Congelamento em área de Sejuani ou atordoamento de Cho'gath.\n\n\n### 3.2 Itens:\n\n- [[item=rapid-firecannon]]: inutiliza o bônus de esquiva dos Yordles.\n- [[item=dragons-claw]]: resistência à danos mágicos.\n\n\n### 3.3 Posicionamento\n\n- Campeões espalhados sofrerão menos dano em área e os efeitos de controle de multidão.\n\n\n## 4. CONCEITO DO TIME\n\nO objetivo primário deste time é obter o bônus de origem de 6 Yordles. O bônus de Yordle concede uma chance alta de esquiva para os campeões, aumentando consideravelmente a sobrevivência. \n\nO time é composto por 6 campeões de longo alcance e 2 campeões de corpo a corpo. Existem 4 habilidades de controles de multidão  (Lulu, Poppy, Kennen e Gnar). \n\nCom exceção de Gnar e Poppy, os demais campeões deste time são DPS, porém o principal é Veigar. Os itens ofensivos deverão ser destinados a ele. Após obter o bônus de 6 Yordles, o foco deverá ser em obter o bônus de 4 feiticeiros, para aumentar ainda mais o dano de Veigar. \n\nOs tanques do time são Poppy e Gnar. Os itens defensivos devem ser destinados principalmente a Gnar. Existem três controles de multidão em área (Lulu, Kennen e Gnar) e um controle individual (Poppy). A combinação de controle em área destes 4 campeões pode inutilizar os campeões adversários por tempo considerável, principalmente com a combinação das habilidades de Gnar e Kennen. A habilidade de Lulu, além de causar atordoamento em área, cura o aliado no qual ela invocou a habilidade. Pode-se optar por equipar alguns itens em Lulu também para aumentar a sobrevivência do time.\n\nEmbora a maioria dos campeões do time sejam canhões de vidro, o bônus de Yordle concede uma sobrevivência extra. Assim, este time possui diversos controles em área e forte dano em área. O desempenho deste time é ainda maior contra campeões agrupados. \n\n\n## 5. PARTIDA\n\nApenas Tristana estará disponível para compra no segundo turno do jogo. Compre-a sempre que tiver oportunidade. A partir do terceiro turno (nível 3), Lulu também estará disponível para compra. Ambas são campeãs de longo alcance e necessitam uma figura defensiva para não deixar os inimigos chegarem nelas. Sugere-se, nos primeiros turnos de jogo, a compra dos pistoleiros Graves ou Lucian. Graves poderá atuar como a figura defensiva na linha de frente e fornecerá o bônus de pistoleiros. Não compre-os acima de 2★, tendo em vista que serão ser vendidos futuramente. Também não é recomendado rerrolar a lista de campeãos no início do jogo para obter Tristana em 3★, visto que ela não será o principal DPS do grupo. Tristana 3★ será obtida eventualmente. \n\nPoppy, Veigar e Kennen aparecerão a partir do nível 3, porém com probabilidade baixa (5%). As chances aumentam consideravelmente a partir do nível 5 (25%). Há necessidade de equilíbrio entre economizar recursos e chegar rapidamente ao nível 5. Esta escolha fica por conta do jogador e dependerá do desempenho do tabuleiro. Sempre que Veigar aparecer compre-o, visto que o objetivo principal é fazê-lo 3★.\n\nNo meio do jogo, os taques do grupo serão Poppy e Gnar. Assim que obtê-los, coloque-os no lugar de Graves e/ou Lucian. Gnar é fundamental para a composição do time, porém ele surgirá somente também a partir do nível 5. Caso Gnar apareça no carrossel, pegue-o e compre-o até fazer 2★. Não é interessante investir recursos em Gnar além deste ponto. Economize recursos para investir em obter Veigar 3★. \n\nNo fim do jogo, com o bônus de 6 Yordles em campo, invista em obter Veigar 3★ (caso não tenha conseguido ainda) e  procure aumentar o nível para colocar Aurelian Sol e Karthus em campo e aumentar ainda mais o dano em área.\n\n\n## 6. POSICIONAMENTO\n\nO posicionamento deste time deverá levar em consideração o bonus de 6 Yordles e os controles de campo de Gnar e Kennen. \n\n- Tristana deverá ser posicionada como a campeã mais afastada (no diagrama, no canto inferior esquerdo). Caso os assassinos pulem nela ou se Blitzcrank a puxar, o bonus de Yordle fornecerá sobrevivência extra. Caso Tristana morra, não haverá prejuízo, tendo em vista que não é a principal DPS;\n\n- Kennen será posicionado no meio para fazer combinação de habilidade com Gnar. Caso Kennen esteja equipado com [[item=locket-of-the-iron-solari]] e / ou [[item=zekes-herald]], dará o bônus para os campeões adjacentes (Lulu e Veigar);\n\n- Gnar e Poppy deverão estar na linha de frente para proteção do grupo. Gnar deve se transformar para pular no inimigo mais distante e empurrar o inimigos no caminho contra a habilidade de Kennen;\n\n- Veigar é o principal DPS do time e deve estar posicionado no local de maior proteção.\n\nQuanto ao posicionamento do grupo , deve-se observar em que local do tabuleiro os jogadores adversários estão posicionando seus campeões. O posicionamento do seu time deverá ser o mais próximo possível dos adversários, para evitar que os campeões inimigos fiquem afastados um dos outros, obtendo-se, assim, a maior eficiência dos danos em área e dos controles de multidão. \n\n\n## 7. LEMBRETES OFENSIVOS\n\n- Veigar é o principal DPS do grupo e os itens ofensivos devem ser focados nele.\n\n\n## 8. LEMBRETES DEFENSIVOS\n\n- A habilidade de Kennen causa controle de multidão em área e pode fazer combo com a habilidade de Gnar;\n- Gnar pulará no campeão mais distante e empurarrá todos os campeões que estiverem no caminho no sentido oposto. Os itens defensivos devem ser equipados nele;\n- Poppy joga o inimigo no ar com sua habilidade e causa atordoamento;\n- Aurelian Sol e Karthus não se beneficiam do o bônus de Yordles.\n\n\n## 9. CAMPEÕES COMPLEMENTARES\n\n \n- [[champion=ahri]]: feiticeira que faz o bônus de selvagens com Gnar;\n\n- [[champion=kayle]]: cavaleiro que ajuda na sobrevivência do grupo por meio de escudos.\n\n\n\n\n"
+  }
+]

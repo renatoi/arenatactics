@@ -1,10 +1,9 @@
 import cx from "classnames";
-import { getIn } from "immutable";
 import React, { ChangeEvent, useEffect } from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import { connect } from "react-redux";
-import { RouteComponentProps, withRouter } from "react-router";
+import { generatePath, RouteComponentProps, withRouter } from "react-router";
 import { ChampionCard } from "../../components/ChampionCard";
 import { Disclaimer } from "../../components/Disclaimer/Disclaimer";
 import {
@@ -14,6 +13,8 @@ import {
   FilterPopover
 } from "../../components/Filter";
 import { Grid } from "../../components/Grid/Grid";
+import { getLocalizedText } from "../../components/LocalizedText/LocalizedText";
+import { MarkdownViewer } from "../../components/MarkdownViewer/MarkdownViewer";
 import {
   Detail,
   Master,
@@ -40,6 +41,7 @@ import {
   TFTItems,
   TFTTraits
 } from "../../types";
+import { getLocale } from "../../utils";
 import styles from "./Builds.module.css";
 
 export interface BuildsDispatchProps {
@@ -54,7 +56,6 @@ export interface BuildsDispatchProps {
 }
 export interface BuildsStateProps {
   readonly isLoading: boolean;
-  readonly titleText?: string;
   readonly builds?: TFTBuilds;
   readonly buildsSearchQuery?: string;
   readonly buildsFilterTraits?: string[];
@@ -65,7 +66,7 @@ export interface BuildsStateProps {
   readonly traits?: TFTTraits;
 }
 interface MatchParams {
-  readonly buildKey?: string;
+  readonly compKey?: string;
 }
 export interface BuildsOwnProps extends RouteComponentProps<MatchParams> {}
 
@@ -77,7 +78,6 @@ export interface BuildsProps
 const BuildsComponent: React.FC<BuildsProps> = ({
   match,
   isLoading,
-  titleText,
   builds,
   champions,
   visibleBuilds,
@@ -100,7 +100,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
     ReactGA.pageview(match.url);
   }, [match.url]);
 
-  const buildKeyParam = match.params.buildKey;
+  const buildKeyParam = match.params.compKey;
   let selectedBuildId =
     buildKeyParam != null ? buildKeyParam.substr(0, 8) : null;
   const selectedBuild =
@@ -119,6 +119,8 @@ const BuildsComponent: React.FC<BuildsProps> = ({
   ) {
     return <></>;
   }
+
+  const locale = getLocale();
 
   const handleTraitCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
     if (event.currentTarget.checked) {
@@ -146,28 +148,32 @@ const BuildsComponent: React.FC<BuildsProps> = ({
   return (
     <MasterDetail>
       <Helmet>
-        <title>{titleText}</title>
+        <title>{getLocalizedText("comps.title")}</title>
         <meta
           name="description"
-          content="Detailed step-by-step builds / team compositions guides for Teamfight Tactics (TFT)"
+          content={getLocalizedText("comps.description")}
         />
       </Helmet>
       <Master>
         <MasterHeader className={cx(styles.masterHeader)}>
           <MasterSearchBox
             value={buildsSearchQuery}
-            label="Search champions"
-            placeholder="Search by name, trait, or tier"
+            label={getLocalizedText("comps.searchLabel")}
+            placeholder={getLocalizedText("comps.searchPlaceholder")}
             onSearchChange={handleSearchChange}
             onClearSearch={handleClearSearch}
           />
           <FilterButton>
             <FilterPopover>
-              <FilterItem onClick={dispatchResetFilter}>Reset All</FilterItem>
+              <FilterItem onClick={dispatchResetFilter}>
+                {getLocalizedText("filter.resetAll")}
+              </FilterItem>
               <FilterItem
                 content={
                   <FilterPopover>
-                    <FilterItem onClick={dispatchResetTiers}>Reset</FilterItem>
+                    <FilterItem onClick={dispatchResetTiers}>
+                      {getLocalizedText("filter.reset")}
+                    </FilterItem>
                     {["S", "A", "B", "C", "D"].map(tier => (
                       <FilterItemCheckbox
                         key={`tier_${tier}`}
@@ -197,7 +203,10 @@ const BuildsComponent: React.FC<BuildsProps> = ({
             return (
               <MasterItem
                 key={build.id}
-                to={match.path.replace(":buildKey", `${build.id}-${build.key}`)}
+                to={generatePath(match.path, {
+                  locale,
+                  compKey: `${build.id}-${build.key}`
+                })}
                 isSelected={selectedBuildId === build.id}
                 linkClassName={styles.buildLink}
               >
@@ -218,7 +227,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
             <h1 className={styles.buildsTitle}>{selectedBuild.name}</h1>
             <p>by Lysandra, last updated July 30, 2019 (Patch 9.15).</p>
             <h2 id="team-composition" className={styles.heading}>
-              Team composition
+              {getLocalizedText("comps.teamComposition")}
             </h2>
             <div className={styles.cards}>
               {selectedBuild.composition.map(championInfo => (
@@ -231,16 +240,18 @@ const BuildsComponent: React.FC<BuildsProps> = ({
               ))}
             </div>
             <h2 id="position" className={styles.heading}>
-              Positioning
+              {getLocalizedText("comps.positioning")}
             </h2>
             <Grid positions={selectedBuild.positioning} champions={champions} />
             <h2 id="build-guide" className={styles.heading}>
-              Build guide
+              {getLocalizedText("comps.guide")}
             </h2>
-            <p>Detailed guide here</p>
+            <MarkdownViewer value={selectedBuild.guide} />
           </>
         ) : (
-          <h1 className={styles.buildsTitle}>Please select a build</h1>
+          <p style={{ minHeight: "80%" }}>
+            {getLocalizedText("comps.compSelect")}
+          </p>
         )}
         <Disclaimer />
       </Detail>
@@ -252,7 +263,7 @@ const mapStateToProps = (
   state: AppState,
   ownProps: BuildsOwnProps
 ): BuildsStateProps => {
-  if (!state.TFT || !state.TFT.champions || !state.localizedStrings) {
+  if (!state.TFT || !state.TFT.champions) {
     return {
       ...ownProps,
       isLoading: true
@@ -261,7 +272,6 @@ const mapStateToProps = (
   return {
     ...ownProps,
     isLoading: false,
-    titleText: getIn(state.localizedStrings, ["builds", "title"], ""),
     visibleBuilds: state.TFT.visibleBuilds,
     champions: state.TFT.champions,
     items: state.TFT.items,

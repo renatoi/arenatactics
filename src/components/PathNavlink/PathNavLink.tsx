@@ -1,15 +1,32 @@
 import React from "react";
-import { NavLink, NavLinkProps } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { getLocale } from "../../utils";
 
-export const PathNavLink = ({ to, exact, ...props }: NavLinkProps) => {
-  const toWithLocale = `${to}?hl=${getLocale()}`;
+interface MatchParams {
+  readonly locale?: string;
+}
+export interface PathNavLinkComponentProps {
+  readonly to: string;
+  readonly exact?: boolean;
+  readonly className?: string;
+  readonly activeClassName?: string;
+}
+
+export const PathNavLink: React.FC<PathNavLinkComponentProps> = ({
+  to,
+  exact,
+  ...props
+}) => {
+  let path = to.replace(/^\/(en-us|pt-br)?\/?/g, `/${getLocale()}/`);
   return (
     <NavLink
-      to={toWithLocale}
+      to={path}
       isActive={(match, location) => {
         return exact
-          ? location.pathname === to.toString()
+          ? location.pathname === to.toString() ||
+              new RegExp(`/(en-us|pt-br)${to.toString()}$`).test(
+                location.pathname
+              )
           : location.pathname.includes(to.toString());
       }}
       {...props}

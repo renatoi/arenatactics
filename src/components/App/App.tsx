@@ -1,11 +1,12 @@
 import createSagaMiddleware from "@redux-saga/core";
 import React, { Component } from "react";
 import ReactGA from "react-ga";
+import Helmet from "react-helmet";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { applyMiddleware, compose, createStore, Store } from "redux";
 import { GlobalMousePos } from "../../globals";
-import { gameDataFetch, localizedStringsFetch } from "../../redux/actions";
+import { gameDataFetch } from "../../redux/actions";
 import { emptyState } from "../../redux/emptyState";
 import { reducers } from "../../redux/reducers";
 import rootSaga from "../../redux/sagas";
@@ -25,6 +26,8 @@ ReactGA.initialize("UA-144208019-1", {
   debug: process.env.NODE_ENV === "development"
 });
 
+const basePath = "/:locale(en-us|pt-br)?";
+
 class App extends Component {
   store: Store<AppState>;
 
@@ -40,7 +43,6 @@ class App extends Component {
     );
     sagaMiddleware.run(rootSaga);
     const locale = getLocale();
-    this.store.dispatch(localizedStringsFetch(locale));
     this.store.dispatch(gameDataFetch(locale));
   }
 
@@ -52,16 +54,27 @@ class App extends Component {
   render() {
     return (
       <Provider store={this.store}>
+        <Helmet>
+          <html
+            lang={getLocale()
+              .split("-")
+              .map((str, idx) => (idx === 1 ? str.toUpperCase() : str))
+              .join("-")}
+          />
+        </Helmet>
         <div className={styles.app} onMouseMove={this.handleMouseMove}>
           <Router>
-            <Route path="/" component={Header} />
-            <Route exact path={"/"} component={Home} />
-            <Route path="/builds/:buildKey?" component={Builds} />
-            <Route path="/create-build" component={CreateBuild} />
-            <Route path="/champions/:championKey?" component={Champions} />
-            <Route path="/items/:itemKey?" component={Items} />
-            <Route path="/login" exact component={Login} />
-            <Route path="/register" exact component={Register} />
+            <Route path={basePath} component={Header} />
+            <Route exact path={basePath} component={Home} />
+            <Route path={`${basePath}/comps/:compKey?`} component={Builds} />
+            <Route path={`${basePath}/create-build`} component={CreateBuild} />
+            <Route
+              path={`${basePath}/champions/:championKey?`}
+              component={Champions}
+            />
+            <Route path={`${basePath}/items/:itemKey?`} component={Items} />
+            <Route path={`${basePath}/login`} exact component={Login} />
+            <Route path={`${basePath}/register`} exact component={Register} />
           </Router>
         </div>
       </Provider>

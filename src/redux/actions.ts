@@ -1,4 +1,4 @@
-import { Locale, LocalizedStrings, TFTState } from "../types";
+import { Locale, TFTState } from "../types";
 
 export enum Actions {
   // Strings
@@ -28,32 +28,6 @@ export enum Actions {
   // Items
   ItemsSearch = "ItemsSearch"
 }
-
-//
-// ─── LOCALIZED STRINGS ───────────────────────────────────────────────────────────────────────
-//
-//#region LOCALIZED STRINGS
-export interface ILocalizedStringsFetch {
-  readonly type: Actions.LocalizedStringsFetch;
-  readonly locale: Locale;
-}
-export const localizedStringsFetch = (
-  locale: Locale
-): ILocalizedStringsFetch => ({
-  type: Actions.LocalizedStringsFetch,
-  locale
-});
-export interface ILocalizedStringsLoaded {
-  readonly type: Actions.LocalizedStringsLoaded;
-  readonly localizedStrings: LocalizedStrings;
-}
-export const localizedStringsLoaded = (
-  localizedStrings: LocalizedStrings
-): ILocalizedStringsLoaded => ({
-  type: Actions.LocalizedStringsLoaded,
-  localizedStrings
-});
-//#endregion
 
 //
 // ─── DATA ───────────────────────────────────────────────────────────────────────
@@ -267,8 +241,6 @@ export const itemsSearch = (query: string): IItemsSearch => ({
 //#endregion
 
 export type ActionTypes =
-  | ILocalizedStringsFetch
-  | ILocalizedStringsLoaded
   | IGameDataFetch
   | IGameDataLoaded
   | IBuildsSearch

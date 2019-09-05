@@ -3,10 +3,15 @@ import React from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import { connect } from "react-redux";
-import { RouteComponentProps, withRouter } from "react-router-dom";
+import {
+  generatePath,
+  RouteComponentProps,
+  withRouter
+} from "react-router-dom";
 import uuidv4 from "uuid/v4";
 import { Disclaimer } from "../../components/Disclaimer/Disclaimer";
 import { Item } from "../../components/Item/Item";
+import { getLocalizedText } from "../../components/LocalizedText/LocalizedText";
 import {
   Detail,
   Master,
@@ -21,7 +26,7 @@ import {
 import { getItemDescription } from "../../components/utils";
 import { itemsSearch } from "../../redux/actions";
 import { AppState, TFTItem, TFTItems } from "../../types";
-import { getObjectByKey } from "../../utils";
+import { getLocale, getObjectByKey } from "../../utils";
 import styles from "./Items.module.css";
 
 export interface TFTItemsDispatchProps {
@@ -69,6 +74,8 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
       return <></>;
     }
 
+    const locale = getLocale();
+
     const selectedItemKey = match.params.itemKey;
     const selectedItem =
       selectedItemKey != null
@@ -77,7 +84,11 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
 
     const getItemDetails = () => {
       if (selectedItem == null) {
-        return <h1>Select an item to view details.</h1>;
+        return (
+          <p style={{ minHeight: "80%" }}>
+            {getLocalizedText("items.itemSelect")}
+          </p>
+        );
       }
 
       let combinedItems = [];
@@ -103,22 +114,20 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
                     styles.combinationHeading
                   )}
                 >
-                  Recipe
+                  {getLocalizedText("items.recipe")}
                 </div>
                 <div
                   role="columnheader"
                   className={cx(styles.combination, styles.combinationHeading)}
                 >
-                  Combination
+                  {getLocalizedText("items.combination")}
                 </div>
               </div>
             </div>
             <div role="rowgroup">
               {combinedItems.map(combinedItem => {
-                console.log(combinedItem);
                 const from = combinedItem.from
                   .sort(firstEl => {
-                    console.log(firstEl);
                     return items.byId[firstEl].id === selectedItem.id ? -1 : 1;
                   })
                   .map(fromId => <Item key={uuidv4()} itemId={fromId} />);
@@ -152,9 +161,11 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
         <>
           <header className={styles.itemHeader}>
             <h1 className={styles.itemTitle}>{selectedItem.name}</h1>
-            <p className={styles.itemDesc}>
-              {getItemDescription(selectedItem.desc, selectedItem.effects)}
-            </p>
+            {selectedItem.from.length === 0 && (
+              <p className={styles.itemDesc}>
+                {getItemDescription(selectedItem.desc, selectedItem.effects)}
+              </p>
+            )}
           </header>
           {combinations}
         </>
@@ -178,7 +189,7 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
           <MasterGroup>
             <MasterHeader>
               <MasterHeading className={styles.itemsHeading}>
-                Base items
+                {getLocalizedText("items.baseItems")}
               </MasterHeading>
             </MasterHeader>
             <MasterList className={styles.masterList}>
@@ -187,7 +198,7 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
                 return (
                   <MasterItem
                     key={item.key}
-                    to={match.path.replace(":itemKey", item.key)}
+                    to={generatePath(match.path, { locale, itemKey: item.key })}
                     isSelected={item.key === selectedItemKey}
                   >
                     <Item itemId={item.id} />
@@ -199,12 +210,12 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
           <MasterGroup>
             <MasterHeader>
               <MasterHeading className={styles.itemsHeading}>
-                Combined items
+                {getLocalizedText("items.combinedItems")}
               </MasterHeading>
               <MasterSearchBox
                 value={itemsSearchQuery}
-                label="Search combined items"
-                placeholder="Search"
+                label={getLocalizedText("items.searchLabel")}
+                placeholder={getLocalizedText("items.searchPlaceholder")}
                 onSearchChange={this.handleSearchChange}
                 onClearSearch={this.handleClearSearch}
               />
@@ -215,7 +226,7 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
                 return (
                   <MasterItem
                     key={item.key}
-                    to={match.path.replace(":itemKey", item.key)}
+                    to={generatePath(match.path, { locale, itemKey: item.key })}
                     isSelected={item.key === selectedItemKey}
                   >
                     <Item itemId={item.id} />
