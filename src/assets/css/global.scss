@@ -4,11 +4,20 @@ body {
   margin: 0;
   background: #141721;
   background-size: cover;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
-  color: #e3ebee;
+  color: #ccc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
 }
 
 body {
