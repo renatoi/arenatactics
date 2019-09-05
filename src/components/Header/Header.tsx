@@ -1,6 +1,6 @@
 import cx from "classnames";
 import React from "react";
-import { RouteComponentProps, withRouter } from "react-router-dom";
+import { NavLink, RouteComponentProps, withRouter } from "react-router-dom";
 import { getLocale } from "../../utils";
 import { LocalizedText } from "../LocalizedText/LocalizedText";
 import { PathNavLink } from "../PathNavlink/PathNavLink";
@@ -67,22 +67,22 @@ const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
             placement="bottom-start"
             content={
               <div className={styles.langContainer}>
-                <a
-                  href={replaceWithLang("en-us")}
+                <NavLink
+                  to={replaceWithLang("en-us")}
                   className={cx(styles.langLink, {
                     [styles.langLinkActive]: isLangSelected("en-us")
                   })}
                 >
                   English
-                </a>
-                <a
-                  href={replaceWithLang("pt-br")}
+                </NavLink>
+                <NavLink
+                  to={replaceWithLang("pt-br")}
                   className={cx(styles.langLink, {
                     [styles.langLinkActive]: isLangSelected("pt-br")
                   })}
                 >
                   Português
-                </a>
+                </NavLink>
               </div>
             }
           >
