@@ -47,13 +47,13 @@ const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
           >
             <LocalizedText id="items.navText" />
           </PathNavLink>
-          {/* <PathNavLink
+          <PathNavLink
             className={styles.navLink}
             activeClassName={styles.navLinkActive}
             to="/comps"
           >
             <LocalizedText id="comps.navText" />
-          </PathNavLink> */}
+          </PathNavLink>
           <PathNavLink
             className={cx(styles.navLink, styles.hidden)}
             activeClassName={styles.navLinkActive}

@@ -74,7 +74,7 @@ const mapStateToProps = (
   state: AppState,
   ownProps: ItemsPopoverOwnProps
 ): ItemsPopoverStateProps => {
-  if (!state.TFT || !state.TFT.items) {
+  if (!state.TFT || Object.keys(state.TFT.items.byId).length === 0) {
     return {
       ...ownProps,
       isLoading: true

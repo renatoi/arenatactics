@@ -17,7 +17,7 @@ import Home from "../../routes/Home";
 import Items from "../../routes/Items";
 import Login from "../../routes/Login";
 import Register from "../../routes/Register";
-import { AppState } from "../../types";
+import { AppState, Locale } from "../../types";
 import { getLocale } from "../../utils";
 import { Header } from "../Header/Header";
 import styles from "./App.module.css";
@@ -30,6 +30,7 @@ const basePath = "/:locale(en-us|pt-br)?";
 
 class App extends Component {
   store: Store<AppState>;
+  locale: Locale;
 
   constructor(props: Readonly<{}>) {
     super(props);
@@ -42,13 +43,22 @@ class App extends Component {
       composeEnhancers(applyMiddleware(sagaMiddleware))
     );
     sagaMiddleware.run(rootSaga);
-    const locale = getLocale();
-    this.store.dispatch(gameDataFetch(locale));
+    this.locale = getLocale();
+    this.store.dispatch(gameDataFetch(this.locale));
   }
 
   handleMouseMove = (event: React.MouseEvent) => {
     GlobalMousePos.mouseX = event.clientX;
     GlobalMousePos.mouseY = event.clientY;
+  };
+
+  fetchData = () => {
+    const locale = getLocale();
+    if (this.locale !== locale) {
+      this.store.dispatch(gameDataFetch(locale));
+      this.locale = locale;
+    }
+    return null;
   };
 
   render() {
@@ -64,6 +74,7 @@ class App extends Component {
         </Helmet>
         <div className={styles.app} onMouseMove={this.handleMouseMove}>
           <Router>
+            <Route path="/" component={this.fetchData} />
             <Route path={basePath} component={Header} />
             <Route exact path={basePath} component={Home} />
             <Route path={`${basePath}/comps/:compKey?`} component={Builds} />

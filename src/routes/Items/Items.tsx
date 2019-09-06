@@ -249,7 +249,7 @@ const mapStateToProps = (
   state: AppState,
   ownProps: TFTItemsOwnProps
 ): TFTItemsStateProps => {
-  if (state.TFT == null || !state.TFT.items) {
+  if (state.TFT == null || Object.keys(state.TFT.items.byId).length === 0) {
     return {
       ...ownProps,
       isLoading: true

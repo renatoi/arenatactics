@@ -558,6 +558,9 @@ class CreateBuildComponent extends React.Component<
   };
 
   render() {
+    if (this.props.isLoading) {
+      return <></>;
+    }
     const { activeTab } = this.state;
     const { lang, tier, id: currentBuildId } = this.state.currentBuild;
     return (
@@ -734,7 +737,7 @@ const mapStateToProps = (
   state: AppState,
   ownProps: CreateBuildOwnProps
 ): CreateBuildStateProps => {
-  if (!state.TFT || !state.TFT.champions) {
+  if (!state.TFT || Object.keys(state.TFT.champions.byId).length === 0) {
     return {
       ...ownProps,
       isLoading: true

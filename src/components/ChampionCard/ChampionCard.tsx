@@ -81,7 +81,11 @@ const mapStateToProps = (
   state: AppState,
   ownProps: ChampionCardOwnProps
 ): ChampionCardStateProps => {
-  if (!state.TFT || !state.TFT.champions || !state.TFT.items) {
+  if (
+    !state.TFT ||
+    Object.keys(state.TFT.champions.byId).length === 0 ||
+    Object.keys(state.TFT.items.byId).length === 0
+  ) {
     return {
       ...ownProps,
       isLoading: true

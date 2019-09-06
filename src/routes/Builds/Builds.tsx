@@ -263,7 +263,7 @@ const mapStateToProps = (
   state: AppState,
   ownProps: BuildsOwnProps
 ): BuildsStateProps => {
-  if (!state.TFT || !state.TFT.champions) {
+  if (!state.TFT || Object.keys(state.TFT.champions.byId).length === 0) {
     return {
       ...ownProps,
       isLoading: true
