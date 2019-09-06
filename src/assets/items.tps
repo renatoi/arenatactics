@@ -32,7 +32,7 @@
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>css-simple</string>
+        <string>css</string>
         <key>textureFileName</key>
         <filename></filename>
         <key>flipPVR</key>
@@ -70,7 +70,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>0</uint>
+        <uint>1</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -84,7 +84,7 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png8</enum>
         <key>borderPadding</key>
-        <uint>0</uint>
+        <uint>1</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
@@ -163,7 +163,7 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>1</uint>
+            <uint>0</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
@@ -181,85 +181,85 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../public/tft/tft_item_abyssalmask.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_ardentcenser.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_athenesunholygrail.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_atmasreckoning.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_bansheesveil.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_bfsword.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_blackcleaver.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_bladeoftheruinedking.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_brawlersglove.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_chainvest.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_cursedblade.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_darkin.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_deadmansplate.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_deathsdance.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_dragonsclaw.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_edgeofnight.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_essencereaver.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_forceofnature.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_frozenheart.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_frozenmallet.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_gargoylestoneplate.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_giantsbelt.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_guardianangel.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_guinsoosrageblade.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_hextechgunblade.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_hush.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_iceborngauntlet.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_infinityedge.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_ionicspark.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_knightsvow.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_liandrystorment.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_lichbane.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_locketoftheironsolari.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_ludensecho.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_mawofmalmortius.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_mercurialscimitar.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_mikaelscrucible.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_morellonomicon.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_mortalreminder.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_muramana.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_nashorstooth.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_needlesslylargerod.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_negatroncloak.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_phantomdancer.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_rabadonsdeathcap.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_randuinsomen.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_rapidfirecannon.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_recurvebow.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_redbuff.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_redemption.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_righteousglory.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_rodofages.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_runaanshurricane.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_rylaiscrystalscepter.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_seraphsembrace.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_shurelyasreverie.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_spatula.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_spearofshojin.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_spiritvisage.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_statikkshiv.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_statstick.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_steraksgage.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_stormrazor.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_sunfirecape.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_swordbreaker.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_swordofthedivine.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_tearofthegoddess.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_thebloodthirster.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_thornmail.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_titanichydra.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_trinityforce.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_voidstaff.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_warmogsarmor.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_witsend.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_youmuusghostblade.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_yuumi.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_zekesherald.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_zephyr.tft.png</key>
-            <key type="filename">../../public/tft/tft_item_zhonyashourglass.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_abyssalmask.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_ardentcenser.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_athenesunholygrail.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_atmasreckoning.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_bansheesveil.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_bfsword.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_blackcleaver.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_bladeoftheruinedking.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_brawlersglove.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_chainvest.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_cursedblade.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_darkin.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_deadmansplate.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_deathsdance.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_dragonsclaw.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_edgeofnight.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_essencereaver.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_forceofnature.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_frozenheart.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_frozenmallet.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_gargoylestoneplate.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_giantsbelt.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_guardianangel.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_guinsoosrageblade.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_hextechgunblade.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_hush.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_iceborngauntlet.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_infinityedge.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_ionicspark.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_knightsvow.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_liandrystorment.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_lichbane.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_locketoftheironsolari.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_ludensecho.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mawofmalmortius.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mercurialscimitar.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mikaelscrucible.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_morellonomicon.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mortalreminder.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_muramana.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_nashorstooth.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_needlesslylargerod.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_negatroncloak.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_phantomdancer.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rabadonsdeathcap.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_randuinsomen.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rapidfirecannon.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_recurvebow.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_redbuff.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_redemption.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_righteousglory.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rodofages.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_runaanshurricane.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rylaiscrystalscepter.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_seraphsembrace.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_shurelyasreverie.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_spatula.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_spearofshojin.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_spiritvisage.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_statikkshiv.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_statstick.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_steraksgage.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_stormrazor.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_sunfirecape.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_swordbreaker.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_swordofthedivine.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_tearofthegoddess.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_thebloodthirster.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_thornmail.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_titanichydra.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_trinityforce.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_voidstaff.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_warmogsarmor.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_witsend.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_youmuusghostblade.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_yuumi.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_zekesherald.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_zephyr.tft.png</key>
+            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_zhonyashourglass.tft.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -275,85 +275,85 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../public/tft/tft_item_witsend.tft.png</filename>
-            <filename>../../public/tft/tft_item_warmogsarmor.tft.png</filename>
-            <filename>../../public/tft/tft_item_voidstaff.tft.png</filename>
-            <filename>../../public/tft/tft_item_trinityforce.tft.png</filename>
-            <filename>../../public/tft/tft_item_titanichydra.tft.png</filename>
-            <filename>../../public/tft/tft_item_thornmail.tft.png</filename>
-            <filename>../../public/tft/tft_item_thebloodthirster.tft.png</filename>
-            <filename>../../public/tft/tft_item_tearofthegoddess.tft.png</filename>
-            <filename>../../public/tft/tft_item_swordofthedivine.tft.png</filename>
-            <filename>../../public/tft/tft_item_swordbreaker.tft.png</filename>
-            <filename>../../public/tft/tft_item_sunfirecape.tft.png</filename>
-            <filename>../../public/tft/tft_item_stormrazor.tft.png</filename>
-            <filename>../../public/tft/tft_item_steraksgage.tft.png</filename>
-            <filename>../../public/tft/tft_item_statstick.tft.png</filename>
-            <filename>../../public/tft/tft_item_statikkshiv.tft.png</filename>
-            <filename>../../public/tft/tft_item_spiritvisage.tft.png</filename>
-            <filename>../../public/tft/tft_item_spearofshojin.tft.png</filename>
-            <filename>../../public/tft/tft_item_spatula.tft.png</filename>
-            <filename>../../public/tft/tft_item_shurelyasreverie.tft.png</filename>
-            <filename>../../public/tft/tft_item_seraphsembrace.tft.png</filename>
-            <filename>../../public/tft/tft_item_rylaiscrystalscepter.tft.png</filename>
-            <filename>../../public/tft/tft_item_runaanshurricane.tft.png</filename>
-            <filename>../../public/tft/tft_item_rodofages.tft.png</filename>
-            <filename>../../public/tft/tft_item_righteousglory.tft.png</filename>
-            <filename>../../public/tft/tft_item_redemption.tft.png</filename>
-            <filename>../../public/tft/tft_item_redbuff.tft.png</filename>
-            <filename>../../public/tft/tft_item_recurvebow.tft.png</filename>
-            <filename>../../public/tft/tft_item_rapidfirecannon.tft.png</filename>
-            <filename>../../public/tft/tft_item_randuinsomen.tft.png</filename>
-            <filename>../../public/tft/tft_item_rabadonsdeathcap.tft.png</filename>
-            <filename>../../public/tft/tft_item_phantomdancer.tft.png</filename>
-            <filename>../../public/tft/tft_item_negatroncloak.tft.png</filename>
-            <filename>../../public/tft/tft_item_needlesslylargerod.tft.png</filename>
-            <filename>../../public/tft/tft_item_nashorstooth.tft.png</filename>
-            <filename>../../public/tft/tft_item_muramana.tft.png</filename>
-            <filename>../../public/tft/tft_item_mortalreminder.tft.png</filename>
-            <filename>../../public/tft/tft_item_morellonomicon.tft.png</filename>
-            <filename>../../public/tft/tft_item_mikaelscrucible.tft.png</filename>
-            <filename>../../public/tft/tft_item_mercurialscimitar.tft.png</filename>
-            <filename>../../public/tft/tft_item_mawofmalmortius.tft.png</filename>
-            <filename>../../public/tft/tft_item_ludensecho.tft.png</filename>
-            <filename>../../public/tft/tft_item_locketoftheironsolari.tft.png</filename>
-            <filename>../../public/tft/tft_item_lichbane.tft.png</filename>
-            <filename>../../public/tft/tft_item_liandrystorment.tft.png</filename>
-            <filename>../../public/tft/tft_item_knightsvow.tft.png</filename>
-            <filename>../../public/tft/tft_item_ionicspark.tft.png</filename>
-            <filename>../../public/tft/tft_item_infinityedge.tft.png</filename>
-            <filename>../../public/tft/tft_item_iceborngauntlet.tft.png</filename>
-            <filename>../../public/tft/tft_item_hush.tft.png</filename>
-            <filename>../../public/tft/tft_item_hextechgunblade.tft.png</filename>
-            <filename>../../public/tft/tft_item_guinsoosrageblade.tft.png</filename>
-            <filename>../../public/tft/tft_item_guardianangel.tft.png</filename>
-            <filename>../../public/tft/tft_item_giantsbelt.tft.png</filename>
-            <filename>../../public/tft/tft_item_gargoylestoneplate.tft.png</filename>
-            <filename>../../public/tft/tft_item_frozenmallet.tft.png</filename>
-            <filename>../../public/tft/tft_item_frozenheart.tft.png</filename>
-            <filename>../../public/tft/tft_item_forceofnature.tft.png</filename>
-            <filename>../../public/tft/tft_item_essencereaver.tft.png</filename>
-            <filename>../../public/tft/tft_item_edgeofnight.tft.png</filename>
-            <filename>../../public/tft/tft_item_dragonsclaw.tft.png</filename>
-            <filename>../../public/tft/tft_item_deathsdance.tft.png</filename>
-            <filename>../../public/tft/tft_item_deadmansplate.tft.png</filename>
-            <filename>../../public/tft/tft_item_darkin.tft.png</filename>
-            <filename>../../public/tft/tft_item_cursedblade.tft.png</filename>
-            <filename>../../public/tft/tft_item_chainvest.tft.png</filename>
-            <filename>../../public/tft/tft_item_brawlersglove.tft.png</filename>
-            <filename>../../public/tft/tft_item_bladeoftheruinedking.tft.png</filename>
-            <filename>../../public/tft/tft_item_blackcleaver.tft.png</filename>
-            <filename>../../public/tft/tft_item_bfsword.tft.png</filename>
-            <filename>../../public/tft/tft_item_bansheesveil.tft.png</filename>
-            <filename>../../public/tft/tft_item_atmasreckoning.tft.png</filename>
-            <filename>../../public/tft/tft_item_athenesunholygrail.tft.png</filename>
-            <filename>../../public/tft/tft_item_ardentcenser.tft.png</filename>
-            <filename>../../public/tft/tft_item_abyssalmask.tft.png</filename>
-            <filename>../../public/tft/tft_item_zhonyashourglass.tft.png</filename>
-            <filename>../../public/tft/tft_item_zephyr.tft.png</filename>
-            <filename>../../public/tft/tft_item_zekesherald.tft.png</filename>
-            <filename>../../public/tft/tft_item_yuumi.tft.png</filename>
-            <filename>../../public/tft/tft_item_youmuusghostblade.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_witsend.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_warmogsarmor.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_voidstaff.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_trinityforce.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_titanichydra.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_thornmail.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_thebloodthirster.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_tearofthegoddess.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_swordofthedivine.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_swordbreaker.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_sunfirecape.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_stormrazor.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_steraksgage.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_statstick.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_statikkshiv.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_spiritvisage.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_spearofshojin.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_spatula.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_shurelyasreverie.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_seraphsembrace.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rylaiscrystalscepter.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_runaanshurricane.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rodofages.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_righteousglory.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_redemption.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_redbuff.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_recurvebow.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rapidfirecannon.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_randuinsomen.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_rabadonsdeathcap.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_phantomdancer.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_negatroncloak.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_needlesslylargerod.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_nashorstooth.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_muramana.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mortalreminder.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_morellonomicon.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mikaelscrucible.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mercurialscimitar.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_mawofmalmortius.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_ludensecho.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_locketoftheironsolari.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_lichbane.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_liandrystorment.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_knightsvow.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_ionicspark.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_infinityedge.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_iceborngauntlet.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_hush.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_hextechgunblade.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_guinsoosrageblade.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_guardianangel.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_giantsbelt.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_gargoylestoneplate.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_frozenmallet.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_frozenheart.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_forceofnature.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_essencereaver.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_edgeofnight.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_dragonsclaw.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_deathsdance.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_deadmansplate.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_darkin.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_cursedblade.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_chainvest.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_brawlersglove.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_bladeoftheruinedking.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_blackcleaver.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_bfsword.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_bansheesveil.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_atmasreckoning.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_athenesunholygrail.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_ardentcenser.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_abyssalmask.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_zhonyashourglass.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_zephyr.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_zekesherald.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_yuumi.tft.png</filename>
+            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_item_youmuusghostblade.tft.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

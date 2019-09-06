@@ -198,27 +198,53 @@ const BuildsComponent: React.FC<BuildsProps> = ({
           </FilterButton>
         </MasterHeader>
         <MasterList className={styles.buildsList}>
-          {visibleBuilds.map(buildId => {
-            const build = builds.byId[buildId];
-            return (
-              <MasterItem
-                key={build.id}
-                to={generatePath(match.path, {
-                  locale,
-                  compKey: `${build.id}-${build.key}`
-                })}
-                isSelected={selectedBuildId === build.id}
-                linkClassName={styles.buildLink}
-              >
-                <span className={styles.buildName}>{build.name}</span>
-                <span
-                  className={cx(styles.buildTier, styles[`tier${build.tier}`])}
+          {visibleBuilds
+            .sort((buildId1, buildId2) => {
+              const build1 = builds.byId[buildId1];
+              const build2 = builds.byId[buildId2];
+              const tierOrder: { [key: string]: number } = {
+                S: 0,
+                A: 1,
+                B: 2,
+                C: 3,
+                D: 4
+              };
+              if (tierOrder[build1.tier] > tierOrder[build2.tier]) {
+                return 1;
+              } else if (tierOrder[build1.tier] === tierOrder[build2.tier]) {
+                if (tierOrder[build1.name] > tierOrder[build2.name]) {
+                  return 1;
+                } else if (tierOrder[build1.name] < tierOrder[build2.name]) {
+                  return -1;
+                }
+                return 0;
+              }
+              return -1;
+            })
+            .map(buildId => {
+              const build = builds.byId[buildId];
+              return (
+                <MasterItem
+                  key={build.id}
+                  to={generatePath(match.path, {
+                    locale,
+                    compKey: `${build.id}-${build.key}`
+                  })}
+                  isSelected={selectedBuildId === build.id}
+                  linkClassName={styles.buildLink}
                 >
-                  {build.tier}
-                </span>
-              </MasterItem>
-            );
-          })}
+                  <span className={styles.buildName}>{build.name}</span>
+                  <span
+                    className={cx(
+                      styles.buildTier,
+                      styles[`tier${build.tier}`]
+                    )}
+                  >
+                    {build.tier}
+                  </span>
+                </MasterItem>
+              );
+            })}
         </MasterList>
       </Master>
       <Detail className={cx(styles.buildsDetail, "Scrollable")}>

@@ -1,4 +1,7 @@
+import cx from "classnames";
 import React from "react";
+import championIcon from "../../assets/Champions.module.css";
+import styles from "./ChampionImage.module.css";
 
 interface ChampionImageProps {
   readonly championKey?: string;
@@ -13,13 +16,17 @@ export const ChampionImage = React.forwardRef<
   ChampionImageProps
 >(({ championKey, width = 64, height = 64, className }, ref?) => {
   return (
-    <img
+    <div
       ref={ref}
-      width={width}
-      height={height}
-      className={className}
-      src={`${process.env.PUBLIC_URL}/tft/tft_${championKey}.png`}
-      alt=""
+      className={cx(
+        styles.championImage,
+        championIcon[`tft_${championKey}`],
+        className
+      )}
+      style={{
+        width,
+        height
+      }}
     />
   );
 });

@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { Tooltip } from "../../components/Tooltip/Tooltip";
 import { AppState, TFTChampion, TFTChampions, TFTItems } from "../../types";
+import { ChampionImage } from "../ChampionImage/ChampionImage";
 import { ItemImage } from "../ItemImage/ItemImage";
 import styles from "./Champion.module.css";
 
@@ -74,9 +75,8 @@ const ChampionSFC: React.FC<ChampionProps> = ({
                     <ItemImage
                       key={index}
                       itemKey={items.byId[itemId].key}
-                      width="32"
-                      height="32"
-                      alt={items.byId[itemId].name}
+                      width={32}
+                      height={32}
                     />
                   ))}
                 </li>
@@ -91,11 +91,10 @@ const ChampionSFC: React.FC<ChampionProps> = ({
     <></>
   ) : (
     <Tooltip title={tooltipContent}>
-      <img
-        src={`${process.env.PUBLIC_URL}/tft/tft_${currentChampion.key}.png`}
+      <ChampionImage
+        championKey={currentChampion.key}
         width={width}
         height={height}
-        alt=""
       />
     </Tooltip>
   );

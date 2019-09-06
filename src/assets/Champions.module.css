@@ -118,59 +118,62 @@ div.tft_morgana::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;
 .tft_nidalee {max-width:60px; max-height:60px; }
 .tft_nidalee::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 57.10955710955711%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_nidalee::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
+.tft_pantheon {max-width:60px; max-height:60px; }
+.tft_pantheon::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 71.32867132867133%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+div.tft_pantheon::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_poppy {max-width:60px; max-height:60px; }
-.tft_poppy::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 71.32867132867133%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_poppy::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 85.54778554778555%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_poppy::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_pyke {max-width:60px; max-height:60px; }
-.tft_pyke::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 85.54778554778555%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_pyke::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 99.76689976689977%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_pyke::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_reksai {max-width:60px; max-height:60px; }
-.tft_reksai::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 66.57608695652173% 99.76689976689977%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_reksai::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 0.2331002331002331%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_reksai::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_rengar {max-width:60px; max-height:60px; }
-.tft_rengar::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 0.2331002331002331%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_rengar::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 14.452214452214452%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_rengar::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_sejuani {max-width:60px; max-height:60px; }
-.tft_sejuani::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 14.452214452214452%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_sejuani::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 28.67132867132867%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_sejuani::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_shen {max-width:60px; max-height:60px; }
-.tft_shen::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 28.67132867132867%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_shen::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 42.89044289044289%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_shen::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_shyvana {max-width:60px; max-height:60px; }
-.tft_shyvana::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 42.89044289044289%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_shyvana::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 57.10955710955711%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_shyvana::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_swain {max-width:60px; max-height:60px; }
-.tft_swain::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 57.10955710955711%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_swain::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 71.32867132867133%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_swain::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_tristana {max-width:60px; max-height:60px; }
-.tft_tristana::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 71.32867132867133%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_tristana::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 85.54778554778555%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_tristana::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_twisted-fate {max-width:60px; max-height:60px; }
-.tft_twisted-fate::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 85.54778554778555%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_twisted-fate::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 99.76689976689977%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_twisted-fate::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_varus {max-width:60px; max-height:60px; }
-.tft_varus::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 83.15217391304348% 99.76689976689977%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_varus::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 0.2331002331002331%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_varus::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_vayne {max-width:60px; max-height:60px; }
-.tft_vayne::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 0.2331002331002331%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_vayne::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 14.452214452214452%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_vayne::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_veigar {max-width:60px; max-height:60px; }
-.tft_veigar::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 14.452214452214452%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_veigar::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 28.67132867132867%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_veigar::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_vi {max-width:60px; max-height:60px; }
-.tft_vi::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 28.67132867132867%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_vi::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 42.89044289044289%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_vi::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_volibear {max-width:60px; max-height:60px; }
-.tft_volibear::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 42.89044289044289%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_volibear::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 57.10955710955711%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_volibear::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_warwick {max-width:60px; max-height:60px; }
-.tft_warwick::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 57.10955710955711%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_warwick::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 71.32867132867133%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_warwick::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_yasuo {max-width:60px; max-height:60px; }
-.tft_yasuo::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 71.32867132867133%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_yasuo::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 85.54778554778555%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_yasuo::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 .tft_zed {max-width:60px; max-height:60px; }
-.tft_zed::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 85.54778554778555%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
+.tft_zed::after {content: '\00a0';display: inline-block; width:60px; height:60px; background-position: 99.72826086956522% 99.76689976689977%;background-size: 713.3333333333334% 815%;background-image: url(Champions.module.png);padding: 0; }
 div.tft_zed::after {max-width:60px; width:100%;height:0;padding: 0 0 100% 0;}
 
-/* $TexturePacker:SmartUpdate:a87f91a51128db505dd5765d02f12b96:3327346a982587072934520ccf147de8:c472d7f94313f48780c74df32fc8e78e$ */
+/* $TexturePacker:SmartUpdate:34f0b00881df070c956b76e09f442ffd:39a6c2965dccdb864bb9cc5edb17e09f:c472d7f94313f48780c74df32fc8e78e$ */
