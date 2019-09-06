@@ -225,7 +225,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
         {selectedBuild != null ? (
           <>
             <h1 className={styles.buildsTitle}>{selectedBuild.name}</h1>
-            <p>by Lysandra, last updated July 30, 2019 (Patch 9.15).</p>
+            <p>by {selectedBuild.author}, Patch 9.17.</p>
             <h2 id="team-composition" className={styles.heading}>
               {getLocalizedText("comps.teamComposition")}
             </h2>
