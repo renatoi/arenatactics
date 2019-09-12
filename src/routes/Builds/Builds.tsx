@@ -6,71 +6,15 @@ import { connect } from "react-redux";
 import { generatePath, RouteComponentProps, withRouter } from "react-router";
 import { ChampionCard } from "../../components/ChampionCard";
 import { Disclaimer } from "../../components/Disclaimer/Disclaimer";
-import {
-  FilterButton,
-  FilterItem,
-  FilterItemCheckbox,
-  FilterPopover
-} from "../../components/Filter";
+import { FilterButton, FilterItem, FilterItemCheckbox, FilterPopover } from "../../components/Filter";
 import { Grid } from "../../components/Grid/Grid";
 import { getLocalizedText } from "../../components/LocalizedText/LocalizedText";
 import { MarkdownViewer } from "../../components/MarkdownViewer/MarkdownViewer";
-import {
-  Detail,
-  Master,
-  MasterDetail,
-  MasterHeader,
-  MasterItem,
-  MasterList,
-  MasterSearchBox
-} from "../../components/MasterDetail";
-import {
-  buildsAddTierToFilter,
-  buildsAddTraitToFilter,
-  buildsRemoveTierFromFilter,
-  buildsRemoveTraitFromFilter,
-  buildsResetFilter,
-  buildsResetTiersInFilter,
-  buildsResetTraitsInFilter,
-  buildsSearch
-} from "../../redux/actions";
-import {
-  AppState,
-  TFTBuilds,
-  TFTChampions,
-  TFTItems,
-  TFTTraits
-} from "../../types";
+import { Detail, Master, MasterDetail, MasterHeader, MasterItem, MasterList, MasterSearchBox } from "../../components/MasterDetail";
+import { buildsAddTierToFilter, buildsAddTraitToFilter, buildsRemoveTierFromFilter, buildsRemoveTraitFromFilter, buildsResetFilter, buildsResetTiersInFilter, buildsResetTraitsInFilter, buildsSearch } from "../../redux/actions";
+import { AppState, TFTBuilds, TFTChampions, TFTItems, TFTTraits } from "../../types";
 import { getLocale } from "../../utils";
 import styles from "./Builds.module.css";
-
-export interface BuildsDispatchProps {
-  readonly dispatchResetFilter: () => void;
-  readonly dispatchSearchBuilds: (query: string) => void;
-  readonly dispatchAddTraitToFilter: (trait: string) => void;
-  readonly dispatchRemoveTraitFromFilter: (trait: string) => void;
-  readonly dispatchResetTraits: () => void;
-  readonly dispatchAddTierToFilter: (tier: string) => void;
-  readonly dispatchRemoveTierFromFilter: (tier: string) => void;
-  readonly dispatchResetTiers: () => void;
-}
-export interface BuildsStateProps {
-  readonly isLoading: boolean;
-  readonly builds?: TFTBuilds;
-  readonly buildsSearchQuery?: string;
-  readonly buildsFilterTraits?: string[];
-  readonly buildsFilterTiers?: string[];
-  readonly visibleBuilds?: string[];
-  readonly champions?: TFTChampions;
-  readonly items?: TFTItems;
-  readonly traits?: TFTTraits;
-}
-interface MatchParams {
-  readonly compKey?: string;
-}
-export interface BuildsOwnProps extends RouteComponentProps<MatchParams> {}
-
-export interface BuildsProps
   extends BuildsDispatchProps,
     BuildsStateProps,
     BuildsOwnProps {}
@@ -251,7 +195,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
         {selectedBuild != null ? (
           <>
             <h1 className={styles.buildsTitle}>{selectedBuild.name}</h1>
-            <p>by {selectedBuild.author}, Patch 9.17.</p>
+            <p>by {selectedBuild.author}, Patch 9.18.</p>
             <h2 id="team-composition" className={styles.heading}>
               {getLocalizedText("comps.teamComposition")}
             </h2>
