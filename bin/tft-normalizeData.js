@@ -153,7 +153,9 @@ function normalizeData(locale) {
         newItemsData.byId[itemId].key = itemKey;
         newItemsData.byId[itemId].desc = newItemsData.byId[itemId].desc
           .replace(/\<i\>(.+)\<\/i\>/g, "$1")
-          .replace(/\<br\>/g, " | ")
+          .replace(/\<br\>/g, " ")
+          .replace(/tftitemrules/g, "b")
+          .replace("%i:scaleMR%", "magic resistance")
           .replace("%i:scaleHealth%", "health")
           .replace("%i:scaleAD%", "attack damage")
           .replace("%i:scaleAP%", "attack power")

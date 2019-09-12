@@ -142,12 +142,15 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
                     </div>
                     <div role="cell" className={styles.combination}>
                       <Item itemId={combinedItem.id} />
-                      <span className={styles.combinationDescription}>
-                        {getItemDescription(
-                          combinedItem.desc,
-                          combinedItem.effects
-                        )}
-                      </span>
+                      <span
+                        className={styles.combinationDescription}
+                        dangerouslySetInnerHTML={{
+                          __html: getItemDescription(
+                            combinedItem.desc,
+                            combinedItem.effects
+                          )
+                        }}
+                      ></span>
                     </div>
                   </div>
                 );
@@ -162,9 +165,15 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
           <header className={styles.itemHeader}>
             <h1 className={styles.itemTitle}>{selectedItem.name}</h1>
             {selectedItem.from.length === 0 && (
-              <p className={styles.itemDesc}>
-                {getItemDescription(selectedItem.desc, selectedItem.effects)}
-              </p>
+              <p
+                className={styles.itemDesc}
+                dangerouslySetInnerHTML={{
+                  __html: getItemDescription(
+                    selectedItem.desc,
+                    selectedItem.effects
+                  )
+                }}
+              ></p>
             )}
           </header>
           {combinations}
