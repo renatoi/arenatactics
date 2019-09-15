@@ -1,0 +1,93 @@
+{
+  "id": "6c5a05a1-0ba9-4a01-a1d4-5b06c1e1a276",
+  "key": "",
+  "name": "Ninjas Assassins",
+  "tier": "B",
+  "author": "KenjiHimura",
+  "lang": "en-us",
+  "composition": [
+    {
+      "champion": "121",
+      "items": [
+        "11",
+        "22",
+        "25"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "98",
+      "items": [
+        "77",
+        "66",
+        "25"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "107",
+      "items": [
+        "15",
+        "22",
+        "24"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "28",
+      "items": [
+        "44",
+        "44",
+        "13"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "555",
+      "items": [
+        "14",
+        "14",
+        "23"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "85",
+      "items": [
+        "35",
+        "17",
+        "67"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "238",
+      "items": [
+        "11",
+        "22",
+        "25"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "84",
+      "items": [
+        "44",
+        "25",
+        "33"
+      ],
+      "isCarry": true
+    }
+  ],
+  "positioning": {
+    "2,5": "121",
+    "2,6": "98",
+    "2,7": "107",
+    "3,3": "28",
+    "3,4": "555",
+    "3,5": "85",
+    "3,6": "238",
+    "3,7": "84"
+  },
+  "guide": "### 1. PROS\n\n- Heavy openning damage;\n- Strong against spread out enemies;\n- Medium cost champions ( average cost ~ 2,5);\n\n### 2. CONS\n\n- Highly dependent of Akali; \n- Low defensive power champions;\n- Low damage and survival against grouped champions or that are equipped with [[item=phantom-dancer]].\n\n\n### 3. WEAKNESS\n\n**Knight**\n**Glacial**\n**Yordle**\n\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n\n### 4. GAME\n\n#### Early Game: \n\n[[champion=khazix]]\n[[champion=pyke]]\n[[champion=shen]]\n[[champion=zed]]\n[[champion=reksai]]\n[[champion=kassadin]]\n\n#### Mid Game:\n\n[[champion=reksai]] → [[champion=akali]]\n\n[[champion=kassadin]]→[[champion=kennen]]\n\n\n#### Late Game:\n\n[[champion=evelynn]]\n[[champion=rengar]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=evelynn]][[champion=rengar]] → [[champion=katarina]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=youmuus-ghostblade]]→ [[champion=kennen]]\n\n"
+}

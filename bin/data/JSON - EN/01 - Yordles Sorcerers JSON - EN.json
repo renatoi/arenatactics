@@ -1,0 +1,93 @@
+{
+  "id": "9454efee-f806-400d-a37a-365a05dc4364",
+  "key": "",
+  "name": "Yordle Sorcerers",
+  "tier": "A",
+  "author": "KenjiHimura",
+  "lang": "en-us",
+  "composition": [
+    {
+      "champion": "78",
+      "items": [
+        "55",
+        "66",
+        "25"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "150",
+      "items": [
+        "77",
+        "27",
+        "66"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "45",
+      "items": [
+        "14",
+        "14",
+        "44"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "85",
+      "items": [
+        "67",
+        "35",
+        "17"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "117",
+      "items": [
+        "14",
+        "14",
+        "23"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "18",
+      "items": [
+        "57",
+        "26",
+        "46"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "136",
+      "items": [
+        "14",
+        "14",
+        "37"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "30",
+      "items": [
+        "44",
+        "44",
+        "33"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "1,1": "78",
+    "1,2": "150",
+    "2,1": "45",
+    "2,2": "85",
+    "2,3": "117",
+    "3,1": "18",
+    "3,2": "136",
+    "3,3": "30"
+  },
+  "guide": "### 1. PROS\n\n- Strong area damage;\n- Strong crowd control;\n- Strong against grouped champions;\n\n### 2. CONS\n\n- Need to swap champions during the match;\n- Heavily Gnar dependent composition;\n- Less efficient in damage and crowd control against spread out enemies;\n\n### 3. WEAKNESS\n\n**Dragons** **Wild**\n\n[[item=rapid-firecannon]]\n[[item=dragons-claw]]\n\n### 4. GAME\n\n#### Early Game: \n\n[[champion=tristana]]\n[[champion=lulu]]\n[[champion=graves]]\n[[champion=lucian]]\n\n\n#### Mid Game:\n\n[[champion=graves]] → [[champion=poppy]]\n \n[[champion=lucian]] → [[champion=veigar]]\n\n[[champion=kennen]]\n\n[[champion=gnar]]\n\n\n#### Late Game:\n\n[[champion=aurelion-sol]]\n[[champion=karthus]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n \n[[champion=aurelion-sol]] [[champion=karthus]] → [[champion=ahri]] [[champion=kayle]]\n\n### 6. USEFUL ITEMS\n[[item=force-of-nature]]\n\n[[item=yuumi]] → [[champion=kennen]] [[champion=poppy]] [[champion=gnar]]\n"
+}

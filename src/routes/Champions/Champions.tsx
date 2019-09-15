@@ -310,9 +310,15 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
                                   />
                                 ))}
                               </div>
-                              <p className={styles.itemSetitemDescription}>
-                                {getItemDescription(item.desc, item.effects)}
-                              </p>
+                              <p
+                                className={styles.itemSetitemDescription}
+                                dangerouslySetInnerHTML={{
+                                  __html: getItemDescription(
+                                    item.desc,
+                                    item.effects
+                                  )
+                                }}
+                              />
                             </li>
                           );
                         })}

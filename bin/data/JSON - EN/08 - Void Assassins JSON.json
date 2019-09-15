@@ -1,0 +1,93 @@
+{
+  "id": "772005c7-c06a-4fdc-85b3-dadec32112f1",
+  "key": "",
+  "name": "Void Assassins",
+  "tier": "S",
+  "author": "KenjiHimura",
+  "lang": "en-us",
+  "composition": [
+    {
+      "champion": "84",
+      "items": [
+        "44",
+        "33",
+        "13"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "38",
+      "items": [
+        "18",
+        "11",
+        "22"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "107",
+      "items": [
+        "22",
+        "15",
+        "16"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "28",
+      "items": [
+        "44",
+        "44",
+        "13"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "121",
+      "items": [
+        "22",
+        "11",
+        "25"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "421",
+      "items": [
+        "45",
+        "77",
+        "77"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "31",
+      "items": [
+        "15",
+        "37",
+        "33"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "555",
+      "items": [
+        "14",
+        "14",
+        "13"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "3,7": "84",
+    "3,6": "38",
+    "3,3": "107",
+    "3,4": "28",
+    "3,5": "121",
+    "2,7": "421",
+    "2,6": "31",
+    "2,5": "555"
+  },
+  "guide": "### 1. PROS\n\n- Strong burst damage;\n- Strong single damage;\n- Champions of low cost (median cost: 2.5 coins).\n\n### 2. CONS\n\n- Low defensive power;\n- Weak against grouped enemies;\n- Damage efficiency reduced against enemies equiped with [[item=phantom-dancer]];\n- Dependent of [[item=youmuus-ghostblade]] in Kassadin (to obtain and complete assassins’ bonus).\n\n\n### 3. WEAKNESS\n\n**Knights**\n**Yordles**\n**Glacial**\n** Guardian**\n\n[[item=frozen-heart]]\n[[item=phantom-dancer]]\n[[item=sword-breaker]]\n\n[[champion=kayle]]\n\n\n### 4. GAME\n\n#### Early Game: \n\n[[champion=kassadin]]\n[[champion=khazix]]\n[[champion=reksai]]\n[[champion=pyke]]\n[[champion=zed]]\n\n\n\n#### Mid Game:\n\n[[champion=evelynn]]\n\n[[champion=chogath]]\n\n[[champion=zed]]→[[champion=akali]]\n\n\n#### Late Game:\n\n\n[[champion=rengar]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n \n[[champion=akali]]→[[champion=zed]]\n\n[[champion=rengar]][[champion=evelynn]]→[[champion=katarina]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=youmuus-ghostblade]]→[[champion=kassadin]]\n[[champion=reksai]][[champion=chogath]]\n\n[[item=rapid-firecannon]]\n\n\n"
+}

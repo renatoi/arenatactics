@@ -1,0 +1,93 @@
+{
+  "id": "491f7e2f-6e6a-4732-97df-ed0c0218f46a",
+  "key": "",
+  "name": "Patrulheiros Glaciais",
+  "tier": "B",
+  "author": "KenjiHimura",
+  "lang": "pt-br",
+  "composition": [
+    {
+      "champion": "82",
+      "items": [
+        "45",
+        "66",
+        "25"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "113",
+      "items": [
+        "77",
+        "44",
+        "66"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "22",
+      "items": [
+        "24",
+        "24",
+        "24"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "203",
+      "items": [
+        "67",
+        "17",
+        "35"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "34",
+      "items": [
+        "44",
+        "44",
+        "37"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "110",
+      "items": [
+        "24",
+        "24",
+        "24"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "67",
+      "items": [
+        "24",
+        "24",
+        "24"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "106",
+      "items": [
+        "22",
+        "22",
+        "57"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "1,1": "82",
+    "1,2": "113",
+    "2,1": "22",
+    "2,2": "203",
+    "3,1": "34",
+    "2,3": "110",
+    "3,2": "67",
+    "3,3": "106"
+  },
+  "guide": "### 1. PRÓS \n\n- Forte controle de campo;\n- Sobrevivência extra graças à habilidade de Kindred;\n- Neutralização de um campeão no início do turno (bônus de fantasma);\n- Forte contra inimigos agrupados.\n\n### 2. CONTRAS\n\n- Altamente dependente de Kindred;\n- Campeões de custo médio para alto (custo mediano: 3);\n- Eficiência de controle e de dano reduzidos contra campeões espalhados.\n\n### 3. FRAQUEZA\n\n**Demônios**\n\n**Assassinos**\n\n[[item=hush]]\n[[item=frozen-heart]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo: \n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=braum]]\n\n#### Meio do Jogo:\n\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n [[champion=braum]]→ [[champion=sejuani]]\n\n[[champion=fiora]]→ [[champion=volibear]]\n\n#### Fim do Jogo:\n\n[[champion=anivia]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=anivia]]→ [[champion=braum]] [[champion=kayle]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]] → [[champion=kayle]] [[champion=vayne]][[champion=varus]] [[champion=kindred]]\n\n[[item=runaans-hurricane]]→ [[champion=ashe]] [[champion=vayne]][[champion=varus]] [[champion=kindred]]\n"
+}
