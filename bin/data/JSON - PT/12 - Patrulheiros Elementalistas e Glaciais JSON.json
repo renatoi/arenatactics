@@ -1,0 +1,93 @@
+{
+  "id": "8e03b453-e68a-46ac-a21d-d18771bb7590",
+  "key": "",
+  "name": "Patrulheiros Elementalistas e Glaciais",
+  "tier": "A",
+  "author": "KenjiHimura",
+  "lang": "pt-br",
+  "composition": [
+    {
+      "champion": "127",
+      "items": [
+        "37",
+        "44",
+        "15"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "113",
+      "items": [
+        "77",
+        "66",
+        "15"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "67",
+      "items": [
+        "23",
+        "24",
+        "24"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "203",
+      "items": [
+        "15",
+        "24",
+        "24"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "63",
+      "items": [
+        "37",
+        "23",
+        "14"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "110",
+      "items": [
+        "24",
+        "24",
+        "24"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "22",
+      "items": [
+        "23",
+        "68",
+        "46"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "34",
+      "items": [
+        "44",
+        "44",
+        "37"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "1,1": "127",
+    "1,2": "113",
+    "2,1": "67",
+    "2,2": "203",
+    "2,3": "63",
+    "3,1": "110",
+    "3,2": "22",
+    "3,3": "34"
+  },
+  "guide": "### 1. PRÓS\n\n- Forte contra inimigos agrupados;\n- Forte controle de multidão;\n- Forte dano Individual;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Fortemente dependent de Kindred (bônus de patrulheiros e sobrevivência);\n- Poucos campeões tanques;\n- Campeões de baixo poder defensivo;\n\n\n### 3. FRAQUEZA\n\n**Assassinoss**\n**Glaciais**\n**Lutadores**\n\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n\n[[champion=chogath]]\n[[champion=kayle]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=vayne]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=varus]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n\n#### Meio do Jogo:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→[[champion=brand]]\n\n[[champion=garen]]→[[champion=sejuani]]\n\n\n#### Fim do Jogo:\n\n[[champion=braum]]→[[champion=anivia]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=brand]]→[[champion=kennen]]\n\n[[champion=anivia]]→[[champion=braum]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=varus]]\n[[champion=kindred]][[champion=vayne]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=brand]]\n\n"
+}

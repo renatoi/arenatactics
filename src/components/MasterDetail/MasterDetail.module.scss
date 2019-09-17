@@ -1,17 +1,14 @@
 .container {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  grid-template-rows: 100%;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+  display: flex;
 }
-
-@media only screen and (max-width: 600px) {
-  .container {
-    grid-template-columns: auto;
-    grid-template-rows: 30% 70%;
-  }
+.master {
+  flex: 0 0 300px;
+  position: sticky;
+  top: 41px;
+  z-index: 10;
+}
+.detail {
+  flex: auto;
 }
 
 /* master */
@@ -39,7 +36,7 @@
 .masterList {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: calc(100vh - 100px);
 }
 .masterItem {
   list-style-type: none;
@@ -111,4 +108,16 @@ a.navLinkSelected {
 .detail {
   padding: 12px;
   overflow: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+  .master {
+    position: static;
+  }
+  .masterList {
+    height: auto;
+  }
 }

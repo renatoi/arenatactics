@@ -1,17 +1,13 @@
-.masterContainer {
-  grid-template-columns: 200px auto;
-}
-.master {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: max-content auto;
-}
 .masterList {
+  height: auto;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-column-gap: 2px;
   grid-template-rows: repeat(auto-fill, 40px);
   grid-row-gap: 2px;
+}
+.master {
+  flex: auto;
 }
 .combinations {
   background: rgba(0, 0, 0, 0.5);
@@ -64,10 +60,4 @@
 .details {
   display: grid;
   grid-template-columns: max-content auto;
-}
-@media only screen and (max-width: 600px) {
-  .masterContainer {
-    grid-template-columns: auto;
-    grid-template-rows: 70% 30%;
-  }
 }

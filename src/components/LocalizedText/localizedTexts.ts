@@ -43,7 +43,7 @@ export const localizedTexts = {
       combination: "Combination"
     },
     comps: {
-      navText: "Comps",
+      navText: "Team Compositions",
       title: "Teamfight Tactics: Best Team Compositions",
       description:
         "Detailed guides of the best team compositions for Teamfight Tactics for the current patch.",
@@ -100,7 +100,7 @@ export const localizedTexts = {
       combination: "Combinação"
     },
     comps: {
-      navText: "Composições",
+      navText: "Composições de time",
       title: "Teamfight Tactics: Melhores Composições de Time",
       description:
         "Guia detalhado das melhores composições de Teamfight Tactics para o patch atual.",

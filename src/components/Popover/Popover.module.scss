@@ -10,6 +10,7 @@
   border: 3px solid $popover-border-color;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   outline: none;
+  z-index: 20;
 }
 .popover[x-placement] {
   visibility: visible;

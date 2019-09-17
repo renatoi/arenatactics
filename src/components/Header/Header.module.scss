@@ -4,7 +4,9 @@
   width: 100%;
   padding: 0;
   background: #171e26;
-  font-family: "Montserrat", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 11;
 }
 
 /* UH = Universal Header */

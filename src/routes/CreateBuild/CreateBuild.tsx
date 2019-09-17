@@ -339,19 +339,21 @@ class CreateBuildComponent extends React.Component<
 
     this.setState(
       prevState => {
-        const newPositioning = {
-          ...prevState.currentBuild.positioning,
-          [`${x},${y}`]: championId
-        };
         return {
           currentBuild: {
             ...prevState.currentBuild,
-            positioning: newPositioning,
-            composition: Object.values(newPositioning).map(championId => ({
-              champion: championId,
-              items: ["-1", "-1", "-1"],
-              isCarry: false
-            }))
+            positioning: {
+              ...prevState.currentBuild.positioning,
+              [positioningKey]: championId
+            },
+            composition: [
+              ...prevState.currentBuild.composition,
+              {
+                champion: championId,
+                items: ["-1", "-1", "-1"],
+                isCarry: false
+              }
+            ]
           }
         };
       },
