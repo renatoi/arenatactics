@@ -14,7 +14,7 @@ interface ChampionImageProps {
 export const ChampionImage = React.forwardRef<
   HTMLImageElement,
   ChampionImageProps
->(({ championKey, width = 64, height = 64, className }, ref?) => {
+>(({ championKey, width = 64, height = 64, className, ...rest }, ref?) => {
   return (
     <div
       ref={ref}
@@ -27,6 +27,7 @@ export const ChampionImage = React.forwardRef<
         width,
         height
       }}
+      {...rest}
     />
   );
 });

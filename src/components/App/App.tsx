@@ -77,7 +77,10 @@ class App extends Component {
             <Route path="/" component={this.fetchData} />
             <Route path={basePath} component={Header} />
             <Route exact path={basePath} component={Home} />
-            <Route path={`${basePath}/comps/:compKey?`} component={Builds} />
+            <Route
+              path={`${basePath}/team-compositions/:compKey?`}
+              component={Builds}
+            />
             <Route path={`${basePath}/create-build`} component={CreateBuild} />
             <Route
               path={`${basePath}/champions/:championKey?`}

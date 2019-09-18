@@ -1,7 +1,8 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { Champion } from "../Champion/Champion";
-import { Item } from "../Item/Item";
+import { ChampionPill } from "../ChampionPill/ChampionPill";
+import { ItemPill } from "../ItemPill/ItemPill";
+import { TraitPill } from "../TraitPill/TraitPill";
 import CustomMark from "./CustomMark";
 
 interface MarkdownViewerProps {
@@ -12,10 +13,13 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ value }) => {
   const renderers = {
     customMark: (props: any) => {
       if (props.identifier.toLowerCase() === "champion") {
-        return <Champion championKey={props.param} showItems={false} />;
+        return <ChampionPill championKey={props.param} />;
       }
       if (props.identifier.toLowerCase() === "item") {
-        return <Item itemId={props.param} />;
+        return <ItemPill itemId={props.param} />;
+      }
+      if (props.identifier.toLowerCase() === "trait") {
+        return <TraitPill traitKey={props.param} />;
       }
       return <>{`[[${props.identifier}]]`}</>;
     }

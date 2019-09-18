@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>css</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>Traits.module.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -56,7 +56,7 @@
         <key>jxrCompressionLevel</key>
         <uint>0</uint>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
+        <enum type="SettingsBase::DitherType">PngQuantLow</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -82,7 +82,7 @@
         <key>atfFormats</key>
         <string></string>
         <key>textureFormat</key>
-        <enum type="SettingsBase::TextureFormat">png</enum>
+        <enum type="SettingsBase::TextureFormat">png8</enum>
         <key>borderPadding</key>
         <uint>1</uint>
         <key>maxTextureSize</key>
@@ -132,7 +132,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>traits.css</filename>
+                <filename>Traits.module.css</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -181,29 +181,30 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_assassin.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_blademaster.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_brawler.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_demon.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_dragon.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_elementalist.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_exile.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_glacial.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_guardian.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_gunslinger.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_imperial.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_knight.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_ninja.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_noble.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_phantom.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_pirate.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_ranger.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_robot.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_shapeshifter.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_sorcerer.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_void.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_wild.png</key>
-            <key type="filename">../../../../Downloads/tft-assets (1)/trait_icon_yordle.png</key>
+            <key type="filename">../../bin/images/trait_icon_assassin.png</key>
+            <key type="filename">../../bin/images/trait_icon_blademaster.png</key>
+            <key type="filename">../../bin/images/trait_icon_brawler.png</key>
+            <key type="filename">../../bin/images/trait_icon_demon.png</key>
+            <key type="filename">../../bin/images/trait_icon_dragon.png</key>
+            <key type="filename">../../bin/images/trait_icon_elementalist.png</key>
+            <key type="filename">../../bin/images/trait_icon_exile.png</key>
+            <key type="filename">../../bin/images/trait_icon_glacial.png</key>
+            <key type="filename">../../bin/images/trait_icon_guardian.png</key>
+            <key type="filename">../../bin/images/trait_icon_gunslinger.png</key>
+            <key type="filename">../../bin/images/trait_icon_hextech.png</key>
+            <key type="filename">../../bin/images/trait_icon_imperial.png</key>
+            <key type="filename">../../bin/images/trait_icon_knight.png</key>
+            <key type="filename">../../bin/images/trait_icon_ninja.png</key>
+            <key type="filename">../../bin/images/trait_icon_noble.png</key>
+            <key type="filename">../../bin/images/trait_icon_phantom.png</key>
+            <key type="filename">../../bin/images/trait_icon_pirate.png</key>
+            <key type="filename">../../bin/images/trait_icon_ranger.png</key>
+            <key type="filename">../../bin/images/trait_icon_robot.png</key>
+            <key type="filename">../../bin/images/trait_icon_shapeshifter.png</key>
+            <key type="filename">../../bin/images/trait_icon_sorcerer.png</key>
+            <key type="filename">../../bin/images/trait_icon_void.png</key>
+            <key type="filename">../../bin/images/trait_icon_wild.png</key>
+            <key type="filename">../../bin/images/trait_icon_yordle.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -219,29 +220,30 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_elementalist.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_exile.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_glacial.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_guardian.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_gunslinger.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_imperial.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_knight.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_ninja.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_noble.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_phantom.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_pirate.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_ranger.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_robot.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_shapeshifter.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_sorcerer.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_void.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_wild.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_yordle.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_assassin.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_blademaster.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_brawler.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_demon.png</filename>
-            <filename>../../../../Downloads/tft-assets (1)/trait_icon_dragon.png</filename>
+            <filename>../../bin/images/trait_icon_assassin.png</filename>
+            <filename>../../bin/images/trait_icon_blademaster.png</filename>
+            <filename>../../bin/images/trait_icon_brawler.png</filename>
+            <filename>../../bin/images/trait_icon_demon.png</filename>
+            <filename>../../bin/images/trait_icon_dragon.png</filename>
+            <filename>../../bin/images/trait_icon_elementalist.png</filename>
+            <filename>../../bin/images/trait_icon_exile.png</filename>
+            <filename>../../bin/images/trait_icon_glacial.png</filename>
+            <filename>../../bin/images/trait_icon_guardian.png</filename>
+            <filename>../../bin/images/trait_icon_gunslinger.png</filename>
+            <filename>../../bin/images/trait_icon_hextech.png</filename>
+            <filename>../../bin/images/trait_icon_imperial.png</filename>
+            <filename>../../bin/images/trait_icon_knight.png</filename>
+            <filename>../../bin/images/trait_icon_ninja.png</filename>
+            <filename>../../bin/images/trait_icon_noble.png</filename>
+            <filename>../../bin/images/trait_icon_phantom.png</filename>
+            <filename>../../bin/images/trait_icon_pirate.png</filename>
+            <filename>../../bin/images/trait_icon_ranger.png</filename>
+            <filename>../../bin/images/trait_icon_robot.png</filename>
+            <filename>../../bin/images/trait_icon_shapeshifter.png</filename>
+            <filename>../../bin/images/trait_icon_sorcerer.png</filename>
+            <filename>../../bin/images/trait_icon_void.png</filename>
+            <filename>../../bin/images/trait_icon_wild.png</filename>
+            <filename>../../bin/images/trait_icon_yordle.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

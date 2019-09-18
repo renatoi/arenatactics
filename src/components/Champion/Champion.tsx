@@ -12,6 +12,7 @@ export interface ChampionOwnProps {
   readonly width?: number;
   readonly height?: number;
   readonly showItems?: boolean;
+  readonly className?: string;
 }
 interface ChampionStateProps {
   readonly isLoading: boolean;
@@ -27,7 +28,8 @@ const ChampionSFC: React.FC<ChampionProps> = ({
   items,
   width = 32,
   height = 32,
-  showItems = true
+  showItems = true,
+  className
 }) => {
   if (
     champions == null ||
@@ -44,8 +46,8 @@ const ChampionSFC: React.FC<ChampionProps> = ({
     currentChampion = champions.byId[champions.byKey[championKey]];
   }
 
-  const tooltipContent = () =>
-    currentChampion == null ? (
+  const tooltipContent = () => {
+    return currentChampion == null ? (
       <></>
     ) : (
       <div className={styles.championTooltip}>
@@ -87,14 +89,17 @@ const ChampionSFC: React.FC<ChampionProps> = ({
         )}
       </div>
     );
+  };
   return currentChampion == null ? (
     <></>
   ) : (
     <Tooltip title={tooltipContent}>
       <ChampionImage
+        key={currentChampion.key}
         championKey={currentChampion.key}
         width={width}
         height={height}
+        className={className}
       />
     </Tooltip>
   );

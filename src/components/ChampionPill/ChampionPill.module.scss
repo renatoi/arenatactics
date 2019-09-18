@@ -1,0 +1,16 @@
+.pill {
+  padding: 4px 12px;
+  border-radius: 10em;
+  border: 1px solid #333;
+  background: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  margin: 4px;
+}
+.champion {
+  margin-right: 4px;
+}
+.champion::after {
+  border-radius: 10em;
+}

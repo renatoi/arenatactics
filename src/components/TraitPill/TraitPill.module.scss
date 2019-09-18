@@ -1,0 +1,164 @@
+@function get-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+$color: #fff;
+
+.trait_pill {
+  padding: 4px 12px;
+  border-radius: 10em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  margin: 4px;
+}
+.trait_pill_assassin {
+  $bg: #807700;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_blademaster {
+  $bg: hsl(359, 100%, 36%);
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_brawler {
+  $bg: #118906;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_demon {
+  $bg: #361435;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_dragon {
+  $bg: #892432;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_elementalist {
+  $bg: #0019b4;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_exile {
+  $bg: #2d4f8a;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_glacial {
+  $bg: #457ab0;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_guardian {
+  $bg: #9c6376;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_gunslinger {
+  $bg: #704220;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_hextech {
+  $bg: #333;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+
+.trait_pill_imperial {
+  $bg: #bf0833;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_knight {
+  $bg: #74767b;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_ninja {
+  $bg: #45546b;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_noble {
+  $bg: #9c6d07;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_phantom {
+  $bg: #2f7c58;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_pirate {
+  $bg: #604c4d;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_ranger {
+  $bg: hsla(85, 52%, 28%, 1);
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_robot {
+  $bg: #93701f;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_shapeshifter {
+  $bg: #c25405;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_sorcerer {
+  $bg: #008080;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_void {
+  $bg: #a02d66;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_wild {
+  $bg: #048656;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}
+.trait_pill_yordle {
+  $bg: #a45ba2;
+  background: $bg;
+  color: $color;
+  border-color: lighten($color: $bg, $amount: 25%);
+}

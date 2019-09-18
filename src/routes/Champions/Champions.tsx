@@ -1,4 +1,3 @@
-import cx from "classnames";
 import React, { ChangeEvent, useEffect } from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
@@ -9,7 +8,6 @@ import {
   withRouter
 } from "react-router-dom";
 import uuidv4 from "uuid/v4";
-import traitStyles from "../../assets/Traits.module.scss";
 import { Champion } from "../../components/Champion/Champion";
 import { Disclaimer } from "../../components/Disclaimer/Disclaimer";
 import {
@@ -29,7 +27,7 @@ import {
   MasterList,
   MasterSearchBox
 } from "../../components/MasterDetail";
-import { TraitImage } from "../../components/TraitImage/TraitImage";
+import { TraitPill } from "../../components/TraitPill/TraitPill";
 import { getItemDescription } from "../../components/utils";
 import {
   championsAddCostToFilter,
@@ -263,26 +261,14 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
           <>
             <header className={styles.championHeader}>
               <h1 className={styles.championTitle}>{selectedChampion.name}</h1>
-              <ul className={styles.championTraits}>
+              <div className={styles.championTraits}>
                 {selectedChampion.traits.map((trait, index) => {
                   const traitKey = selectedChampion.traitsSource[
                     index
                   ].toLocaleLowerCase();
-                  return (
-                    <li
-                      key={traitKey}
-                      className={cx(
-                        styles.championTrait,
-                        traitStyles.trait_pill,
-                        traitStyles[`trait_pill_${traitKey.toLowerCase()}`]
-                      )}
-                    >
-                      <TraitImage name={traitKey} />
-                      {trait}
-                    </li>
-                  );
+                  return <TraitPill traitKey={traitKey} />;
                 })}
-              </ul>
+              </div>
             </header>
             {/* Using index as keys since these don't change, it's fine! */}
             {selectedChampion.bestSets != null

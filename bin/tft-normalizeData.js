@@ -169,12 +169,14 @@ function normalizeData(locale) {
 
   // process traits data
   const traitsData = sourceDataJSON.traits;
+  const traitsDataEn = sourceDataJSONEn.traits;
   const newTraitsData = {
     byId: {}
   };
-  traitsData.forEach(trait => {
-    newTraitsData.byId[trait.name] = trait;
-    delete newTraitsData.byId[trait.name].icon;
+  traitsData.forEach((trait, index) => {
+    const traitKey = traitsDataEn[index].name.toLowerCase();
+    newTraitsData.byId[traitKey] = trait;
+    delete newTraitsData.byId[traitKey].icon;
   });
 
   // put them all together

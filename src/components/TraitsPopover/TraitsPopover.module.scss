@@ -1,0 +1,21 @@
+@import "../../assets/css/vars.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.button {
+  border: 0;
+  background: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+}
+.button img {
+  margin-right: 4px;
+}
+.button:hover,
+.button:focus {
+  border: 1px solid $selected-outline-color;
+}

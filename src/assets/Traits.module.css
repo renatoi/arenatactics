@@ -1,0 +1,83 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.trait_icon_assassin {max-width:32px; max-height:32px; }
+.trait_icon_assassin::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 0.4291845493562232% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_assassin::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_blademaster {max-width:32px; max-height:32px; }
+.trait_icon_blademaster::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 0.4291845493562232% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_blademaster::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_brawler {max-width:32px; max-height:32px; }
+.trait_icon_brawler::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 0.4291845493562232% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_brawler::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_demon {max-width:32px; max-height:32px; }
+.trait_icon_demon::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 14.592274678111588% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_demon::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_dragon {max-width:32px; max-height:32px; }
+.trait_icon_dragon::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 14.592274678111588% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_dragon::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_elementalist {max-width:32px; max-height:32px; }
+.trait_icon_elementalist::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 14.592274678111588% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_elementalist::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_exile {max-width:32px; max-height:32px; }
+.trait_icon_exile::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 28.755364806866954% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_exile::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_glacial {max-width:32px; max-height:32px; }
+.trait_icon_glacial::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 28.755364806866954% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_glacial::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_guardian {max-width:32px; max-height:32px; }
+.trait_icon_guardian::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 28.755364806866954% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_guardian::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_gunslinger {max-width:32px; max-height:32px; }
+.trait_icon_gunslinger::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 42.918454935622314% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_gunslinger::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_hextech {max-width:32px; max-height:32px; }
+.trait_icon_hextech::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 42.918454935622314% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_hextech::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_imperial {max-width:32px; max-height:32px; }
+.trait_icon_imperial::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 42.918454935622314% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_imperial::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_knight {max-width:32px; max-height:32px; }
+.trait_icon_knight::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 57.081545064377686% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_knight::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_ninja {max-width:32px; max-height:32px; }
+.trait_icon_ninja::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 57.081545064377686% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_ninja::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_noble {max-width:32px; max-height:32px; }
+.trait_icon_noble::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 57.081545064377686% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_noble::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_phantom {max-width:32px; max-height:32px; }
+.trait_icon_phantom::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 71.24463519313305% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_phantom::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_pirate {max-width:32px; max-height:32px; }
+.trait_icon_pirate::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 71.24463519313305% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_pirate::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_ranger {max-width:32px; max-height:32px; }
+.trait_icon_ranger::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 71.24463519313305% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_ranger::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_robot {max-width:32px; max-height:32px; }
+.trait_icon_robot::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 85.4077253218884% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_robot::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_shapeshifter {max-width:32px; max-height:32px; }
+.trait_icon_shapeshifter::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 85.4077253218884% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_shapeshifter::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_sorcerer {max-width:32px; max-height:32px; }
+.trait_icon_sorcerer::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 85.4077253218884% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_sorcerer::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_void {max-width:32px; max-height:32px; }
+.trait_icon_void::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 99.57081545064378% 1.4705882352941178%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_void::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_wild {max-width:32px; max-height:32px; }
+.trait_icon_wild::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 99.57081545064378% 50%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_wild::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+.trait_icon_yordle {max-width:32px; max-height:32px; }
+.trait_icon_yordle::after {content: '\00a0';display: inline-block; width:32px; height:32px; background-position: 99.57081545064378% 98.52941176470588%;background-size: 828.125% 312.5%;background-image: url(Traits.module.png);padding: 0; }
+div.trait_icon_yordle::after {max-width:32px; width:100%;height:0;padding: 0 0 100% 0;}
+
+/* $TexturePacker:SmartUpdate:ffc7dd3eab0b11804a23d3442972892e:4b6afba37694fdae33985d0bb22097f6:084d21f3604a15e9b9bfa79712c9ef55$ */

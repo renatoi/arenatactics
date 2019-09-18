@@ -3,6 +3,7 @@ import React from "react";
 export type Icons =
   | "h1"
   | "h2"
+  | "supervised_user_circle"
   | "copy"
   | "download-active"
   | "upload"

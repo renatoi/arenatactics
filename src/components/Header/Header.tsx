@@ -50,7 +50,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ match }) => {
           <PathNavLink
             className={styles.navLink}
             activeClassName={styles.navLinkActive}
-            to="/comps"
+            to="/team-compositions"
           >
             <LocalizedText id="comps.navText" />
           </PathNavLink>

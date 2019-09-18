@@ -5,9 +5,11 @@ import { Popover } from "../../components/Popover/Popover";
 import { ChampionsPopover } from "../ChampionsPopover/ChampionsPopover";
 import { ItemsPopover } from "../ItemsPopover/ItemsPopover";
 import { MarkdownViewer } from "../MarkdownViewer/MarkdownViewer";
+import { TraitsPopover } from "../TraitsPopover/TraitsPopover";
 import styles from "./TextEditor.module.scss";
 
 type Format =
+  | "trait"
   | "champion"
   | "item"
   | "h1"
@@ -92,6 +94,9 @@ export class TextEditor extends React.Component<TextEditorProps> {
       case "item":
         this.insertTextAt("cursor", `[[item=${param}]]`);
         break;
+      case "trait":
+        this.insertTextAt("cursor", `[[trait=${param}]]`);
+        break;
     }
   }
 
@@ -154,18 +159,23 @@ export class TextEditor extends React.Component<TextEditorProps> {
   }
 
   renderPopoverButton(format: Format, icon: Icons, label: string) {
-    const content =
-      format === "champion"
-        ? () => (
-            <ChampionsPopover
-              onClick={championKey => this.addFormat(format, championKey)}
-            />
-          )
-        : () => (
-            <ItemsPopover
-              onClick={itemKey => this.addFormat(format, itemKey)}
-            />
-          );
+    let content;
+
+    if (format === "champion") {
+      content = () => (
+        <ChampionsPopover
+          onClick={championKey => this.addFormat(format, championKey)}
+        />
+      );
+    } else if (format === "item") {
+      content = () => (
+        <ItemsPopover onClick={itemKey => this.addFormat(format, itemKey)} />
+      );
+    } else {
+      content = () => (
+        <TraitsPopover onClick={traitId => this.addFormat(format, traitId)} />
+      );
+    }
     return (
       <Popover placement="bottom-start" content={content}>
         <button type="button" className={styles.formatButton}>
@@ -190,6 +200,11 @@ export class TextEditor extends React.Component<TextEditorProps> {
           {this.renderFormatButton("quote", "quotes-left", "Add quote")}
           {this.renderPopoverButton("champion", "frustrated", "Add champion")}
           {this.renderPopoverButton("item", "shield", "Add item")}
+          {this.renderPopoverButton(
+            "trait",
+            "supervised_user_circle",
+            "Add trait"
+          )}
         </div>
         <div className={styles.sideBySide}>
           <textarea
