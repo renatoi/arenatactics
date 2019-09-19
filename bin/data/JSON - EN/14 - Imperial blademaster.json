@@ -4,7 +4,7 @@
   "name": "Imperial blademaster",
   "tier": "A",
   "author": "KenjiHimura",
-  "lang": "pt-br",
+  "lang": "en-us",
   "composition": [
     {
       "champion": "266",
@@ -89,5 +89,5 @@
     "3,4": "50",
     "3,7": "55"
   },
-  "guide": "### 1. PROS\n\n- Strong area damage;\n- Strong survivability;\n- Main DPS deal double damage (imperials' bonus);\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Weak crowd control;\n- Strongly dependent on Swain (Imperials' bonus);\n\n\n### 3. WEAKNESS\n\n**Demônios**\n**Glacial**\n\n[[item=hush]]\n[[item=dragons-claw]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=shen]]\n\n\n#### Mid Game:\n\n[[champion=katarina]]\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=aatrox]]\n\n[[champion=swain]]\n\n#### Late Game:\n\n[[champion=shen]]→[[champion=kayle]]\n\n[[champion=fiora]]→[[champion=yasuo]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=aatrox]][[champion=yasuo]]→[[champion=fiora]][[champion=shen]]\n\n[[champion=kayle]]→[[champion=chogath]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=kayle]][[champion=katarina]][[champion=darius]]\n\n[[item=darkin]]→[[champion=kayle]][[champion=draven]][[champion=yasuo]]\n\n[[item=frozen-mallet]]→[[champion=kayle]]\n"
+  "guide": "### 1. PROS\n\n- Strong area damage;\n- Strong survivability;\n- Main DPS deal double damage (imperials' bonus);\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Weak crowd control;\n- Strongly dependent on Swain (Imperials' bonus);\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=shen]]\n\n\n#### Mid Game:\n\n[[champion=katarina]]\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=aatrox]]\n\n[[champion=swain]]\n\n#### Late Game:\n\n[[champion=shen]]→[[champion=kayle]]\n\n[[champion=fiora]]→[[champion=yasuo]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=aatrox]][[champion=yasuo]]→[[champion=fiora]][[champion=shen]]\n\n[[champion=kayle]]→[[champion=chogath]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=kayle]][[champion=katarina]][[champion=darius]]\n\n[[item=darkin]]→[[champion=kayle]][[champion=draven]][[champion=yasuo]]\n\n[[item=frozen-mallet]]→[[champion=kayle]]\n"
 }
