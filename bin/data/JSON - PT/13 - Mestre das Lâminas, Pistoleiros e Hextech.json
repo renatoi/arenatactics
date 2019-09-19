@@ -1,0 +1,93 @@
+{
+  "id": "2f208ed3-4fae-4755-b439-cf6540f6a902",
+  "key": "",
+  "name": "Mestre das Lâminas, Pistoleiros e Hextech",
+  "tier": "A",
+  "author": "KenjiHimura",
+  "lang": "pt-br",
+  "composition": [
+    {
+      "champion": "164",
+      "items": [
+        "66",
+        "15",
+        "16"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "98",
+      "items": [
+        "15",
+        "77",
+        "66"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "157",
+      "items": [
+        "77",
+        "66",
+        "44"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "236",
+      "items": [
+        "28",
+        "46",
+        "23"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "41",
+      "items": [
+        "14",
+        "66",
+        "13"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "21",
+      "items": [
+        "44",
+        "44",
+        "37"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "119",
+      "items": [
+        "22",
+        "23",
+        "16"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "222",
+      "items": [
+        "68",
+        "46",
+        "57"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "1,1": "164",
+    "1,2": "98",
+    "1,4": "157",
+    "2,1": "236",
+    "2,2": "41",
+    "3,1": "21",
+    "3,2": "119",
+    "3,3": "222"
+  },
+  "guide": "### 1. PRÓS\n\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n- Forte explosão de dano;\n\n\n### 2. CONTRAS\n\n- Fraco controle de multidões;\n- Fraca sobrevivência;\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de Nível 5;\n- Dependente de [[item=blade-of-the-ruined-king]] em Lucian (ou outro pistoleiro);\n\n\n### 3. FRAQUEZA\n\n**Glacial**\n**Nobres**\n**Assassinos / Ninjas**\n\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Fim do Jogo:\n\n[[champion=miss-fortune]]\n[[champion=yasuo]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]][[champion=fiora]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n[[item=zekes-herald]]\n[[item=locket-of-the-iron-solari]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n"
+}
