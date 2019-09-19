@@ -37,7 +37,12 @@ const TraitPillComponent: React.FC<TraitPillProps> = ({
         className
       )}
     >
-      <TraitImage traitKey={traitKey} />
+      <TraitImage
+        traitKey={traitKey}
+        width={16}
+        height={16}
+        className={styles.image}
+      />
       {traits.byId[traitKey].name}
     </span>
   );
