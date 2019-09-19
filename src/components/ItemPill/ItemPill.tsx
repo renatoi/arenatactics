@@ -31,7 +31,7 @@ const ItemPillComponent: React.FC<ItemPillProps> = ({
   }
   return (
     <span className={cx(styles.pill, className)}>
-      <Item itemId={itemId} width={16} height={16} className={styles.item} />
+      <Item itemId={itemId} width={24} height={24} className={styles.item} />
       {items.byId[items.byKey[itemId]].name}
     </span>
   );

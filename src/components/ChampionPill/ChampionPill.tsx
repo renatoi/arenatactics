@@ -36,8 +36,8 @@ const ChampionPillComponent: React.FC<ChampionPillProps> = ({
       <Champion
         championKey={championKey}
         className={styles.champion}
-        width={16}
-        height={16}
+        width={24}
+        height={24}
       />
       {champions.byId[champions.byKey[championKey]].name}
     </span>
