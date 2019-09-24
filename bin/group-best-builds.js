@@ -10,7 +10,7 @@ const chalk = require("chalk");
 
 function groupBestBuild(locale) {
   const [lang, region] = locale.split("_");
-  const out = [];
+  let out = [];
   const directory = path.resolve(
     __dirname,
     `data/JSON - ${lang.toUpperCase()}`
@@ -29,7 +29,11 @@ function groupBestBuild(locale) {
         encoding: "utf-8"
       });
       const fileContentJSON = JSON.parse(fileContent);
-      out.push(fileContentJSON);
+      if (Array.isArray(fileContentJSON)) {
+        out = out.concat(fileContentJSON);
+      } else {
+        out.push(fileContentJSON);
+      }
     });
 
     // write
