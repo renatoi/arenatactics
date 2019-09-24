@@ -1,0 +1,93 @@
+{
+  "id": "597326fb-6795-4bb6-96b9-49aac80e190f",
+  "key": "",
+  "name": "Elementalist Yordle and Demon",
+  "tier": "A",
+  "author": "KenjiHimura",
+  "lang": "en-us",
+  "composition": [
+    {
+      "champion": "150",
+      "items": [
+        "66",
+        "77",
+        "27"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "113",
+      "items": [
+        "15",
+        "14",
+        "37"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "78",
+      "items": [
+        "66",
+        "55",
+        "77"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "85",
+      "items": [
+        "15",
+        "66",
+        "37"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "50",
+      "items": [
+        "15",
+        "37",
+        "77"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "63",
+      "items": [
+        "23",
+        "14",
+        "33"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "34",
+      "items": [
+        "44",
+        "44",
+        "37"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "60",
+      "items": [
+        "77",
+        "57",
+        "46"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "1,1": "150",
+    "1,2": "113",
+    "1,3": "78",
+    "2,2": "85",
+    "2,3": "50",
+    "3,1": "63",
+    "3,2": "34",
+    "3,3": "60"
+  },
+  "guide": "### 1. PROS\n\n- Strong crowd control;\n- Strong area damage;\n- Strong survivability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Dependent on two tier 5 champions;\n- Need to equip [[item=darkin]] in some champion to obtain Demon's bônus;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=dragon]]\n[[trait=wild]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n[[item=rapid-firecannon]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=elise]]\n[[champion=lissandra]]\n[[champion=tristana]]\n[[champion=nidalee]]\n\n#### Mid Game:\n\n[[champion=poppy]]\n\n[[champion=sejuani]]\n\n[[champion=tristana]]→[[champion=kennen]]\n\n[[champion=nidalee]]→[[champion=gnar]]\n\n[[champion=lissandra]]→[[champion=brand]]\n\n\n#### Late Game:\n\n[[champion=anivia]]\n[[champion=swain]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=anivia]]→[[champion=lissandra]]\n\n[[champion=elise]]→[[champion=shyvana]][[champion=nidalee]][[champion=jayce]]+[[item=darkin]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=sejuani]]\n[[champion=poppy]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=gnar]][[champion=kennen]][[champion=swain]][[champion=brand]]\n\n"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "a1b66359-3d09-4119-847f-24626fa66fd6",
+  "key": "",
+  "name": "Demon Sorcerer and Guardian",
+  "tier": "A",
+  "author": "KenjiHimura",
+  "lang": "en-us",
+  "composition": [
+    {
+      "champion": "266",
+      "items": [
+        "66",
+        "13",
+        "77"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "25",
+      "items": [
+        "37",
+        "15",
+        "66"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "63",
+      "items": [
+        "23",
+        "14",
+        "33"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "89",
+      "items": [
+        "77",
+        "66",
+        "15"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "80",
+      "items": [
+        "14",
+        "14",
+        "77"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "30",
+      "items": [
+        "44",
+        "44",
+        "33"
+      ],
+      "isCarry": false
+    },
+    {
+      "champion": "136",
+      "items": [
+        "44",
+        "44",
+        "37"
+      ],
+      "isCarry": true
+    },
+    {
+      "champion": "28",
+      "items": [
+        "66",
+        "15",
+        "13"
+      ],
+      "isCarry": false
+    }
+  ],
+  "positioning": {
+    "1,1": "266",
+    "1,2": "25",
+    "2,1": "63",
+    "2,2": "89",
+    "2,3": "80",
+    "3,1": "30",
+    "3,2": "136",
+    "3,3": "28"
+  },
+  "guide": "### 1. PROS\n\n- Strong area damage;\n- Strong against grouped enemies;\n- Strong crowd control;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Dependent on two tier 5 champions;\n- Strongly dependent of magic damage;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=dragon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=ahri]]\n[[champion=braum]]\n\n\n#### Mid Game:\n\n[[champion=evelynn]]\n\n[[champion=brand]]\n\n[[champion=kassadin]]→[[champion=aatrox]]\n\n[[champion=lulu]]→[[champion=morgana]]\n\n[[champion=ahri]]→[[champion=aurelion-sol]]\n\n[[champion=braum]]→[[champion=leona]]\n\n\n\n#### Late Game:\n\n[[champion=pantheon]]\n[[champion=karthus]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=leona]]→[[champion=braum]]\n\n[[champion=brand]]→[[champion=swain]][[champion=varus]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=yuumi]]→[[champion=brand]][[champion=aatrox]][[champion=evelynn]]\n\n[[item=darkin]]→[[champion=pantheon]][[champion=leona]][[champion=aurelion-sol]][[champion=karthus]]\n"
+}
