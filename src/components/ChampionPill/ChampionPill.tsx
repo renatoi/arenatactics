@@ -33,7 +33,12 @@ const ChampionPillComponent: React.FC<ChampionPillProps> = ({
   }
   return (
     <span className={cx(styles.pill, className)}>
-      <Champion championKey={championKey} className={styles.champion} />
+      <Champion
+        championKey={championKey}
+        className={styles.champion}
+        width={24}
+        height={24}
+      />
       {champions.byId[champions.byKey[championKey]].name}
     </span>
   );

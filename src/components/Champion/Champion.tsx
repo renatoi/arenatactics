@@ -52,11 +52,10 @@ const ChampionSFC: React.FC<ChampionProps> = ({
     ) : (
       <div className={styles.championTooltip}>
         <h3 className={styles.championTitle}>
-          <img
-            src={`${process.env.PUBLIC_URL}/tft/tft_${currentChampion.key}.png`}
-            width={16}
-            height={16}
-            alt={currentChampion.name}
+          <ChampionImage
+            championKey={currentChampion.key}
+            width={32}
+            height={23}
           />
           {currentChampion.name}
         </h3>

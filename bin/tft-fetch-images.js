@@ -9,11 +9,11 @@ var fs = require("fs");
 var https = require("https");
 var chalk = require("chalk");
 
-const filePath = path.resolve(__dirname, "en-us_TFT.json");
+const filePath = path.resolve(__dirname, "data/en_us_TFT.json");
 const fileContents = fs.readFileSync(filePath, { encoding: "utf-8" });
 const json = JSON.parse(fileContents);
 
-const patch = "9.17.1";
+const patch = "latest";
 
 const getId = name =>
   name
@@ -53,7 +53,7 @@ for (let champion in json.champions) {
     // download square
     const championSquarePath = path.resolve(
       __dirname,
-      `../public/tft/tft_${getId(json.champions[champion].name)}.png`
+      `./images/tft_${getId(json.champions[champion].name)}.png`
     );
     download(
       `https://cdn.communitydragon.org/${patch}/champion/${champion}/square`,
@@ -101,7 +101,7 @@ for (let trait in json.traits) {
     // download square
     const traitPath = path.resolve(
       __dirname,
-      `../public/tft/trait_icon_${getId(json.traits[trait].name)}.png`
+      `./images/trait_icon_${getId(json.traits[trait].name)}.png`
     );
     download(
       `https://raw.communitydragon.org/pbe/game/assets/ux/traiticons/trait_icon_${getId(

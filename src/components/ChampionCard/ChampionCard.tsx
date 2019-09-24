@@ -3,7 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 import uuidv4 from "uuid/v4";
 import { AppState, TFTChampions, TFTItems } from "../../types";
-import { ChampionImage } from "../ChampionImage/ChampionImage";
+import { Champion } from "../Champion/Champion";
 import { Item } from "../Item/Item";
 import styles from "./ChampionCard.module.scss";
 
@@ -40,11 +40,12 @@ const ChampionCardFC: React.FC<ChampionCardProps> = ({
       })}
     >
       <h3 className={styles.cardTitle}>{champion.name}</h3>
-      <ChampionImage
+      <Champion
         className={styles.championImage}
         width={120}
         height={120}
         championKey={champion.key}
+        showItems={false}
       />
       <ul className={styles.items}>
         {championItems &&
