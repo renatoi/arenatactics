@@ -123,30 +123,23 @@ function normalizeData(locale) {
       // 541: mortal reminder
       // 10002: Jammed (new item?)
       if (
-        itemId !== "100" &&
-        itemId !== "541" &&
+        itemId !== "100" && // spatula
+        itemId !== "541" && // mortal reminder
         itemId !== "-100" && // repeating crossbow
-        itemId !== "-1" &&
-        // itemId !== "9" && // sparring gloves
-        // itemId !== "11" && // deathblade
-        // itemId !== "12" && // Last Whisper
-        // itemId !== "29" && // repeating crossbow
-        // itemId !== "39" && // Jeweled Gauntlet
-        // itemId !== "49" && // hand of justice
-        // itemId !== "69" && // quick silver
-        // itemId !== "79" && // backhand
-        // itemId !== "89" && // mittens
-        // itemId !== "99" && // Thief's Gloves
-        // itemId !== "529" && // Spell Thief
-        itemId !== "10001" &&
-        itemId !== "10002" &&
-        itemId !== "10003" &&
-        itemId !== "10004" &&
-        itemId !== "10004" &&
+        itemId !== "-1" && // Hextech Chestguard
+        itemId !== "529" && // Spell Thief
+        itemId !== "10001" && // KleptomancerEmptySlot
+        itemId !== "10002" && // Jammed
+        itemId !== "10003" && // B. F. Sword
+        itemId !== "10004" && // Deathblade
         itemId !== "10005" && // repeating crossbow
-        itemId !== "10006"
+        itemId !== "10006" // KleptomancerEmptySlot
       ) {
-        const itemKey = getNormalizedKey(sourceDataJSONEn.items[itemId].name);
+        // remove all numbers with regex because: deathblade3 => deathblade
+        const itemKey = getNormalizedKey(
+          sourceDataJSONEn.items[itemId].name
+        ).replace(/\d/, "");
+        itemsData[itemId].name = itemsData[itemId].name.replace(/\d/, "");
         newItemsData.byKey[itemKey] = itemId;
         newItemsData.byId[itemId] = itemsData[itemId];
         newItemsData.byId[itemId].id = itemId;

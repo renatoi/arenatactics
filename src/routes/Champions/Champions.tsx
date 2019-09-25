@@ -17,7 +17,10 @@ import {
   FilterPopover
 } from "../../components/Filter";
 import { Item } from "../../components/Item/Item";
-import { getLocalizedText } from "../../components/LocalizedText/LocalizedText";
+import {
+  getLocalizedText,
+  LocalizedText
+} from "../../components/LocalizedText/LocalizedText";
 import {
   Detail,
   Master,
@@ -271,48 +274,50 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
               </div>
             </header>
             {/* Using index as keys since these don't change, it's fine! */}
-            {selectedChampion.bestSets != null
-              ? selectedChampion.bestSets.map((set, setIndex) => (
-                  <div className={styles.itemSet} key={setIndex}>
-                    <h3 className={styles.itemSetTitle}>{set.name}</h3>
-                    <div className={styles.itemSetBody}>
-                      <ul className={styles.itemSetItemsList}>
-                        {set.items.map((itemId, itemIndex) => {
-                          const item = items.byId[itemId];
-                          return (
-                            <li key={itemIndex} className={styles.itemSetItem}>
-                              <h4 className={styles.itemSetItemName}>
-                                {<Item itemId={itemId} />}
-                                {item.name}
-                              </h4>
-                              <div className={styles.itemSetItemRecipe}>
-                                <h5>Recipe:</h5>
-                                {item.from.map(fromId => (
-                                  <Item
-                                    key={uuidv4()}
-                                    itemId={fromId}
-                                    width={24}
-                                    height={24}
-                                  />
-                                ))}
-                              </div>
-                              <p
-                                className={styles.itemSetitemDescription}
-                                dangerouslySetInnerHTML={{
-                                  __html: getItemDescription(
-                                    item.desc,
-                                    item.effects
-                                  )
-                                }}
-                              />
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </div>
+            {selectedChampion.bestSets != null ? (
+              selectedChampion.bestSets.map((set, setIndex) => (
+                <div className={styles.itemSet} key={setIndex}>
+                  <h3 className={styles.itemSetTitle}>{set.name}</h3>
+                  <div className={styles.itemSetBody}>
+                    <ul className={styles.itemSetItemsList}>
+                      {set.items.map((itemId, itemIndex) => {
+                        const item = items.byId[itemId];
+                        return (
+                          <li key={itemIndex} className={styles.itemSetItem}>
+                            <h4 className={styles.itemSetItemName}>
+                              {<Item itemId={itemId} />}
+                              {item.name}
+                            </h4>
+                            <div className={styles.itemSetItemRecipe}>
+                              <h5>Recipe:</h5>
+                              {item.from.map(fromId => (
+                                <Item
+                                  key={uuidv4()}
+                                  itemId={fromId}
+                                  width={24}
+                                  height={24}
+                                />
+                              ))}
+                            </div>
+                            <p
+                              className={styles.itemSetitemDescription}
+                              dangerouslySetInnerHTML={{
+                                __html: getItemDescription(
+                                  item.desc,
+                                  item.effects
+                                )
+                              }}
+                            />
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
-                ))
-              : "Coming soon"}
+                </div>
+              ))
+            ) : (
+              <LocalizedText id="champions.comingSoon" />
+            )}
           </>
         ) : (
           <p style={{ minHeight: "80%" }}>

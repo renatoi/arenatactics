@@ -27,7 +27,8 @@ export const localizedTexts = {
         "A list of the best possible item combinations for {championName} that varies based on play style and board situations.",
       championSelect: "Select a champion to view its details",
       searchLabel: "Search champions",
-      searchPlaceholder: "Search by name, trait, or cost"
+      searchPlaceholder: "Search by name, trait, or cost",
+      comingSoon: "Coming soon"
     },
     items: {
       navText: "Items",
@@ -84,7 +85,8 @@ export const localizedTexts = {
         "Lista das melhores possíveis combinações de itens para {championName} que varia baseado no estilo de jogo ou situação do tabuleiro.",
       championSelect: "Selecione um campeão para ver mais detalhes",
       searchLabel: "Buscar campeão",
-      searchPlaceholder: "Buscar por nome, característica, ou custo"
+      searchPlaceholder: "Buscar por nome, característica, ou custo",
+      comingSoon: "Em breve"
     },
     items: {
       navText: "Itens",

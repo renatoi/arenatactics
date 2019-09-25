@@ -20,7 +20,7 @@ export const ChampionImage = React.forwardRef<
       ref={ref}
       className={cx(
         styles.championImage,
-        championIcon[`tft_${championKey}`],
+        championIcon[`tft_champion_${championKey}`],
         className
       )}
       style={{

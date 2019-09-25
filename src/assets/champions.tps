@@ -181,62 +181,63 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_aatrox.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_ahri.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_akali.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_anivia.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_ashe.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_aurelion-sol.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_blitzcrank.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_brand.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_braum.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_camille.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_chogath.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_darius.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_draven.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_elise.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_evelynn.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_fiora.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_gangplank.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_garen.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_gnar.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_graves.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_jayce.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_jinx.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_karthus.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_kassadin.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_katarina.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_kayle.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_kennen.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_khazix.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_kindred.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_leona.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_lissandra.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_lucian.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_lulu.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_miss-fortune.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_mordekaiser.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_morgana.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_nidalee.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_poppy.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_pyke.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_reksai.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_rengar.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_sejuani.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_shen.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_shyvana.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_swain.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_tristana.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_twisted-fate.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_varus.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_vayne.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_veigar.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_vi.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_volibear.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_warwick.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_yasuo.png</key>
-            <key type="filename">../../../../Users/renat/projects/kobogi-site/public/tft/tft_zed.png</key>
-            <key type="filename">../../public/tft/tft_pantheon.png</key>
+            <key type="filename">../../bin/images/tft_champion_aatrox.png</key>
+            <key type="filename">../../bin/images/tft_champion_ahri.png</key>
+            <key type="filename">../../bin/images/tft_champion_akali.png</key>
+            <key type="filename">../../bin/images/tft_champion_anivia.png</key>
+            <key type="filename">../../bin/images/tft_champion_ashe.png</key>
+            <key type="filename">../../bin/images/tft_champion_aurelion-sol.png</key>
+            <key type="filename">../../bin/images/tft_champion_blitzcrank.png</key>
+            <key type="filename">../../bin/images/tft_champion_brand.png</key>
+            <key type="filename">../../bin/images/tft_champion_braum.png</key>
+            <key type="filename">../../bin/images/tft_champion_camille.png</key>
+            <key type="filename">../../bin/images/tft_champion_chogath.png</key>
+            <key type="filename">../../bin/images/tft_champion_darius.png</key>
+            <key type="filename">../../bin/images/tft_champion_draven.png</key>
+            <key type="filename">../../bin/images/tft_champion_elise.png</key>
+            <key type="filename">../../bin/images/tft_champion_evelynn.png</key>
+            <key type="filename">../../bin/images/tft_champion_fiora.png</key>
+            <key type="filename">../../bin/images/tft_champion_gangplank.png</key>
+            <key type="filename">../../bin/images/tft_champion_garen.png</key>
+            <key type="filename">../../bin/images/tft_champion_gnar.png</key>
+            <key type="filename">../../bin/images/tft_champion_graves.png</key>
+            <key type="filename">../../bin/images/tft_champion_jayce.png</key>
+            <key type="filename">../../bin/images/tft_champion_jinx.png</key>
+            <key type="filename">../../bin/images/tft_champion_kaisa.png</key>
+            <key type="filename">../../bin/images/tft_champion_karthus.png</key>
+            <key type="filename">../../bin/images/tft_champion_kassadin.png</key>
+            <key type="filename">../../bin/images/tft_champion_katarina.png</key>
+            <key type="filename">../../bin/images/tft_champion_kayle.png</key>
+            <key type="filename">../../bin/images/tft_champion_kennen.png</key>
+            <key type="filename">../../bin/images/tft_champion_khazix.png</key>
+            <key type="filename">../../bin/images/tft_champion_kindred.png</key>
+            <key type="filename">../../bin/images/tft_champion_leona.png</key>
+            <key type="filename">../../bin/images/tft_champion_lissandra.png</key>
+            <key type="filename">../../bin/images/tft_champion_lucian.png</key>
+            <key type="filename">../../bin/images/tft_champion_lulu.png</key>
+            <key type="filename">../../bin/images/tft_champion_miss-fortune.png</key>
+            <key type="filename">../../bin/images/tft_champion_mordekaiser.png</key>
+            <key type="filename">../../bin/images/tft_champion_morgana.png</key>
+            <key type="filename">../../bin/images/tft_champion_nidalee.png</key>
+            <key type="filename">../../bin/images/tft_champion_pantheon.png</key>
+            <key type="filename">../../bin/images/tft_champion_poppy.png</key>
+            <key type="filename">../../bin/images/tft_champion_pyke.png</key>
+            <key type="filename">../../bin/images/tft_champion_reksai.png</key>
+            <key type="filename">../../bin/images/tft_champion_rengar.png</key>
+            <key type="filename">../../bin/images/tft_champion_sejuani.png</key>
+            <key type="filename">../../bin/images/tft_champion_shen.png</key>
+            <key type="filename">../../bin/images/tft_champion_shyvana.png</key>
+            <key type="filename">../../bin/images/tft_champion_swain.png</key>
+            <key type="filename">../../bin/images/tft_champion_tristana.png</key>
+            <key type="filename">../../bin/images/tft_champion_twisted-fate.png</key>
+            <key type="filename">../../bin/images/tft_champion_varus.png</key>
+            <key type="filename">../../bin/images/tft_champion_vayne.png</key>
+            <key type="filename">../../bin/images/tft_champion_veigar.png</key>
+            <key type="filename">../../bin/images/tft_champion_vi.png</key>
+            <key type="filename">../../bin/images/tft_champion_volibear.png</key>
+            <key type="filename">../../bin/images/tft_champion_warwick.png</key>
+            <key type="filename">../../bin/images/tft_champion_yasuo.png</key>
+            <key type="filename">../../bin/images/tft_champion_zed.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -252,62 +253,63 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_aatrox.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_ahri.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_akali.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_anivia.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_ashe.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_aurelion-sol.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_blitzcrank.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_brand.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_braum.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_camille.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_chogath.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_darius.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_draven.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_elise.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_evelynn.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_fiora.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_gangplank.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_garen.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_gnar.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_graves.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_jayce.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_jinx.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_karthus.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_kassadin.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_katarina.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_kayle.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_kennen.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_khazix.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_kindred.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_leona.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_lissandra.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_lucian.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_lulu.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_miss-fortune.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_mordekaiser.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_morgana.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_nidalee.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_poppy.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_pyke.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_reksai.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_rengar.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_sejuani.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_shen.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_shyvana.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_swain.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_tristana.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_twisted-fate.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_varus.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_vayne.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_veigar.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_vi.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_volibear.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_warwick.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_yasuo.png</filename>
-            <filename>../../../../Users/renat/projects/kobogi-site/public/tft/tft_zed.png</filename>
-            <filename>../../public/tft/tft_pantheon.png</filename>
+            <filename>../../bin/images/tft_champion_gangplank.png</filename>
+            <filename>../../bin/images/tft_champion_garen.png</filename>
+            <filename>../../bin/images/tft_champion_gnar.png</filename>
+            <filename>../../bin/images/tft_champion_graves.png</filename>
+            <filename>../../bin/images/tft_champion_jayce.png</filename>
+            <filename>../../bin/images/tft_champion_jinx.png</filename>
+            <filename>../../bin/images/tft_champion_kaisa.png</filename>
+            <filename>../../bin/images/tft_champion_karthus.png</filename>
+            <filename>../../bin/images/tft_champion_kassadin.png</filename>
+            <filename>../../bin/images/tft_champion_katarina.png</filename>
+            <filename>../../bin/images/tft_champion_kayle.png</filename>
+            <filename>../../bin/images/tft_champion_kennen.png</filename>
+            <filename>../../bin/images/tft_champion_khazix.png</filename>
+            <filename>../../bin/images/tft_champion_kindred.png</filename>
+            <filename>../../bin/images/tft_champion_leona.png</filename>
+            <filename>../../bin/images/tft_champion_lissandra.png</filename>
+            <filename>../../bin/images/tft_champion_lucian.png</filename>
+            <filename>../../bin/images/tft_champion_lulu.png</filename>
+            <filename>../../bin/images/tft_champion_miss-fortune.png</filename>
+            <filename>../../bin/images/tft_champion_mordekaiser.png</filename>
+            <filename>../../bin/images/tft_champion_morgana.png</filename>
+            <filename>../../bin/images/tft_champion_nidalee.png</filename>
+            <filename>../../bin/images/tft_champion_pantheon.png</filename>
+            <filename>../../bin/images/tft_champion_poppy.png</filename>
+            <filename>../../bin/images/tft_champion_pyke.png</filename>
+            <filename>../../bin/images/tft_champion_reksai.png</filename>
+            <filename>../../bin/images/tft_champion_rengar.png</filename>
+            <filename>../../bin/images/tft_champion_sejuani.png</filename>
+            <filename>../../bin/images/tft_champion_shen.png</filename>
+            <filename>../../bin/images/tft_champion_shyvana.png</filename>
+            <filename>../../bin/images/tft_champion_swain.png</filename>
+            <filename>../../bin/images/tft_champion_tristana.png</filename>
+            <filename>../../bin/images/tft_champion_twisted-fate.png</filename>
+            <filename>../../bin/images/tft_champion_varus.png</filename>
+            <filename>../../bin/images/tft_champion_vayne.png</filename>
+            <filename>../../bin/images/tft_champion_veigar.png</filename>
+            <filename>../../bin/images/tft_champion_vi.png</filename>
+            <filename>../../bin/images/tft_champion_volibear.png</filename>
+            <filename>../../bin/images/tft_champion_warwick.png</filename>
+            <filename>../../bin/images/tft_champion_yasuo.png</filename>
+            <filename>../../bin/images/tft_champion_zed.png</filename>
+            <filename>../../bin/images/tft_champion_aatrox.png</filename>
+            <filename>../../bin/images/tft_champion_ahri.png</filename>
+            <filename>../../bin/images/tft_champion_akali.png</filename>
+            <filename>../../bin/images/tft_champion_anivia.png</filename>
+            <filename>../../bin/images/tft_champion_ashe.png</filename>
+            <filename>../../bin/images/tft_champion_aurelion-sol.png</filename>
+            <filename>../../bin/images/tft_champion_blitzcrank.png</filename>
+            <filename>../../bin/images/tft_champion_brand.png</filename>
+            <filename>../../bin/images/tft_champion_braum.png</filename>
+            <filename>../../bin/images/tft_champion_camille.png</filename>
+            <filename>../../bin/images/tft_champion_chogath.png</filename>
+            <filename>../../bin/images/tft_champion_darius.png</filename>
+            <filename>../../bin/images/tft_champion_draven.png</filename>
+            <filename>../../bin/images/tft_champion_elise.png</filename>
+            <filename>../../bin/images/tft_champion_evelynn.png</filename>
+            <filename>../../bin/images/tft_champion_fiora.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
