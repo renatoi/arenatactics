@@ -14,14 +14,14 @@ import { AppState, TFTBuild, TFTChampions, TFTItems } from "../../types";
 import { hasKey } from "../../utils";
 import styles from "./CreateBuild.module.scss";
 
+const EN_US = "en_us";
+const PT_BR = "pt_br";
+
 const isValidBuildJSON = (json: object) => {
   return (
     hasKey(json, "key") &&
     hasKey(json, "name") &&
-    hasKey(json, "author") &&
     hasKey(json, "id") &&
-    hasKey(json, "author") &&
-    hasKey(json, "lang") &&
     hasKey(json, "positioning") &&
     hasKey(json, "composition") &&
     hasKey(json, "guide") &&
@@ -41,10 +41,19 @@ interface CreateBuildProps
     CreateBuildStateProps,
     CreateBuildDispatchProps {}
 
+interface BuildGuide extends Omit<Omit<TFTBuild, "name">, "guide"> {
+  readonly name: {
+    [lang: string]: string;
+  };
+  readonly guide: {
+    [lang: string]: string;
+  };
+}
 interface CreateBuildState {
-  readonly userBuilds: TFTBuild[];
-  readonly currentBuild: TFTBuild;
+  readonly userBuilds: BuildGuide[];
+  readonly currentBuild: BuildGuide;
   readonly activeTab: number;
+  readonly activeLang: string;
 }
 class CreateBuildComponent extends React.Component<
   CreateBuildProps,
@@ -56,18 +65,46 @@ class CreateBuildComponent extends React.Component<
     this.state = {
       userBuilds,
       currentBuild: userBuilds[0],
-      activeTab: 0
+      activeTab: 0,
+      activeLang: EN_US
     };
   }
 
   loadLocalJSON() {
     const localBuilds = localStorage.getItem("userBuilds");
     let userBuilds =
-      localBuilds != null ? (JSON.parse(localBuilds) as TFTBuild[]) : [];
+      localBuilds != null ? (JSON.parse(localBuilds) as any) : [];
 
     if (!Array.isArray(userBuilds) || userBuilds.length === 0) {
       userBuilds = [this.getEmptyBuild()];
+    } else {
+      userBuilds = userBuilds.map(userBuild => {
+        console.log(userBuild);
+        const newName =
+          typeof userBuild.name === "string"
+            ? {
+                [EN_US]: userBuild.name,
+                [PT_BR]: userBuild.name
+              }
+            : userBuild.name;
+        const newGuide =
+          typeof userBuild.guide === "string"
+            ? {
+                [EN_US]: userBuild.guide,
+                [PT_BR]: userBuild.guide
+              }
+            : userBuild.guide;
+        const newBuild = {
+          ...userBuild,
+          name: newName,
+          guide: newGuide
+        };
+        delete newBuild.author;
+        delete newBuild.lang;
+        return newBuild;
+      });
     }
+    console.log(userBuilds);
 
     return userBuilds;
   }
@@ -103,27 +140,13 @@ class CreateBuildComponent extends React.Component<
     const value = e.target.value;
     this.setState(
       prevState => ({
-        currentBuild: { ...prevState.currentBuild, name: value }
-      }),
-      () => this.copyCurrentBuildToUserBuildsAndSave()
-    );
-  };
-
-  handleAuthorChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    this.setState(
-      prevState => ({
-        currentBuild: { ...prevState.currentBuild, author: value }
-      }),
-      () => this.copyCurrentBuildToUserBuildsAndSave()
-    );
-  };
-
-  handleLangChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value;
-    this.setState(
-      prevState => ({
-        currentBuild: { ...prevState.currentBuild, lang: value }
+        currentBuild: {
+          ...prevState.currentBuild,
+          name: {
+            ...prevState.currentBuild.name,
+            [prevState.activeLang]: value
+          }
+        }
       }),
       () => this.copyCurrentBuildToUserBuildsAndSave()
     );
@@ -144,24 +167,31 @@ class CreateBuildComponent extends React.Component<
       prevState => ({
         currentBuild: {
           ...prevState.currentBuild,
-          guide: value
+          guide: {
+            ...prevState.currentBuild.guide,
+            [prevState.activeLang]: value
+          }
         }
       }),
       () => this.copyCurrentBuildToUserBuildsAndSave()
     );
   };
 
-  getEmptyBuild = () => {
+  getEmptyBuild = (): BuildGuide => {
     return {
       id: uuidv4(),
       key: "",
-      name: "Untitled",
+      name: {
+        [EN_US]: "Untitled",
+        [PT_BR]: "Sem título"
+      },
       tier: "",
-      author: "",
-      lang: "",
       composition: [],
       positioning: {},
-      guide: ""
+      guide: {
+        [EN_US]: "",
+        [PT_BR]: ""
+      }
     };
   };
 
@@ -177,10 +207,13 @@ class CreateBuildComponent extends React.Component<
   duplicateBuild = () => {
     this.setState(
       prevState => {
-        const dupe: TFTBuild = {
+        const dupe: BuildGuide = {
           ...prevState.currentBuild,
           id: uuidv4(),
-          name: prevState.currentBuild.name + " COPY"
+          name: {
+            ...prevState.currentBuild.name,
+            [prevState.activeLang]: prevState.currentBuild.name + " COPY"
+          }
         };
         return {
           currentBuild: dupe
@@ -206,6 +239,7 @@ class CreateBuildComponent extends React.Component<
             Array.isArray(parsedContent) &&
             parsedContent.every(build => isValidBuildJSON(build))
           ) {
+            console.log(parsedContent);
             this.setState(
               prevState => {
                 return {
@@ -539,7 +573,7 @@ class CreateBuildComponent extends React.Component<
   exportActiveBuild = () => {
     const { currentBuild } = this.state;
     this.download(
-      `${currentBuild.name}.json`,
+      `${currentBuild.name[EN_US]}.json`,
       JSON.stringify(currentBuild, null, 2)
     );
   };
@@ -559,12 +593,18 @@ class CreateBuildComponent extends React.Component<
     });
   };
 
+  handleLangChange = (lang: string) => {
+    this.setState({
+      activeLang: lang
+    });
+  };
+
   render() {
     if (this.props.isLoading) {
       return <></>;
     }
-    const { activeTab } = this.state;
-    const { lang, tier, id: currentBuildId } = this.state.currentBuild;
+    const { activeTab, activeLang } = this.state;
+    const { tier, id: currentBuildId } = this.state.currentBuild;
     return (
       <>
         <Helmet>
@@ -584,7 +624,7 @@ class CreateBuildComponent extends React.Component<
             >
               {this.state.userBuilds.map(userBuild => (
                 <option key={userBuild.id} value={userBuild.id}>
-                  {`${userBuild.name} (${userBuild.lang})`}
+                  {userBuild.name[EN_US]}
                 </option>
               ))}
             </select>
@@ -656,68 +696,23 @@ class CreateBuildComponent extends React.Component<
         </div>
         {activeTab === 0 ? (
           <div className={styles.dataTab}>
-            <div className={styles.sideBySide}>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel} htmlFor="lang">
-                  Language:
-                </label>
-                <select
-                  id="lang"
-                  className={styles.fieldSelect}
-                  onChange={this.handleLangChange}
-                  value={lang}
-                >
-                  <option value="" />
-                  <option value="pt-br">Português - Brasil</option>
-                  <option value="en-us">English - US</option>
-                </select>
-              </div>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel} htmlFor="tier">
-                  Tier:
-                </label>
-                <select
-                  id="tier"
-                  className={styles.fieldSelect}
-                  onChange={this.handleTierChange}
-                  value={tier}
-                >
-                  <option value="" />
-                  <option value="S">S</option>
-                  <option value="A">A</option>
-                  <option value="B">B</option>
-                  <option value="C">C</option>
-                  <option value="D">D</option>
-                </select>
-              </div>
-            </div>
-            <div className={styles.sideBySide}>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel} htmlFor="name">
-                  Name:
-                </label>
-                <input
-                  className={styles.fieldTextInput}
-                  id="name"
-                  name="name"
-                  type="text"
-                  value={this.state.currentBuild.name}
-                  onChange={this.handleNameChange}
-                />
-              </div>
-              <div className={styles.field}>
-                <label className={styles.fieldLabel} htmlFor="author">
-                  Author:
-                </label>
-                <input
-                  className={styles.fieldTextInput}
-                  id="author"
-                  name="author"
-                  type="text"
-                  value={this.state.currentBuild.author}
-                  onChange={this.handleAuthorChange}
-                />
-              </div>
+            <div className={styles.field}>
+              <label className={styles.fieldLabel} htmlFor="tier">
+                Tier:
+              </label>
+              <select
+                id="tier"
+                className={styles.fieldSelect}
+                onChange={this.handleTierChange}
+                value={tier}
+              >
+                <option value="" />
+                <option value="S">S</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
             </div>
             <div className={cx(styles.sideBySide, styles.positioning)}>
               <div>{this.renderPositioning()}</div>
@@ -725,10 +720,45 @@ class CreateBuildComponent extends React.Component<
             </div>
           </div>
         ) : (
-          <TextEditor
-            onChange={this.handleEditorChange}
-            value={this.state.currentBuild.guide}
-          />
+          <div className={styles.guideEditor}>
+            <div className={styles.langTabs}>
+              <button
+                type="button"
+                className={cx(styles.langTab, {
+                  [styles.langTabSelected]: activeLang === EN_US
+                })}
+                onClick={() => this.handleLangChange(EN_US)}
+              >
+                English
+              </button>
+              <button
+                type="button"
+                className={cx(styles.langTab, {
+                  [styles.langTabSelected]: activeLang === PT_BR
+                })}
+                onClick={() => this.handleLangChange(PT_BR)}
+              >
+                Português
+              </button>
+            </div>
+            <div className={styles.field}>
+              <label className={styles.fieldLabel} htmlFor="name">
+                Name:
+              </label>
+              <input
+                className={styles.fieldTextInput}
+                id="name"
+                name="name"
+                type="text"
+                value={this.state.currentBuild.name[activeLang]}
+                onChange={this.handleNameChange}
+              />
+            </div>
+            <TextEditor
+              onChange={this.handleEditorChange}
+              value={this.state.currentBuild.guide[activeLang]}
+            />
+          </div>
         )}
       </>
     );

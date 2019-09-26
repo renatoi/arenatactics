@@ -6,189 +6,1225 @@ Inline:     <i class="yourspritesname"></i>
 Responsive: <div class="yourspritesname"></div>
 */
 
-
-.tft_item_backhand {max-width:64px; max-height:64px; }
-.tft_item_backhand::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 0.10964912280701754% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_backhand::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_bfsword {max-width:64px; max-height:64px; }
-.tft_item_bfsword::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 7.2368421052631575% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_bfsword::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_bladeoftheruinedking {max-width:64px; max-height:64px; }
-.tft_item_bladeoftheruinedking::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 14.364035087719298% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_bladeoftheruinedking::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_bloodthirster {max-width:64px; max-height:64px; }
-.tft_item_bloodthirster::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 21.49122807017544% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_bloodthirster::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_chainvest {max-width:64px; max-height:64px; }
-.tft_item_chainvest::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 28.61842105263158% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_chainvest::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_cursedblade {max-width:64px; max-height:64px; }
-.tft_item_cursedblade::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 35.74561403508772% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_cursedblade::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_darkin {max-width:64px; max-height:64px; }
-.tft_item_darkin::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 42.87280701754386% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_darkin::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_deathblade {max-width:64px; max-height:64px; }
-.tft_item_deathblade::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 50% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_deathblade::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_dragonsclaw {max-width:64px; max-height:64px; }
-.tft_item_dragonsclaw::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 57.12719298245614% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_dragonsclaw::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_forceofnature {max-width:64px; max-height:64px; }
-.tft_item_forceofnature::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 64.25438596491227% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_forceofnature::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_frozenheart {max-width:64px; max-height:64px; }
-.tft_item_frozenheart::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 71.38157894736842% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_frozenheart::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_frozenmallet {max-width:64px; max-height:64px; }
-.tft_item_frozenmallet::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 78.50877192982456% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_frozenmallet::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_giantsbelt {max-width:64px; max-height:64px; }
-.tft_item_giantsbelt::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 85.6359649122807% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_giantsbelt::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_giantslayer {max-width:64px; max-height:64px; }
-.tft_item_giantslayer::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 92.76315789473684% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_giantslayer::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_guardianangel {max-width:64px; max-height:64px; }
-.tft_item_guardianangel::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 99.89035087719299% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_guardianangel::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_guinsoosrageblade {max-width:64px; max-height:64px; }
-.tft_item_guinsoosrageblade::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 0.10964912280701754% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_guinsoosrageblade::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_handofjustice {max-width:64px; max-height:64px; }
-.tft_item_handofjustice::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 7.2368421052631575% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_handofjustice::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_hextechgunblade {max-width:64px; max-height:64px; }
-.tft_item_hextechgunblade::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 14.364035087719298% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_hextechgunblade::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_hush {max-width:64px; max-height:64px; }
-.tft_item_hush::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 21.49122807017544% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_hush::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_iceborngauntlet {max-width:64px; max-height:64px; }
-.tft_item_iceborngauntlet::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 28.61842105263158% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_iceborngauntlet::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_infinityedge {max-width:64px; max-height:64px; }
-.tft_item_infinityedge::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 35.74561403508772% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_infinityedge::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_ionicspark {max-width:64px; max-height:64px; }
-.tft_item_ionicspark::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 42.87280701754386% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_ionicspark::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_jeweledgauntlet {max-width:64px; max-height:64px; }
-.tft_item_jeweledgauntlet::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 50% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_jeweledgauntlet::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_knightsvow {max-width:64px; max-height:64px; }
-.tft_item_knightsvow::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 57.12719298245614% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_knightsvow::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_locketoftheironsolari {max-width:64px; max-height:64px; }
-.tft_item_locketoftheironsolari::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 64.25438596491227% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_locketoftheironsolari::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_ludensecho {max-width:64px; max-height:64px; }
-.tft_item_ludensecho::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 71.38157894736842% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_ludensecho::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_mercurial {max-width:64px; max-height:64px; }
-.tft_item_mercurial::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 78.50877192982456% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_mercurial::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_mittens {max-width:64px; max-height:64px; }
-.tft_item_mittens::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 85.6359649122807% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_mittens::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_morellonomicon {max-width:64px; max-height:64px; }
-.tft_item_morellonomicon::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 92.76315789473684% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_morellonomicon::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_mortalreminder {max-width:64px; max-height:64px; }
-.tft_item_mortalreminder::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 99.89035087719299% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_mortalreminder::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_needlesslylargerod {max-width:64px; max-height:64px; }
-.tft_item_needlesslylargerod::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 0.10964912280701754% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_needlesslylargerod::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_neekoshelp {max-width:64px; max-height:64px; }
-.tft_item_neekoshelp::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 7.2368421052631575% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_neekoshelp::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_negatroncloak {max-width:64px; max-height:64px; }
-.tft_item_negatroncloak::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 14.364035087719298% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_negatroncloak::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_phantomdancer {max-width:64px; max-height:64px; }
-.tft_item_phantomdancer::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 21.49122807017544% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_phantomdancer::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_quicksilver {max-width:64px; max-height:64px; }
-.tft_item_quicksilver::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 78.50877192982456% 33.50253807106599%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_quicksilver::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_rabadonsdeathcap {max-width:64px; max-height:64px; }
-.tft_item_rabadonsdeathcap::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 28.61842105263158% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_rabadonsdeathcap::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_rapidfirecannon {max-width:64px; max-height:64px; }
-.tft_item_rapidfirecannon::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 35.74561403508772% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_rapidfirecannon::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_recurvebow {max-width:64px; max-height:64px; }
-.tft_item_recurvebow::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 42.87280701754386% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_recurvebow::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_redbuff {max-width:64px; max-height:64px; }
-.tft_item_redbuff::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 50% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_redbuff::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_redemption {max-width:64px; max-height:64px; }
-.tft_item_redemption::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 57.12719298245614% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_redemption::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_repeatingcrossbow {max-width:64px; max-height:64px; }
-.tft_item_repeatingcrossbow::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 64.25438596491227% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_repeatingcrossbow::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_runaanshurricane {max-width:64px; max-height:64px; }
-.tft_item_runaanshurricane::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 71.38157894736842% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_runaanshurricane::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_seraphsembrace {max-width:64px; max-height:64px; }
-.tft_item_seraphsembrace::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 78.50877192982456% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_seraphsembrace::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_sparringgloves {max-width:64px; max-height:64px; }
-.tft_item_sparringgloves::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 85.6359649122807% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_sparringgloves::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_spatula {max-width:64px; max-height:64px; }
-.tft_item_spatula::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 92.76315789473684% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_spatula::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_spearofshojin {max-width:64px; max-height:64px; }
-.tft_item_spearofshojin::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 99.89035087719299% 66.49746192893402%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_spearofshojin::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_spellthiefsedge {max-width:64px; max-height:64px; }
-.tft_item_spellthiefsedge::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 0.10964912280701754% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_spellthiefsedge::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_statikkshiv {max-width:64px; max-height:64px; }
-.tft_item_statikkshiv::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 7.2368421052631575% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_statikkshiv::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_swordbreaker {max-width:64px; max-height:64px; }
-.tft_item_swordbreaker::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 14.364035087719298% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_swordbreaker::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_swordofthedivine {max-width:64px; max-height:64px; }
-.tft_item_swordofthedivine::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 21.49122807017544% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_swordofthedivine::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_tearofthegoddess {max-width:64px; max-height:64px; }
-.tft_item_tearofthegoddess::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 28.61842105263158% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_tearofthegoddess::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_thiefsgloves {max-width:64px; max-height:64px; }
-.tft_item_thiefsgloves::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 35.74561403508772% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_thiefsgloves::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_thornmail {max-width:64px; max-height:64px; }
-.tft_item_thornmail::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 42.87280701754386% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_thornmail::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_titanichydra {max-width:64px; max-height:64px; }
-.tft_item_titanichydra::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 50% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_titanichydra::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_trapclaw {max-width:64px; max-height:64px; }
-.tft_item_trapclaw::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 0.10964912280701754% 0.5076142131979695%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_trapclaw::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_unknown {max-width:64px; max-height:64px; }
-.tft_item_unknown::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 57.12719298245614% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_unknown::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_warmogsarmor {max-width:64px; max-height:64px; }
-.tft_item_warmogsarmor::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 64.25438596491227% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_warmogsarmor::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_youmuusghostblade {max-width:64px; max-height:64px; }
-.tft_item_youmuusghostblade::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 71.38157894736842% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_youmuusghostblade::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_yuumi {max-width:64px; max-height:64px; }
-.tft_item_yuumi::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 78.50877192982456% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_yuumi::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_zekesherald {max-width:64px; max-height:64px; }
-.tft_item_zekesherald::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 85.6359649122807% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_zekesherald::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
-.tft_item_zephyr {max-width:64px; max-height:64px; }
-.tft_item_zephyr::after {content: '\00a0';display: inline-block; width:64px; height:64px; background-position: 92.76315789473684% 99.49238578680203%;background-size: 1525% 407.8125%;background-image: url(Items.module.png);padding: 0; }
-div.tft_item_zephyr::after {max-width:64px; width:100%;height:0;padding: 0 0 100% 0;}
+.tft_item_backhand {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_backhand::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 0.10964912280701754% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_backhand::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_bfsword {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_bfsword::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 7.2368421052631575% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_bfsword::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_bladeoftheruinedking {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_bladeoftheruinedking::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 14.364035087719298% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_bladeoftheruinedking::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_bloodthirster {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_bloodthirster::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 21.49122807017544% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_bloodthirster::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_chainvest {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_chainvest::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 28.61842105263158% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_chainvest::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_cursedblade {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_cursedblade::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 35.74561403508772% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_cursedblade::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_darkin {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_darkin::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 42.87280701754386% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_darkin::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_deathblade {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_deathblade::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 50% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_deathblade::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_dragonsclaw {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_dragonsclaw::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 57.12719298245614% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_dragonsclaw::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_forceofnature {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_forceofnature::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 64.25438596491227% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_forceofnature::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_frozenheart {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_frozenheart::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 71.38157894736842% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_frozenheart::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_frozenmallet {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_frozenmallet::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 78.50877192982456% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_frozenmallet::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_giantsbelt {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_giantsbelt::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 85.6359649122807% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_giantsbelt::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_giantslayer {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_giantslayer::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 92.76315789473684% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_giantslayer::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_guardianangel {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_guardianangel::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 99.89035087719299% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_guardianangel::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_guinsoosrageblade {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_guinsoosrageblade::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 0.10964912280701754% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_guinsoosrageblade::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_handofjustice {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_handofjustice::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 7.2368421052631575% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_handofjustice::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_hextechgunblade {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_hextechgunblade::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 14.364035087719298% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_hextechgunblade::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_hush {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_hush::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 21.49122807017544% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_hush::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_iceborngauntlet {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_iceborngauntlet::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 28.61842105263158% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_iceborngauntlet::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_infinityedge {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_infinityedge::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 35.74561403508772% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_infinityedge::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_ionicspark {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_ionicspark::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 42.87280701754386% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_ionicspark::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_jeweledgauntlet {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_jeweledgauntlet::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 50% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_jeweledgauntlet::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_knightsvow {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_knightsvow::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 57.12719298245614% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_knightsvow::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_locketoftheironsolari {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_locketoftheironsolari::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 64.25438596491227% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_locketoftheironsolari::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_ludensecho {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_ludensecho::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 71.38157894736842% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_ludensecho::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_mercurial {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_mercurial::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 78.50877192982456% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_mercurial::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_mittens {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_mittens::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 85.6359649122807% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_mittens::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_morellonomicon {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_morellonomicon::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 92.76315789473684% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_morellonomicon::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_mortalreminder {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_mortalreminder::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 99.89035087719299% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_mortalreminder::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_needlesslylargerod {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_needlesslylargerod::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 0.10964912280701754% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_needlesslylargerod::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_neekoshelp {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_neekoshelp::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 7.2368421052631575% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_neekoshelp::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_negatroncloak {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_negatroncloak::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 14.364035087719298% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_negatroncloak::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_phantomdancer {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_phantomdancer::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 21.49122807017544% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_phantomdancer::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_quicksilver {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_quicksilver::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 78.50877192982456% 33.50253807106599%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_quicksilver::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_rabadonsdeathcap {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_rabadonsdeathcap::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 28.61842105263158% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_rabadonsdeathcap::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_rapidfirecannon {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_rapidfirecannon::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 35.74561403508772% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_rapidfirecannon::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_recurvebow {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_recurvebow::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 42.87280701754386% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_recurvebow::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_redbuff {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_redbuff::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 50% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_redbuff::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_redemption {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_redemption::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 57.12719298245614% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_redemption::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_repeatingcrossbow {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_repeatingcrossbow::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 64.25438596491227% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_repeatingcrossbow::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_runaanshurricane {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_runaanshurricane::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 71.38157894736842% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_runaanshurricane::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_seraphsembrace {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_seraphsembrace::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 78.50877192982456% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_seraphsembrace::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_sparringgloves {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_sparringgloves::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 85.6359649122807% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_sparringgloves::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_spatula {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_spatula::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 92.76315789473684% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_spatula::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_spearofshojin {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_spearofshojin::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 99.89035087719299% 66.49746192893402%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_spearofshojin::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_spellthiefsedge {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_spellthiefsedge::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 0.10964912280701754% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_spellthiefsedge::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_statikkshiv {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_statikkshiv::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 7.2368421052631575% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_statikkshiv::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_swordbreaker {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_swordbreaker::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 14.364035087719298% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_swordbreaker::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_swordofthedivine {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_swordofthedivine::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 21.49122807017544% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_swordofthedivine::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_tearofthegoddess {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_tearofthegoddess::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 28.61842105263158% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_tearofthegoddess::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_thiefsgloves {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_thiefsgloves::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 35.74561403508772% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_thiefsgloves::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_thornmail {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_thornmail::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 42.87280701754386% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_thornmail::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_titanichydra {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_titanichydra::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 50% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_titanichydra::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_trapclaw {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_trapclaw::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 0.10964912280701754% 0.5076142131979695%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_trapclaw::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_unknown {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_unknown::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 57.12719298245614% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_unknown::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_warmogsarmor {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_warmogsarmor::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 64.25438596491227% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_warmogsarmor::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_youmuusghostblade {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_youmuusghostblade::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 71.38157894736842% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_youmuusghostblade::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_yuumi {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_yuumi::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 78.50877192982456% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_yuumi::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_zekesherald {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_zekesherald::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 85.6359649122807% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_zekesherald::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
+.tft_item_zephyr {
+  max-width: 64px;
+  max-height: 64px;
+}
+.tft_item_zephyr::after {
+  content: "\00a0";
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: 92.76315789473684% 99.49238578680203%;
+  background-size: 1525% 407.8125%;
+  background-image: url(Items.module.png);
+  padding: 0;
+}
+span.tft_item_zephyr::after {
+  max-width: 64px;
+  width: 100%;
+  height: 0;
+  padding: 0 0 100% 0;
+}
 
 /* $TexturePacker:SmartUpdate:b53988a80c1568c1ff590408ee4fad63:3501209a8f9b2df7f58f1cbea8aabb95:1431a56278a5bd99d10737c3fa8b969c$ */

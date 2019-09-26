@@ -13,10 +13,7 @@ const { getNormalizedKey, hashFnv32a } = require("./utils");
 function normalizeData(locale) {
   const baseDataPath = path.resolve(__dirname, "data");
   // process best builds data
-  const bestBuildsPath = path.resolve(
-    baseDataPath,
-    `${locale}_TFT_best-builds.json`
-  );
+  const bestBuildsPath = path.resolve(baseDataPath, "builds.json");
   const bestBuildsContent = fs.readFileSync(bestBuildsPath, {
     encoding: "utf-8"
   });
@@ -25,10 +22,12 @@ function normalizeData(locale) {
 
   bestBuildsJSON.forEach(bestBuild => {
     const newBestBuild = { ...bestBuild };
-    const key = getNormalizedKey(newBestBuild.name);
+    const key = getNormalizedKey(newBestBuild.name[locale]);
     const id = hashFnv32a(key, true);
     newBestBuild.key = key;
     newBestBuild.id = id;
+    newBestBuild.name = newBestBuild.name[locale];
+    newBestBuild.guide = newBestBuild.guide[locale];
     newBuildsData.byId[id] = newBestBuild;
     newBuildsData.byKey[key] = id;
   });

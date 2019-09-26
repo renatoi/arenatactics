@@ -16,7 +16,7 @@ export const ChampionImage = React.forwardRef<
   ChampionImageProps
 >(({ championKey, width = 64, height = 64, className, ...rest }, ref?) => {
   return (
-    <div
+    <span
       ref={ref}
       className={cx(
         styles.championImage,

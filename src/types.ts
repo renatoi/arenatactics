@@ -40,8 +40,6 @@ export interface TFTBuild {
   readonly key: string;
   readonly name: string;
   readonly tier: string;
-  readonly author: string;
-  readonly lang: string;
   readonly composition: TFTBuildComposition[];
   readonly positioning: TFTBuildPositioning;
   readonly guide: string;

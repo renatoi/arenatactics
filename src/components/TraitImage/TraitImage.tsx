@@ -14,7 +14,7 @@ interface TraitImageProps {
 export const TraitImage = React.forwardRef<HTMLImageElement, TraitImageProps>(
   ({ traitKey, width = 32, height = 32, className }, ref?) => {
     return (
-      <div
+      <span
         ref={ref}
         className={cx(
           styles.traitImage,

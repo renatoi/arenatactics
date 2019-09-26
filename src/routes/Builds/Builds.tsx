@@ -199,6 +199,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
         </MasterHeader>
         <MasterList className={styles.buildsList}>
           {visibleBuilds
+            .slice()
             .sort((buildId1, buildId2) => {
               const build1 = builds.byId[buildId1];
               const build2 = builds.byId[buildId2];

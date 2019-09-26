@@ -127,6 +127,7 @@ class ItemsComponent extends React.Component<TFTItemsProps> {
             <div role="rowgroup">
               {combinedItems.map(combinedItem => {
                 const from = combinedItem.from
+                  .slice()
                   .sort(firstEl => {
                     return items.byId[firstEl].id === selectedItem.id ? -1 : 1;
                   })

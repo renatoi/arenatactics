@@ -13,7 +13,7 @@ interface ItemImageProps extends ImgProps {
 }
 export const ItemImage = React.forwardRef<HTMLImageElement, ItemImageProps>(
   ({ itemKey, className, width = 64, height = 64, ...rest }, ref?) => (
-    <div
+    <span
       ref={ref}
       className={cx(
         styles.itemImage,
