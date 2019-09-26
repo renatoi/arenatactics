@@ -45,7 +45,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "node ./bin/group-best-builds.js && node ./bin/tft-normalizeData.js",
+    "prebuild": "node ./bin/tft-normalizeData.js",
     "build": "react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test",
