@@ -10,74 +10,42 @@
     "composition": [
       {
         "champion": "78",
-        "items": [
-          "59",
-          "66",
-          "77"
-        ],
+        "items": ["59", "66", "77"],
         "isCarry": false
       },
       {
         "champion": "150",
-        "items": [
-          "77",
-          "59",
-          "66"
-        ],
+        "items": ["77", "59", "66"],
         "isCarry": true
       },
       {
         "champion": "45",
-        "items": [
-          "14",
-          "14",
-          "44"
-        ],
+        "items": ["14", "14", "44"],
         "isCarry": true
       },
       {
         "champion": "85",
-        "items": [
-          "37",
-          "15",
-          "66"
-        ],
+        "items": ["37", "15", "66"],
         "isCarry": false
       },
       {
         "champion": "117",
-        "items": [
-          "14",
-          "14",
-          "23"
-        ],
+        "items": ["14", "14", "23"],
         "isCarry": false
       },
       {
         "champion": "18",
-        "items": [
-          "57",
-          "26",
-          "46"
-        ],
+        "items": ["57", "26", "46"],
         "isCarry": false
       },
       {
         "champion": "136",
-        "items": [
-          "14",
-          "23",
-          "33"
-        ],
+        "items": ["14", "23", "33"],
         "isCarry": false
       },
       {
         "champion": "30",
-        "items": [
-          "44",
-          "44",
-          "33"
-        ],
+        "items": ["44", "44", "33"],
         "isCarry": false
       }
     ],
@@ -107,74 +75,42 @@
     "composition": [
       {
         "champion": "82",
-        "items": [
-          "45",
-          "66",
-          "15"
-        ],
+        "items": ["45", "66", "15"],
         "isCarry": false
       },
       {
         "champion": "113",
-        "items": [
-          "77",
-          "44",
-          "66"
-        ],
+        "items": ["77", "44", "66"],
         "isCarry": true
       },
       {
         "champion": "22",
-        "items": [
-          "68",
-          "46",
-          "23"
-        ],
+        "items": ["68", "46", "23"],
         "isCarry": true
       },
       {
         "champion": "203",
-        "items": [
-          "24",
-          "24",
-          "15"
-        ],
+        "items": ["24", "24", "15"],
         "isCarry": false
       },
       {
         "champion": "34",
-        "items": [
-          "44",
-          "44",
-          "37"
-        ],
+        "items": ["44", "44", "37"],
         "isCarry": false
       },
       {
         "champion": "110",
-        "items": [
-          "23",
-          "14",
-          "19"
-        ],
+        "items": ["23", "14", "19"],
         "isCarry": false
       },
       {
         "champion": "67",
-        "items": [
-          "23",
-          "22",
-          "19"
-        ],
+        "items": ["23", "22", "19"],
         "isCarry": false
       },
       {
         "champion": "145",
-        "items": [
-          "23",
-          "16",
-          "19"
-        ],
+        "items": ["23", "16", "19"],
         "isCarry": false
       }
     ],
@@ -204,74 +140,42 @@
     "composition": [
       {
         "champion": "98",
-        "items": [
-          "77",
-          "66",
-          "59"
-        ],
+        "items": ["77", "66", "59"],
         "isCarry": true
       },
       {
         "champion": "107",
-        "items": [
-          "15",
-          "16",
-          "19"
-        ],
+        "items": ["15", "16", "19"],
         "isCarry": false
       },
       {
         "champion": "28",
-        "items": [
-          "44",
-          "44",
-          "13"
-        ],
+        "items": ["44", "44", "13"],
         "isCarry": false
       },
       {
         "champion": "555",
-        "items": [
-          "14",
-          "14",
-          "23"
-        ],
+        "items": ["14", "14", "23"],
         "isCarry": false
       },
       {
         "champion": "85",
-        "items": [
-          "66",
-          "15",
-          "37"
-        ],
+        "items": ["66", "15", "37"],
         "isCarry": false
       },
       {
         "champion": "238",
-        "items": [
-          "19",
-          "15",
-          "16"
-        ],
+        "items": ["19", "15", "16"],
         "isCarry": true
       },
       {
         "champion": "84",
-        "items": [
-          "44",
-          "19",
-          "49"
-        ],
+        "items": ["44", "19", "49"],
         "isCarry": true
       },
       {
         "champion": "145",
-        "items": [
-          "23",
-          "16",
-          "19"
-        ],
+        "items": ["23", "16", "19"],
         "isCarry": false
       }
     ],
@@ -301,74 +205,42 @@
     "composition": [
       {
         "champion": "150",
-        "items": [
-          "77",
-          "45",
-          "66"
-        ],
+        "items": ["77", "45", "66"],
         "isCarry": false
       },
       {
         "champion": "266",
-        "items": [
-          "13",
-          "66",
-          "77"
-        ],
+        "items": ["13", "66", "77"],
         "isCarry": true
       },
       {
         "champion": "110",
-        "items": [
-          "23",
-          "14",
-          "19"
-        ],
+        "items": ["23", "14", "19"],
         "isCarry": false
       },
       {
         "champion": "50",
-        "items": [
-          "37",
-          "15",
-          "77"
-        ],
+        "items": ["37", "15", "77"],
         "isCarry": true
       },
       {
         "champion": "60",
-        "items": [
-          "57",
-          "46",
-          "77"
-        ],
+        "items": ["57", "46", "77"],
         "isCarry": false
       },
       {
         "champion": "63",
-        "items": [
-          "14",
-          "23",
-          "33"
-        ],
+        "items": ["14", "23", "33"],
         "isCarry": false
       },
       {
         "champion": "119",
-        "items": [
-          "16",
-          "19",
-          "22"
-        ],
+        "items": ["16", "19", "22"],
         "isCarry": true
       },
       {
         "champion": "25",
-        "items": [
-          "37",
-          "15",
-          "66"
-        ],
+        "items": ["37", "15", "66"],
         "isCarry": false
       }
     ],
@@ -398,74 +270,42 @@
     "composition": [
       {
         "champion": "67",
-        "items": [
-          "23",
-          "22",
-          "19"
-        ],
+        "items": ["23", "22", "19"],
         "isCarry": false
       },
       {
         "champion": "222",
-        "items": [
-          "68",
-          "19",
-          "46"
-        ],
+        "items": ["68", "19", "46"],
         "isCarry": true
       },
       {
         "champion": "236",
-        "items": [
-          "44",
-          "34",
-          "13"
-        ],
+        "items": ["44", "34", "13"],
         "isCarry": false
       },
       {
         "champion": "10",
-        "items": [
-          "14",
-          "14",
-          "23"
-        ],
+        "items": ["14", "14", "23"],
         "isCarry": false
       },
       {
         "champion": "114",
-        "items": [
-          "16",
-          "15",
-          "66"
-        ],
+        "items": ["16", "15", "66"],
         "isCarry": false
       },
       {
         "champion": "86",
-        "items": [
-          "37",
-          "45",
-          "25"
-        ],
+        "items": ["37", "45", "25"],
         "isCarry": false
       },
       {
         "champion": "89",
-        "items": [
-          "15",
-          "77",
-          "66"
-        ],
+        "items": ["15", "77", "66"],
         "isCarry": true
       },
       {
         "champion": "254",
-        "items": [
-          "45",
-          "77",
-          "15"
-        ],
+        "items": ["45", "77", "15"],
         "isCarry": false
       }
     ],
@@ -495,74 +335,42 @@
     "composition": [
       {
         "champion": "30",
-        "items": [
-          "44",
-          "44",
-          "33"
-        ],
+        "items": ["44", "44", "33"],
         "isCarry": false
       },
       {
         "champion": "136",
-        "items": [
-          "14",
-          "23",
-          "33"
-        ],
+        "items": ["14", "23", "33"],
         "isCarry": true
       },
       {
         "champion": "38",
-        "items": [
-          "15",
-          "66",
-          "23"
-        ],
+        "items": ["15", "66", "23"],
         "isCarry": false
       },
       {
         "champion": "203",
-        "items": [
-          "24",
-          "24",
-          "15"
-        ],
+        "items": ["24", "24", "15"],
         "isCarry": false
       },
       {
         "champion": "89",
-        "items": [
-          "67",
-          "66",
-          "15"
-        ],
+        "items": ["67", "66", "15"],
         "isCarry": false
       },
       {
         "champion": "80",
-        "items": [
-          "14",
-          "14",
-          "77"
-        ],
+        "items": ["14", "14", "77"],
         "isCarry": false
       },
       {
         "champion": "421",
-        "items": [
-          "45",
-          "77",
-          "15"
-        ],
+        "items": ["45", "77", "15"],
         "isCarry": false
       },
       {
         "champion": "31",
-        "items": [
-          "37",
-          "15",
-          "33"
-        ],
+        "items": ["37", "15", "33"],
         "isCarry": true
       }
     ],
@@ -592,74 +400,42 @@
     "composition": [
       {
         "champion": "89",
-        "items": [
-          "67",
-          "15",
-          "66"
-        ],
+        "items": ["67", "15", "66"],
         "isCarry": false
       },
       {
         "champion": "113",
-        "items": [
-          "44",
-          "77",
-          "66"
-        ],
+        "items": ["44", "77", "66"],
         "isCarry": true
       },
       {
         "champion": "82",
-        "items": [
-          "45",
-          "66",
-          "15"
-        ],
+        "items": ["45", "66", "15"],
         "isCarry": false
       },
       {
         "champion": "110",
-        "items": [
-          "23",
-          "14",
-          "19"
-        ],
+        "items": ["23", "14", "19"],
         "isCarry": false
       },
       {
         "champion": "203",
-        "items": [
-          "24",
-          "24",
-          "15"
-        ],
+        "items": ["24", "24", "15"],
         "isCarry": false
       },
       {
         "champion": "80",
-        "items": [
-          "14",
-          "14",
-          "77"
-        ],
+        "items": ["14", "14", "77"],
         "isCarry": false
       },
       {
         "champion": "22",
-        "items": [
-          "23",
-          "68",
-          "46"
-        ],
+        "items": ["23", "68", "46"],
         "isCarry": true
       },
       {
         "champion": "145",
-        "items": [
-          "23",
-          "16",
-          "19"
-        ],
+        "items": ["23", "16", "19"],
         "isCarry": false
       }
     ],
@@ -674,8 +450,8 @@
       "3,2": "145"
     },
     "guide": {
-      "en_us": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano Individual;\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Sobrevivência extra graças à habilidade de Kindred;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fraco contra inimigos espalhados;\n- Fortemente dependente de Kindred (bônus [[trait=phantom]] [[trait=ranger]];\n- Dependente de dois campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=garen]]→[[champion=sejuani]]\n \n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Fim do Jogo:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n[[item=darkin]]→[[champion=sejuani]]\n\n",
-      "pt_br": "### 1. PROS\n\n- Strong crowd control;\n- Strong single damage;\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Extra survivability thanks to Kindred’s ability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Weak against spread out enemies;\n- Strongly dependent of Kindred ([[trait=phantom]] [[trait=ranger]] bonus);\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=garen]]→[[champion=sejuani]] \n\n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Late Game:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n\n[[item=darkin]]→[[champion=sejuani]]\n\n\n"
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong single damage;\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Extra survivability thanks to Kindred’s ability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Weak against spread out enemies;\n- Strongly dependent of Kindred ([[trait=phantom]] [[trait=ranger]] bonus);\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=garen]]→[[champion=sejuani]] \n\n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Late Game:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n\n[[item=darkin]]→[[champion=sejuani]]\n\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano Individual;\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Sobrevivência extra graças à habilidade de Kindred;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fraco contra inimigos espalhados;\n- Fortemente dependente de Kindred (bônus [[trait=phantom]] [[trait=ranger]];\n- Dependente de dois campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=garen]]→[[champion=sejuani]]\n \n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Fim do Jogo:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n[[item=darkin]]→[[champion=sejuani]]\n\n"
     }
   },
   {
@@ -689,74 +465,42 @@
     "composition": [
       {
         "champion": "84",
-        "items": [
-          "44",
-          "33",
-          "13"
-        ],
+        "items": ["44", "33", "13"],
         "isCarry": false
       },
       {
         "champion": "38",
-        "items": [
-          "18",
-          "23",
-          "19"
-        ],
+        "items": ["18", "23", "19"],
         "isCarry": true
       },
       {
         "champion": "107",
-        "items": [
-          "19",
-          "15",
-          "16"
-        ],
+        "items": ["19", "15", "16"],
         "isCarry": false
       },
       {
         "champion": "121",
-        "items": [
-          "19",
-          "23",
-          "13"
-        ],
+        "items": ["19", "23", "13"],
         "isCarry": false
       },
       {
         "champion": "421",
-        "items": [
-          "45",
-          "77",
-          "15"
-        ],
+        "items": ["45", "77", "15"],
         "isCarry": false
       },
       {
         "champion": "31",
-        "items": [
-          "15",
-          "37",
-          "33"
-        ],
+        "items": ["15", "37", "33"],
         "isCarry": true
       },
       {
         "champion": "555",
-        "items": [
-          "14",
-          "14",
-          "13"
-        ],
+        "items": ["14", "14", "13"],
         "isCarry": false
       },
       {
         "champion": "145",
-        "items": [
-          "19",
-          "16",
-          "23"
-        ],
+        "items": ["19", "16", "23"],
         "isCarry": true
       }
     ],
