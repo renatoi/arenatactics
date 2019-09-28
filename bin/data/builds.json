@@ -1550,5 +1550,102 @@
       "en_us": "### 1. PROS\n\n- Strong area damage;\n- Strong against grouped enemies;\n- Strong crowd control;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Dependent of two tier 5 champions;\n- Strongly dependent of magic damage;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=dragon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=quicksilver]]\n[[item=dragons-claw]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=ahri]]\n[[champion=braum]]\n\n\n#### Mid Game:\n\n[[champion=evelynn]]\n\n[[champion=kassadin]]→[[champion=aatrox]]\n\n[[champion=lulu]]→[[champion=morgana]]\n\n[[champion=ahri]]→[[champion=aurelion-sol]]\n\n[[champion=braum]]→[[champion=leona]]\n\n[[champion=brand]]\n\n\n#### Late Game:\n\n[[champion=pantheon]]\n[[champion=karthus]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=leona]]→[[champion=braum]]\n\n[[champion=brand]]→[[champion=swain]][[champion=varus]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=yuumi]]→[[champion=brand]][[champion=aatrox]]\n[[champion=evelynn]]\n\n[[item=darkin]]→[[champion=pantheon]][[champion=leona]][[champion=aurelion-sol]][[champion=karthus]]\n",
       "pt_br": "### 1. PRÓS\n\n- Forte dano em área;\n- Forte contra inimigos agrupados;\n- Forte controle de grupo;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Dependente de dois campeões de nível 5;\n- Fortemente dependente de dano mágico;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=dragon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=quicksilver]]\n[[item=dragons-claw]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=ahri]]\n[[champion=braum]]\n\n\n#### Meio do Jogo:\n\n[[champion=evelynn]]\n\n[[champion=kassadin]]→[[champion=aatrox]]\n\n[[champion=lulu]]→[[champion=morgana]]\n\n[[champion=ahri]]→[[champion=aurelion-sol]]\n\n[[champion=braum]]→[[champion=leona]]\n\n[[champion=brand]]\n\n\n\n#### Fim do Jogo:\n\n[[champion=pantheon]]\n[[champion=karthus]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=leona]]→[[champion=braum]]\n\n[[champion=brand]]→[[champion=swain]][[champion=varus]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=yuumi]]→[[champion=brand]][[champion=aatrox]]\n[[champion=evelynn]]\n\n[[item=darkin]]→[[champion=pantheon]][[champion=leona]][[champion=aurelion-sol]][[champion=karthus]]\n"
     }
+  },
+  {
+    "id": "c76c6ecf-244a-4c63-a885-ad4bba32cc31",
+    "key": "",
+    "name": {
+      "en_us": "Imperial Knights",
+      "pt_br": "Cavaleiros Imperiais"
+    },
+    "tier": "S",
+    "composition": [
+      {
+        "champion": "122",
+        "items": [
+          "13",
+          "66",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "113",
+        "items": [
+          "77",
+          "66",
+          "44"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "82",
+        "items": [
+          "66",
+          "45",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "78",
+        "items": [
+          "66",
+          "77",
+          "55"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "10",
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "119",
+        "items": [
+          "23",
+          "19",
+          "16"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "55",
+        "items": [
+          "44",
+          "44",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "50",
+        "items": [
+          "37",
+          "15",
+          "77"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "122",
+      "1,2": "113",
+      "1,3": "82",
+      "1,4": "78",
+      "3,1": "10",
+      "3,2": "119",
+      "3,4": "55",
+      "2,3": "50"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong survivability;\n- Strong area damage;\n- Minor need in changing champions’s positions;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 3.5 coins);\n- Strongly mana’s dependent;\n- Dependent of two tier 5 champions;\n- Strongly dependent of Swain ([[trait=imperial]] bonus);\n- Few ranged champions;\n- Dependent of [[item=knights-vow]] to obtain last [[trait=knight]] bonus;\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=void]]\n[[trait=glacial]]\n[[trait=yordle]\n]\n[[item=giant-slayer]]\n[[item=hush]]\n[[item=red-buff]]\n[[item=morellonomicon]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=darius]]\n[[champion=garen]]\n[[champion=mordekaiser]]\n[[champion=fiora]]\n[[champion=vayne]]\n\n\n#### Mid Game:\n\n[[champion=katarina]]\n\n[[champion=vayne]]→[[champion=draven]]\n\n[[champion=fiora]]→[[champion=sejuani]]\n\n[[champion=garen]]→[[champion=poppy]]\n\n\n#### Late Game:\n\n[[champion=kayle]]\n[[champion=swain]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=mordekaiser]]→[[champion=garen]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=knights-vow]]→[[champion=swain]][[champion=draven]][[champion=katarina]]\n\n[[item=frozen-mallet]]→[[champion=draven]][[champion=swain]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte sobrevivência;\n- Forte dano em área;\n- Baixa necessidade de mudança de posicionamento dos campeões;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Fortemente dependente de mana;\n- Dependente de dois campeões de nível 5;\n- Fortemente dependente de Swain (bônus de [[trait=imperial]]);\n- Poucos campeões de longo alcance;\n- Dependente de [[item=knights-vow]] para obter último bônus de [[trait=knight]];\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=void]]\n[[trait=glacial]]\n[[trait=yordle]]\n\n[[item=giant-slayer]]\n[[item=hush]]\n[[item=red-buff]]\n[[item=morellonomicon]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=darius]]\n[[champion=garen]]\n[[champion=mordekaiser]]\n[[champion=fiora]]\n[[champion=vayne]]\n\n\n#### Meio do Jogo:\n\n[[champion=katarina]]\n\n[[champion=vayne]]→[[champion=draven]]\n\n[[champion=fiora]]→[[champion=sejuani]]\n\n[[champion=garen]]→[[champion=poppy]]\n\n\n#### Fim do Jogo:\n\n[[champion=kayle]]\n[[champion=swain]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=mordekaiser]]→[[champion=garen]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=knights-vow]]→[[champion=swain]][[champion=draven]]\n[[champion=katarina]]\n\n[[item=frozen-mallet]]→[[champion=draven]][[champion=swain]]\n\n"
+    }
   }
 ]
