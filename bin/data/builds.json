@@ -10,42 +10,74 @@
     "composition": [
       {
         "champion": "78",
-        "items": ["59", "66", "77"],
+        "items": [
+          "59",
+          "66",
+          "77"
+        ],
         "isCarry": false
       },
       {
         "champion": "150",
-        "items": ["77", "59", "66"],
+        "items": [
+          "77",
+          "59",
+          "66"
+        ],
         "isCarry": true
       },
       {
         "champion": "45",
-        "items": ["14", "14", "44"],
+        "items": [
+          "14",
+          "14",
+          "44"
+        ],
         "isCarry": true
       },
       {
         "champion": "85",
-        "items": ["37", "15", "66"],
+        "items": [
+          "37",
+          "15",
+          "66"
+        ],
         "isCarry": false
       },
       {
         "champion": "117",
-        "items": ["14", "14", "23"],
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
         "isCarry": false
       },
       {
         "champion": "18",
-        "items": ["57", "26", "46"],
+        "items": [
+          "57",
+          "26",
+          "46"
+        ],
         "isCarry": false
       },
       {
         "champion": "136",
-        "items": ["14", "23", "33"],
+        "items": [
+          "14",
+          "23",
+          "33"
+        ],
         "isCarry": false
       },
       {
         "champion": "30",
-        "items": ["44", "44", "33"],
+        "items": [
+          "44",
+          "44",
+          "33"
+        ],
         "isCarry": false
       }
     ],
@@ -75,42 +107,74 @@
     "composition": [
       {
         "champion": "82",
-        "items": ["45", "66", "15"],
+        "items": [
+          "45",
+          "66",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "113",
-        "items": ["77", "44", "66"],
+        "items": [
+          "77",
+          "44",
+          "66"
+        ],
         "isCarry": true
       },
       {
         "champion": "22",
-        "items": ["68", "46", "23"],
+        "items": [
+          "68",
+          "46",
+          "23"
+        ],
         "isCarry": true
       },
       {
         "champion": "203",
-        "items": ["24", "24", "15"],
+        "items": [
+          "24",
+          "24",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "34",
-        "items": ["44", "44", "37"],
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
         "isCarry": false
       },
       {
         "champion": "110",
-        "items": ["23", "14", "19"],
+        "items": [
+          "23",
+          "14",
+          "19"
+        ],
         "isCarry": false
       },
       {
         "champion": "67",
-        "items": ["23", "22", "19"],
+        "items": [
+          "23",
+          "22",
+          "19"
+        ],
         "isCarry": false
       },
       {
         "champion": "145",
-        "items": ["23", "16", "19"],
+        "items": [
+          "23",
+          "16",
+          "19"
+        ],
         "isCarry": false
       }
     ],
@@ -125,8 +189,8 @@
       "3,2": "34"
     },
     "guide": {
-      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong single damage;\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Strong against grouped enemies;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 3.5 coins);\n- Dependent of two tier 5 champions;\n- Dependent of Kindred (bonus [[trait=phantom]][[trait=ranger]]\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n[[item=hush]]\n\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=braum]]\n\n#### Mid Game:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→ [[champion=sejuani]]\n\n\n#### Late Game:\n\n\n[[champion=braum]]→ [[champion=anivia]]\n\n[[champion=garen]]→[[champion=kaisa]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=anivia]]→ [[champion=braum]][[champion=volibear]]\n\n[[champion=kaisa]]→ [[champion=kayle]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]] → [[champion=kayle]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n[[item=runaans-hurricane]]→ [[champion=ashe]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n",
-      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano Individual;\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Forte contra inimigos agrupados;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de nível 5;\n- Dependente de Kindred (bônus [[trait=phantom]][[trait=ranger]]\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=braum]]\n\n#### Meio do Jogo:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→ [[champion=sejuani]]\n\n\n#### Fim do Jogo:\n\n\n[[champion=braum]]→ [[champion=anivia]]\n\n[[champion=garen]]→[[champion=kaisa]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=anivia]]→ [[champion=braum]][[champion=volibear]]\n\n[[champion=kaisa]]→ [[champion=kayle]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]] → [[champion=kayle]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n[[item=runaans-hurricane]]→ [[champion=ashe]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n"
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong single damage;\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Strong against grouped enemies;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 3.5 coins);\n- Dependent of two tier 5 champions;\n- Dependent of Kindred (bonus [[trait=phantom]][[trait=ranger]]\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n[[item=hush]]\n\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=braum]]\n\n#### Mid Game:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→ [[champion=sejuani]]\n\n\n#### Late Game:\n\n\n[[champion=braum]]→ [[champion=anivia]]\n\n[[champion=garen]]→[[champion=kaisa]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=anivia]]→ [[champion=braum]][[champion=volibear]]\n\n[[champion=kaisa]]→ [[champion=kayle]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=giant-slayer]]→[[trait=ranger]]\n\n[[item=frozen-mallet]] → [[champion=kayle]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n[[item=runaans-hurricane]]→ [[champion=ashe]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano Individual;\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Forte contra inimigos agrupados;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de nível 5;\n- Dependente de Kindred (bônus [[trait=phantom]][[trait=ranger]]\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=braum]]\n\n#### Meio do Jogo:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→ [[champion=sejuani]]\n\n\n#### Fim do Jogo:\n\n\n[[champion=braum]]→ [[champion=anivia]]\n\n[[champion=garen]]→[[champion=kaisa]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=anivia]]→ [[champion=braum]][[champion=volibear]]\n\n[[champion=kaisa]]→ [[champion=kayle]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=giant-slayer]]→[[trait=ranger]]\n\n[[item=frozen-mallet]] → [[champion=kayle]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n[[item=runaans-hurricane]]→ [[champion=ashe]] [[champion=vayne]][[champion=varus]] [[champion=kindred]][[champion=kaisa]]\n\n"
     }
   },
   {
@@ -140,42 +204,74 @@
     "composition": [
       {
         "champion": "98",
-        "items": ["77", "66", "59"],
+        "items": [
+          "77",
+          "66",
+          "59"
+        ],
         "isCarry": true
       },
       {
         "champion": "107",
-        "items": ["15", "16", "19"],
+        "items": [
+          "15",
+          "16",
+          "19"
+        ],
         "isCarry": false
       },
       {
         "champion": "28",
-        "items": ["44", "44", "13"],
+        "items": [
+          "44",
+          "44",
+          "13"
+        ],
         "isCarry": false
       },
       {
         "champion": "555",
-        "items": ["14", "14", "23"],
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
         "isCarry": false
       },
       {
         "champion": "85",
-        "items": ["66", "15", "37"],
+        "items": [
+          "66",
+          "15",
+          "37"
+        ],
         "isCarry": false
       },
       {
         "champion": "238",
-        "items": ["19", "15", "16"],
+        "items": [
+          "19",
+          "15",
+          "16"
+        ],
         "isCarry": true
       },
       {
         "champion": "84",
-        "items": ["44", "19", "49"],
+        "items": [
+          "44",
+          "19",
+          "49"
+        ],
         "isCarry": true
       },
       {
         "champion": "145",
-        "items": ["23", "16", "19"],
+        "items": [
+          "23",
+          "16",
+          "19"
+        ],
         "isCarry": false
       }
     ],
@@ -205,42 +301,74 @@
     "composition": [
       {
         "champion": "150",
-        "items": ["77", "45", "66"],
+        "items": [
+          "77",
+          "45",
+          "66"
+        ],
         "isCarry": false
       },
       {
         "champion": "266",
-        "items": ["13", "66", "77"],
+        "items": [
+          "13",
+          "66",
+          "77"
+        ],
         "isCarry": true
       },
       {
         "champion": "110",
-        "items": ["23", "14", "19"],
+        "items": [
+          "23",
+          "14",
+          "19"
+        ],
         "isCarry": false
       },
       {
         "champion": "50",
-        "items": ["37", "15", "77"],
+        "items": [
+          "37",
+          "15",
+          "77"
+        ],
         "isCarry": true
       },
       {
         "champion": "60",
-        "items": ["57", "46", "77"],
+        "items": [
+          "57",
+          "46",
+          "77"
+        ],
         "isCarry": false
       },
       {
         "champion": "63",
-        "items": ["14", "23", "33"],
+        "items": [
+          "14",
+          "23",
+          "33"
+        ],
         "isCarry": false
       },
       {
         "champion": "119",
-        "items": ["16", "19", "22"],
+        "items": [
+          "16",
+          "19",
+          "22"
+        ],
         "isCarry": true
       },
       {
         "champion": "25",
-        "items": ["37", "15", "66"],
+        "items": [
+          "37",
+          "15",
+          "66"
+        ],
         "isCarry": false
       }
     ],
@@ -270,42 +398,74 @@
     "composition": [
       {
         "champion": "67",
-        "items": ["23", "22", "19"],
+        "items": [
+          "23",
+          "22",
+          "19"
+        ],
         "isCarry": false
       },
       {
         "champion": "222",
-        "items": ["68", "19", "46"],
+        "items": [
+          "68",
+          "19",
+          "46"
+        ],
         "isCarry": true
       },
       {
         "champion": "236",
-        "items": ["44", "34", "13"],
+        "items": [
+          "44",
+          "34",
+          "13"
+        ],
         "isCarry": false
       },
       {
         "champion": "10",
-        "items": ["14", "14", "23"],
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
         "isCarry": false
       },
       {
         "champion": "114",
-        "items": ["16", "15", "66"],
+        "items": [
+          "16",
+          "15",
+          "66"
+        ],
         "isCarry": false
       },
       {
         "champion": "86",
-        "items": ["37", "45", "25"],
+        "items": [
+          "37",
+          "45",
+          "25"
+        ],
         "isCarry": false
       },
       {
         "champion": "89",
-        "items": ["15", "77", "66"],
+        "items": [
+          "15",
+          "77",
+          "66"
+        ],
         "isCarry": true
       },
       {
         "champion": "254",
-        "items": ["45", "77", "15"],
+        "items": [
+          "45",
+          "77",
+          "15"
+        ],
         "isCarry": false
       }
     ],
@@ -335,42 +495,74 @@
     "composition": [
       {
         "champion": "30",
-        "items": ["44", "44", "33"],
+        "items": [
+          "44",
+          "44",
+          "33"
+        ],
         "isCarry": false
       },
       {
         "champion": "136",
-        "items": ["14", "23", "33"],
+        "items": [
+          "14",
+          "23",
+          "33"
+        ],
         "isCarry": true
       },
       {
         "champion": "38",
-        "items": ["15", "66", "23"],
+        "items": [
+          "15",
+          "66",
+          "23"
+        ],
         "isCarry": false
       },
       {
         "champion": "203",
-        "items": ["24", "24", "15"],
+        "items": [
+          "24",
+          "24",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "89",
-        "items": ["67", "66", "15"],
+        "items": [
+          "67",
+          "66",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "80",
-        "items": ["14", "14", "77"],
+        "items": [
+          "14",
+          "14",
+          "77"
+        ],
         "isCarry": false
       },
       {
         "champion": "421",
-        "items": ["45", "77", "15"],
+        "items": [
+          "45",
+          "77",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "31",
-        "items": ["37", "15", "33"],
+        "items": [
+          "37",
+          "15",
+          "33"
+        ],
         "isCarry": true
       }
     ],
@@ -400,42 +592,74 @@
     "composition": [
       {
         "champion": "89",
-        "items": ["67", "15", "66"],
+        "items": [
+          "67",
+          "15",
+          "66"
+        ],
         "isCarry": false
       },
       {
         "champion": "113",
-        "items": ["44", "77", "66"],
+        "items": [
+          "44",
+          "77",
+          "66"
+        ],
         "isCarry": true
       },
       {
         "champion": "82",
-        "items": ["45", "66", "15"],
+        "items": [
+          "45",
+          "66",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "110",
-        "items": ["23", "14", "19"],
+        "items": [
+          "23",
+          "14",
+          "19"
+        ],
         "isCarry": false
       },
       {
         "champion": "203",
-        "items": ["24", "24", "15"],
+        "items": [
+          "24",
+          "24",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "80",
-        "items": ["14", "14", "77"],
+        "items": [
+          "14",
+          "14",
+          "77"
+        ],
         "isCarry": false
       },
       {
         "champion": "22",
-        "items": ["23", "68", "46"],
+        "items": [
+          "23",
+          "68",
+          "46"
+        ],
         "isCarry": true
       },
       {
         "champion": "145",
-        "items": ["23", "16", "19"],
+        "items": [
+          "23",
+          "16",
+          "19"
+        ],
         "isCarry": false
       }
     ],
@@ -450,8 +674,8 @@
       "3,2": "145"
     },
     "guide": {
-      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong single damage;\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Extra survivability thanks to Kindred’s ability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Weak against spread out enemies;\n- Strongly dependent of Kindred ([[trait=phantom]] [[trait=ranger]] bonus);\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=garen]]→[[champion=sejuani]] \n\n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Late Game:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n\n[[item=darkin]]→[[champion=sejuani]]\n\n\n",
-      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano Individual;\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Sobrevivência extra graças à habilidade de Kindred;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fraco contra inimigos espalhados;\n- Fortemente dependente de Kindred (bônus [[trait=phantom]] [[trait=ranger]];\n- Dependente de dois campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=garen]]→[[champion=sejuani]]\n \n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Fim do Jogo:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n[[item=darkin]]→[[champion=sejuani]]\n\n"
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong single damage;\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Extra survivability thanks to Kindred’s ability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Weak against spread out enemies;\n- Strongly dependent of Kindred ([[trait=phantom]] [[trait=ranger]] bonus);\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=garen]]→[[champion=sejuani]] \n\n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Late Game:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=giant-slayer]]→[[trait=ranger]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n\n[[item=darkin]]→[[champion=sejuani]]\n\n",
+      "pt_br": "\n\n### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano Individual;\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Sobrevivência extra graças à habilidade de Kindred;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fraco contra inimigos espalhados;\n- Fortemente dependente de Kindred (bônus [[trait=phantom]] [[trait=ranger]];\n- Dependente de dois campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=yordle]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=vayne]]\n[[champion=varus]]\n[[champion=garen]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=garen]]→[[champion=sejuani]]\n \n[[champion=fiora]]→[[champion=leona]]\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n\n#### Fim do Jogo:\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n[[champion=pantheon]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=giant-slayer]]→[[trait=ranger]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]][[champion=pantheon]][[champion=leona]]\n\n[[item=runaans-hurricane]]→[[champion=ashe]][[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=kaisa]]\n[[item=darkin]]→[[champion=sejuani]]\n\n\n"
     }
   },
   {
@@ -465,42 +689,74 @@
     "composition": [
       {
         "champion": "84",
-        "items": ["44", "33", "13"],
+        "items": [
+          "44",
+          "33",
+          "13"
+        ],
         "isCarry": false
       },
       {
         "champion": "38",
-        "items": ["18", "23", "19"],
+        "items": [
+          "18",
+          "23",
+          "19"
+        ],
         "isCarry": true
       },
       {
         "champion": "107",
-        "items": ["19", "15", "16"],
+        "items": [
+          "19",
+          "15",
+          "16"
+        ],
         "isCarry": false
       },
       {
         "champion": "121",
-        "items": ["19", "23", "13"],
+        "items": [
+          "19",
+          "23",
+          "13"
+        ],
         "isCarry": false
       },
       {
         "champion": "421",
-        "items": ["45", "77", "15"],
+        "items": [
+          "45",
+          "77",
+          "15"
+        ],
         "isCarry": false
       },
       {
         "champion": "31",
-        "items": ["15", "37", "33"],
+        "items": [
+          "15",
+          "37",
+          "33"
+        ],
         "isCarry": true
       },
       {
         "champion": "555",
-        "items": ["14", "14", "13"],
+        "items": [
+          "14",
+          "14",
+          "13"
+        ],
         "isCarry": false
       },
       {
         "champion": "145",
-        "items": ["19", "16", "23"],
+        "items": [
+          "19",
+          "16",
+          "23"
+        ],
         "isCarry": true
       }
     ],
@@ -517,6 +773,782 @@
     "guide": {
       "en_us": "### 1. PROS\n\n- Strong burst damage;\n- Strong single damage;\n- Low cost champions (median cost: 2.5 coins);\n\n\n### 2. CONS\n\n- Weak against grouped enemies;\n- Low defense;\n- Weak against [[item=phantom-dancer]];\n- Dependent of [[item=youmuus-ghostblade]] in Kassadin;\n\n\n### 3. WEAKNESS\n\n[[trait=knight]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=guardian]]\n\n[[item=iceborn-gauntlet]]\n[[item=frozen-heart]]\n[[item=phantom-dancer]]\n[[item=sword-breaker]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=kassadin]]\n[[champion=khazix]]\n[[champion=reksai]]\n[[champion=pyke]]\n[[champion=zed]]\n\n#### Mid Game:\n\n[[champion=evelynn]]\n\n[[champion=chogath]]\n\n[[champion=zed]]→[[champion=akali]]\n\n#### Late Game:\n\n[[champion=evelynn]]→[[champion=kaisa]]\n\n[[champion=rengar]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=akali]]→[[champion=zed]]\n\n[[champion=rengar]]→[[champion=katarina]][[champion=evelynn]]\n\n### 6. USEFUL ITEMS\n\n\n[[item=force-of-nature]]\n\n[[item=youmuus-ghostblade]]→[[champion=kassadin]]\n[[champion=reksai]][[champion=chogath]]\n\n",
       "pt_br": "### 1. PRÓS\n\n- Forte explosão de dano;\n- Forte dano Individual;\n- Campeões de baixo custo (custo mediano: 2,5 moedas);\n\n\n### 2. CONTRAS\n\n- Fraco contra inimigos agrupados;\n- Defesa baixa;\n- Fraco contra [[item=phantom-dancer]];\n- Dependente de [[item=youmuus-ghostblade]] em Kassadin;\n\n\n### 3. FRAQUEZA\n\n[[trait=knight]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=guardian]]\n\n[[item=iceborn-gauntlet]]\n[[item=frozen-heart]]\n[[item=phantom-dancer]]\n[[item=sword-breaker]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=kassadin]]\n[[champion=khazix]]\n[[champion=reksai]]\n[[champion=pyke]]\n[[champion=zed]]\n\n#### Meio do Jogo:\n\n[[champion=evelynn]]\n\n[[champion=chogath]]\n\n[[champion=zed]]→[[champion=akali]]\n\n#### Fim do Jogo:\n\n[[champion=evelynn]]→[[champion=kaisa]]\n\n[[champion=rengar]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=akali]]→[[champion=zed]]\n\n[[champion=rengar]]→[[champion=katarina]][[champion=evelynn]]\n\n### 6. ITENS ÚTEIS\n\n\n[[item=force-of-nature]]\n\n[[item=youmuus-ghostblade]]→[[champion=kassadin]]\n[[champion=reksai]][[champion=chogath]]\n\n"
+    }
+  },
+  {
+    "id": "529f6757-efe4-469e-b9e6-b66d676adbab",
+    "key": "",
+    "name": {
+      "en_us": "Yordles Shapeshifters Sorcerers",
+      "pt_br": "Yordles Transmorfos Feiticeiros"
+    },
+    "tier": "S",
+    "composition": [
+      {
+        "champion": "113",
+        "items": [
+          "44",
+          "77",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "78",
+        "items": [
+          "59",
+          "66",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "102",
+        "items": [
+          "23",
+          "13",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "103",
+        "items": [
+          "23",
+          "14",
+          "34"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "150",
+        "items": [
+          "77",
+          "66",
+          "59"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "50",
+        "items": [
+          "15",
+          "37",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "117",
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "136",
+        "items": [
+          "14",
+          "23",
+          "33"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "113",
+      "1,2": "78",
+      "1,3": "102",
+      "2,1": "103",
+      "2,2": "150",
+      "2,3": "50",
+      "3,1": "117",
+      "3,2": "136"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong area damage;\n- Strong against grouped enemies;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 3.5 coins);\n- Strongly mana’s dependent;\n- Strongly focused on magic damage;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=glacial]]\n[[trait=dragon]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=lulu]]\n[[champion=tristana]]\n[[champion=kennen]]\n[[champion=veigar]]\n[[champion=ahri]]\n\n\n#### Mid Game:\n\n[[champion=tristana]]→[[champion=poppy]]\n\n[[champion=kennen]]→[[champion=gnar]]\n\n[[champion=shyvana]]\n\n[[champion=sejuani]]\n\n\n#### Late Game:\n\n[[champion=veigar]]→[[champion=aurelion-sol]]\n\n[[champion=swain]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n\n[[champion=ahri]]→[[champion=veigar]]\n\n[[champion=swain]]→[[champion=elise]]\n\n[[champion=sejuani]]→[[champion=pantheon]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=yuumi]]→[[champion=swain]][[champion=shyvana]]\n\n[[item=darkin]]→[[champion=sejuani]]\n\n[[item=knights-vow]]→[[champion=shyvana]][[champion=gnar]] [[champion=pantheon]]\n\n[[item=mittens]]→[[champion=shyvana]][[champion=swain]][[champion=sejuani]][[champion=aurelion-sol]][[champion=ahri]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano em área;\n- Forte contra inimigos agrupados;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Fortemente dependente de mana;\n- Composição fortemente focada em dano mágico.\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=glacial]]\n[[trait=dragon]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=lulu]]\n[[champion=tristana]]\n[[champion=kennen]]\n[[champion=veigar]]\n[[champion=ahri]]\n\n\n#### Meio do Jogo:\n\n[[champion=tristana]]→[[champion=poppy]]\n\n[[champion=kennen]]→[[champion=gnar]]\n\n[[champion=shyvana]]\n\n[[champion=sejuani]]\n\n\n#### Fim do Jogo:\n\n[[champion=veigar]]→[[champion=aurelion-sol]]\n\n[[champion=swain]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n\n[[champion=ahri]]→[[champion=veigar]]\n\n[[champion=swain]]→[[champion=elise]]\n\n[[champion=sejuani]]→[[champion=pantheon]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=yuumi]]→[[champion=swain]][[champion=shyvana]]\n\n[[item=darkin]]→[[champion=sejuani]]\n\n[[item=knights-vow]]→[[champion=shyvana]][[champion=gnar]] [[champion=pantheon]]\n\n[[item=mittens]]→[[champion=shyvana]][[champion=swain]][[champion=sejuani]][[champion=aurelion-sol]][[champion=ahri]]\n\n"
+    }
+  },
+  {
+    "id": "5cbc0b91-b1bb-4fd8-b10e-c2d8fe89382f",
+    "key": "",
+    "name": {
+      "en_us": "Demons Shapeshifters Guardians",
+      "pt_br": "Demônios Transmorfos Guardiões"
+    },
+    "tier": "S",
+    "composition": [
+      {
+        "champion": "25",
+        "items": [
+          "37",
+          "66",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "63",
+        "items": [
+          "14",
+          "23",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "28",
+        "items": [
+          "44",
+          "44",
+          "13"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "89",
+        "items": [
+          "67",
+          "66",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "80",
+        "items": [
+          "14",
+          "14",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "50",
+        "items": [
+          "15",
+          "37",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "150",
+        "items": [
+          "66",
+          "77",
+          "27"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "102",
+        "items": [
+          "23",
+          "13",
+          "77"
+        ],
+        "isCarry": true
+      }
+    ],
+    "positioning": {
+      "3,2": "25",
+      "3,3": "63",
+      "3,4": "28",
+      "2,3": "89",
+      "2,4": "80",
+      "2,5": "50",
+      "1,3": "150",
+      "1,4": "102"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong area damage;\n- Strong survivability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Need to swap champions during the match;\n -  Dependent of two tier 5 champions (Pantheon e Swain).\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=quicksilver]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=nidalee]]\n[[champion=elise]]\n[[champion=varus]]\n[[champion=jayce]]\n\n#### Mid Game:\n\n[[champion=evelynn]]\n\n[[champion=nidalee]]→[[champion=shyvana]]\n\n[[champion=varus]]→[[champion=morgana]]\n\n[[champion=jayce]]→ [[champion=gnar]]\n\n[[champion=brand]]\n\n[[champion=leona]]\n\n#### Late Game:\n\n[[champion=elise]]→[[champion=swain]]\n\n[[champion=pantheon]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=swain]]→[[champion=elise]]\n\n[[champion=evelynn]]→[[champion=aatrox]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=shyvana]]\n\n[[item=runaans-hurricane]]→[[champion=morgana]][[champion=brand]]\n[[champion=swain]]\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano em área;\n- Forte sobrevivência;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Necessita de troca de campeões ao longo da partida;\n- Dependente de dois campeões de Nível 5 (Pantheon e Swain).\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=quicksilver]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=nidalee]]\n[[champion=elise]]\n[[champion=varus]]\n[[champion=jayce]]\n\n#### Meio do Jogo:\n\n[[champion=evelynn]]\n\n[[champion=nidalee]]→[[champion=shyvana]]\n\n[[champion=varus]]→[[champion=morgana]]\n\n[[champion=jayce]]→ [[champion=gnar]]\n\n[[champion=brand]]\n\n[[champion=leona]]\n\n#### Fim do Jogo:\n\n[[champion=elise]]→[[champion=swain]]\n\n[[champion=pantheon]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=swain]]→[[champion=elise]]\n\n[[champion=evelynn]]→[[champion=aatrox]]\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=shyvana]]\n\n[[item=runaans-hurricane]]→[[champion=morgana]][[champion=brand]]\n[[champion=swain]]\n"
+    }
+  },
+  {
+    "id": "befa50db-85b3-4199-a860-6fcc1c0a943c",
+    "key": "",
+    "name": {
+      "en_us": "Shapeshifters Guardians",
+      "pt_br": "Transmorfos Guardiões"
+    },
+    "tier": "S",
+    "composition": [
+      {
+        "champion": "60",
+        "items": [
+          "57",
+          "46",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "76",
+        "items": [
+          "66",
+          "77",
+          "23"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "126",
+        "items": [
+          "23",
+          "77",
+          "24"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "89",
+        "items": [
+          "67",
+          "66",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "150",
+        "items": [
+          "27",
+          "77",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "80",
+        "items": [
+          "14",
+          "14",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "102",
+        "items": [
+          "23",
+          "13",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "50",
+        "items": [
+          "15",
+          "37",
+          "77"
+        ],
+        "isCarry": true
+      }
+    ],
+    "positioning": {
+      "3,2": "60",
+      "3,3": "76",
+      "3,4": "126",
+      "2,3": "89",
+      "1,2": "150",
+      "1,3": "80",
+      "2,2": "102",
+      "2,4": "50"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong survivability;\n- Strong against grouped enemies;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 3.5 coins);\n- Dependent of two tier 5 champions (Pantheon e Swain).\n- Strongly dependent of  mana to transform;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=quicksilver]]\n[[item=giant-slayer]]\n[[item=red-buff]]\n[[item=morellonomicon]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=nidalee]]\n[[champion=elise]]\n[[champion=jayce]]\n[[champion=ahri]]\n\n#### Mid Game:\n\n[[champion=shyvana]]\n[[champion=leona]]\n[[champion=gnar]]\n[[champion=vi]]\n\n#### Late Game:\n\n[[champion=ahri]]→[[champion=swain]]\n\n[[champion=vi]]→[[champion=pantheon]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=shyvana]]\n[[champion=jayce]][[champion=nidalee]]\n\n[[item=runaans-hurricane]]→[[champion=jayce]][[champion=swain]]\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte sobrevivência;\n- Forte contra inimigos agrupados;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de Nível 5 (Pantheon e Swain).\n- Fortemente dependente de mana para transformar;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=quicksilver]]\n[[item=giant-slayer]]\n[[item=red-buff]]\n[[item=morellonomicon]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=nidalee]]\n[[champion=elise]]\n[[champion=jayce]]\n[[champion=ahri]]\n\n#### Meio do Jogo:\n\n[[champion=shyvana]]\n[[champion=leona]]\n[[champion=gnar]]\n[[champion=vi]]\n\n#### Fim do Jogo:\n\n[[champion=ahri]]→[[champion=swain]]\n\n[[champion=vi]]→[[champion=pantheon]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=leona]]→[[champion=braum]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=shyvana]]\n[[champion=jayce]][[champion=nidalee]]\n\n[[item=runaans-hurricane]]→[[champion=jayce]][[champion=swain]]\n"
+    }
+  },
+  {
+    "id": "a118b0aa-9647-439c-bb7c-d510c548c0a4",
+    "key": "",
+    "name": {
+      "en_us": "Rangers Elementalists Glacial",
+      "pt_br": "Patrulheiros Elementalistas Glaciais"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "127",
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "113",
+        "items": [
+          "77",
+          "66",
+          "15"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "203",
+        "items": [
+          "15",
+          "24",
+          "24"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "63",
+        "items": [
+          "23",
+          "14",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "110",
+        "items": [
+          "23",
+          "14",
+          "19"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "22",
+        "items": [
+          "23",
+          "68",
+          "46"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "34",
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "145",
+        "items": [
+          "23",
+          "16",
+          "19"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "127",
+      "1,2": "113",
+      "2,2": "203",
+      "2,3": "63",
+      "3,1": "110",
+      "2,1": "22",
+      "3,2": "34",
+      "3,3": "145"
+    },
+    "guide": {
+      "en_us": "\n### 1. PROS\n\n- Strong against grouped enemies;\n- Strong crowd control;\n- Strong single damage;\n- Extra survivability thanks to Kindred’s ability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Dependent of two tier 5 champions;\n- Few tanks;\n- Squishy champions;\n\n\n### 3. WEAKNESS\n\n[[trait=assassin]]\n[[trait=glacial]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=vayne]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=varus]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n\n#### Mid Game:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→[[champion=brand]]\n\n[[champion=garen]]→[[champion=sejuani]]\n\n\n#### Late Game:\n\n[[champion=braum]]→[[champion=anivia]]\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=brand]]→[[champion=kennen]]\n\n[[champion=anivia]]→[[champion=braum]]\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]→[[trait=ranger]]\n\n[[item=runaans-hurricane]]→[[trait=ranger]]\n\n[[item=darkin]]→ [[champion=vayne]][[champion=kindred]][[champion=vayne]][[champion=ashe]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=brand]][[champion=vayne]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte contra inimigos agrupados;\n- Forte controle de multidão;\n- Forte dano Individual;\n- Sobrevivência extra graças à habilidade de Kindred;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Dependente de dois campeões de nível 5;\n- Poucos campeões tanques;\n- Campeões de baixo poder defensivo;\n\n\n### 3. FRAQUEZA\n\n[[trait=assassin]]\n[[trait=glacial]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=quicksilver]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=vayne]]\n[[champion=garen]]\n[[champion=fiora]]\n[[champion=varus]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n\n#### Meio do Jogo:\n\n[[champion=ashe]]\n\n[[champion=kindred]]\n\n[[champion=fiora]]→[[champion=brand]]\n\n[[champion=garen]]→[[champion=sejuani]]\n\n\n#### Fim do Jogo:\n\n[[champion=braum]]→[[champion=anivia]]\n\n[[champion=vayne]]→[[champion=kaisa]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=brand]]→[[champion=kennen]]\n\n[[champion=anivia]]→[[champion=braum]]\n\n[[champion=kaisa]]→[[champion=vayne]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]→[[trait=ranger]]\n\n[[item=runaans-hurricane]]→[[trait=ranger]]\n\n[[item=darkin]]→ [[champion=vayne]][[champion=kindred]][[champion=vayne]][[champion=ashe]]\n\n[[item=frozen-mallet]]→[[champion=vayne]][[champion=varus]][[champion=kindred]][[champion=brand]][[champion=vayne]]\n\n\n\n"
+    }
+  },
+  {
+    "id": "6ee5060a-7e36-41cf-abd3-16dd348bcbfb",
+    "key": "",
+    "name": {
+      "en_us": "Blademaster Gunslinger Hextech",
+      "pt_br": "Mestre das Lâminas Pistoleiros Hextech"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "164",
+        "items": [
+          "66",
+          "15",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "98",
+        "items": [
+          "15",
+          "77",
+          "66"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "157",
+        "items": [
+          "77",
+          "66",
+          "44"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "236",
+        "items": [
+          "28",
+          "46",
+          "23"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "41",
+        "items": [
+          "15",
+          "66",
+          "13"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "21",
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "119",
+        "items": [
+          "19",
+          "23",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "222",
+        "items": [
+          "68",
+          "46",
+          "19"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "164",
+      "1,2": "98",
+      "1,4": "157",
+      "2,1": "236",
+      "2,2": "41",
+      "3,1": "21",
+      "3,2": "119",
+      "3,3": "222"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong single damage;\n- Disables enemy items at the beginning of the turn;\n- Strong burst damage;\n\n\n### 2. CONS\n\n- Weak crowd control;\n- Weak survivability;\n- High cost champions (median cost: 3.5 coins);\n- Dependent of two tier 5 champions;\n- Dependent of [[item=blade-of-the-ruined-king]] on Lucian (or another Gunslinger);\n\n\n### 3. WEAKNESS\n\n[[trait=glacial]]\n[[trait=noble]]\n[[trait=assassin]]\n[[trait=ninja]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Late Game:\n\n[[champion=miss-fortune]]\n[[champion=yasuo]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]][[champion=fiora]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n- Forte explosão de dano;\n\n\n### 2. CONTRAS\n\n- Fraco controle de multidões;\n- Fraca sobrevivência;\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de Nível 5;\n- Dependente de [[item=blade-of-the-ruined-king]] em Lucian (ou outro pistoleiro);\n\n\n### 3. FRAQUEZA\n\n[[trait=glacial]]\n[[trait=noble]]\n[[trait=assassin]]\n[[trait=ninja]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Fim do Jogo:\n\n[[champion=miss-fortune]]\n\n[[champion=yasuo]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]]\n[[champion=fiora]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=gangplank]]\n[[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n\n"
+    }
+  },
+  {
+    "id": "a6bab652-f56f-43ad-941b-6c61b1c657a5",
+    "key": "",
+    "name": {
+      "en_us": "Imperials Blademasters",
+      "pt_br": "Imperiais Mestre das Lâminas"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "266",
+        "items": [
+          "66",
+          "13",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "122",
+        "items": [
+          "66",
+          "13",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "113",
+        "items": [
+          "44",
+          "77",
+          "66"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "157",
+        "items": [
+          "34",
+          "66",
+          "44"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "10",
+        "items": [
+          "23",
+          "14",
+          "14"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "119",
+        "items": [
+          "19",
+          "16",
+          "23"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "50",
+        "items": [
+          "15",
+          "37",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "55",
+        "items": [
+          "44",
+          "44",
+          "33"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "266",
+      "1,2": "122",
+      "1,3": "113",
+      "1,5": "157",
+      "3,1": "10",
+      "3,2": "119",
+      "2,3": "50",
+      "3,4": "55"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong area damage;\n- Strong survivability;\n- Main DPS deal double damage (imperials' bonus);\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Weak crowd control;\n- Strongly dependent of Swain ([[trait=imperial]] bonus);\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=dragons-claw]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=shen]]\n\n\n#### Mid Game:\n\n[[champion=katarina]]\n\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=aatrox]]\n\n[[champion=swain]]\n\n#### Late Game:\n\n[[champion=shen]]→[[champion=kayle]]\n\n[[champion=fiora]]→[[champion=yasuo]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=aatrox]][[champion=yasuo]]→[[champion=fiora]]\n[[champion=shen]]\n\n[[champion=kayle]]→[[champion=chogath]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=kayle]][[champion=katarina]][[champion=darius]]\n\n[[item=darkin]]→[[champion=kayle]][[champion=draven]][[champion=yasuo]]\n\n[[item=frozen-mallet]]→[[champion=kayle]][[champion=draven]]\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte dano em área;\n- Forte sobrevivência;\n- Principais DPS causam dobro de dano (bônus de imperiais);\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Fraco controle de grupo;\n- Fortemente dependente de Swain (bônus de [[trait=imperial]]) );\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=dragons-claw]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=shen]]\n\n\n#### Meio do Jogo:\n\n[[champion=katarina]]\n\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=aatrox]]\n\n[[champion=swain]]\n\n#### Fim do Jogo:\n\n[[champion=shen]]→[[champion=kayle]]\n\n[[champion=fiora]]→[[champion=yasuo]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=aatrox]][[champion=yasuo]]→[[champion=fiora]][[champion=shen]]\n\n[[champion=kayle]]→[[champion=chogath]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=kayle]][[champion=katarina]][[champion=darius]]\n\n[[item=darkin]]→[[champion=kayle]][[champion=draven]][[champion=yasuo]]\n\n[[item=frozen-mallet]]→[[champion=kayle]][[champion=draven]]\n"
+    }
+  },
+  {
+    "id": "597326fb-6795-4bb6-96b9-49aac80e190f",
+    "key": "",
+    "name": {
+      "en_us": "Elementalists Yordles Demons",
+      "pt_br": "Elementalistas Yordles Demônios"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "150",
+        "items": [
+          "66",
+          "77",
+          "59"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "113",
+        "items": [
+          "44",
+          "66",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "78",
+        "items": [
+          "66",
+          "55",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "85",
+        "items": [
+          "15",
+          "66",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "50",
+        "items": [
+          "15",
+          "37",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "63",
+        "items": [
+          "23",
+          "14",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "34",
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "60",
+        "items": [
+          "77",
+          "57",
+          "46"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "150",
+      "1,2": "113",
+      "1,3": "78",
+      "2,2": "85",
+      "2,3": "50",
+      "3,1": "63",
+      "3,2": "34",
+      "3,3": "60"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong area damage;\n- Strong survivability;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Dependent of two tier 5 champions;\n- Need to equip [[item=darkin]] in some champion to obtain Demon's bonus;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=dragon]]\n[[trait=wild]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=elise]]\n[[champion=lissandra]]\n[[champion=tristana]]\n[[champion=nidalee]]\n\n#### Mid Game:\n\n[[champion=poppy]]\n\n[[champion=sejuani]]\n\n[[champion=tristana]]→[[champion=kennen]]\n\n[[champion=nidalee]]→[[champion=gnar]]\n\n[[champion=lissandra]]→[[champion=brand]]\n\n\n#### Late Game:\n\n[[champion=anivia]]\n[[champion=swain]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=anivia]]→[[champion=lissandra]]\n\n[[champion=elise]]→[[champion=shyvana]][[champion=nidalee]]\n\n[[champion=jayce]]+[[item=darkin]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=sejuani]][[champion=poppy]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=gnar]][[champion=kennen]][[champion=swain]][[champion=brand]]\n\n[[item=mittens]]→[[champion=sejuani]][[champion=swain]][[champion=elise]][[champion=anivia]][[champion=brand]]\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte dano em área;\n- Forte sobrevivência;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Dependente de dois campeões de nível 5;\n- Necessita do item [[item=darkin]] em algum campeão para obter bônus de demônios.\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=dragon]]\n[[trait=wild]]\n\n[[item=hush]]\n[[item=dragons-claw]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=elise]]\n[[champion=lissandra]]\n[[champion=tristana]]\n[[champion=nidalee]]\n\n#### Meio do Jogo:\n\n[[champion=poppy]]\n\n[[champion=sejuani]]\n\n[[champion=tristana]]→[[champion=kennen]]\n\n[[champion=nidalee]]→[[champion=gnar]]\n\n[[champion=lissandra]]→[[champion=brand]]\n\n\n#### Fim do Jogo:\n\n[[champion=anivia]]\n[[champion=swain]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=anivia]]→[[champion=lissandra]]\n\n[[champion=elise]]→[[champion=shyvana]][[champion=nidalee]]\n\n[[champion=jayce]]+[[item=darkin]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=darkin]]→[[champion=gnar]][[champion=sejuani]]\n[[champion=poppy]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=gnar]][[champion=kennen]]\n[[champion=swain]][[champion=brand]]\n\n[[item=mittens]]→[[champion=sejuani]][[champion=swain]][[champion=elise]][[champion=anivia]][[champion=brand]]\n"
+    }
+  },
+  {
+    "id": "a1b66359-3d09-4119-847f-24626fa66fd6",
+    "key": "",
+    "name": {
+      "en_us": "Demons Sorcerers Guardians",
+      "pt_br": "Demônios Feiticeiros Guardiões"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "266",
+        "items": [
+          "66",
+          "13",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "25",
+        "items": [
+          "37",
+          "15",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "63",
+        "items": [
+          "23",
+          "14",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "89",
+        "items": [
+          "77",
+          "66",
+          "15"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "80",
+        "items": [
+          "14",
+          "14",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "30",
+        "items": [
+          "44",
+          "44",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "136",
+        "items": [
+          "23",
+          "14",
+          "33"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "28",
+        "items": [
+          "44",
+          "44",
+          "13"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "266",
+      "1,2": "25",
+      "2,1": "63",
+      "2,2": "89",
+      "2,3": "80",
+      "3,1": "30",
+      "3,2": "136",
+      "3,3": "28"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong area damage;\n- Strong against grouped enemies;\n- Strong crowd control;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Dependent of two tier 5 champions;\n- Strongly dependent of magic damage;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=dragon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=quicksilver]]\n[[item=dragons-claw]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=ahri]]\n[[champion=braum]]\n\n\n#### Mid Game:\n\n[[champion=evelynn]]\n\n[[champion=kassadin]]→[[champion=aatrox]]\n\n[[champion=lulu]]→[[champion=morgana]]\n\n[[champion=ahri]]→[[champion=aurelion-sol]]\n\n[[champion=braum]]→[[champion=leona]]\n\n[[champion=brand]]\n\n\n#### Late Game:\n\n[[champion=pantheon]]\n[[champion=karthus]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=leona]]→[[champion=braum]]\n\n[[champion=brand]]→[[champion=swain]][[champion=varus]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=yuumi]]→[[champion=brand]][[champion=aatrox]]\n[[champion=evelynn]]\n\n[[item=darkin]]→[[champion=pantheon]][[champion=leona]][[champion=aurelion-sol]][[champion=karthus]]\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte dano em área;\n- Forte contra inimigos agrupados;\n- Forte controle de grupo;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Dependente de dois campeões de nível 5;\n- Fortemente dependente de dano mágico;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=dragon]]\n[[trait=glacial]]\n\n[[item=hush]]\n[[item=quicksilver]]\n[[item=dragons-claw]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=ahri]]\n[[champion=braum]]\n\n\n#### Meio do Jogo:\n\n[[champion=evelynn]]\n\n[[champion=kassadin]]→[[champion=aatrox]]\n\n[[champion=lulu]]→[[champion=morgana]]\n\n[[champion=ahri]]→[[champion=aurelion-sol]]\n\n[[champion=braum]]→[[champion=leona]]\n\n[[champion=brand]]\n\n\n\n#### Fim do Jogo:\n\n[[champion=pantheon]]\n[[champion=karthus]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=leona]]→[[champion=braum]]\n\n[[champion=brand]]→[[champion=swain]][[champion=varus]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=yuumi]]→[[champion=brand]][[champion=aatrox]]\n[[champion=evelynn]]\n\n[[item=darkin]]→[[champion=pantheon]][[champion=leona]][[champion=aurelion-sol]][[champion=karthus]]\n"
     }
   }
 ]
