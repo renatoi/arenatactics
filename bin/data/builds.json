@@ -103,7 +103,7 @@
       "en_us": "Glacial Rangers",
       "pt_br": "Patrulheiros Glaciais"
     },
-    "tier": "A",
+    "tier": "B",
     "composition": [
       {
         "champion": "82",
@@ -297,7 +297,7 @@
       "en_us": "Demon Imperial Shapeshifters",
       "pt_br": "Demônios Imperiais Transmorfos"
     },
-    "tier": "A",
+    "tier": "B",
     "composition": [
       {
         "champion": "150",
@@ -394,7 +394,7 @@
       "en_us": "Nobles Hextech ",
       "pt_br": "Nobres Hextech"
     },
-    "tier": "C",
+    "tier": "B",
     "composition": [
       {
         "champion": "67",
@@ -588,7 +588,7 @@
       "en_us": "Rangers Knights Guardians",
       "pt_br": "Patrulheiros Cavaleiros Guardiões"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "89",
@@ -685,7 +685,7 @@
       "en_us": "Void Assassins",
       "pt_br": "Assassinos e Vastinatas"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "84",
@@ -879,7 +879,7 @@
       "en_us": "Demons Shapeshifters Guardians",
       "pt_br": "Demônios Transmorfos Guardiões"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "25",
@@ -976,7 +976,7 @@
       "en_us": "Shapeshifters Guardians",
       "pt_br": "Transmorfos Guardiões"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "60",
@@ -1073,7 +1073,7 @@
       "en_us": "Rangers Elementalists Glacial",
       "pt_br": "Patrulheiros Elementalistas Glaciais"
     },
-    "tier": "A",
+    "tier": "B",
     "composition": [
       {
         "champion": "127",
@@ -1170,7 +1170,7 @@
       "en_us": "Blademaster Gunslinger Hextech",
       "pt_br": "Mestre das Lâminas Pistoleiros Hextech"
     },
-    "tier": "A",
+    "tier": "B",
     "composition": [
       {
         "champion": "164",
