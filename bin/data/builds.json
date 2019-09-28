@@ -1647,5 +1647,102 @@
       "en_us": "### 1. PROS\n\n- Strong survivability;\n- Strong area damage;\n- Minor need in changing champions’s positions;\n\n\n### 2. CONS\n\n- High cost champions (median cost: 3.5 coins);\n- Strongly mana’s dependent;\n- Dependent of two tier 5 champions;\n- Strongly dependent of Swain ([[trait=imperial]] bonus);\n- Few ranged champions;\n- Dependent of [[item=knights-vow]] to obtain last [[trait=knight]] bonus;\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=void]]\n[[trait=glacial]]\n[[trait=yordle]\n]\n[[item=giant-slayer]]\n[[item=hush]]\n[[item=red-buff]]\n[[item=morellonomicon]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=darius]]\n[[champion=garen]]\n[[champion=mordekaiser]]\n[[champion=fiora]]\n[[champion=vayne]]\n\n\n#### Mid Game:\n\n[[champion=katarina]]\n\n[[champion=vayne]]→[[champion=draven]]\n\n[[champion=fiora]]→[[champion=sejuani]]\n\n[[champion=garen]]→[[champion=poppy]]\n\n\n#### Late Game:\n\n[[champion=kayle]]\n[[champion=swain]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=mordekaiser]]→[[champion=garen]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=knights-vow]]→[[champion=swain]][[champion=draven]][[champion=katarina]]\n\n[[item=frozen-mallet]]→[[champion=draven]][[champion=swain]]\n\n",
       "pt_br": "### 1. PRÓS\n\n- Forte sobrevivência;\n- Forte dano em área;\n- Baixa necessidade de mudança de posicionamento dos campeões;\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Fortemente dependente de mana;\n- Dependente de dois campeões de nível 5;\n- Fortemente dependente de Swain (bônus de [[trait=imperial]]);\n- Poucos campeões de longo alcance;\n- Dependente de [[item=knights-vow]] para obter último bônus de [[trait=knight]];\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=void]]\n[[trait=glacial]]\n[[trait=yordle]]\n\n[[item=giant-slayer]]\n[[item=hush]]\n[[item=red-buff]]\n[[item=morellonomicon]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=darius]]\n[[champion=garen]]\n[[champion=mordekaiser]]\n[[champion=fiora]]\n[[champion=vayne]]\n\n\n#### Meio do Jogo:\n\n[[champion=katarina]]\n\n[[champion=vayne]]→[[champion=draven]]\n\n[[champion=fiora]]→[[champion=sejuani]]\n\n[[champion=garen]]→[[champion=poppy]]\n\n\n#### Fim do Jogo:\n\n[[champion=kayle]]\n[[champion=swain]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=mordekaiser]]→[[champion=garen]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=knights-vow]]→[[champion=swain]][[champion=draven]]\n[[champion=katarina]]\n\n[[item=frozen-mallet]]→[[champion=draven]][[champion=swain]]\n\n"
     }
+  },
+  {
+    "id": "9f8f1331-9f4f-4a26-91f4-a6ce0dff7893",
+    "key": "",
+    "name": {
+      "en_us": "Voids Wilds Assassins",
+      "pt_br": "Vastinatas Selvagens Assassinos"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "31",
+        "items": [
+          "37",
+          "66",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "150",
+        "items": [
+          "66",
+          "77",
+          "59"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "421",
+        "items": [
+          "77",
+          "15",
+          "45"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "103",
+        "items": [
+          "23",
+          "14",
+          "34"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "19",
+        "items": [
+          "27",
+          "77",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "145",
+        "items": [
+          "23",
+          "19",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "107",
+        "items": [
+          "15",
+          "19",
+          "16"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "121",
+        "items": [
+          "13",
+          "19",
+          "49"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "2,7": "31",
+      "2,6": "150",
+      "2,5": "421",
+      "3,7": "103",
+      "3,6": "19",
+      "3,5": "145",
+      "3,4": "107",
+      "3,3": "121"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Low cost champions (median cost: 2.5 coins)\n- Strong burst damage;\n- Strong single damage;\n- Strong against high defense and magic defense compositions;\n\n\n### 2. CONS\n\n- Weak against grouped enemies;\n- Squishy champions;\n- Assassins are weak against enemies equiped with [[item=phantom-dancer]];\n\n\n### 3. WEAKNESS\n\n[[trait=glacial]]\n[[trait=assassin]]\n[[trait=noble]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=nidalee]]\n[[champion=ahri]]\n[[champion=khazix]]\n[[champion=warwick]]\n[[champion=reksai]]\n[[champion=kassadin]]\n\n\n#### Mid Game:\n\n[[champion=chogath]]\n\n[[champion=nidalee]]→[[champion=gnar]]\n\n[[champion=rengar]]\n\n#### Late Game:\n\n[[champion=kassadin]]→[[champion=kaisa]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kaisa]][[champion=khazix]]→[[champion=kassadin]]+[[item=youmuus-ghostblade]]\n\n[[champion=ahri]]→[[champion=nidalee]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=guardian-angel]]\n\n[[item=infinity-edge]][[item=hand-of-justice]]→[[trait=assassin]]\n\n[[item=youmuus-ghostblade]]→[[champion=warick]][[champion=chogath]][[champion=reksai]][[champion=gnar]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Campeões de baixo custo (custo mediano: 2,5 moedas);\n- Forte explosão de dano;\n- Forte dano Individual;\n- Forte contra composições de alta defesa e defesa mágica;\n\n\n### 2. CONTRAS\n\n- Fraco contra inimigos agrupados;\n- Maioria dos campeões possuem baixo poder defensivo;\n- Assassinos fracos contra inimigos equipados com [[item=phantom-dancer]];\n\n\n### 3. FRAQUEZA\n\n[[trait=glacial]]\n[[trait=assassin]]\n[[trait=noble]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=nidalee]]\n[[champion=ahri]]\n[[champion=khazix]]\n[[champion=warwick]]\n[[champion=reksai]]\n[[champion=kassadin]]\n\n\n#### Meio do Jogo:\n\n[[champion=chogath]]\n\n[[champion=nidalee]]→[[champion=gnar]]\n\n[[champion=rengar]]\n\n#### Fim do Jogo:\n\n[[champion=kassadin]]→[[champion=kaisa]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kaisa]][[champion=khazix]]→[[champion=kassadin]]+[[item=youmuus-ghostblade]]\n\n[[champion=ahri]]→[[champion=nidalee]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=guardian-angel]]\n\n[[item=infinity-edge]][[item=hand-of-justice]]→[[trait=assassin]]\n\n[[item=youmuus-ghostblade]]→[[champion=warick]][[champion=chogath]][[champion=reksai]][[champion=gnar]]\n\n"
+    }
   }
 ]
