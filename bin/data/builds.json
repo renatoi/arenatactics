@@ -1841,5 +1841,102 @@
       "en_us": "### 1. PROS\n\n- Strong single damage;\n- Strong area damage;\n- Disables enemy items at the beginning of the turn;\n- Extra coins at end of turn (against players);\n\n\n### 2. CONS\n\n- Weak survivability;\n- Weak crowd control;\n- Medium cost champions (median cost: 3 coins);\n- Need to swap champions during the match;\n- Dependent of Miss Fortune to obtain last [[trait=gunslinger]] bonus;\n\n\n### 3. WEAKNESS\n\n[[trait=assassin]]\n[[trait=ninja]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=noble]]\n\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=dragons-claw]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=garen]]\n\n\n#### Mid Game:\n\n[[champion=twisted-fate]]\n\n[[champion=gangplank]]\n\n[[champion=fiora]]→[[champion=jinx]]\n\n[[champion=garen]]→ [[champion=vi]]\n\n\n#### Late Game:\n\n[[champion=twisted-fate]]→[[champion=miss-fortune]]\n\n[[champion=chogath]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=vi]][[champion=chogath]]→[[champion=camille]]+[[champion=aatrox]]/[[champion=yasuo]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=cursed-blade]][[item=sword-breaker]][[item=hush]][[item=giant-slayer]]→[[trait=gunslinger]]\n\n",
       "pt_br": "### 1. PRÓS\n\n- Forte dano Individual;\n- Forte dano em área;\n- Inutiliza os itens dos inimigos no início do turno;\n- Moedas extras no fim do turno (contra jogadores);\n\n\n### 2. CONTRAS\n\n- Fraca sobrevivência;\n- Fraco controle de grupo;\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Necessita de troca de campeões ao longo da partida;\n- Dependente de Miss Fortune para obter último bônus de [[trait=gunslinger]]\n\n\n### 3. FRAQUEZA\n\n[[trait=assassin]]\n[[trait=ninja]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=noble]]\n\n[[item=sword-breaker]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=dragons-claw]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=garen]]\n\n\n#### Meio do Jogo:\n\n[[champion=twisted-fate]]\n\n[[champion=gangplank]]\n\n[[champion=fiora]]→[[champion=jinx]]\n\n[[champion=garen]]→ [[champion=vi]]\n\n\n#### Fim do Jogo:\n\n[[champion=twisted-fate]]→[[champion=miss-fortune]]\n\n[[champion=chogath]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=vi]][[champion=chogath]]→[[champion=camille]]+[[champion=aatrox]]/[[champion=yasuo]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=cursed-blade]][[item=sword-breaker]][[item=hush]][[item=giant-slayer]]→[[trait=gunslinger]]\n\n"
     }
+  },
+  {
+    "id": "e640f711-0600-4c0f-8a61-68f5a5391775",
+    "key": "",
+    "name": {
+      "en_us": "Wilds Shapeshifters Assassins Hextech",
+      "pt_br": "Selvagens Transmorfos Assassinos Hextech"
+    },
+    "tier": "S",
+    "composition": [
+      {
+        "champion": "555",
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "84",
+        "items": [
+          "44",
+          "19",
+          "49"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "107",
+        "items": [
+          "15",
+          "19",
+          "16"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "76",
+        "items": [
+          "23",
+          "16",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "150",
+        "items": [
+          "77",
+          "66",
+          "27"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "126",
+        "items": [
+          "23",
+          "77",
+          "24"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "254",
+        "items": [
+          "77",
+          "15",
+          "45"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "19",
+        "items": [
+          "77",
+          "77",
+          "45"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "2,7": "555",
+      "3,7": "84",
+      "3,6": "107",
+      "3,5": "76",
+      "3,4": "150",
+      "3,3": "126",
+      "3,2": "254",
+      "3,1": "19"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Low cost champions (median cost: 2.5 coins)\n- Strong burst damage;\n- Strong single damage;\n- Disables enemy items at the beginning of the turn;\n\n\n### 2. CONS\n\n- Weak against grouped enemies;\n- Strongly mana’s dependent;\n- Squishy champions;\n- Assassins are weak against enemies equiped with [[item=phantom-dancer]];\n\n\n### 3. WEAKNESS\n\n[[trait=glacial]]\n[[trait=assassin]]\n[[trait=noble]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=nidalee]]\n[[champion=ahri]]\n[[champion=khazix]]\n[[champion=warwick]]\n[[champion=pyke]]\n[[champion=jayce]]\n\n\n#### Mid Game:\n\n[[champion=ahri]]→[[champion=gnar]]\n\n[[champion=khazix]]→[[champion=rengar]]\n\n[[champion=akali]]\n\n#### Late Game:\n\n[[champion=vi]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=pyke]]→[[champion=evelynn]][[champion=katarina]][[champion=kaisa]][[champion=khazix]]\n\n[[champion=akali]]→[[champion=zed]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=guardian-angel]]\n\n[[item=infinity-edge]][[item=hand-of-justice]]→[[trait=assassin]]\n\n[[item=youmuus-ghostblade]]→[[champion=warick]][[champion=jayce]][[champion=vi]][[champion=nidalee]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Campeões de baixo custo (custo mediano: 2,5 moedas);\n- Forte explosão de dano;\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n\n\n### 2. CONTRAS\n\n- Fraco contra inimigos agrupados;\n- Fortemente dependente de mana;\n- Maioria dos campeões possuem baixo poder defensivo;\n- Assassinos fracos contra inimigos equipados com [[item=phantom-dancer]];\n\n\n### 3. FRAQUEZA\n\n[[trait=glacial]]\n[[trait=assassin]]\n[[trait=noble]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=nidalee]]\n[[champion=ahri]]\n[[champion=khazix]]\n[[champion=warwick]]\n[[champion=pyke]]\n[[champion=jayce]]\n\n\n#### Meio do Jogo:\n\n[[champion=ahri]]→[[champion=gnar]]\n\n[[champion=khazix]]→[[champion=rengar]]\n\n[[champion=akali]]\n\n#### Fim do Jogo:\n\n[[champion=vi]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=pyke]]→[[champion=evelynn]][[champion=katarina]][[champion=kaisa]][[champion=khazix]]\n\n[[champion=akali]]→[[champion=zed]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=guardian-angel]]\n\n[[item=infinity-edge]][[item=hand-of-justice]]→[[trait=assassin]]\n\n[[item=youmuus-ghostblade]]→[[champion=warick]][[champion=jayce]][[champion=vi]][[champion=nidalee]]\n\n"
+    }
   }
 ]
