@@ -174,7 +174,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
                     <FilterItem onClick={dispatchResetTiers}>
                       {getLocalizedText("filter.reset")}
                     </FilterItem>
-                    {["S", "A", "B", "C", "D"].map(tier => (
+                    {["S", "A", "B", "C", "F"].map(tier => (
                       <FilterItemCheckbox
                         key={`tier_${tier}`}
                         id={`tier_${tier}`}
@@ -208,7 +208,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
                 A: 1,
                 B: 2,
                 C: 3,
-                D: 4
+                F: 4
               };
               if (tierOrder[build1.tier] > tierOrder[build2.tier]) {
                 return 1;
