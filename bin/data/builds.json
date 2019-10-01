@@ -1938,5 +1938,102 @@
       "en_us": "### 1. PROS\n\n- Low cost champions (median cost: 2.5 coins)\n- Strong burst damage;\n- Strong single damage;\n- Disables enemy items at the beginning of the turn;\n\n\n### 2. CONS\n\n- Weak against grouped enemies;\n- Strongly mana’s dependent;\n- Squishy champions;\n- Assassins are weak against enemies equiped with [[item=phantom-dancer]];\n\n\n### 3. WEAKNESS\n\n[[trait=glacial]]\n[[trait=assassin]]\n[[trait=noble]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=nidalee]]\n[[champion=ahri]]\n[[champion=khazix]]\n[[champion=warwick]]\n[[champion=pyke]]\n[[champion=jayce]]\n\n\n#### Mid Game:\n\n[[champion=ahri]]→[[champion=gnar]]\n\n[[champion=khazix]]→[[champion=rengar]]\n\n[[champion=akali]]\n\n#### Late Game:\n\n[[champion=vi]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=pyke]]→[[champion=evelynn]][[champion=katarina]][[champion=kaisa]][[champion=khazix]]\n\n[[champion=akali]]→[[champion=zed]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=guardian-angel]]\n\n[[item=infinity-edge]][[item=hand-of-justice]]→[[trait=assassin]]\n\n[[item=youmuus-ghostblade]]→[[champion=warick]][[champion=jayce]][[champion=vi]][[champion=nidalee]]\n\n",
       "pt_br": "### 1. PRÓS\n\n- Campeões de baixo custo (custo mediano: 2,5 moedas);\n- Forte explosão de dano;\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n\n\n### 2. CONTRAS\n\n- Fraco contra inimigos agrupados;\n- Fortemente dependente de mana;\n- Maioria dos campeões possuem baixo poder defensivo;\n- Assassinos fracos contra inimigos equipados com [[item=phantom-dancer]];\n\n\n### 3. FRAQUEZA\n\n[[trait=glacial]]\n[[trait=assassin]]\n[[trait=noble]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=phantom-dancer]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=nidalee]]\n[[champion=ahri]]\n[[champion=khazix]]\n[[champion=warwick]]\n[[champion=pyke]]\n[[champion=jayce]]\n\n\n#### Meio do Jogo:\n\n[[champion=ahri]]→[[champion=gnar]]\n\n[[champion=khazix]]→[[champion=rengar]]\n\n[[champion=akali]]\n\n#### Fim do Jogo:\n\n[[champion=vi]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=pyke]]→[[champion=evelynn]][[champion=katarina]][[champion=kaisa]][[champion=khazix]]\n\n[[champion=akali]]→[[champion=zed]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=guardian-angel]]\n\n[[item=infinity-edge]][[item=hand-of-justice]]→[[trait=assassin]]\n\n[[item=youmuus-ghostblade]]→[[champion=warick]][[champion=jayce]][[champion=vi]][[champion=nidalee]]\n\n"
     }
+  },
+  {
+    "id": "a0b8c96f-b544-4799-a55e-22d24a4651da",
+    "key": "",
+    "name": {
+      "en_us": "Imperials Elementalists",
+      "pt_br": "Imperiais Elementalistas"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "122",
+        "items": [
+          "66",
+          "13",
+          "15"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "85",
+        "items": [
+          "66",
+          "45",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "113",
+        "items": [
+          "44",
+          "77",
+          "66"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "50",
+        "items": [
+          "77",
+          "15",
+          "37"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "63",
+        "items": [
+          "23",
+          "14",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "119",
+        "items": [
+          "23",
+          "16",
+          "19"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "34",
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "55",
+        "items": [
+          "44",
+          "44",
+          "33"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "122",
+      "1,2": "85",
+      "1,3": "113",
+      "2,4": "50",
+      "3,1": "63",
+      "3,2": "119",
+      "3,3": "34",
+      "3,6": "55"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong area damage;\n- Strong crowd control;\n- Main DPS deal double damage (imperials' bonus);\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Need to swap champions during the match;\n- Strongly dependent of Swain ([[trait=imperial]] bonus);\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=glacial]]\n[[trait=assassin]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=dragons-claw]]\n[[item=quicksilver]]\n\n[[champion=sejuani]]\n[[champion=chogath]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n#### Mid Game:\n\n[[champion=katarina]]\n\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=kennen]]\n\n[[champion=braum]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=brand]]\n\n\n#### Late Game:\n\n[[champion=fiora]]→[[champion=swain]]\n\n[[champion=lissandra]]→[[champion=anivia]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=brand]][[champion=anivia]]→[[champion=lissandra]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=sejuani]][[champion=draven]]\n[[champion=katarina]][[champion=darius]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=katarina]][[champion=draven]][[champion=kennen]][[champion=darius]]\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte dano em área;\n- Forte controle de grupo;\n- Principais DPS causam dobro de dano (bônus de imperiais);\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Necessita de troca de campeões ao longo da partida;\n- Fortemente dependente de Swain (bônus de [[trait=imperial]] );\n- Dependente de dois campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=glacial]]\n[[trait=assassin]]\n[[item=hush]]\n\n[[item=sword-breaker]]\n[[item=dragons-claw]]\n[[item=quicksilver]]\n\n[[champion=sejuani]]\n[[champion=chogath]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n#### Meio do Jogo:\n\n[[champion=katarina]]\n\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=kennen]]\n\n[[champion=braum]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=brand]]\n\n\n#### Fim do Jogo:\n\n[[champion=fiora]]→[[champion=swain]]\n\n[[champion=lissandra]]→[[champion=anivia]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=brand]][[champion=anivia]]→[[champion=lissandra]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=sejuani]][[champion=draven]][[champion=katarina]][[champion=darius]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=katarina]][[champion=draven]][[champion=kennen]][[champion=darius]]\n"
+    }
   }
 ]
