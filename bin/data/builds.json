@@ -1749,8 +1749,8 @@
     "id": "7f147431-2989-4b1a-909d-9d5ad38f6be6",
     "key": "",
     "name": {
-      "en_us": "Gunslingers Pirates",
-      "pt_br": "Pistoleiros Piratas"
+      "en_us": "Gunslingers Pirates Hextech",
+      "pt_br": "Pistoleiros Piratas Hextech"
     },
     "tier": "C",
     "composition": [
@@ -2034,6 +2034,103 @@
     "guide": {
       "en_us": "### 1. PROS\n\n- Strong area damage;\n- Strong crowd control;\n- Main DPS deal double damage (imperials' bonus);\n\n\n### 2. CONS\n\n- High cost champions (median cost: 4 coins);\n- Strongly mana’s dependent;\n- Need to swap champions during the match;\n- Strongly dependent of Swain ([[trait=imperial]] bonus);\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=glacial]]\n[[trait=assassin]]\n\n[[item=hush]]\n[[item=sword-breaker]]\n[[item=dragons-claw]]\n[[item=quicksilver]]\n\n[[champion=sejuani]]\n[[champion=chogath]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n#### Mid Game:\n\n[[champion=katarina]]\n\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=kennen]]\n\n[[champion=braum]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=brand]]\n\n\n#### Late Game:\n\n[[champion=fiora]]→[[champion=swain]]\n\n[[champion=lissandra]]→[[champion=anivia]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=brand]][[champion=anivia]]→[[champion=lissandra]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=sejuani]][[champion=draven]]\n[[champion=katarina]][[champion=darius]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=katarina]][[champion=draven]][[champion=kennen]][[champion=darius]]\n",
       "pt_br": "### 1. PRÓS\n\n- Forte dano em área;\n- Forte controle de grupo;\n- Principais DPS causam dobro de dano (bônus de imperiais);\n\n\n### 2. CONTRAS\n\n- Campeões de alto custo (custo mediano: 4 moedas);\n- Fortemente dependente de mana;\n- Necessita de troca de campeões ao longo da partida;\n- Fortemente dependente de Swain (bônus de [[trait=imperial]] );\n- Dependente de dois campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=glacial]]\n[[trait=assassin]]\n[[item=hush]]\n\n[[item=sword-breaker]]\n[[item=dragons-claw]]\n[[item=quicksilver]]\n\n[[champion=sejuani]]\n[[champion=chogath]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=fiora]]\n[[champion=garen]]\n[[champion=darius]]\n[[champion=vayne]]\n[[champion=braum]]\n[[champion=lissandra]]\n\n#### Meio do Jogo:\n\n[[champion=katarina]]\n\n[[champion=draven]]\n\n[[champion=garen]]→ [[champion=kennen]]\n\n[[champion=braum]]→ [[champion=sejuani]]\n\n[[champion=vayne]]→[[champion=brand]]\n\n\n#### Fim do Jogo:\n\n[[champion=fiora]]→[[champion=swain]]\n\n[[champion=lissandra]]→[[champion=anivia]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=brand]][[champion=anivia]]→[[champion=lissandra]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=darkin]]→[[champion=sejuani]][[champion=draven]][[champion=katarina]][[champion=darius]][[champion=kennen]]\n\n[[item=frozen-mallet]]→[[champion=katarina]][[champion=draven]][[champion=kennen]][[champion=darius]]\n"
+    }
+  },
+  {
+    "id": "6eba97e6-df1d-4bab-ad04-ebfe2626aaa1",
+    "key": "",
+    "name": {
+      "en_us": "Gunslingers Yordles Pirates ",
+      "pt_br": "Pistoleiros Yordles Piratas"
+    },
+    "tier": "B",
+    "composition": [
+      {
+        "champion": "104",
+        "items": [
+          "56",
+          "22",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "236",
+        "items": [
+          "13",
+          "44",
+          "34"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "41",
+        "items": [
+          "13",
+          "15",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "21",
+        "items": [
+          "44",
+          "44",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "222",
+        "items": [
+          "68",
+          "19",
+          "46"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "18",
+        "items": [
+          "26",
+          "46",
+          "57"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "150",
+        "items": [
+          "66",
+          "77",
+          "59"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "85",
+        "items": [
+          "59",
+          "66",
+          "77"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "1,1": "104",
+      "2,4": "41",
+      "3,4": "236",
+      "1,3": "150",
+      "1,2": "85",
+      "3,1": "18",
+      "3,3": "21",
+      "3,2": "222"
+    },
+    "guide": {
+      "en_us": "\n### 1. PROS\n\n- Strong single damage;\n- Strong area damage;\n- Strong crowd control;\n- Extra coins at end of turn (against players);\n\n\n### 2. CONS\n\n\n- Medium cost champions (median cost: 3 coins);\n- Strongly mana’s dependent;\n- Dependent of Miss Fortune to obtain last [[trait=gunslinger]] bonus;\n\n\n### 3. WEAKNESS\n\n[[trait=assassin]]\n[[trait=ninja]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=noble]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=dragons-claw]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=garen]]\n\n\n#### Mid Game:\n\n[[champion=twisted-fate]]\n\n[[champion=gangplank]]\n\n[[champion=jinx]]\n\n[[champion=fiora]]→[[champion=kennen]]\n\n[[champion=garen]]→ [[champion=gnar]]\n\n\n#### Late Game:\n\n[[champion=twisted-fate]]→[[champion=miss-fortune]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kennen]]→[[champion=poppy]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=cursed-blade]][[item=sword-breaker]][[item=hush]][[item=giant-slayer]]→[[trait=gunslinger]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=mittens]]→[[champion=miss-fortune]][[champion=jinx]][[champion=graves]][[champion=lucian]][[champion=gangplank]]\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte dano Individual;\n- Forte dano em área;\n- Forte controle de grupo;\n- Moedas extras no fim do turno (contra jogadores);\n\n\n### 2. CONTRAS\n\n\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Fortemente dependente de mana;\n- Dependente de Miss Fortune para obter último bônus de [[trait=gunslinger]]\n\n\n### 3. FRAQUEZA\n\n[[trait=assassin]]\n[[trait=ninja]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=noble]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=dragons-claw]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=garen]]\n\n\n#### Meio do Jogo:\n\n[[champion=twisted-fate]]\n\n[[champion=gangplank]]\n\n[[champion=jinx]]\n\n[[champion=fiora]]→[[champion=kennen]]\n\n[[champion=garen]]→ [[champion=gnar]]\n\n\n#### Fim do Jogo:\n\n[[champion=twisted-fate]]→[[champion=miss-fortune]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kennen]]→[[champion=poppy]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=cursed-blade]][[item=sword-breaker]][[item=hush]]\n[[item=giant-slayer]]→[[trait=gunslinger]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=mittens]]→[[champion=miss-fortune]][[champion=jinx]][[champion=graves]][[champion=lucian]][[champion=gangplank]]\n\n"
     }
   }
 ]
