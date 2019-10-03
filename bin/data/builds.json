@@ -1256,8 +1256,8 @@
       "3,3": "222"
     },
     "guide": {
-      "en_us": "### 1. PROS\n\n- Strong single damage;\n- Disables enemy items at the beginning of the turn;\n- Strong burst damage;\n\n\n### 2. CONS\n\n- Weak crowd control;\n- Weak survivability;\n- High cost champions (median cost: 3.5 coins);\n- Dependent of two tier 5 champions;\n- Dependent of [[item=blade-of-the-ruined-king]] on Lucian (or another Gunslinger);\n\n\n### 3. WEAKNESS\n\n[[trait=glacial]]\n[[trait=noble]]\n[[trait=assassin]]\n[[trait=ninja]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Late Game:\n\n[[champion=miss-fortune]]\n[[champion=yasuo]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]][[champion=fiora]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n\n\n",
-      "pt_br": "### 1. PRÓS\n\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n- Forte explosão de dano;\n\n\n### 2. CONTRAS\n\n- Fraco controle de multidões;\n- Fraca sobrevivência;\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de Nível 5;\n- Dependente de [[item=blade-of-the-ruined-king]] em Lucian (ou outro pistoleiro);\n\n\n### 3. FRAQUEZA\n\n[[trait=glacial]]\n[[trait=noble]]\n[[trait=assassin]]\n[[trait=ninja]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Fim do Jogo:\n\n[[champion=miss-fortune]]\n\n[[champion=yasuo]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]]\n[[champion=fiora]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=gangplank]]\n[[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n\n"
+      "en_us": "### 1. PROS\n\n- Strong single damage;\n- Disables enemy items at the beginning of the turn;\n- Strong burst damage;\n\n\n### 2. CONS\n\n- Weak crowd control;\n- Weak survivability;\n- High cost champions (median cost: 3.5 coins);\n- Dependent of two tier 5 champions;\n- Dependent of [[item=blade-of-the-ruined-king]] on Lucian (or another Gunslinger);\n\n\n### 3. WEAKNESS\n\n[[trait=glacial]]\n[[trait=noble]]\n[[trait=assassin]]\n[[trait=ninja]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Mid Game:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Late Game:\n\n[[champion=miss-fortune]]\n[[champion=yasuo]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]][[champion=fiora]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→ [[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n- Forte explosão de dano;\n\n\n### 2. CONTRAS\n\n- Fraco controle de multidões;\n- Fraca sobrevivência;\n- Campeões de alto custo (custo mediano: 3,5 moedas);\n- Dependente de dois campeões de Nível 5;\n- Dependente de [[item=blade-of-the-ruined-king]] em Lucian (ou outro pistoleiro);\n\n\n### 3. FRAQUEZA\n\n[[trait=glacial]]\n[[trait=noble]]\n[[trait=assassin]]\n[[trait=ninja]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=graves]]\n[[champion=fiora]]\n\n#### Meio do Jogo:\n\n[[champion=graves]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=fiora]]→ [[champion=draven]]\n\n\n#### Fim do Jogo:\n\n[[champion=miss-fortune]]\n\n[[champion=yasuo]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=camille]][[champion=yasuo]]→[[champion=aatrox]]\n[[champion=fiora]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→ [[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[champion=gangplank]][[champion=jinx]][[champion=lucian]][[champion=miss-fortune]]\n\n\n"
     }
   },
   {
@@ -2131,6 +2131,113 @@
     "guide": {
       "en_us": "\n### 1. PROS\n\n- Strong single damage;\n- Strong area damage;\n- Strong crowd control;\n- Extra coins at end of turn (against players);\n\n\n### 2. CONS\n\n\n- Medium cost champions (median cost: 3 coins);\n- Strongly mana’s dependent;\n- Dependent of Miss Fortune to obtain last [[trait=gunslinger]] bonus;\n\n\n### 3. WEAKNESS\n\n[[trait=assassin]]\n[[trait=ninja]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=noble]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=dragons-claw]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=garen]]\n\n\n#### Mid Game:\n\n[[champion=twisted-fate]]\n\n[[champion=gangplank]]\n\n[[champion=jinx]]\n\n[[champion=fiora]]→[[champion=kennen]]\n\n[[champion=garen]]→ [[champion=gnar]]\n\n\n#### Late Game:\n\n[[champion=twisted-fate]]→[[champion=miss-fortune]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=kennen]]→[[champion=poppy]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=cursed-blade]][[item=sword-breaker]][[item=hush]][[item=giant-slayer]]→[[trait=gunslinger]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=mittens]]→[[champion=miss-fortune]][[champion=jinx]][[champion=graves]][[champion=lucian]][[champion=gangplank]]\n\n",
       "pt_br": "### 1. PRÓS\n\n- Forte dano Individual;\n- Forte dano em área;\n- Forte controle de grupo;\n- Moedas extras no fim do turno (contra jogadores);\n\n\n### 2. CONTRAS\n\n\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Fortemente dependente de mana;\n- Dependente de Miss Fortune para obter último bônus de [[trait=gunslinger]]\n\n\n### 3. FRAQUEZA\n\n[[trait=assassin]]\n[[trait=ninja]]\n[[trait=yordle]]\n[[trait=glacial]]\n[[trait=noble]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=dragons-claw]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=garen]]\n\n\n#### Meio do Jogo:\n\n[[champion=twisted-fate]]\n\n[[champion=gangplank]]\n\n[[champion=jinx]]\n\n[[champion=fiora]]→[[champion=kennen]]\n\n[[champion=garen]]→ [[champion=gnar]]\n\n\n#### Fim do Jogo:\n\n[[champion=twisted-fate]]→[[champion=miss-fortune]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=kennen]]→[[champion=poppy]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=cursed-blade]][[item=sword-breaker]][[item=hush]]\n[[item=giant-slayer]]→[[trait=gunslinger]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=mittens]]→[[champion=miss-fortune]][[champion=jinx]][[champion=graves]][[champion=lucian]][[champion=gangplank]]\n\n"
+    }
+  },
+  {
+    "id": "ca2aa0c5-8d9a-49dc-bc79-f87cadbda679",
+    "key": "",
+    "name": {
+      "en_us": "9 Blademasters",
+      "pt_br": "9 Mestres das Lâminas"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "104",
+        "items": [
+          "56",
+          "28",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "41",
+        "items": [
+          "13",
+          "15",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "21",
+        "items": [
+          "44",
+          "28",
+          "37"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "222",
+        "items": [
+          "68",
+          "28",
+          "46"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "98",
+        "items": [
+          "59",
+          "77",
+          "66"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "266",
+        "items": [
+          "13",
+          "77",
+          "66"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "119",
+        "items": [
+          "23",
+          "19",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "164",
+        "items": [
+          "23",
+          "19",
+          "16"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "157",
+        "items": [
+          "44",
+          "66",
+          "34"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "3,1": "21",
+      "3,2": "222",
+      "2,1": "104",
+      "2,2": "98",
+      "2,3": "266",
+      "3,4": "41",
+      "3,3": "119",
+      "2,4": "164",
+      "2,6": "157"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong burst damage;\n- Strong area damage;\n- Strong single damage;\n- Disables enemy items at the beginning of the turn;\n- Extra coins at end of turn (against players);\n\n\n### 2. CONS\n\n- Medium cost champions (median cost: 3 coins);\n- Weak survivability;\n- Weak crowd control;\n- Need 9 champions on game;\n- Need 3x [[item=blade-of-the-ruined-king]] to equip in Graves, Jinx and Miss Fortune;\n\n\n### 3. WEAKNESS\n\n[[trait=assassin]]\n[[trait=glacial]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=graves]]\n\n#### Mid Game:\n\n[[champion=aatrox]]\n\n[[champion=lucian]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=draven]]\n\n\n#### Late Game:\n\n[[champion=fiora]]→[[champion=yasuo]]\n\n[[champion=miss-fortune]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=yasuo]]→[[champion=fiora]]\n\n[[champion=miss-fortune]][[champion=graves]]→[[champion=lucian]][[champion=tristana]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=jinx]][[champion=graves]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[trait=gunslinger]]\n",
+      "pt_br": "\n### 1. PRÓS\n\n- Forte explosão de dano;\n- Forte dano em área;\n- Forte dano Individual;\n- Inutiliza os itens dos inimigos no início do turno;\n- Moedas extras no fim do turno (contra jogadores);\n\n\n### 2. CONTRAS\n\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Fraca sobrevivência;\n- Fraco controle de grupo;\n- Precisa de 9 campeões em campo;\n- Precisa de 3x [[item=blade-of-the-ruined-king]] para equipar em Graves, Jinx e Miss Fortune;\n\n\n### 3. FRAQUEZA\n\n[[trait=assassin]]\n[[trait=glacial]]\n[[trait=yordle]]\n\n[[item=sword-breaker]]\n[[item=hush]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n\n[[champion=chogath]]\n[[champion=sejuani]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=camille]]\n[[champion=shen]]\n[[champion=tristana]]\n[[champion=lucian]]\n[[champion=fiora]]\n[[champion=graves]]\n\n#### Meio do Jogo:\n\n[[champion=aatrox]]\n\n[[champion=lucian]]→[[champion=gangplank]]\n\n[[champion=tristana]]→[[champion=jinx]]\n\n[[champion=draven]]\n\n\n#### Fim do Jogo:\n\n[[champion=fiora]]→[[champion=yasuo]]\n\n[[champion=miss-fortune]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=yasuo]]→[[champion=fiora]]\n\n[[champion=miss-fortune]][[champion=graves]]→[[champion=lucian]][[champion=tristana]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=zekes-herald]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=giant-slayer]]\n\n[[item=blade-of-the-ruined-king]]→[[champion=jinx]][[champion=graves]][[champion=miss-fortune]]\n\n[[item=hush]][[item=sword-breaker]][[item=cursed-blade]]→[[trait=gunslinger]]\n"
     }
   }
 ]
