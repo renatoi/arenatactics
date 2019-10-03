@@ -104,7 +104,6 @@ class CreateBuildComponent extends React.Component<
         return newBuild;
       });
     }
-    console.log(userBuilds);
 
     return userBuilds;
   }
@@ -711,7 +710,7 @@ class CreateBuildComponent extends React.Component<
                 <option value="A">A</option>
                 <option value="B">B</option>
                 <option value="C">C</option>
-                <option value="D">D</option>
+                <option value="F">F</option>
               </select>
             </div>
             <div className={cx(styles.sideBySide, styles.positioning)}>

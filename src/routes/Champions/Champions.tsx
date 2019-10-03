@@ -190,7 +190,8 @@ const ChampionsComponent: React.FC<TFTChampionsProps> = ({
                     <FilterItem onClick={dispatchResetTraits}>
                       {getLocalizedText("filter.reset")}
                     </FilterItem>
-                    {Object.keys(traits.byId)
+                    {Object.values(traits.byId)
+                      .map(traitObj => traitObj.name)
                       .sort()
                       .map(trait => (
                         <FilterItemCheckbox
