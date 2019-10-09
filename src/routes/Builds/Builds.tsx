@@ -252,7 +252,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
         {selectedBuild != null ? (
           <>
             <h1 className={styles.buildsTitle}>{selectedBuild.name}</h1>
-            <p>Last update: Patch 9.19.</p>
+            <p>Last update: Patch 9.20.</p>
             <h2 id="team-composition" className={styles.heading}>
               {getLocalizedText("comps.teamComposition")}
             </h2>

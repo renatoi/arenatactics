@@ -2,13 +2,14 @@
   "champions": {
     "4": {
       "name": "Twisted Fate",
+      "id": 4,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -16,7 +17,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Pirate",
@@ -92,6 +93,7 @@
     },
     "10": {
       "name": "Kayle",
+      "id": 10,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.png",
       "stats": {
@@ -106,7 +108,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.0,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Noble",
@@ -146,13 +148,14 @@
     },
     "18": {
       "name": "Tristana",
+      "id": 18,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -160,7 +163,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 4
+        "range": 4.0
       },
       "traits": [
         "Yordle",
@@ -224,6 +227,7 @@
     },
     "19": {
       "name": "Warwick",
+      "id": 19,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.png",
       "stats": {
@@ -238,7 +242,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Wild",
@@ -302,13 +306,14 @@
     },
     "21": {
       "name": "Miss Fortune",
+      "id": 21,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.png",
       "stats": {
         "hp": 750.0,
         "hpScaleFactor": 1.8,
         "mana": 150.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -316,7 +321,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.95,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Pirate",
@@ -380,13 +385,14 @@
     },
     "22": {
       "name": "Ashe",
+      "id": 22,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -394,7 +400,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 4
+        "range": 4.0
       },
       "traits": [
         "Glacial",
@@ -434,6 +440,7 @@
     },
     "25": {
       "name": "Morgana",
+      "id": 25,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.png",
       "stats": {
@@ -448,7 +455,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Demon",
@@ -524,13 +531,14 @@
     },
     "28": {
       "name": "Evelynn",
+      "id": 28,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -538,7 +546,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Demon",
@@ -602,6 +610,7 @@
     },
     "30": {
       "name": "Karthus",
+      "id": 30,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.png",
       "stats": {
@@ -616,7 +625,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Phantom",
@@ -656,6 +665,7 @@
     },
     "31": {
       "name": "Cho'Gath",
+      "id": 31,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.png",
       "stats": {
@@ -670,7 +680,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -722,6 +732,7 @@
     },
     "34": {
       "name": "Anivia",
+      "id": 34,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.png",
       "stats": {
@@ -736,7 +747,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.8,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Glacial",
@@ -788,13 +799,14 @@
     },
     "38": {
       "name": "Kassadin",
+      "id": 38,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 35.0,
@@ -802,7 +814,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -842,21 +854,22 @@
     },
     "41": {
       "name": "Gangplank",
+      "id": 41,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.png",
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
-        "damage": 55.0,
+        "mana": 100.0,
+        "initalMana": 0.0,
+        "damage": 60.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Pirate",
@@ -885,13 +898,14 @@
     },
     "45": {
       "name": "Veigar",
+      "id": 45,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -899,7 +913,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Yordle",
@@ -939,13 +953,14 @@
     },
     "50": {
       "name": "Swain",
+      "id": 50,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.png",
       "stats": {
         "hp": 850.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -953,7 +968,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Imperial",
@@ -1014,8 +1029,7 @@
             ]
           },
           {
-            "key": "HealthIncrease",
-            "values": null
+            "key": "HealthIncrease"
           },
           {
             "key": "TotalDamage",
@@ -1046,13 +1060,14 @@
     },
     "53": {
       "name": "Blitzcrank",
+      "id": 53,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 35.0,
@@ -1060,7 +1075,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Robot",
@@ -1100,13 +1115,14 @@
     },
     "55": {
       "name": "Katarina",
+      "id": 55,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.png",
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 85.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1114,7 +1130,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Imperial",
@@ -1202,13 +1218,14 @@
     },
     "60": {
       "name": "Elise",
+      "id": 60,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 45.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1216,7 +1233,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Demon",
@@ -1268,6 +1285,7 @@
     },
     "63": {
       "name": "Brand",
+      "id": 63,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.png",
       "stats": {
@@ -1282,7 +1300,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Demon",
@@ -1322,13 +1340,14 @@
     },
     "67": {
       "name": "Vayne",
+      "id": 67,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -1336,7 +1355,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Noble",
@@ -1364,13 +1383,14 @@
     },
     "76": {
       "name": "Nidalee",
+      "id": 76,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 85.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -1378,7 +1398,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Wild",
@@ -1454,13 +1474,14 @@
     },
     "78": {
       "name": "Poppy",
+      "id": 78,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.png",
       "stats": {
-        "hp": 800.0,
+        "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -1468,7 +1489,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Yordle",
@@ -1544,6 +1565,7 @@
     },
     "80": {
       "name": "Pantheon",
+      "id": 80,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pantheon.png",
       "stats": {
@@ -1558,7 +1580,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.75,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Dragon",
@@ -1634,6 +1656,7 @@
     },
     "82": {
       "name": "Mordekaiser",
+      "id": 82,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.png",
       "stats": {
@@ -1648,7 +1671,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Phantom",
@@ -1712,21 +1735,22 @@
     },
     "84": {
       "name": "Akali",
+      "id": 84,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 25.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 80.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.85,
-        "range": 1
+        "attackSpeed": 0.8,
+        "range": 1.0
       },
       "traits": [
         "Ninja",
@@ -1778,6 +1802,7 @@
     },
     "85": {
       "name": "Kennen",
+      "id": 85,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.png",
       "stats": {
@@ -1792,7 +1817,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Ninja",
@@ -1857,13 +1882,14 @@
     },
     "86": {
       "name": "Garen",
+      "id": 86,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -1871,7 +1897,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Noble",
@@ -1923,12 +1949,13 @@
     },
     "89": {
       "name": "Leona",
+      "id": 89,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.png",
       "stats": {
-        "hp": 750.0,
+        "hp": 800.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
+        "mana": 100.0,
         "initalMana": 50.0,
         "damage": 45.0,
         "damageScaleFactor": 1.25,
@@ -1937,7 +1964,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Noble",
@@ -1989,6 +2016,7 @@
     },
     "98": {
       "name": "Shen",
+      "id": 98,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.png",
       "stats": {
@@ -2003,7 +2031,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Ninja",
@@ -2031,13 +2059,14 @@
     },
     "102": {
       "name": "Shyvana",
+      "id": 102,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 85.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -2045,7 +2074,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Dragon",
@@ -2121,13 +2150,14 @@
     },
     "103": {
       "name": "Ahri",
+      "id": 103,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.png",
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2135,7 +2165,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Wild",
@@ -2175,13 +2205,14 @@
     },
     "104": {
       "name": "Graves",
+      "id": 104,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.png",
       "stats": {
         "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 55.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -2189,7 +2220,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Pirate",
@@ -2217,21 +2248,22 @@
     },
     "106": {
       "name": "Volibear",
+      "id": 106,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.png",
       "stats": {
         "hp": 750.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
-        "attackSpeed": 0.6,
-        "range": 1
+        "attackSpeed": 0.65,
+        "range": 1.0
       },
       "traits": [
         "Glacial",
@@ -2307,13 +2339,14 @@
     },
     "107": {
       "name": "Rengar",
+      "id": 107,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2321,7 +2354,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Wild",
@@ -2385,13 +2418,14 @@
     },
     "110": {
       "name": "Varus",
+      "id": 110,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -2399,7 +2433,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 4
+        "range": 4.0
       },
       "traits": [
         "Demon",
@@ -2439,6 +2473,7 @@
     },
     "113": {
       "name": "Sejuani",
+      "id": 113,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.png",
       "stats": {
@@ -2453,7 +2488,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.55,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Glacial",
@@ -2505,13 +2540,14 @@
     },
     "114": {
       "name": "Fiora",
+      "id": 114,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.png",
       "stats": {
-        "hp": 400.0,
+        "hp": 450.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -2519,7 +2555,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.0,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Noble",
@@ -2571,6 +2607,7 @@
     },
     "117": {
       "name": "Lulu",
+      "id": 117,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.png",
       "stats": {
@@ -2585,7 +2622,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Yordle",
@@ -2649,13 +2686,14 @@
     },
     "119": {
       "name": "Draven",
+      "id": 119,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 50.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 70.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -2663,7 +2701,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.75,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Imperial",
@@ -2715,13 +2753,14 @@
     },
     "121": {
       "name": "Kha'Zix",
+      "id": 121,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 65.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 55.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2729,7 +2768,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -2769,13 +2808,14 @@
     },
     "122": {
       "name": "Darius",
+      "id": 122,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 40.0,
@@ -2783,7 +2823,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.5,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Imperial",
@@ -2835,12 +2875,13 @@
     },
     "126": {
       "name": "Jayce",
+      "id": 126,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
+        "mana": 100.0,
         "initalMana": 50.0,
         "damage": 60.0,
         "damageScaleFactor": 1.25,
@@ -2849,7 +2890,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Hextech",
@@ -2949,13 +2990,14 @@
     },
     "127": {
       "name": "Lissandra",
+      "id": 127,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.png",
       "stats": {
         "hp": 500.0,
         "hpScaleFactor": 1.8,
         "mana": 85.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -2963,7 +3005,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Glacial",
@@ -3075,13 +3117,14 @@
     },
     "136": {
       "name": "Aurelion Sol",
+      "id": 136,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 125.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -3089,7 +3132,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Dragon",
@@ -3129,6 +3172,7 @@
     },
     "145": {
       "name": "Kai'Sa",
+      "id": 145,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kaisa.TFT_Set1_KaiSa.png",
       "stats": {
@@ -3143,7 +3187,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.25,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Void",
@@ -3158,13 +3202,13 @@
           {
             "key": "ASPercent",
             "values": [
-              0.0,
-              0.3,
-              0.6,
-              0.9,
-              1.2,
+              0.25,
+              0.5,
+              0.75,
+              1.0,
+              1.25,
               1.5,
-              1.8
+              1.75
             ]
           },
           {
@@ -3182,13 +3226,13 @@
           {
             "key": "ShieldAmount",
             "values": [
-              0.0,
-              300.0,
-              600.0,
-              900.0,
-              1200.0,
-              1500.0,
-              1800.0
+              100.0,
+              400.0,
+              700.0,
+              1000.0,
+              1300.0,
+              1600.0,
+              1900.0
             ]
           }
         ]
@@ -3196,13 +3240,14 @@
     },
     "150": {
       "name": "Gnar",
+      "id": 150,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.png",
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
-        "mana": 100,
-        "initalMana": 0,
+        "mana": 100.0,
+        "initalMana": 0.0,
         "damage": 50.0,
         "damageScaleFactor": 1.25,
         "armor": 30.0,
@@ -3210,7 +3255,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 2
+        "range": 2.0
       },
       "traits": [
         "Wild",
@@ -3299,13 +3344,14 @@
     },
     "157": {
       "name": "Yasuo",
+      "id": 157,
       "cost": 5,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.png",
       "stats": {
         "hp": 750.0,
         "hpScaleFactor": 1.8,
         "mana": 25.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
         "armor": 35.0,
@@ -3313,7 +3359,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 1.0,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Exile",
@@ -3401,6 +3447,7 @@
     },
     "164": {
       "name": "Camille",
+      "id": 164,
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.png",
       "stats": {
@@ -3415,7 +3462,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Hextech",
@@ -3455,13 +3502,14 @@
     },
     "201": {
       "name": "Braum",
+      "id": 201,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.png",
       "stats": {
         "hp": 650.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 40.0,
         "damageScaleFactor": 1.25,
         "armor": 75.0,
@@ -3469,7 +3517,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Glacial",
@@ -3509,6 +3557,7 @@
     },
     "203": {
       "name": "Kindred",
+      "id": 203,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.png",
       "stats": {
@@ -3523,7 +3572,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Phantom",
@@ -3563,13 +3612,14 @@
     },
     "222": {
       "name": "Jinx",
+      "id": 222,
       "cost": 4,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 0.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 75.0,
         "damageScaleFactor": 1.25,
         "armor": 20.0,
@@ -3577,7 +3627,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Hextech",
@@ -3641,13 +3691,14 @@
     },
     "236": {
       "name": "Lucian",
+      "id": 236,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.png",
       "stats": {
         "hp": 600.0,
         "hpScaleFactor": 1.8,
         "mana": 35.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -3655,7 +3706,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 3
+        "range": 3.0
       },
       "traits": [
         "Noble",
@@ -3681,13 +3732,13 @@
           {
             "key": "SecondShotDamage",
             "values": [
-              -25.0,
-              100.0,
-              225.0,
-              350.0,
-              475.0,
-              600.0,
-              725.0
+              0.0,
+              125.0,
+              250.0,
+              375.0,
+              500.0,
+              625.0,
+              750.0
             ]
           }
         ]
@@ -3695,13 +3746,14 @@
     },
     "238": {
       "name": "Zed",
+      "id": 238,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.png",
       "stats": {
         "hp": 550.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
         "armor": 25.0,
@@ -3709,7 +3761,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.7,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Ninja",
@@ -3749,6 +3801,7 @@
     },
     "254": {
       "name": "Vi",
+      "id": 254,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.png",
       "stats": {
@@ -3763,7 +3816,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Hextech",
@@ -3771,7 +3824,7 @@
       ],
       "ability": {
         "name": "Saque e Enterrada",
-        "desc": "Vi avança até o inimigo mais distante, arremessando para o lado e causando @ModifiedDamage@ de Dano Mágico a todos os inimigos no caminho. Quando chega ao alvo, ela causa @ModifiedDamage@ de Dano Mágico e arremessa-o ao ar por @CCDuration@s.",
+        "desc": "Vi avança até o inimigo mais distante, arremessando-o para o lado e causando @ModifiedDamage@ de Dano Mágico a todos os inimigos no caminho. Quando chega ao alvo, ela causa @ModifiedDamage@ de Dano Mágico e arremessa-o ao ar por @CCDuration@s.",
         "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.png",
         "variables": [
           {
@@ -3827,21 +3880,22 @@
     },
     "266": {
       "name": "Aatrox",
+      "id": 266,
       "cost": 3,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.png",
       "stats": {
         "hp": 700.0,
         "hpScaleFactor": 1.8,
         "mana": 75.0,
-        "initalMana": 0,
+        "initalMana": 0.0,
         "damage": 65.0,
         "damageScaleFactor": 1.25,
-        "armor": 25.0,
+        "armor": 35.0,
         "magicResist": 20.0,
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.65,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Demon",
@@ -3869,6 +3923,7 @@
     },
     "421": {
       "name": "Rek'Sai",
+      "id": 421,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.png",
       "stats": {
@@ -3883,7 +3938,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Void",
@@ -3959,6 +4014,7 @@
     },
     "555": {
       "name": "Pyke",
+      "id": 555,
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.png",
       "stats": {
@@ -3973,7 +4029,7 @@
         "critMultiplier": 1.5,
         "critChance": 0.25,
         "attackSpeed": 0.6,
-        "range": 1
+        "range": 1.0
       },
       "traits": [
         "Pirate",
@@ -4047,16 +4103,13 @@
           "maxUnits": 25000,
           "vars": [
             {
-              "name": "HPMultiplier",
-              "value": null
+              "name": "HPMultiplier"
             },
             {
-              "name": "558229DF",
-              "value": null
+              "name": "558229DF"
             },
             {
-              "name": "SizeCoefficient",
-              "value": null
+              "name": "SizeCoefficient"
             }
           ]
         }
@@ -4134,7 +4187,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 12.0
+              "value": 10.0
             }
           ]
         },
@@ -4144,7 +4197,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 12.0
+              "value": 10.0
             }
           ]
         }
@@ -4304,7 +4357,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 35.0
+              "value": 45.0
             }
           ]
         }
@@ -4341,7 +4394,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 65.0
+              "value": 60.0
             }
           ]
         }
@@ -4489,7 +4542,7 @@
             },
             {
               "name": "ExtraTargetsHit",
-              "value": 2.0
+              "value": 3.0
             }
           ]
         },
@@ -4507,7 +4560,7 @@
             },
             {
               "name": "ExtraTargetsHit",
-              "value": 3.0
+              "value": 5.0
             }
           ]
         }
@@ -4680,7 +4733,7 @@
             },
             {
               "name": "CritChanceAmpPercent",
-              "value": 10.0
+              "value": 5.0
             }
           ]
         },
@@ -4694,7 +4747,7 @@
             },
             {
               "name": "CritChanceAmpPercent",
-              "value": 20.0
+              "value": 15.0
             }
           ]
         },
@@ -4846,8 +4899,8 @@
       "desc": "Quando o usuário morrer, a Balestra de Repetição passará para um novo aliado. Cada vez que a Balestra de Repetição é reequipada, ela concede um adicional de +@AttackSpeedPerStack@% de Velocidade de Ataque e +@CritChancePerStack@% de Chance de Acerto Crítico pelo resto do combate.<br><br>Não há limite de acúmulos para esse efeito.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.png",
       "from": [
-        "-100",
-        "-100"
+        -100,
+        -100
       ],
       "effects": [
         {
@@ -4865,8 +4918,8 @@
       "desc": "Usuário também é um Hextec",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechChestguard.TFT.png",
       "from": [
-        "-1",
-        "-1"
+        -1,
+        -1
       ],
       "effects": []
     },
@@ -4984,16 +5037,20 @@
     },
     "11": {
       "name": "Lâmina Mortal3",
-      "desc": "Quando o usuário abate ou participa do abate de um inimigo, ele ganha +@ADPerStack@ de Dano de Ataque pelo resto do combate.<br><br>Não há limite de acúmulos para esse efeito.",
+      "desc": "Quando o usuário abate ou participa do abate de um inimigo, ele ganha +@ADPerStack@ de Dano de Ataque pelo resto do combate.<br><br>Não há limite de acúmulos para esse efeito. Começa com @StartingStacks@ acúmulo(s).",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DeathBlade.TFT.png",
       "from": [
-        "1",
-        "1"
+        1,
+        1
       ],
       "effects": [
         {
-          "name": "adperstack",
+          "name": "ADPerStack",
           "value": 15.0
+        },
+        {
+          "name": "AD68CE80",
+          "value": 1.0
         }
       ]
     },
@@ -5002,8 +5059,8 @@
       "desc": "Os ataques básicos do usuário causam um adicional de @MaxHPTrueDamage@% da Vida máxima do alvo como Dano Verdadeiro.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GiantSlayer.png",
       "from": [
-        "1",
-        "2"
+        1,
+        2
       ],
       "effects": [
         {
@@ -5017,8 +5074,8 @@
       "desc": "Ataques básicos e habilidades curam o usuário em @OmniVamp@% do dano causado.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.png",
       "from": [
-        "1",
-        "3"
+        1,
+        3
       ],
       "effects": [
         {
@@ -5032,8 +5089,8 @@
       "desc": "Após conjurar sua habilidade, os ataques básicos do usuário restauram @ManaPercentRestore@% de sua Mana máxima.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.png",
       "from": [
-        "1",
-        "4"
+        1,
+        4
       ],
       "effects": [
         {
@@ -5047,8 +5104,8 @@
       "desc": "Quando o usuário morre, seus efeitos negativos são purificados e ele ressuscita com até @HealthRestore@ de Vida após um intervalo de @StasisDuration@s.<br><br>Esse efeito só pode ser ativado uma vez por combate.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.png",
       "from": [
-        "1",
-        "5"
+        1,
+        5
       ],
       "effects": [
         {
@@ -5066,8 +5123,8 @@
       "desc": "Ataques básicos curam o usuário em @Lifesteal@% do dano causado.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.png",
       "from": [
-        "1",
-        "6"
+        1,
+        6
       ],
       "effects": [
         {
@@ -5081,8 +5138,8 @@
       "desc": "No início do combate, o usuário e todos os aliados em até @HexRange@ casas adjacentes na mesma linha recebem +@AttackSpeed@% de Velocidade de Ataque pelo resto do combate.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.png",
       "from": [
-        "1",
-        "7"
+        1,
+        7
       ],
       "effects": [
         {
@@ -5100,8 +5157,8 @@
       "desc": "%i:scaleAD% +@AD@ adicionais<br>Usuário também é um Assassino<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.png",
       "from": [
-        "1",
-        "8"
+        1,
+        8
       ],
       "effects": [
         {
@@ -5115,13 +5172,13 @@
       "desc": "O usuário recebe +@CriticalStrikeAmp@% de dano de Acerto Crítico.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.png",
       "from": [
-        "1",
-        "9"
+        1,
+        9
       ],
       "effects": [
         {
           "name": "CriticalStrikeAmp",
-          "value": 150.0
+          "value": 125.0
         },
         {
           "name": "CritChance",
@@ -5138,8 +5195,8 @@
       "desc": "O usuário recebe +100% de Alcance de Ataque",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.png",
       "from": [
-        "2",
-        "2"
+        2,
+        2
       ],
       "effects": []
     },
@@ -5148,8 +5205,8 @@
       "desc": "Ataques básicos concedem ao usuário +@AttackSpeedPerStack@% de Velocidade de Ataque adicional pelo resto do combate.<br><br>Não há limite de acúmulo para este efeito.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.png",
       "from": [
-        "2",
-        "3"
+        2,
+        3
       ],
       "effects": [
         {
@@ -5163,8 +5220,8 @@
       "desc": "Cada terceiro ataque básico do usuário causa @Damage@ de Dano Mágico a @BouncesTooltip@ inimigos.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.png",
       "from": [
-        "2",
-        "4"
+        2,
+        4
       ],
       "effects": [
         {
@@ -5186,8 +5243,8 @@
       "desc": "Usuário se esquiva de todos os Acertos Críticos.<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.png",
       "from": [
-        "2",
-        "5"
+        2,
+        5
       ],
       "effects": []
     },
@@ -5196,8 +5253,8 @@
       "desc": "Ataques básicos têm @ChanceOnHitToShrink@% de chance ao contato de reduzir o nível de estrela do alvo em 1 pelo resto do combate.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.png",
       "from": [
-        "2",
-        "6"
+        2,
+        6
       ],
       "effects": [
         {
@@ -5211,13 +5268,13 @@
       "desc": "Ataques básicos causam um adicional de @MaxHealth@% da Vida máxima do usuário como Dano Mágico ao alvo e inimigos próximos a ele.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.png",
       "from": [
-        "2",
-        "7"
+        2,
+        7
       ],
       "effects": [
         {
           "name": "MaxHealth",
-          "value": 6.0
+          "value": 3.0
         }
       ]
     },
@@ -5226,8 +5283,8 @@
       "desc": "%i:scaleAS% +@AS@ adicionais<br>Usuário também é um Mestre das Lâminas<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.png",
       "from": [
-        "2",
-        "8"
+        2,
+        8
       ],
       "effects": [
         {
@@ -5241,8 +5298,8 @@
       "desc": "Quando o usuário morrer, a Balestra de Repetição passará para um novo aliado. Cada vez que a Balestra de Repetição é reequipada, ela concede um adicional de +@AttackSpeedPerStack@% de Velocidade de Ataque e +@CritChancePerStack@% de Chance de Acerto Crítico pelo resto do combate.<br><br>Não há limite de acúmulos para esse efeito.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RepeatingCrossbow.TFT.png",
       "from": [
-        "2",
-        "9"
+        2,
+        9
       ],
       "effects": [
         {
@@ -5268,8 +5325,8 @@
       "desc": "O usuário recebe +@APPercentAmp@% de amplificação de Poder de Habilidade.<br><br>(Todas as origens de Poder de Habilidade são @APPercentAmp@% mais eficazes).",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.png",
       "from": [
-        "3",
-        "3"
+        3,
+        3
       ],
       "effects": [
         {
@@ -5283,8 +5340,8 @@
       "desc": "Quando o usuário causa dano com sua habilidade, o primeiro alvo atingido e até @ExtraBounces@ inimigos próximos sofrem @Damage@ de Dano Mágico adicional.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.png",
       "from": [
-        "3",
-        "4"
+        3,
+        4
       ],
       "effects": [
         {
@@ -5310,8 +5367,8 @@
       "desc": "No início do combate, o usuário e todos os aliados em até @HexRange@ casas na mesma linha recebem um escudo que bloqueia @ShieldValue@ de dano por @ShieldDuration@s.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.png",
       "from": [
-        "3",
-        "5"
+        3,
+        5
       ],
       "effects": [
         {
@@ -5333,8 +5390,8 @@
       "desc": "Sempre que um inimigo conjura uma habilidade, o usuário causa @Damage@ de Dano Verdadeiro ao conjurador.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.png",
       "from": [
-        "3",
-        "6"
+        3,
+        6
       ],
       "effects": [
         {
@@ -5348,8 +5405,8 @@
       "desc": "Quando o usuário causa dano com sua habilidade, ele queima o alvo, causando @BurnPercent@% da Vida máxima do alvo como Dano Verdadeiro ao longo de @BurnDuration@s e reduzindo efeitos de cura em 80% enquanto a queimadura persistir. Um Campeão só pode ter um efeito de queimadura por vez, priorizando o efeito mais forte.<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.png",
       "from": [
-        "3",
-        "7"
+        3,
+        7
       ],
       "effects": [
         {
@@ -5375,8 +5432,8 @@
       "desc": "%i:scaleAP% +@AP@ adicionais<br>Usuário também é um Feiticeiro<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.png",
       "from": [
-        "3",
-        "8"
+        3,
+        8
       ],
       "effects": [
         {
@@ -5390,8 +5447,8 @@
       "desc": "As habilidades do usuário podem causar Acerto Crítico.<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jeweled_Gauntlet.TFT.png",
       "from": [
-        "3",
-        "9"
+        3,
+        9
       ],
       "effects": [
         {
@@ -5409,8 +5466,8 @@
       "desc": "Após conjurar sua habilidade, o usuário restaura @ManaRestore@ de Mana.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.png",
       "from": [
-        "4",
-        "4"
+        4,
+        4
       ],
       "effects": [
         {
@@ -5424,8 +5481,8 @@
       "desc": "Reduz a Velocidade de Ataque de inimigos adjacentes em @AttackSpeedSlow@%.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.png",
       "from": [
-        "4",
-        "5"
+        4,
+        5
       ],
       "effects": [
         {
@@ -5434,7 +5491,7 @@
         },
         {
           "name": "0020F716",
-          "value": 4.0
+          "value": 1.0
         }
       ]
     },
@@ -5443,8 +5500,8 @@
       "desc": "Ataques básicos têm @ChanceOnHitToSilence@% de chance ao contato de silenciar o alvo, impedindo que ele receba Mana por @SilenceDuration@s.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.png",
       "from": [
-        "4",
-        "6"
+        4,
+        6
       ],
       "effects": [
         {
@@ -5466,8 +5523,8 @@
       "desc": "Quando o usuário fica com menos de @HPThreshold@% de Vida, aliados próximos são curados em @HealthRestore@ de Vida após um intervalo de 2,5s.<br><br>Esse efeito só pode ser ativado uma vez por combate.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.png",
       "from": [
-        "4",
-        "7"
+        4,
+        7
       ],
       "effects": [
         {
@@ -5493,8 +5550,8 @@
       "desc": "%i:scaleMana% +@Mana@ adicionais<br>Usuário também é um Demônio<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.png",
       "from": [
-        "4",
-        "8"
+        4,
+        8
       ],
       "effects": [
         {
@@ -5508,8 +5565,8 @@
       "desc": "No começo de cada Fase de Planejamento, o usuário ganha uma das seguintes características:<li>Ataques básicos e habilidades causam +@TraitMultiplier@% de Dano</li> <li>Ataques básicos curam @TraitMultiplier@ de Vida ao contato</li>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HandOfJustice.TFT.png",
       "from": [
-        "4",
-        "9"
+        4,
+        9
       ],
       "effects": [
         {
@@ -5539,8 +5596,8 @@
       "desc": "Quando o usuário é atingido por ataques básicos, ele reflete @DamageReflect@% do dano mitigado como Dano Mágico.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.png",
       "from": [
-        "5",
-        "5"
+        5,
+        5
       ],
       "effects": [
         {
@@ -5554,8 +5611,8 @@
       "desc": "Ataques básicos do usuário têm @ChanceOnHitToDisarm@% de chance de desarmar o alvo por @DisarmDuration@s, impedindo que o inimigo desfira ataques básicos.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.png",
       "from": [
-        "5",
-        "6"
+        5,
+        6
       ],
       "effects": [
         {
@@ -5573,8 +5630,8 @@
       "desc": "Os ataques básicos do usuário queimam o alvo ao contato, causando @BurnPercent@% da Vida máxima do alvo como Dano Verdadeiro ao longo de @BurnDuration@s e reduzindo efeitos de cura em 80% enquanto a queimadura persistir. Um Campeão só pode ter um efeito de queimadura por vez, priorizando o efeito mais forte.<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.png",
       "from": [
-        "5",
-        "7"
+        5,
+        7
       ],
       "effects": [
         {
@@ -5600,8 +5657,8 @@
       "desc": "%i:scaleArmor% +@Armor@ adicionais<br>Usuário também é um Cavaleiro<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.png",
       "from": [
-        "5",
-        "8"
+        5,
+        8
       ],
       "effects": [
         {
@@ -5615,8 +5672,8 @@
       "desc": "Quando o usuário se esquiva, ele cria uma zona de gelo. Inimigos nesta zona têm sua Velocidade de Ataque reduzida em @ASSlowPercentage@%.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IcebornGauntlet.TFT.png",
       "from": [
-        "5",
-        "9"
+        5,
+        9
       ],
       "effects": [
         {
@@ -5638,8 +5695,8 @@
       "desc": "O usuário recebe @MagicReduction@% de resistência a Dano Mágico.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.png",
       "from": [
-        "6",
-        "6"
+        6,
+        6
       ],
       "effects": [
         {
@@ -5653,8 +5710,8 @@
       "desc": "No início do combate, o usuário invoca um furacão no lado oposto da arena que remove do combate o inimigo mais próximo por @BanishDuration@s.<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.png",
       "from": [
-        "6",
-        "7"
+        6,
+        7
       ],
       "effects": [
         {
@@ -5668,8 +5725,8 @@
       "desc": "%i:scaleMR% +@ExtraMR@ adicionais<br>Ataques básicos disparam um projétil adicional em outro inimigo próximo, causando @MultiplierForDamage@% do Dano de Ataque do usuário e aplicando efeitos ao contato.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.png",
       "from": [
-        "6",
-        "8"
+        6,
+        8
       ],
       "effects": [
         {
@@ -5691,13 +5748,13 @@
       "desc": "O usuário ganha um escudo que impede a aplicação do próximo efeito de Controle de Grupo. O escudo é redefinido após @CleanseICD@s.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Mercurial.TFT.png",
       "from": [
-        "9",
-        "6"
+        9,
+        6
       ],
       "effects": [
         {
           "name": "CleanseICD",
-          "value": 5.0
+          "value": 3.0
         },
         {
           "name": "DodgeChance",
@@ -5714,8 +5771,8 @@
       "desc": "O usuário regenera @HealthRegen@% da sua Vida perdida por segundo.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.png",
       "from": [
-        "7",
-        "7"
+        7,
+        7
       ],
       "effects": [
         {
@@ -5733,8 +5790,8 @@
       "desc": "%i:scaleHealth% +@Health@ adicionais<br>Usuário também é um Glacial<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.png",
       "from": [
-        "8",
-        "7"
+        8,
+        7
       ],
       "effects": [
         {
@@ -5748,8 +5805,8 @@
       "desc": "No início do combate, o usuário ganha um escudo que bloqueia a primeira habilidade inimiga que o atingir. O inimigo que quebrar o escudo ficará atordoado por @StunDuration@s.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Backhand.TFT.png",
       "from": [
-        "7",
-        "9"
+        7,
+        9
       ],
       "effects": [
         {
@@ -5771,8 +5828,8 @@
       "desc": "A equipe do usuário recebe +@MaxArmySizeIncrease@ de tamanho máximo.",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.png",
       "from": [
-        "8",
-        "8"
+        8,
+        8
       ],
       "effects": [
         {
@@ -5786,8 +5843,8 @@
       "desc": "O usuário também é um Yordle<br>+10% de Chance de Acerto Crítico e +10% de Chance de Esquiva adicionais<br><br><tftitemrules>[Único - Apenas um por Campeão]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Mittens.TFT.png",
       "from": [
-        "9",
-        "8"
+        9,
+        8
       ],
       "effects": [
         {
@@ -5805,8 +5862,8 @@
       "desc": "No começo de cada Fase de Planejamento, o usuário equipa 2 itens temporários. Os itens temporários têm seu poder aumentado com base no nível do jogador.<br><br><tftitemrules>[Consome três espaços de item]</tftitemrules>",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ThiefsGloves.TFT.png",
       "from": [
-        "9",
-        "9"
+        9,
+        9
       ],
       "effects": [
         {
@@ -5880,7 +5937,7 @@
     },
     "10004": {
       "name": "Lâmina Mortal",
-      "desc": "Quando o usuário abate ou participa do abate de um inimigo, ele ganha +@ADPerStack@ de Dano de Ataque pelo resto do combate.<br><br>Não há limite de acúmulos para esse efeito.",
+      "desc": "Quando o usuário abate ou participa do abate de um inimigo, ele ganha +@ADPerStack@ de Dano de Ataque pelo resto do combate.<br><br>Não há limite de acúmulos para esse efeito. Começa com @StartingStacks@ acúmulo(s).",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DeathBlade.TFT.png",
       "from": [],
       "effects": [
