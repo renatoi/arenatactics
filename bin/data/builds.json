@@ -2346,5 +2346,112 @@
       "en_us": "### 1. PROS\n\n- Curses an enemy champion at the beginning of the turn (Phantom’s bonus);\n- Strong area damage;\n- Extra survivability ([[trait=yordle]] champions);\n\n\n### 2. CONS\n\n- Weak survivability;\n- Medium cost champions (median cost: 3 coins);\n- Need 9 champions on game;\n- Need 3x [[item=yuumi]] to equip in Poppy, Mordekaiser and Pantheon;\n- Dependent of two tier 5 champions;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=ninjas]]\n[[trait=dragon]]\n[[trait=wild]]\n\n[[item=dragons-claw]]\n[[item=ionic-spark]]\n[[item=hush]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=mordekaiser]]\n[[champion=ahri]]\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=twisted-fate]]\n[[champion=garen]]\n\n#### Mid Game:\n\n[[champion=garen]]→[[champion=poppy]]\n\n[[champion=kassadin]]→[[champion=veigar]]\n\n[[champion=twisted-fate]]→[[champion=morgana]]\n\n[[champion=aurelion-sol]]\n\n#### Late Game:\n\n[[champion=karthus]]\n[[champion=pantheon]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=karthus]][[champion=aurelion-sol]]→[[champion=twisted-fate]][[champion=kassadin]]\n\n[[champion=mordekaiser]]→[[champion=kindred]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=jeweled-gauntlet]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=mittens]]→[[champion=aurelion-sol]][[champion=karthus]][[champion=morgana]][[champion=ahri]][[champion=pantheon]][[champion=mordekaiser]]\n\n",
       "pt_br": "### 1. PRÓS\n\n- Amaldiçoa um campeão inimigo no início do turno (bônus de Fantasma);\n- Forte dano em área;\n- Sobrevivência extra (campeões [[trait=yordle]]);\n\n\n### 2. CONTRAS\n\n- Fraca sobrevivência;\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Precisa de 9 campeões em campo;\n- Precisa de 3x [[item=yuumi]] para equipar em Poppy, Mordekaiser e Pantheon;\n- Dependente de 2 campeões de nível 5;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=assassin]]\n[[trait=ninjas]]\n[[trait=dragon]]\n[[trait=wild]]\n\n[[item=dragons-claw]]\n[[item=ionic-spark]]\n[[item=hush]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=mordekaiser]]\n[[champion=ahri]]\n[[champion=lulu]]\n[[champion=kassadin]]\n[[champion=twisted-fate]]\n[[champion=garen]]\n\n#### Meio do Jogo:\n\n[[champion=garen]]→[[champion=poppy]]\n\n[[champion=kassadin]]→[[champion=veigar]]\n\n[[champion=twisted-fate]]→[[champion=morgana]]\n\n[[champion=aurelion-sol]]\n\n#### Fim do Jogo:\n\n[[champion=karthus]]\n[[champion=pantheon]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=karthus]][[champion=aurelion-sol]]→[[champion=twisted-fate]][[champion=kassadin]]\n\n[[champion=mordekaiser]]→[[champion=kindred]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=jeweled-gauntlet]]\n\n[[item=iceborn-gauntlet]]→[[trait=yordle]]\n\n[[item=mittens]]→[[champion=aurelion-sol]][[champion=karthus]][[champion=morgana]][[champion=ahri]][[champion=pantheon]][[champion=mordekaiser]]\n\n"
     }
+  },
+  {
+    "id": "08f7abef-55e5-4e01-8a2f-407472469b6c",
+    "key": "",
+    "name": {
+      "en_us": "9 Yordles",
+      "pt_br": "9 Yordles"
+    },
+    "tier": "A",
+    "composition": [
+      {
+        "champion": "78",
+        "items": [
+          "59",
+          "66",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "150",
+        "items": [
+          "77",
+          "59",
+          "66"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "45",
+        "items": [
+          "14",
+          "14",
+          "44"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "85",
+        "items": [
+          "37",
+          "15",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "117",
+        "items": [
+          "14",
+          "14",
+          "23"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "18",
+        "items": [
+          "57",
+          "26",
+          "46"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "136",
+        "items": [
+          "14",
+          "23",
+          "33"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "76",
+        "items": [
+          "23",
+          "15",
+          "66"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "102",
+        "items": [
+          "13",
+          "23",
+          "77"
+        ],
+        "isCarry": false
+      }
+    ],
+    "positioning": {
+      "2,2": "85",
+      "3,1": "18",
+      "1,2": "78",
+      "1,1": "150",
+      "2,1": "117",
+      "2,3": "76",
+      "3,3": "136",
+      "3,2": "45",
+      "2,4": "102"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong survivability;\n- Strong against grouped enemies;\n\n\n### 2. CONS\n\n- Medium cost champions (median cost: 3 coins);\n- Strongly mana’s dependent;\n- Need 9 champions on game;\n- Need 3x [[item=mittens]] to equip in Nidalee, Shyvana and Aurelion Sol;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=wild]]\n[[trait=dragon]]\n\n[[item=dragons-claw]]\n[[item=hush]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=nidalee]]\n[[champion=lulu]]\n\n\n#### Mid Game:\n\n[[champion=veigar]]\n\n[[champion=gnar]]\n\n[[champion=lucian]]→[[champion=kennen]]\n\n[[champion=graves]]→[[champion=poppy]]\n\n#### Late Game:\n\n[[champion=aurelion-sol]]\n[[champion=shyvana]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=aurelion-sol]]→[[champion=karthus]]\n\n[[champion=nidalee]][[champion=shyvana]]→[[champion=pantheon]][[champion=ahri]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=iceborn-gauntlet]]\n\n[[item=jeweled-gauntlet]]\n\n[[item=mittens]]→[[champion=aurelion-sol]][[champion=shyvana]][[champion=nidalee]]\n\n[[item=yuumi]]→[[champion=kennen]][[champion=shyvana]][[champion=gnar]]\n\n",
+      "pt_br": "\n### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte sobrevivência;\n- Forte contra inimigos agrupados;\n\n\n### 2. CONTRAS\n\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Fortemente dependente de mana;\n- Precisa de 9 campeões em campo;\n- Precisa de 3x [[item=mittens]] para equipar em Nidalee, Shyvana e Aurelion Sol;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=wild]]\n[[trait=dragon]]\n\n[[item=dragons-claw]]\n[[item=hush]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=nidalee]]\n[[champion=lulu]]\n\n\n#### Meio do Jogo:\n\n[[champion=veigar]]\n\n[[champion=gnar]]\n\n[[champion=lucian]]→[[champion=kennen]]\n\n[[champion=graves]]→[[champion=poppy]]\n\n#### Fim do Jogo:\n\n[[champion=aurelion-sol]]\n[[champion=shyvana]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=aurelion-sol]]→[[champion=karthus]]\n\n[[champion=nidalee]][[champion=shyvana]]→[[champion=pantheon]][[champion=ahri]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=iceborn-gauntlet]]\n\n[[item=jeweled-gauntlet]]\n\n[[item=mittens]]→[[champion=aurelion-sol]][[champion=shyvana]][[champion=nidalee]]\n\n[[item=yuumi]]→[[champion=kennen]][[champion=shyvana]][[champion=gnar]]\n\n"
+    }
   }
 ]
