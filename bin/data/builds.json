@@ -2453,5 +2453,102 @@
       "en_us": "### 1. PROS\n\n- Strong crowd control;\n- Strong survivability;\n- Strong against grouped enemies;\n\n\n### 2. CONS\n\n- Medium cost champions (median cost: 3 coins);\n- Strongly mana’s dependent;\n- Need 9 champions on game;\n- Need 3x [[item=mittens]] to equip in Nidalee, Shyvana and Aurelion Sol;\n\n\n### 3. WEAKNESS\n\n[[trait=demon]]\n[[trait=wild]]\n[[trait=dragon]]\n\n[[item=dragons-claw]]\n[[item=hush]]\n\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=nidalee]]\n[[champion=lulu]]\n\n\n#### Mid Game:\n\n[[champion=veigar]]\n\n[[champion=gnar]]\n\n[[champion=lucian]]→[[champion=kennen]]\n\n[[champion=graves]]→[[champion=poppy]]\n\n#### Late Game:\n\n[[champion=aurelion-sol]]\n[[champion=shyvana]]\n\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=aurelion-sol]]→[[champion=karthus]]\n\n[[champion=nidalee]][[champion=shyvana]]→[[champion=pantheon]][[champion=ahri]]\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=iceborn-gauntlet]]\n\n[[item=jeweled-gauntlet]]\n\n[[item=mittens]]→[[champion=aurelion-sol]][[champion=shyvana]][[champion=nidalee]]\n\n[[item=yuumi]]→[[champion=kennen]][[champion=shyvana]][[champion=gnar]]\n\n",
       "pt_br": "\n### 1. PRÓS\n\n- Forte controle de grupo;\n- Forte sobrevivência;\n- Forte contra inimigos agrupados;\n\n\n### 2. CONTRAS\n\n- Campeões de custo médio (custo mediano: 3 moedas);\n- Fortemente dependente de mana;\n- Precisa de 9 campeões em campo;\n- Precisa de 3x [[item=mittens]] para equipar em Nidalee, Shyvana e Aurelion Sol;\n\n\n### 3. FRAQUEZA\n\n[[trait=demon]]\n[[trait=wild]]\n[[trait=dragon]]\n\n[[item=dragons-claw]]\n[[item=hush]]\n\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=tristana]]\n[[champion=graves]]\n[[champion=lucian]]\n[[champion=nidalee]]\n[[champion=lulu]]\n\n\n#### Meio do Jogo:\n\n[[champion=veigar]]\n\n[[champion=gnar]]\n\n[[champion=lucian]]→[[champion=kennen]]\n\n[[champion=graves]]→[[champion=poppy]]\n\n#### Fim do Jogo:\n\n[[champion=aurelion-sol]]\n[[champion=shyvana]]\n\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=aurelion-sol]]→[[champion=karthus]]\n\n[[champion=nidalee]][[champion=shyvana]]→[[champion=pantheon]][[champion=ahri]]\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n\n[[item=locket-of-the-iron-solari]]\n\n[[item=iceborn-gauntlet]]\n\n[[item=jeweled-gauntlet]]\n\n[[item=mittens]]→[[champion=aurelion-sol]][[champion=shyvana]][[champion=nidalee]]\n\n[[item=yuumi]]→[[champion=kennen]][[champion=shyvana]][[champion=gnar]]\n\n"
     }
+  },
+  {
+    "id": "8850a2ef-1800-4974-8c32-1c3f3fde9df4",
+    "key": "",
+    "name": {
+      "en_us": "Brawler Hextech Jinx",
+      "pt_br": "Lutador Hextech Jinx"
+    },
+    "tier": "S",
+    "composition": [
+      {
+        "champion": "31",
+        "items": [
+          "37",
+          "66",
+          "77"
+        ],
+        "isCarry": true
+      },
+      {
+        "champion": "421",
+        "items": [
+          "77",
+          "15",
+          "45"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "19",
+        "items": [
+          "27",
+          "77",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "254",
+        "items": [
+          "77",
+          "77",
+          "27"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "236",
+        "items": [
+          "44",
+          "34",
+          "13"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "106",
+        "items": [
+          "22",
+          "22",
+          "46"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "53",
+        "items": [
+          "36",
+          "36",
+          "77"
+        ],
+        "isCarry": false
+      },
+      {
+        "champion": "222",
+        "items": [
+          "68",
+          "79",
+          "12"
+        ],
+        "isCarry": true
+      }
+    ],
+    "positioning": {
+      "1,7": "31",
+      "1,6": "421",
+      "2,7": "19",
+      "2,5": "254",
+      "3,4": "236",
+      "3,5": "106",
+      "3,6": "53",
+      "3,7": "222"
+    },
+    "guide": {
+      "en_us": "### 1. PROS\n\n- Low cost champions (median cost: 2.5 coins)\n- Disables enemy items at the beginning of the turn;\n- Strong survivability;\n- Strong crowd control;\n\n\n### 2. CONS\n\n\n- Strongly mana’s dependent;\n- Strongly dependent of Jinx (damage and [[trait=hextech]] bonus);\n\n\n### 3. WEAKNESS\n\n[[trait=void]]\n[[trait=demon]]\n\n[[item=giant-slayer]]\n[[item=morellonomicon]]\n[[item=red-buff]]\n[[trait=hush]]\n\n### 4. GAME\n\n#### Early Game:\n\n[[champion=warwick]]\n[[champion=nidalee]]\n[[champion=blitzcrank]]\n[[champion=reksai]]\n[[champion=jayce]]\n\n\n#### Mid Game:\n\n[[champion=jinx]]\n\n[[champion=volibear]]\n\n[[champion=chogath]]\n\n[[champion=jayce]]→[[champion=vi]]\n\n#### Late Game:\n\n[[champion=nidalee]]→[[champion=lucian]]\n\n### 5. ALTERNATIVE CHAMPIONS\n\n[[champion=lucian]]→[[champion=miss-fortune]][[champion=tristana]][[champion=gangplank]][[champion=graves]]\n\n\n### 6. USEFUL ITEMS\n\n[[item=force-of-nature]]\n\n[[item=dragons-claw]]\n\n[[item=frozen-heart]]\n\n[[item=iceborn-gauntlet]]\n\n[[item=ionic spark]]\n\n[[item=redemption]]\n\n[[item=trap-claw]][[item=guardian-angel]]→[[champion=jinx]]\n\n[[item=warmogs-armor]][[item=titanic-hydra]]→[[trait=brawler]]\n\n\n\n",
+      "pt_br": "### 1. PRÓS\n\n- Campeões de baixo custo (custo mediano: 2,5 moedas);\n- Inutiliza os itens dos inimigos no início do turno;\n- Forte sobrevivência;\n- Forte controle de grupo;\n\n\n### 2. CONTRAS\n\n\n- Fortemente dependente de mana;\n-Fortemente dependente de Jinx (dano e bônus de [[trait=hextech]]);\n\n\n### 3. FRAQUEZA\n\n[[trait=void]]\n[[trait=demon]]\n\n[[item=giant-slayer]]\n[[item=morellonomicon]]\n[[item=red-buff]]\n[[trait=hush]]\n\n### 4. PARTIDA\n\n#### Início do Jogo:\n\n[[champion=warwick]]\n[[champion=nidalee]]\n[[champion=blitzcrank]]\n[[champion=reksai]]\n[[champion=jayce]]\n\n\n#### Meio do Jogo:\n\n[[champion=jinx]]\n\n[[champion=volibear]]\n\n[[champion=chogath]]\n\n[[champion=jayce]]→[[champion=vi]]\n\n#### Fim do Jogo:\n\n[[champion=nidalee]]→[[champion=lucian]]\n\n### 5. CAMPEÕES ALTERNATIVOS\n\n[[champion=lucian]]→[[champion=miss-fortune]][[champion=tristana]][[champion=gangplank]][[champion=graves]]\n\n\n### 6. ITENS ÚTEIS\n\n[[item=force-of-nature]]\n[[item=dragons-claw]]\n[[item=frozen-heart]]\n[[item=iceborn-gauntlet]]\n[[item=ionic spark]]\n[[item=redemption]]\n\n[[item=trap-claw]][[item=guardian-angel]]→[[champion=jinx]]\n\n[[item=warmogs-armor]][[item=titanic-hydra]]→[[trait=brawler]]\n\n"
+    }
   }
 ]
