@@ -284,6 +284,19 @@ class CreateBuildComponent extends React.Component<
     );
   };
 
+  deleteAllBuilds = () => {
+    if (window.confirm("Are you sure you want to delete ALL builds?")) {
+      const currentBuild = this.getEmptyBuild();
+      this.setState(
+        {
+          userBuilds: [currentBuild],
+          currentBuild
+        },
+        () => this.saveLocalJSON()
+      );
+    }
+  };
+
   deleteBuild = (buildId: string) => {
     if (window.confirm("Are you sure you want to delete this build?")) {
       if (this.state.userBuilds.length === 1) {
@@ -677,6 +690,13 @@ class CreateBuildComponent extends React.Component<
             </div>
           </div>
           <div>
+            <button
+              type="button"
+              className={styles.button}
+              onClick={() => this.deleteAllBuilds()}
+            >
+              <Icon type="delete_forever">Delete all builds</Icon>
+            </button>
             <button
               className={styles.button}
               type="button"
