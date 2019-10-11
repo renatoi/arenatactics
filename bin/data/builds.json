@@ -491,7 +491,7 @@
       "en_us": "Void Guardian Sorcerer",
       "pt_br": "Vastinatas Guardiões Feiticeiros"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "30",
@@ -782,7 +782,7 @@
       "en_us": "Yordles Shapeshifters Sorcerers",
       "pt_br": "Yordles Transmorfos Feiticeiros"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "113",
@@ -1170,7 +1170,7 @@
       "en_us": "Blademaster Gunslinger Hextech",
       "pt_br": "Mestre das Lâminas Pistoleiros Hextech"
     },
-    "tier": "B",
+    "tier": "A",
     "composition": [
       {
         "champion": "164",
@@ -1849,7 +1849,7 @@
       "en_us": "Wilds Shapeshifters Assassins Hextech",
       "pt_br": "Selvagens Transmorfos Assassinos Hextech"
     },
-    "tier": "S",
+    "tier": "A",
     "composition": [
       {
         "champion": "555",
