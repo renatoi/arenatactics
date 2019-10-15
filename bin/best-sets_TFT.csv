@@ -1,0 +1,3036 @@
+﻿;;;;Champion;NAME S1;;S1I1;S1I2;S1I3;NAME S2;;S2I1;S2I2;S2I3;NAME S3;;S3I1;S3I2;S3I3;ID S1I1;ID S1I2;ID S1I3;CONC;ID S2I1;ID S2I2;ID S2I3;CONC;ID S3I1;ID S3I2;ID S3I3;CONC;CODE_EN;JSON_EN;CODE_PT;JSON_PT;;
+;;;;Aatrox;"""Life Steal / Magic Resistance / Buffer (Remove CC)""";"""Roubo de Vida / Resistência Mágica / Buffer (Remove Controles de Grupo)""";Hextech Gunblade;Dragon's Claw;Quicksilver;"""Life Steal / Magic Resistance / Revive""";"""Roubo de Vida / Resistência Mágica / Reviver""";Hextech Gunblade;Dragon's Claw;Guardian Angel;"""Life Steal / HP Regeneration / Magic Resistance""";"""Roubo de Vida / Regeneração de Vida / Resistência Mágica""";Hextech Gunblade;Warmog's Armor;Dragon's Claw;13;66;69;[13,66,69];13;66;15;[13,66,15];13;77;66;[13,77,66];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Buffer (Remove CC)"",
+          ""items"": [13,66,69]
+        },
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Life Steal / HP Regeneration / Magic Resistance"",
+          ""items"": [13,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Buffer (Remove CC)"",
+          ""items"": [13,66,69]
+        },
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Life Steal / HP Regeneration / Magic Resistance"",
+          ""items"": [13,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Buffer (Remove Controles de Grupo)"",
+          ""items"": [13,66,69]
+        },
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [13,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Buffer (Remove Controles de Grupo)"",
+          ""items"": [13,66,69]
+        },
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [13,77,66]
+        }
+      ]";P1;"""bestSets"": [
+        {
+          ""name"": "
+;;;;Ahri;"""Chance to Spell Crit / Attack Speed / Splash Damage""";"""Chance dos Feitiços darem dano Crítico / Velocidade de Ataque / Dano em área""";Jeweled Gauntlet;Guinsoo's Rageblade;Luden's Echo;"""Splash Damage / Attack Speed / Splash Damage""";"""Dano em área / Velocidade de Ataque / Dano em área""";Statikk Shiv;Guinsoo's Rageblade;Luden's Echo;"""Mana Generation / Attack Speed / Ability Damage""";"""Geração de Mana / Velocidade de Ataque / Dano de Habilidade""";Spear of Shojin;Guinsoo's Rageblade;Rabadon's Deathcap;39;23;34;[39,23,34];24;23;34;[24,23,34];14;23;33;[14,23,33];"""bestSets"": [
+        {
+          ""name"": ""Chance to Spell Crit / Attack Speed / Splash Damage"",
+          ""items"": [39,23,34]
+        },
+        {
+          ""name"": ""Splash Damage / Attack Speed / Splash Damage"",
+          ""items"": [24,23,34]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Ability Damage"",
+          ""items"": [14,23,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Chance to Spell Crit / Attack Speed / Splash Damage"",
+          ""items"": [39,23,34]
+        },
+        {
+          ""name"": ""Splash Damage / Attack Speed / Splash Damage"",
+          ""items"": [24,23,34]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Ability Damage"",
+          ""items"": [14,23,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Chance dos Feitiços darem dano Crítico / Velocidade de Ataque / Dano em área"",
+          ""items"": [39,23,34]
+        },
+        {
+          ""name"": ""Dano em área / Velocidade de Ataque / Dano em área"",
+          ""items"": [24,23,34]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [14,23,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Chance dos Feitiços darem dano Crítico / Velocidade de Ataque / Dano em área"",
+          ""items"": [39,23,34]
+        },
+        {
+          ""name"": ""Dano em área / Velocidade de Ataque / Dano em área"",
+          ""items"": [24,23,34]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [14,23,33]
+        }
+      ]";P2;
+;;;;Akali;"""Mana Generation / Critical Damage / Critical Chance / Attack Damage / Life on Hit""";"""Geração de Mana / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar""";Seraph's Embrace;Infinity Edge;Hand of Justice;"""Mana Generation / Life Steal / Magic Resistance""";"""Geração de Mana / Roubo de Vida / Resistência Mágica""";Seraph's Embrace;Hextech Gunblade;Dragon's Claw;"""Mana Generation / Critical Damage / Critical Chance / Ability Damage""";"""Geração de Mana / Dano Crítico / Chance de Crítico / Dano de Habilidade""";Seraph's Embrace;Infinity Edge;Rabadon's Deathcap;44;19;49;[44,19,49];44;13;66;[44,13,66];44;19;33;[44,19,33];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Attack Damage / Life on Hit"",
+          ""items"": [44,19,49]
+        },
+        {
+          ""name"": ""Mana Generation / Life Steal / Magic Resistance"",
+          ""items"": [44,13,66]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Ability Damage"",
+          ""items"": [44,19,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Attack Damage / Life on Hit"",
+          ""items"": [44,19,49]
+        },
+        {
+          ""name"": ""Mana Generation / Life Steal / Magic Resistance"",
+          ""items"": [44,13,66]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Ability Damage"",
+          ""items"": [44,19,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar"",
+          ""items"": [44,19,49]
+        },
+        {
+          ""name"": ""Geração de Mana / Roubo de Vida / Resistência Mágica"",
+          ""items"": [44,13,66]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Dano de Habilidade"",
+          ""items"": [44,19,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar"",
+          ""items"": [44,19,49]
+        },
+        {
+          ""name"": ""Geração de Mana / Roubo de Vida / Resistência Mágica"",
+          ""items"": [44,13,66]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Dano de Habilidade"",
+          ""items"": [44,19,33]
+        }
+      ]";P3;",
+          ""items"": "
+;;;;Anivia;"""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)""";Seraph's Embrace;Seraph's Embrace;Morellonomicon;"""Mana Generation / Chance to Spell Crit / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Chance dos Feitiços darem dano Crítico / Dano de Queimadura / Debuffer (Previne Cura)""";Seraph's Embrace;Jeweled Gauntlet;Morellonomicon;"""Burn Damage / Debuffer (Prevent Heal) / Ability Damage / Attack Speed""";"""Dano de Queimadura / Debuffer (Previne Cura) / Dano de Habilidade / Velocidade de Ataque""";Morellonomicon;Rabadon's Deathcap;Guinsoo's Rageblade;44;44;37;[44,44,37];44;39;37;[44,39,37];37;33;23;[37,33,23];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Mana Generation / Chance to Spell Crit / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,39,37]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Ability Damage / Attack Speed"",
+          ""items"": [37,33,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Mana Generation / Chance to Spell Crit / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,39,37]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Ability Damage / Attack Speed"",
+          ""items"": [37,33,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Geração de Mana / Chance dos Feitiços darem dano Crítico / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,39,37]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Dano de Habilidade / Velocidade de Ataque"",
+          ""items"": [37,33,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Geração de Mana / Chance dos Feitiços darem dano Crítico / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,39,37]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Dano de Habilidade / Velocidade de Ataque"",
+          ""items"": [37,33,23]
+        }
+      ]";P4;"
+        },
+        {
+          ""name"": "
+;;;;Ashe;"""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed""";"""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque""";Runaan's Hurricane;Hush;Guinsoo's Rageblade;"""Mana Generation / Critical Damage / Critical Chance / Attack Speed""";"""Geração de Mana / Dano Crítico / Chance de Crítico / Velocidade de Ataque""";Spear of Shojin;Infinity Edge;Guinsoo's Rageblade;"""Splash Damage / Splash Damage / Splash Damage""";"""Dano em área / Dano em área / Dano em área""";Statikk Shiv;Statikk Shiv;Statikk Shiv;68;46;23;[68,46,23];14;19;23;[14,19,23];24;24;24;[24,24,24];"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Attack Speed"",
+          ""items"": [14,19,23]
+        },
+        {
+          ""name"": ""Splash Damage / Splash Damage / Splash Damage"",
+          ""items"": [24,24,24]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Attack Speed"",
+          ""items"": [14,19,23]
+        },
+        {
+          ""name"": ""Splash Damage / Splash Damage / Splash Damage"",
+          ""items"": [24,24,24]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Velocidade de Ataque"",
+          ""items"": [14,19,23]
+        },
+        {
+          ""name"": ""Dano em área / Dano em área / Dano em área"",
+          ""items"": [24,24,24]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Velocidade de Ataque"",
+          ""items"": [14,19,23]
+        },
+        {
+          ""name"": ""Dano em área / Dano em área / Dano em área"",
+          ""items"": [24,24,24]
+        }
+      ]";P5;
+;;;;Aurelion Sol;"""Mana Generation / Attack Speed / Ability Damage""";"""Geração de Mana / Velocidade de Ataque / Dano de Habilidade""";Spear of Shojin;Guinsoo's Rageblade;Rabadon's Deathcap;"""Mana Generation / Mana Generation / Chance to Spell Crit""";"""Geração de Mana / Geração de Mana / Chance dos Feitiços darem dano Crítico""";Seraph's Embrace;Seraph's Embrace;Jeweled Gauntlet;"""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)""";Seraph's Embrace;Seraph's Embrace;Morellonomicon;14;23;33;[14,23,33];44;44;39;[44,44,39];44;44;37;[44,44,37];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Attack Speed / Ability Damage"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Chance to Spell Crit"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Attack Speed / Ability Damage"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Chance to Spell Crit"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        }
+      ]";P6;",
+          ""items"": "
+;;;;Blitzcrank;"""Attack Speed / Mana Generation / Ability Damage""";"""Velocidade de Ataque / Geração de Mana / Dano de Habilidade""";Guinsoo's Rageblade;Spear of Shojin;Rabadon's Deathcap;"""Magic Resistance / Debuffer (Slow) / Buffer (Attack Speed)""";"""Resistência Mágica / Debuffer (Lentidão) / Buffer (Velocidade de Ataque)""";Dragon's Claw;Frozen Heart;Zeke's Herald;"""HP Regeneration / Splash Damage / Attack Speed""";"""Regeneração de Vida / Dano em área / Velocidade de Ataque""";Warmog's Armor;Titanic Hydra;Guinsoo's Rageblade;23;14;33;[23,14,33];66;45;17;[66,45,17];77;27;23;[77,27,23];"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Mana Generation / Ability Damage"",
+          ""items"": [23,14,33]
+        },
+        {
+          ""name"": ""Magic Resistance / Debuffer (Slow) / Buffer (Attack Speed)"",
+          ""items"": [66,45,17]
+        },
+        {
+          ""name"": ""HP Regeneration / Splash Damage / Attack Speed"",
+          ""items"": [77,27,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Mana Generation / Ability Damage"",
+          ""items"": [23,14,33]
+        },
+        {
+          ""name"": ""Magic Resistance / Debuffer (Slow) / Buffer (Attack Speed)"",
+          ""items"": [66,45,17]
+        },
+        {
+          ""name"": ""HP Regeneration / Splash Damage / Attack Speed"",
+          ""items"": [77,27,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Dano de Habilidade"",
+          ""items"": [23,14,33]
+        },
+        {
+          ""name"": ""Resistência Mágica / Debuffer (Lentidão) / Buffer (Velocidade de Ataque)"",
+          ""items"": [66,45,17]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Dano em área / Velocidade de Ataque"",
+          ""items"": [77,27,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Dano de Habilidade"",
+          ""items"": [23,14,33]
+        },
+        {
+          ""name"": ""Resistência Mágica / Debuffer (Lentidão) / Buffer (Velocidade de Ataque)"",
+          ""items"": [66,45,17]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Dano em área / Velocidade de Ataque"",
+          ""items"": [77,27,23]
+        }
+      ]";P7;"
+        },
+        {
+          ""name"": "
+;;;;Brand;"""Mana Generation / Attack Speed / Ability Damage""";"""Geração de Mana / Velocidade de Ataque / Dano de Habilidade""";Spear of Shojin;Guinsoo's Rageblade;Rabadon's Deathcap;"""Ability Damage / Life Steal / Attack Speed""";"""Dano de Habilidade / Roubo de Vida / Velocidade de Ataque""";Rabadon's Deathcap;Hextech Gunblade;Guinsoo's Rageblade;"""Chance to Spell Crit / Attack Speed / Ability Damage""";"""Chance dos Feitiços darem dano Crítico / Velocidade de Ataque / Dano de Habilidade""";Jeweled Gauntlet;Guinsoo's Rageblade;Rabadon's Deathcap;14;23;33;[14,23,33];33;13;23;[33,13,23];39;23;33;[39,23,33];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Attack Speed / Ability Damage"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Ability Damage / Life Steal / Attack Speed"",
+          ""items"": [33,13,23]
+        },
+        {
+          ""name"": ""Chance to Spell Crit / Attack Speed / Ability Damage"",
+          ""items"": [39,23,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Attack Speed / Ability Damage"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Ability Damage / Life Steal / Attack Speed"",
+          ""items"": [33,13,23]
+        },
+        {
+          ""name"": ""Chance to Spell Crit / Attack Speed / Ability Damage"",
+          ""items"": [39,23,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Dano de Habilidade / Roubo de Vida / Velocidade de Ataque"",
+          ""items"": [33,13,23]
+        },
+        {
+          ""name"": ""Chance dos Feitiços darem dano Crítico / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [39,23,33]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [14,23,33]
+        },
+        {
+          ""name"": ""Dano de Habilidade / Roubo de Vida / Velocidade de Ataque"",
+          ""items"": [33,13,23]
+        },
+        {
+          ""name"": ""Chance dos Feitiços darem dano Crítico / Velocidade de Ataque / Dano de Habilidade"",
+          ""items"": [39,23,33]
+        }
+      ]";P8;
+;;;;Braum;"""Reflect Damage / Reflect Damage / HP Regeneration""";"""Reflete Dano / Reflete Dano / Regeneração de Vida""";Thornmail;Thornmail;Warmog's Armor;"""Reflect Damage / Debuffer (attack speed) / HP Regeneration""";"""Reflete Dano / Debuffer (velocidade de ataque) / Regeneração de Vida""";Thornmail;Iceborn Gauntlet;Warmog's Armor;"""Debuffer (Slow) / Buffer (Shield) / Buffer (Attack Speed)""";"""Debuffer (Lentidão) / Buffer (Escudo) / Buffer (Velocidade de Ataque)""";Frozen Heart;Locket of the Iron Solari;Zeke's Herald;55;55;77;[55,55,77];55;59;77;[55,59,77];45;35;17;[45,35,17];"""bestSets"": [
+        {
+          ""name"": ""Reflect Damage / Reflect Damage / HP Regeneration"",
+          ""items"": [55,55,77]
+        },
+        {
+          ""name"": ""Reflect Damage / Debuffer (attack speed) / HP Regeneration"",
+          ""items"": [55,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / Buffer (Shield) / Buffer (Attack Speed)"",
+          ""items"": [45,35,17]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reflect Damage / Reflect Damage / HP Regeneration"",
+          ""items"": [55,55,77]
+        },
+        {
+          ""name"": ""Reflect Damage / Debuffer (attack speed) / HP Regeneration"",
+          ""items"": [55,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / Buffer (Shield) / Buffer (Attack Speed)"",
+          ""items"": [45,35,17]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reflete Dano / Reflete Dano / Regeneração de Vida"",
+          ""items"": [55,55,77]
+        },
+        {
+          ""name"": ""Reflete Dano / Debuffer (velocidade de ataque) / Regeneração de Vida"",
+          ""items"": [55,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Buffer (Escudo) / Buffer (Velocidade de Ataque)"",
+          ""items"": [45,35,17]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reflete Dano / Reflete Dano / Regeneração de Vida"",
+          ""items"": [55,55,77]
+        },
+        {
+          ""name"": ""Reflete Dano / Debuffer (velocidade de ataque) / Regeneração de Vida"",
+          ""items"": [55,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Buffer (Escudo) / Buffer (Velocidade de Ataque)"",
+          ""items"": [45,35,17]
+        }
+      ]";P9;",
+          ""items"": "
+;;;;Camille;"""Life Steal / Magic Resistance / Revive""";"""Roubo de Vida / Resistência Mágica / Reviver""";The Bloodthirster;Dragon's Claw;Guardian Angel;"""Attack Speed / Critical Damage / Critical Chance / Life Steal""";"""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida""";Guinsoo's Rageblade;Infinity Edge;The Bloodthirster;"""Attack Speed / Critical Damage / Critical Chance / Attack Damage / Life on Hit""";"""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar""";Guinsoo's Rageblade;Infinity Edge;Hand of Justice;16;66;15;[16,66,15];23;19;16;[23,19,16];23;19;49;[23,19,49];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Attack Damage / Life on Hit"",
+          ""items"": [23,19,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Attack Damage / Life on Hit"",
+          ""items"": [23,19,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar"",
+          ""items"": [23,19,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar"",
+          ""items"": [23,19,49]
+        }
+      ]";P10;"
+        }
+      ]"
+;;;;Cho'gath;"""Burn Damage / Debuffer (Prevent Heal) / Revive / Ability Damage""";"""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Dano de Habilidade""";Morellonomicon;Guardian Angel;Rabadon's Deathcap;"""Splash Damage / HP Regeneration / HP Regeneration""";"""Dano em área / Regeneração de Vida / Regeneração de Vida""";Titanic Hydra;Warmog's Armor;Warmog's Armor;"""Debuffer (attack speed) / Magic Resistance / HP Regeneration""";"""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida""";Iceborn Gauntlet;Dragon's Claw;Warmog's Armor;37;15;33;[37,15,33];27;77;77;[27,77,77];59;66;77;[59,66,77];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / Ability Damage"",
+          ""items"": [37,15,33]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / HP Regeneration"",
+          ""items"": [27,77,77]
+        },
+        {
+          ""name"": ""Debuffer (attack speed) / Magic Resistance / HP Regeneration"",
+          ""items"": [59,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / Ability Damage"",
+          ""items"": [37,15,33]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / HP Regeneration"",
+          ""items"": [27,77,77]
+        },
+        {
+          ""name"": ""Debuffer (attack speed) / Magic Resistance / HP Regeneration"",
+          ""items"": [59,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Dano de Habilidade"",
+          ""items"": [37,15,33]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Regeneração de Vida"",
+          ""items"": [27,77,77]
+        },
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [59,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Dano de Habilidade"",
+          ""items"": [37,15,33]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Regeneração de Vida"",
+          ""items"": [27,77,77]
+        },
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [59,66,77]
+        }
+      ]";;
+;;;;Darius;"""Life Steal / Magic Resistance / Revive""";"""Roubo de Vida / Resistência Mágica / Reviver""";Hextech Gunblade;Dragon's Claw;Guardian Angel;"""Life Steal / Buffer (Shield) / Debuffer (attack speed)""";"""Roubo de Vida / Buffer (Escudo) / Debuffer (velocidade de ataque)""";Hextech Gunblade;Locket of the Iron Solari;Iceborn Gauntlet;"""Life Steal / HP Regeneration / Magic Resistance""";"""Roubo de Vida / Regeneração de Vida / Resistência Mágica""";Hextech Gunblade;Warmog's Armor;Dragon's Claw;13;66;15;[13,66,15];13;35;59;[13,35,59];13;77;66;[13,77,66];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Life Steal / Buffer (Shield) / Debuffer (attack speed)"",
+          ""items"": [13,35,59]
+        },
+        {
+          ""name"": ""Life Steal / HP Regeneration / Magic Resistance"",
+          ""items"": [13,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Life Steal / Buffer (Shield) / Debuffer (attack speed)"",
+          ""items"": [13,35,59]
+        },
+        {
+          ""name"": ""Life Steal / HP Regeneration / Magic Resistance"",
+          ""items"": [13,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Roubo de Vida / Buffer (Escudo) / Debuffer (velocidade de ataque)"",
+          ""items"": [13,35,59]
+        },
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [13,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Roubo de Vida / Buffer (Escudo) / Debuffer (velocidade de ataque)"",
+          ""items"": [13,35,59]
+        },
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [13,77,66]
+        }
+      ]";;
+;;;;Draven;"""Life Steal / Critical Damage / Critical Chance / Attack Speed""";"""Roubo de Vida / Dano Crítico / Chance de Crítico / Velocidade de Ataque""";The Bloodthirster;Infinity Edge;Guinsoo's Rageblade;"""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal""";"""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida""";Guinsoo's Rageblade;Rapid Firecannon;The Bloodthirster;"""Attack Speed / Attack Damage / Life on Hit / Attack Speed / Buffer (Double Range)""";"""Velocidade de Ataque / Dano de Ataque / Vida ao acertar / Velocidade de Ataque / Buffer (Dobra Alcance)""";Guinsoo's Rageblade;Hand of Justice;Rapid Firecannon;16;19;23;[16,19,23];23;22;16;[23,22,16];23;49;22;[23,49,22];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Critical Damage / Critical Chance / Attack Speed"",
+          ""items"": [16,19,23]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Damage / Life on Hit / Attack Speed / Buffer (Double Range)"",
+          ""items"": [23,49,22]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Critical Damage / Critical Chance / Attack Speed"",
+          ""items"": [16,19,23]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Damage / Life on Hit / Attack Speed / Buffer (Double Range)"",
+          ""items"": [23,49,22]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Dano Crítico / Chance de Crítico / Velocidade de Ataque"",
+          ""items"": [16,19,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano de Ataque / Vida ao acertar / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [23,49,22]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Dano Crítico / Chance de Crítico / Velocidade de Ataque"",
+          ""items"": [16,19,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano de Ataque / Vida ao acertar / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [23,49,22]
+        }
+      ]";;
+;;;;Elise;"""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / HP Regeneration""";"""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Regeneração de Vida""";Red Buff;Hush;Warmog's Armor;"""Magic Resistance / Splash Damage / HP Regeneration""";"""Resistência Mágica / Dano em área / Regeneração de Vida""";Dragon's Claw;Titanic Hydra;Warmog's Armor;"""HP Regeneration / Splash Damage / HP Regeneration""";"""Regeneração de Vida / Dano em área / Regeneração de Vida""";Warmog's Armor;Titanic Hydra;Warmog's Armor;57;46;77;[57,46,77];66;27;77;[66,27,77];77;27;77;[77,27,77];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / HP Regeneration"",
+          ""items"": [57,46,77]
+        },
+        {
+          ""name"": ""Magic Resistance / Splash Damage / HP Regeneration"",
+          ""items"": [66,27,77]
+        },
+        {
+          ""name"": ""HP Regeneration / Splash Damage / HP Regeneration"",
+          ""items"": [77,27,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / HP Regeneration"",
+          ""items"": [57,46,77]
+        },
+        {
+          ""name"": ""Magic Resistance / Splash Damage / HP Regeneration"",
+          ""items"": [66,27,77]
+        },
+        {
+          ""name"": ""HP Regeneration / Splash Damage / HP Regeneration"",
+          ""items"": [77,27,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Regeneração de Vida"",
+          ""items"": [57,46,77]
+        },
+        {
+          ""name"": ""Resistência Mágica / Dano em área / Regeneração de Vida"",
+          ""items"": [66,27,77]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Dano em área / Regeneração de Vida"",
+          ""items"": [77,27,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Regeneração de Vida"",
+          ""items"": [57,46,77]
+        },
+        {
+          ""name"": ""Resistência Mágica / Dano em área / Regeneração de Vida"",
+          ""items"": [66,27,77]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Dano em área / Regeneração de Vida"",
+          ""items"": [77,27,77]
+        }
+      ]";;
+;;;;Evelynn;"""Mana Generation / Mana Generation / Life Steal""";"""Geração de Mana / Geração de Mana / Roubo de Vida""";Seraph's Embrace;Seraph's Embrace;Hextech Gunblade;"""Critical Damage / Critical Chance / Life Steal / Mana Generation""";"""Dano Crítico / Chance de Crítico / Roubo de Vida / Geração de Mana""";Infinity Edge;Hextech Gunblade;Seraph's Embrace;"""Magic Resistance / Revive / Life Steal""";"""Resistência Mágica / Reviver / Roubo de Vida""";Dragon's Claw;Guardian Angel;Hextech Gunblade;44;44;13;[44,44,13];19;13;44;[19,13,44];66;15;13;[66,15,13];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Life Steal"",
+          ""items"": [44,44,13]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Life Steal / Mana Generation"",
+          ""items"": [19,13,44]
+        },
+        {
+          ""name"": ""Magic Resistance / Revive / Life Steal"",
+          ""items"": [66,15,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Life Steal"",
+          ""items"": [44,44,13]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Life Steal / Mana Generation"",
+          ""items"": [19,13,44]
+        },
+        {
+          ""name"": ""Magic Resistance / Revive / Life Steal"",
+          ""items"": [66,15,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Roubo de Vida"",
+          ""items"": [44,44,13]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Roubo de Vida / Geração de Mana"",
+          ""items"": [19,13,44]
+        },
+        {
+          ""name"": ""Resistência Mágica / Reviver / Roubo de Vida"",
+          ""items"": [66,15,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Roubo de Vida"",
+          ""items"": [44,44,13]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Roubo de Vida / Geração de Mana"",
+          ""items"": [19,13,44]
+        },
+        {
+          ""name"": ""Resistência Mágica / Reviver / Roubo de Vida"",
+          ""items"": [66,15,13]
+        }
+      ]";;
+;;;;Fiora;"""Life Steal / Magic Resistance / Revive""";"""Roubo de Vida / Resistência Mágica / Reviver""";The Bloodthirster;Dragon's Claw;Guardian Angel;"""Attack Speed / Critical Damage / Critical Chance / HP Regeneration""";"""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Regeneração de Vida""";Guinsoo's Rageblade;Infinity Edge;Warmog's Armor;"""Mana Generation / Magic Resistance / Attack Speed""";"""Geração de Mana / Resistência Mágica / Velocidade de Ataque""";Spear of Shojin;Dragon's Claw;Guinsoo's Rageblade;16;66;15;[16,66,15];23;19;77;[23,19,77];14;66;23;[14,66,23];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / HP Regeneration"",
+          ""items"": [23,19,77]
+        },
+        {
+          ""name"": ""Mana Generation / Magic Resistance / Attack Speed"",
+          ""items"": [14,66,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / HP Regeneration"",
+          ""items"": [23,19,77]
+        },
+        {
+          ""name"": ""Mana Generation / Magic Resistance / Attack Speed"",
+          ""items"": [14,66,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Regeneração de Vida"",
+          ""items"": [23,19,77]
+        },
+        {
+          ""name"": ""Geração de Mana / Resistência Mágica / Velocidade de Ataque"",
+          ""items"": [14,66,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [16,66,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Regeneração de Vida"",
+          ""items"": [23,19,77]
+        },
+        {
+          ""name"": ""Geração de Mana / Resistência Mágica / Velocidade de Ataque"",
+          ""items"": [14,66,23]
+        }
+      ]";;
+;;;;Gangplank;"""Life Steal / Magic Resistance / Revive""";"""Roubo de Vida / Resistência Mágica / Reviver""";Hextech Gunblade;Dragon's Claw;Guardian Angel;"""Debuffer (Prevent Mana) / Burn Damage / Debuffer (Prevent Heal) / Revive""";"""Debuffer (Impede de Ganhar mana) / Dano de Queimadura / Debuffer (Previne Cura) / Reviver""";Hush;Red Buff;Guardian Angel;"""Attack Speed / Mana Generation / Life Steal""";"""Velocidade de Ataque / Geração de Mana / Roubo de Vida""";Guinsoo's Rageblade;Spear of Shojin;Hextech Gunblade;13;66;15;[13,66,15];46;57;15;[46,57,15];23;14;13;[23,14,13];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Prevent Mana) / Burn Damage / Debuffer (Prevent Heal) / Revive"",
+          ""items"": [46,57,15]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Life Steal"",
+          ""items"": [23,14,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / Magic Resistance / Revive"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Prevent Mana) / Burn Damage / Debuffer (Prevent Heal) / Revive"",
+          ""items"": [46,57,15]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Life Steal"",
+          ""items"": [23,14,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Impede de Ganhar mana) / Dano de Queimadura / Debuffer (Previne Cura) / Reviver"",
+          ""items"": [46,57,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Roubo de Vida"",
+          ""items"": [23,14,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Resistência Mágica / Reviver"",
+          ""items"": [13,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Impede de Ganhar mana) / Dano de Queimadura / Debuffer (Previne Cura) / Reviver"",
+          ""items"": [46,57,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Roubo de Vida"",
+          ""items"": [23,14,13]
+        }
+      ]";;
+;;;;Garen;"""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Slow) / Revive""";"""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Lentidão) / Reviver""";Morellonomicon;Frozen Heart;Guardian Angel;"""Revive / HP Regeneration / Debuffer (attack speed)""";"""Reviver / Regeneração de Vida / Debuffer (velocidade de ataque)""";Guardian Angel;Warmog's Armor;Iceborn Gauntlet;"""Burn Damage / Debuffer (Prevent Heal) / HP Regeneration / Magic Resistance""";"""Dano de Queimadura / Debuffer (Previne Cura) / Regeneração de Vida / Resistência Mágica""";Morellonomicon;Warmog's Armor;Dragon's Claw;37;45;15;[37,45,15];15;77;59;[15,77,59];37;77;66;[37,77,66];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Slow) / Revive"",
+          ""items"": [37,45,15]
+        },
+        {
+          ""name"": ""Revive / HP Regeneration / Debuffer (attack speed)"",
+          ""items"": [15,77,59]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / HP Regeneration / Magic Resistance"",
+          ""items"": [37,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Slow) / Revive"",
+          ""items"": [37,45,15]
+        },
+        {
+          ""name"": ""Revive / HP Regeneration / Debuffer (attack speed)"",
+          ""items"": [15,77,59]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / HP Regeneration / Magic Resistance"",
+          ""items"": [37,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Lentidão) / Reviver"",
+          ""items"": [37,45,15]
+        },
+        {
+          ""name"": ""Reviver / Regeneração de Vida / Debuffer (velocidade de ataque)"",
+          ""items"": [15,77,59]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [37,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Lentidão) / Reviver"",
+          ""items"": [37,45,15]
+        },
+        {
+          ""name"": ""Reviver / Regeneração de Vida / Debuffer (velocidade de ataque)"",
+          ""items"": [15,77,59]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [37,77,66]
+        }
+      ]";;
+;;;;Gnar;"""Debuffer (attack speed) / Magic Resistance / HP Regeneration""";"""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida""";Iceborn Gauntlet;Dragon's Claw;Warmog's Armor;"""Life Steal / HP Regeneration / Magic Resistance""";"""Roubo de Vida / Regeneração de Vida / Resistência Mágica""";The Bloodthirster;Warmog's Armor;Dragon's Claw;"""Splash Damage / HP Regeneration / Magic Resistance""";"""Dano em área / Regeneração de Vida / Resistência Mágica""";Titanic Hydra;Warmog's Armor;Dragon's Claw;59;66;77;[59,66,77];16;77;66;[16,77,66];27;77;66;[27,77,66];"""bestSets"": [
+        {
+          ""name"": ""Debuffer (attack speed) / Magic Resistance / HP Regeneration"",
+          ""items"": [59,66,77]
+        },
+        {
+          ""name"": ""Life Steal / HP Regeneration / Magic Resistance"",
+          ""items"": [16,77,66]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / Magic Resistance"",
+          ""items"": [27,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (attack speed) / Magic Resistance / HP Regeneration"",
+          ""items"": [59,66,77]
+        },
+        {
+          ""name"": ""Life Steal / HP Regeneration / Magic Resistance"",
+          ""items"": [16,77,66]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / Magic Resistance"",
+          ""items"": [27,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [59,66,77]
+        },
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [16,77,66]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [27,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [59,66,77]
+        },
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [16,77,66]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [27,77,66]
+        }
+      ]";;
+;;;;Graves;"""Debuffer (Disarm) / Life Steal / Attack Speed / Buffer (Double Range)""";"""Debuffer (Desarmar) / Roubo de Vida / Velocidade de Ataque / Buffer (Dobra Alcance)""";Sword Breaker;The Bloodthirster;Rapid Firecannon;"""True Damage (Max Health) / Life Steal / Attack Speed / Buffer (Double Range)""";"""Dano Verdadeiro (Vida Máxima) / Roubo de Vida / Velocidade de Ataque / Buffer (Dobra Alcance)""";Giant Slayer;The Bloodthirster;Rapid Firecannon;"""Burn Damage / Debuffer (Prevent Heal) / Attack Speed / Buffer (Double Range) / Attack Speed / Buffer (Double Range)""";"""Dano de Queimadura / Debuffer (Previne Cura) / Velocidade de Ataque / Buffer (Dobra Alcance) / Velocidade de Ataque / Buffer (Dobra Alcance)""";Red Buff;Rapid Firecannon;Rapid Firecannon;56;16;22;[56,16,22];12;16;22;[12,16,22];57;22;22;[57,22,22];"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Disarm) / Life Steal / Attack Speed / Buffer (Double Range)"",
+          ""items"": [56,16,22]
+        },
+        {
+          ""name"": ""True Damage (Max Health) / Life Steal / Attack Speed / Buffer (Double Range)"",
+          ""items"": [12,16,22]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Attack Speed / Buffer (Double Range) / Attack Speed / Buffer (Double Range)"",
+          ""items"": [57,22,22]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Disarm) / Life Steal / Attack Speed / Buffer (Double Range)"",
+          ""items"": [56,16,22]
+        },
+        {
+          ""name"": ""True Damage (Max Health) / Life Steal / Attack Speed / Buffer (Double Range)"",
+          ""items"": [12,16,22]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Attack Speed / Buffer (Double Range) / Attack Speed / Buffer (Double Range)"",
+          ""items"": [57,22,22]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Desarmar) / Roubo de Vida / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [56,16,22]
+        },
+        {
+          ""name"": ""Dano Verdadeiro (Vida Máxima) / Roubo de Vida / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [12,16,22]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Velocidade de Ataque / Buffer (Dobra Alcance) / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [57,22,22]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Desarmar) / Roubo de Vida / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [56,16,22]
+        },
+        {
+          ""name"": ""Dano Verdadeiro (Vida Máxima) / Roubo de Vida / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [12,16,22]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Velocidade de Ataque / Buffer (Dobra Alcance) / Velocidade de Ataque / Buffer (Dobra Alcance)"",
+          ""items"": [57,22,22]
+        }
+      ]";;
+;;;;Jayce;"""Attack Speed / Splash Damage / HP Regeneration""";"""Velocidade de Ataque / Dano em área / Regeneração de Vida""";Guinsoo's Rageblade;Statikk Shiv;Warmog's Armor;"""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal""";"""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida""";Guinsoo's Rageblade;Rapid Firecannon;The Bloodthirster;"""Splash Damage / HP Regeneration / Attack Speed""";"""Dano em área / Regeneração de Vida / Velocidade de Ataque""";Titanic Hydra;Warmog's Armor;Guinsoo's Rageblade;23;24;77;[23,24,77];23;22;16;[23,22,16];27;77;23;[27,77,23];"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Splash Damage / HP Regeneration"",
+          ""items"": [23,24,77]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / Attack Speed"",
+          ""items"": [27,77,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Splash Damage / HP Regeneration"",
+          ""items"": [23,24,77]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / Attack Speed"",
+          ""items"": [27,77,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Dano em área / Regeneração de Vida"",
+          ""items"": [23,24,77]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Velocidade de Ataque"",
+          ""items"": [27,77,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Dano em área / Regeneração de Vida"",
+          ""items"": [23,24,77]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Velocidade de Ataque"",
+          ""items"": [27,77,23]
+        }
+      ]";;
+;;;;Jinx;"""Mirror Attack / True Damage (Max Health) / Debuffer (Prevent Mana)""";"""Ataque Espelhado / Dano Verdadeiro (Vida Máxima) / Debuffer (Impede de Ganhar mana)""";Runaan's Hurricane;giant slayer;Hush;"""Attack Speed / Life Steal / True Damage (Max Health)""";"""Velocidade de Ataque / Roubo de Vida / Dano Verdadeiro (Vida Máxima)""";Guinsoo's Rageblade;Hextech Gunblade;giant slayer;"""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / Mirror Attack""";"""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Ataque Espelhado""";Red Buff;Hush;Runaan's Hurricane;68;12;46;[68,12,46];23;13;12;[23,13,12];57;46;68;[57,46,68];"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / True Damage (Max Health) / Debuffer (Prevent Mana)"",
+          ""items"": [68,12,46]
+        },
+        {
+          ""name"": ""Attack Speed / Life Steal / True Damage (Max Health)"",
+          ""items"": [23,13,12]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / Mirror Attack"",
+          ""items"": [57,46,68]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / True Damage (Max Health) / Debuffer (Prevent Mana)"",
+          ""items"": [68,12,46]
+        },
+        {
+          ""name"": ""Attack Speed / Life Steal / True Damage (Max Health)"",
+          ""items"": [23,13,12]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / Mirror Attack"",
+          ""items"": [57,46,68]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Dano Verdadeiro (Vida Máxima) / Debuffer (Impede de Ganhar mana)"",
+          ""items"": [68,12,46]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Roubo de Vida / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [23,13,12]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Ataque Espelhado"",
+          ""items"": [57,46,68]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Dano Verdadeiro (Vida Máxima) / Debuffer (Impede de Ganhar mana)"",
+          ""items"": [68,12,46]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Roubo de Vida / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [23,13,12]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Ataque Espelhado"",
+          ""items"": [57,46,68]
+        }
+      ]";;
+;;;;Kai'sa;"""Attack Speed / Life Steal / Critical Damage / Critical Chance""";"""Velocidade de Ataque / Roubo de Vida / Dano Crítico / Chance de Crítico""";Guinsoo's Rageblade;The Bloodthirster;Infinity Edge;"""Attack Speed / True Damage (Max Health) / Splash Damage""";"""Velocidade de Ataque / Dano Verdadeiro (Vida Máxima) / Dano em área""";Guinsoo's Rageblade;Giant Slayer;Statikk Shiv;"""Magic Resistance / Revive / True Damage (Max Health)""";"""Resistência Mágica / Reviver / Dano Verdadeiro (Vida Máxima)""";Dragon's Claw;Guardian Angel;Giant Slayer;23;16;19;[23,16,19];23;12;24;[23,12,24];66;15;12;[66,15,12];"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Life Steal / Critical Damage / Critical Chance"",
+          ""items"": [23,16,19]
+        },
+        {
+          ""name"": ""Attack Speed / True Damage (Max Health) / Splash Damage"",
+          ""items"": [23,12,24]
+        },
+        {
+          ""name"": ""Magic Resistance / Revive / True Damage (Max Health)"",
+          ""items"": [66,15,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Life Steal / Critical Damage / Critical Chance"",
+          ""items"": [23,16,19]
+        },
+        {
+          ""name"": ""Attack Speed / True Damage (Max Health) / Splash Damage"",
+          ""items"": [23,12,24]
+        },
+        {
+          ""name"": ""Magic Resistance / Revive / True Damage (Max Health)"",
+          ""items"": [66,15,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Roubo de Vida / Dano Crítico / Chance de Crítico"",
+          ""items"": [23,16,19]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Verdadeiro (Vida Máxima) / Dano em área"",
+          ""items"": [23,12,24]
+        },
+        {
+          ""name"": ""Resistência Mágica / Reviver / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [66,15,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Roubo de Vida / Dano Crítico / Chance de Crítico"",
+          ""items"": [23,16,19]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Verdadeiro (Vida Máxima) / Dano em área"",
+          ""items"": [23,12,24]
+        },
+        {
+          ""name"": ""Resistência Mágica / Reviver / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [66,15,12]
+        }
+      ]";;
+;;;;Karthus;"""Mana Generation / Mana Generation / Ability Damage""";"""Geração de Mana / Geração de Mana / Dano de Habilidade""";Seraph's Embrace;Seraph's Embrace;Rabadon's Deathcap;"""Mana Generation / Mana Generation / Chance to Spell Crit""";"""Geração de Mana / Geração de Mana / Chance dos Feitiços darem dano Crítico""";Seraph's Embrace;Seraph's Embrace;Jeweled Gauntlet;"""Mana Generation / Ability Damage / Chance to Spell Crit""";"""Geração de Mana / Dano de Habilidade / Chance dos Feitiços darem dano Crítico""";Seraph's Embrace;Rabadon's Deathcap;Jeweled Gauntlet;44;44;33;[44,44,33];44;44;39;[44,44,39];44;33;39;[44,33,39];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Ability Damage"",
+          ""items"": [44,44,33]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Chance to Spell Crit"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage / Chance to Spell Crit"",
+          ""items"": [44,33,39]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Ability Damage"",
+          ""items"": [44,44,33]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Chance to Spell Crit"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage / Chance to Spell Crit"",
+          ""items"": [44,33,39]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Habilidade"",
+          ""items"": [44,44,33]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Habilidade / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,33,39]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Habilidade"",
+          ""items"": [44,44,33]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,44,39]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Habilidade / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,33,39]
+        }
+      ]";;
+;;;;Kassadin;"""Revive / Magic Resistance / Attack Speed""";"""Reviver / Resistência Mágica / Velocidade de Ataque""";Guardian Angel;Dragon's Claw;Guinsoo's Rageblade;"""Attack Speed / Magic Resistance / HP Regeneration""";"""Velocidade de Ataque / Resistência Mágica / Regeneração de Vida""";Guinsoo's Rageblade;Dragon's Claw;Warmog's Armor;"""Attack Speed / HP Regeneration / Life Steal""";"""Velocidade de Ataque / Regeneração de Vida / Roubo de Vida""";Guinsoo's Rageblade;Warmog's Armor;The Bloodthirster;15;66;23;[15,66,23];23;66;77;[23,66,77];23;77;16;[23,77,16];"""bestSets"": [
+        {
+          ""name"": ""Revive / Magic Resistance / Attack Speed"",
+          ""items"": [15,66,23]
+        },
+        {
+          ""name"": ""Attack Speed / Magic Resistance / HP Regeneration"",
+          ""items"": [23,66,77]
+        },
+        {
+          ""name"": ""Attack Speed / HP Regeneration / Life Steal"",
+          ""items"": [23,77,16]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Revive / Magic Resistance / Attack Speed"",
+          ""items"": [15,66,23]
+        },
+        {
+          ""name"": ""Attack Speed / Magic Resistance / HP Regeneration"",
+          ""items"": [23,66,77]
+        },
+        {
+          ""name"": ""Attack Speed / HP Regeneration / Life Steal"",
+          ""items"": [23,77,16]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reviver / Resistência Mágica / Velocidade de Ataque"",
+          ""items"": [15,66,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [23,66,77]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Regeneração de Vida / Roubo de Vida"",
+          ""items"": [23,77,16]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reviver / Resistência Mágica / Velocidade de Ataque"",
+          ""items"": [15,66,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [23,66,77]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Regeneração de Vida / Roubo de Vida"",
+          ""items"": [23,77,16]
+        }
+      ]";;
+;;;;Katarina;"""Ability Damage / Mana Generation / Mana Generation""";"""Dano de Habilidade / Geração de Mana / Geração de Mana""";Rabadon's Deathcap;Seraph's Embrace;Seraph's Embrace;"""Chance to Spell Crit / Ability Damage / Mana Generation""";"""Chance dos Feitiços darem dano Crítico / Dano de Habilidade / Geração de Mana""";Jeweled Gauntlet;Rabadon's Deathcap;Seraph's Embrace;"""Mana Generation / Critical Damage / Critical Chance / Chance to Spell Crit""";"""Geração de Mana / Dano Crítico / Chance de Crítico / Chance dos Feitiços darem dano Crítico""";Seraph's Embrace;Infinity Edge;Jeweled Gauntlet;33;44;44;[33,44,44];39;33;44;[39,33,44];44;19;39;[44,19,39];"""bestSets"": [
+        {
+          ""name"": ""Ability Damage / Mana Generation / Mana Generation"",
+          ""items"": [33,44,44]
+        },
+        {
+          ""name"": ""Chance to Spell Crit / Ability Damage / Mana Generation"",
+          ""items"": [39,33,44]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Chance to Spell Crit"",
+          ""items"": [44,19,39]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ability Damage / Mana Generation / Mana Generation"",
+          ""items"": [33,44,44]
+        },
+        {
+          ""name"": ""Chance to Spell Crit / Ability Damage / Mana Generation"",
+          ""items"": [39,33,44]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Chance to Spell Crit"",
+          ""items"": [44,19,39]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Habilidade / Geração de Mana / Geração de Mana"",
+          ""items"": [33,44,44]
+        },
+        {
+          ""name"": ""Chance dos Feitiços darem dano Crítico / Dano de Habilidade / Geração de Mana"",
+          ""items"": [39,33,44]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,19,39]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Habilidade / Geração de Mana / Geração de Mana"",
+          ""items"": [33,44,44]
+        },
+        {
+          ""name"": ""Chance dos Feitiços darem dano Crítico / Dano de Habilidade / Geração de Mana"",
+          ""items"": [39,33,44]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Chance dos Feitiços darem dano Crítico"",
+          ""items"": [44,19,39]
+        }
+      ]";;
+;;;;Kayle;"""Mana Generation / Mana Generation / Attack Speed""";"""Geração de Mana / Geração de Mana / Velocidade de Ataque""";Spear of Shojin;Spear of Shojin;Guinsoo's Rageblade;"""Mana Generation / Mana Generation / Attack Speed""";"""Geração de Mana / Geração de Mana / Velocidade de Ataque""";Seraph's Embrace;Spear of Shojin;Guinsoo's Rageblade;"""Mana Generation / Attack Speed / HP Regeneration""";"""Geração de Mana / Velocidade de Ataque / Regeneração de Vida""";Spear of Shojin;Guinsoo's Rageblade;Warmog's Armor;14;14;23;[14,14,23];44;14;23;[44,14,23];14;23;77;[14,23,77];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [44,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / HP Regeneration"",
+          ""items"": [14,23,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [44,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / HP Regeneration"",
+          ""items"": [14,23,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [44,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Regeneração de Vida"",
+          ""items"": [14,23,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [44,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Regeneração de Vida"",
+          ""items"": [14,23,77]
+        }
+      ]";;
+;;;;Kennen;"""Burn Damage / Debuffer (Prevent Heal) / Revive / Magic Resistance""";"""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Resistência Mágica""";Morellonomicon;Guardian Angel;Dragon's Claw;"""Mana Generation / Ability Damage / Attack Speed""";"""Geração de Mana / Dano de Habilidade / Velocidade de Ataque""";Spear of Shojin;Rabadon's Deathcap;Guinsoo's Rageblade;"""HP Regeneration / Debuffer (attack speed) / Magic Resistance""";"""Regeneração de Vida / Debuffer (velocidade de ataque) / Resistência Mágica""";Warmog's Armor;Iceborn Gauntlet;Dragon's Claw;37;15;66;[37,15,66];14;33;23;[14,33,23];77;59;66;[77,59,66];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / Magic Resistance"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage / Attack Speed"",
+          ""items"": [14,33,23]
+        },
+        {
+          ""name"": ""HP Regeneration / Debuffer (attack speed) / Magic Resistance"",
+          ""items"": [77,59,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / Magic Resistance"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Mana Generation / Ability Damage / Attack Speed"",
+          ""items"": [14,33,23]
+        },
+        {
+          ""name"": ""HP Regeneration / Debuffer (attack speed) / Magic Resistance"",
+          ""items"": [77,59,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Resistência Mágica"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Habilidade / Velocidade de Ataque"",
+          ""items"": [14,33,23]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Debuffer (velocidade de ataque) / Resistência Mágica"",
+          ""items"": [77,59,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Resistência Mágica"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Habilidade / Velocidade de Ataque"",
+          ""items"": [14,33,23]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Debuffer (velocidade de ataque) / Resistência Mágica"",
+          ""items"": [77,59,66]
+        }
+      ]";;
+;;;;Kha'Zix;"""Critical Damage / Critical Chance / Attack Damage / Life on Hit / Revive""";"""Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar / Reviver""";Infinity Edge;Hand of Justice;Guardian Angel;"""Critical Damage / Critical Chance / True Damage (Max Health) / Life Steal""";"""Dano Crítico / Chance de Crítico / Dano Verdadeiro (Vida Máxima) / Roubo de Vida""";Infinity Edge;Giant Slayer;Hextech Gunblade;"""Life Steal / Critical Damage / Critical Chance / Attack Speed""";"""Roubo de Vida / Dano Crítico / Chance de Crítico / Velocidade de Ataque""";Hextech Gunblade;Infinity Edge;Guinsoo's Rageblade;19;49;15;[19,49,15];19;12;13;[19,12,13];13;19;23;[13,19,23];"""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Damage / Life on Hit / Revive"",
+          ""items"": [19,49,15]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / True Damage (Max Health) / Life Steal"",
+          ""items"": [19,12,13]
+        },
+        {
+          ""name"": ""Life Steal / Critical Damage / Critical Chance / Attack Speed"",
+          ""items"": [13,19,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Damage / Life on Hit / Revive"",
+          ""items"": [19,49,15]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / True Damage (Max Health) / Life Steal"",
+          ""items"": [19,12,13]
+        },
+        {
+          ""name"": ""Life Steal / Critical Damage / Critical Chance / Attack Speed"",
+          ""items"": [13,19,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar / Reviver"",
+          ""items"": [19,49,15]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Dano Verdadeiro (Vida Máxima) / Roubo de Vida"",
+          ""items"": [19,12,13]
+        },
+        {
+          ""name"": ""Roubo de Vida / Dano Crítico / Chance de Crítico / Velocidade de Ataque"",
+          ""items"": [13,19,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar / Reviver"",
+          ""items"": [19,49,15]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Dano Verdadeiro (Vida Máxima) / Roubo de Vida"",
+          ""items"": [19,12,13]
+        },
+        {
+          ""name"": ""Roubo de Vida / Dano Crítico / Chance de Crítico / Velocidade de Ataque"",
+          ""items"": [13,19,23]
+        }
+      ]";;
+;;;;Kindred;"""Splash Damage / Splash Damage / Revive""";"""Dano em área / Dano em área / Reviver""";Statikk Shiv;Statikk Shiv;Guardian Angel;"""Attack Speed / Mana Generation / Buffer (Shield)""";"""Velocidade de Ataque / Geração de Mana / Buffer (Escudo)""";Guinsoo's Rageblade;Spear of Shojin;Locket of the Iron Solari;"""Debuffer (Banish) / Buffer (Shield) / Buffer (Attack Speed)""";"""Debuffer (Banimento) / Buffer (Escudo) / Buffer (Velocidade de Ataque)""";Zephyr;Locket of the Iron Solari;Zeke's Herald;24;24;15;[24,24,15];23;14;35;[23,14,35];67;35;17;[67,35,17];"""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Splash Damage / Revive"",
+          ""items"": [24,24,15]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Buffer (Shield)"",
+          ""items"": [23,14,35]
+        },
+        {
+          ""name"": ""Debuffer (Banish) / Buffer (Shield) / Buffer (Attack Speed)"",
+          ""items"": [67,35,17]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Splash Damage / Revive"",
+          ""items"": [24,24,15]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Buffer (Shield)"",
+          ""items"": [23,14,35]
+        },
+        {
+          ""name"": ""Debuffer (Banish) / Buffer (Shield) / Buffer (Attack Speed)"",
+          ""items"": [67,35,17]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano em área / Dano em área / Reviver"",
+          ""items"": [24,24,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Buffer (Escudo)"",
+          ""items"": [23,14,35]
+        },
+        {
+          ""name"": ""Debuffer (Banimento) / Buffer (Escudo) / Buffer (Velocidade de Ataque)"",
+          ""items"": [67,35,17]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano em área / Dano em área / Reviver"",
+          ""items"": [24,24,15]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Buffer (Escudo)"",
+          ""items"": [23,14,35]
+        },
+        {
+          ""name"": ""Debuffer (Banimento) / Buffer (Escudo) / Buffer (Velocidade de Ataque)"",
+          ""items"": [67,35,17]
+        }
+      ]";;
+;;;;Leona;"""Debuffer (Banish) / Magic Resistance / Revive""";"""Debuffer (Banimento) / Resistência Mágica / Reviver""";Zephyr;Dragon's Claw;Guardian Angel;"""Debuffer (Slow) / HP Regeneration / Magic Resistance""";"""Debuffer (Lentidão) / Regeneração de Vida / Resistência Mágica""";Frozen Heart;Warmog's Armor;Dragon's Claw;"""Debuffer (attack speed) / HP Regeneration / Magic Resistance""";"""Debuffer (velocidade de ataque) / Regeneração de Vida / Resistência Mágica""";Iceborn Gauntlet;Warmog's Armor;Dragon's Claw;67;66;15;[67,66,15];45;77;66;[45,77,66];59;77;66;[59,77,66];"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Banish) / Magic Resistance / Revive"",
+          ""items"": [67,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Magic Resistance"",
+          ""items"": [45,77,66]
+        },
+        {
+          ""name"": ""Debuffer (attack speed) / HP Regeneration / Magic Resistance"",
+          ""items"": [59,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Banish) / Magic Resistance / Revive"",
+          ""items"": [67,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Magic Resistance"",
+          ""items"": [45,77,66]
+        },
+        {
+          ""name"": ""Debuffer (attack speed) / HP Regeneration / Magic Resistance"",
+          ""items"": [59,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Banimento) / Resistência Mágica / Reviver"",
+          ""items"": [67,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [45,77,66]
+        },
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [59,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Banimento) / Resistência Mágica / Reviver"",
+          ""items"": [67,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [45,77,66]
+        },
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [59,77,66]
+        }
+      ]";;
+;;;;Lissandra;"""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)""";Seraph's Embrace;Seraph's Embrace;Morellonomicon;"""HP Regeneration / Magic Resistance / Mana Generation""";"""Regeneração de Vida / Resistência Mágica / Geração de Mana""";Warmog's Armor;Dragon's Claw;Seraph's Embrace;"""HP Regeneration / Magic Resistance / Dodge Critical Damage""";"""Regeneração de Vida / Resistência Mágica / Esquiva Dano Crítico""";Warmog's Armor;Dragon's Claw;Phantom Dancer;44;44;37;[44,44,37];77;66;44;[77,66,44];77;66;25;[77,66,25];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Mana Generation"",
+          ""items"": [77,66,44]
+        },
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Dodge Critical Damage"",
+          ""items"": [77,66,25]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Mana Generation"",
+          ""items"": [77,66,44]
+        },
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Dodge Critical Damage"",
+          ""items"": [77,66,25]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Geração de Mana"",
+          ""items"": [77,66,44]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Esquiva Dano Crítico"",
+          ""items"": [77,66,25]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Geração de Mana"",
+          ""items"": [77,66,44]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Esquiva Dano Crítico"",
+          ""items"": [77,66,25]
+        }
+      ]";;
+;;;;Lucian;"""Mana Generation / Life Steal / Splash Damage""";"""Geração de Mana / Roubo de Vida / Dano em área""";Seraph's Embrace;Hextech Gunblade;Luden's Echo;"""Critical Damage / Critical Chance / Attack Speed / Life Steal""";"""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Roubo de Vida""";Infinity Edge;Guinsoo's Rageblade;Hextech Gunblade;"""Mana Generation / Attack Speed / Life Steal""";"""Geração de Mana / Velocidade de Ataque / Roubo de Vida""";Spear of Shojin;Guinsoo's Rageblade;Hextech Gunblade;44;13;34;[44,13,34];19;23;13;[19,23,13];14;23;13;[14,23,13];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Life Steal / Splash Damage"",
+          ""items"": [44,13,34]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Speed / Life Steal"",
+          ""items"": [19,23,13]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Life Steal"",
+          ""items"": [14,23,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Life Steal / Splash Damage"",
+          ""items"": [44,13,34]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Speed / Life Steal"",
+          ""items"": [19,23,13]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Life Steal"",
+          ""items"": [14,23,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Roubo de Vida / Dano em área"",
+          ""items"": [44,13,34]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Roubo de Vida"",
+          ""items"": [19,23,13]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Roubo de Vida"",
+          ""items"": [14,23,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Roubo de Vida / Dano em área"",
+          ""items"": [44,13,34]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Roubo de Vida"",
+          ""items"": [19,23,13]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Roubo de Vida"",
+          ""items"": [14,23,13]
+        }
+      ]";;
+;;;;Lulu;"""Mana Generation / Mana Generation / Attack Speed""";"""Geração de Mana / Geração de Mana / Velocidade de Ataque""";Spear of Shojin;Spear of Shojin;Guinsoo's Rageblade;"""Mana Generation / Attack Speed / Attack Speed""";"""Geração de Mana / Velocidade de Ataque / Velocidade de Ataque""";Seraph's Embrace;Guinsoo's Rageblade;Guinsoo's Rageblade;"""Attack Speed / Mana Generation / Revive""";"""Velocidade de Ataque / Geração de Mana / Reviver""";Guinsoo's Rageblade;Spear of Shojin;Guardian Angel;14;14;23;[14,14,23];44;23;23;[44,23,23];23;14;15;[23,14,15];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Speed"",
+          ""items"": [44,23,23]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Revive"",
+          ""items"": [23,14,15]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Attack Speed"",
+          ""items"": [44,23,23]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Revive"",
+          ""items"": [23,14,15]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Velocidade de Ataque"",
+          ""items"": [44,23,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Reviver"",
+          ""items"": [23,14,15]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Velocidade de Ataque"",
+          ""items"": [44,23,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Reviver"",
+          ""items"": [23,14,15]
+        }
+      ]";;
+;;;;Miss Fortune;"""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)""";Seraph's Embrace;Seraph's Embrace;Morellonomicon;"""Attack Speed / Mana Generation / Mana Generation""";"""Velocidade de Ataque / Geração de Mana / Geração de Mana""";Guinsoo's Rageblade;Spear of Shojin;Spear of Shojin;"""Attack Speed / True Damage (Max Health) / Debuffer (Prevent Mana)""";"""Velocidade de Ataque / Dano Verdadeiro (Vida Máxima) / Debuffer (Impede de Ganhar mana)""";Guinsoo's Rageblade;giant slayer;hush;44;44;37;[44,44,37];23;14;14;[23,14,14];23;12;46;[23,12,46];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Mana Generation"",
+          ""items"": [23,14,14]
+        },
+        {
+          ""name"": ""Attack Speed / True Damage (Max Health) / Debuffer (Prevent Mana)"",
+          ""items"": [23,12,46]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Mana Generation"",
+          ""items"": [23,14,14]
+        },
+        {
+          ""name"": ""Attack Speed / True Damage (Max Health) / Debuffer (Prevent Mana)"",
+          ""items"": [23,12,46]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Geração de Mana"",
+          ""items"": [23,14,14]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Verdadeiro (Vida Máxima) / Debuffer (Impede de Ganhar mana)"",
+          ""items"": [23,12,46]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [44,44,37]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Geração de Mana"",
+          ""items"": [23,14,14]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Verdadeiro (Vida Máxima) / Debuffer (Impede de Ganhar mana)"",
+          ""items"": [23,12,46]
+        }
+      ]";;
+;;;;Mordekaiser;"""Debuffer (Slow) / Magic Resistance / Revive""";"""Debuffer (Lentidão) / Resistência Mágica / Reviver""";Frozen Heart;Dragon's Claw;Guardian Angel;"""Magic Resistance / Debuffer (attack speed) / HP Regeneration""";"""Resistência Mágica / Debuffer (velocidade de ataque) / Regeneração de Vida""";Dragon's Claw;Iceborn Gauntlet;Warmog's Armor;"""Debuffer (Slow) / HP Regeneration / Dodge Critical Damage""";"""Debuffer (Lentidão) / Regeneração de Vida / Esquiva Dano Crítico""";Frozen Heart;Warmog's Armor;Phantom Dancer;45;66;15;[45,66,15];66;59;77;[66,59,77];45;77;25;[45,77,25];"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Slow) / Magic Resistance / Revive"",
+          ""items"": [45,66,15]
+        },
+        {
+          ""name"": ""Magic Resistance / Debuffer (attack speed) / HP Regeneration"",
+          ""items"": [66,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Dodge Critical Damage"",
+          ""items"": [45,77,25]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Slow) / Magic Resistance / Revive"",
+          ""items"": [45,66,15]
+        },
+        {
+          ""name"": ""Magic Resistance / Debuffer (attack speed) / HP Regeneration"",
+          ""items"": [66,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Dodge Critical Damage"",
+          ""items"": [45,77,25]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Lentidão) / Resistência Mágica / Reviver"",
+          ""items"": [45,66,15]
+        },
+        {
+          ""name"": ""Resistência Mágica / Debuffer (velocidade de ataque) / Regeneração de Vida"",
+          ""items"": [66,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Esquiva Dano Crítico"",
+          ""items"": [45,77,25]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Debuffer (Lentidão) / Resistência Mágica / Reviver"",
+          ""items"": [45,66,15]
+        },
+        {
+          ""name"": ""Resistência Mágica / Debuffer (velocidade de ataque) / Regeneração de Vida"",
+          ""items"": [66,59,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Esquiva Dano Crítico"",
+          ""items"": [45,77,25]
+        }
+      ]";;
+;;;;Morgana;"""Burn Damage / Debuffer (Prevent Heal) / Revive / Magic Resistance""";"""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Resistência Mágica""";Morellonomicon;Guardian Angel;Dragon's Claw;"""Mana Generation / Burn Damage / Debuffer (Prevent Heal) / Splash Damage""";"""Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura) / Dano em área""";Seraph's Embrace;Morellonomicon;Luden's Echo;"""Mana Generation / Burn Damage / Debuffer (Prevent Heal) / Area Heal""";"""Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura) / Cura em Área""";Seraph's Embrace;Morellonomicon;redemption;37;15;66;[37,15,66];44;37;34;[44,37,34];44;37;47;[44,37,47];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / Magic Resistance"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Mana Generation / Burn Damage / Debuffer (Prevent Heal) / Splash Damage"",
+          ""items"": [44,37,34]
+        },
+        {
+          ""name"": ""Mana Generation / Burn Damage / Debuffer (Prevent Heal) / Area Heal"",
+          ""items"": [44,37,47]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / Magic Resistance"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Mana Generation / Burn Damage / Debuffer (Prevent Heal) / Splash Damage"",
+          ""items"": [44,37,34]
+        },
+        {
+          ""name"": ""Mana Generation / Burn Damage / Debuffer (Prevent Heal) / Area Heal"",
+          ""items"": [44,37,47]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Resistência Mágica"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura) / Dano em área"",
+          ""items"": [44,37,34]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura) / Cura em Área"",
+          ""items"": [44,37,47]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Resistência Mágica"",
+          ""items"": [37,15,66]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura) / Dano em área"",
+          ""items"": [44,37,34]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura) / Cura em Área"",
+          ""items"": [44,37,47]
+        }
+      ]";;
+;;;;Nidalee;"""Attack Speed / Revive / Magic Resistance""";"""Velocidade de Ataque / Reviver / Resistência Mágica""";Guinsoo's Rageblade;Guardian Angel;Dragon's Claw;"""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal""";"""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida""";Guinsoo's Rageblade;Rapid Firecannon;The Bloodthirster;"""Attack Speed / Critical Damage / Critical Chance / Life Steal""";"""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida""";Guinsoo's Rageblade;Infinity Edge;The Bloodthirster;23;15;66;[23,15,66];23;22;16;[23,22,16];23;19;16;[23,19,16];"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Revive / Magic Resistance"",
+          ""items"": [23,15,66]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [23,19,16]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Revive / Magic Resistance"",
+          ""items"": [23,15,66]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [23,19,16]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Reviver / Resistência Mágica"",
+          ""items"": [23,15,66]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [23,19,16]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Reviver / Resistência Mágica"",
+          ""items"": [23,15,66]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [23,22,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [23,19,16]
+        }
+      ]";;
+;;;;Pantheon;"""Mana Generation / Mana Generation / HP Regeneration""";"""Geração de Mana / Geração de Mana / Regeneração de Vida""";Spear of Shojin;Spear of Shojin;Warmog's Armor;"""HP Regeneration / HP Regeneration / Splash Damage""";"""Regeneração de Vida / Regeneração de Vida / Dano em área""";Warmog's Armor;Warmog's Armor;Titanic Hydra;"""Reflect Damage / Reflect Damage / HP Regeneration""";"""Reflete Dano / Reflete Dano / Regeneração de Vida""";thornmail;thornmail;Warmog's Armor;14;14;77;[14,14,77];77;77;27;[77,77,27];55;55;77;[55,55,77];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / HP Regeneration"",
+          ""items"": [14,14,77]
+        },
+        {
+          ""name"": ""HP Regeneration / HP Regeneration / Splash Damage"",
+          ""items"": [77,77,27]
+        },
+        {
+          ""name"": ""Reflect Damage / Reflect Damage / HP Regeneration"",
+          ""items"": [55,55,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / HP Regeneration"",
+          ""items"": [14,14,77]
+        },
+        {
+          ""name"": ""HP Regeneration / HP Regeneration / Splash Damage"",
+          ""items"": [77,77,27]
+        },
+        {
+          ""name"": ""Reflect Damage / Reflect Damage / HP Regeneration"",
+          ""items"": [55,55,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Regeneração de Vida"",
+          ""items"": [14,14,77]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Regeneração de Vida / Dano em área"",
+          ""items"": [77,77,27]
+        },
+        {
+          ""name"": ""Reflete Dano / Reflete Dano / Regeneração de Vida"",
+          ""items"": [55,55,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Regeneração de Vida"",
+          ""items"": [14,14,77]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Regeneração de Vida / Dano em área"",
+          ""items"": [77,77,27]
+        },
+        {
+          ""name"": ""Reflete Dano / Reflete Dano / Regeneração de Vida"",
+          ""items"": [55,55,77]
+        }
+      ]";;
+;;;;Poppy;"""Reflect Damage / Magic Resistance / HP Regeneration""";"""Reflete Dano / Resistência Mágica / Regeneração de Vida""";Thornmail;Dragon's Claw;Warmog's Armor;"""Reflect Damage / Revive / HP Regeneration""";"""Reflete Dano / Reviver / Regeneração de Vida""";Thornmail;Guardian Angel;Warmog's Armor;"""Debuffer (attack speed) / Magic Resistance / HP Regeneration""";"""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida""";Iceborn Gauntlet;Dragon's Claw;Warmog's Armor;55;66;77;[55,66,77];55;15;77;[55,15,77];59;66;77;[59,66,77];"""bestSets"": [
+        {
+          ""name"": ""Reflect Damage / Magic Resistance / HP Regeneration"",
+          ""items"": [55,66,77]
+        },
+        {
+          ""name"": ""Reflect Damage / Revive / HP Regeneration"",
+          ""items"": [55,15,77]
+        },
+        {
+          ""name"": ""Debuffer (attack speed) / Magic Resistance / HP Regeneration"",
+          ""items"": [59,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reflect Damage / Magic Resistance / HP Regeneration"",
+          ""items"": [55,66,77]
+        },
+        {
+          ""name"": ""Reflect Damage / Revive / HP Regeneration"",
+          ""items"": [55,15,77]
+        },
+        {
+          ""name"": ""Debuffer (attack speed) / Magic Resistance / HP Regeneration"",
+          ""items"": [59,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reflete Dano / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [55,66,77]
+        },
+        {
+          ""name"": ""Reflete Dano / Reviver / Regeneração de Vida"",
+          ""items"": [55,15,77]
+        },
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [59,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reflete Dano / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [55,66,77]
+        },
+        {
+          ""name"": ""Reflete Dano / Reviver / Regeneração de Vida"",
+          ""items"": [55,15,77]
+        },
+        {
+          ""name"": ""Debuffer (velocidade de ataque) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [59,66,77]
+        }
+      ]";;
+;;;;Pyke;"""Mana Generation / Mana Generation / Attack Speed""";"""Geração de Mana / Geração de Mana / Velocidade de Ataque""";Spear of Shojin;Spear of Shojin;Guinsoo's Rageblade;"""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)""";Spear of Shojin;Spear of Shojin;Morellonomicon;"""Mana Generation / Attack Damage / Life on Hit / Critical Damage / Critical Chance""";"""Geração de Mana / Dano de Ataque / Vida ao acertar / Dano Crítico / Chance de Crítico""";Spear of Shojin;Hand of Justice;Infinity Edge;14;14;23;[14,14,23];14;14;37;[14,14,37];14;49;19;[14,49,19];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [14,14,37]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Damage / Life on Hit / Critical Damage / Critical Chance"",
+          ""items"": [14,49,19]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [14,14,37]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Damage / Life on Hit / Critical Damage / Critical Chance"",
+          ""items"": [14,49,19]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [14,14,37]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Ataque / Vida ao acertar / Dano Crítico / Chance de Crítico"",
+          ""items"": [14,49,19]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [14,14,37]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano de Ataque / Vida ao acertar / Dano Crítico / Chance de Crítico"",
+          ""items"": [14,49,19]
+        }
+      ]";;
+;;;;Rek'Sai;"""HP Regeneration / Revive / Debuffer (Slow)""";"""Regeneração de Vida / Reviver / Debuffer (Lentidão)""";Warmog's Armor;Guardian Angel;Frozen Heart;"""HP Regeneration / Splash Damage / HP Regeneration""";"""Regeneração de Vida / Dano em área / Regeneração de Vida""";Warmog's Armor;Titanic Hydra;Warmog's Armor;"""Debuffer (Slow) / HP Regeneration / Splash Damage""";"""Debuffer (Lentidão) / Regeneração de Vida / Dano em área""";Frozen Heart;Warmog's Armor;Titanic Hydra;77;15;45;[77,15,45];77;27;77;[77,27,77];45;77;27;[45,77,27];"""bestSets"": [
+        {
+          ""name"": ""HP Regeneration / Revive / Debuffer (Slow)"",
+          ""items"": [77,15,45]
+        },
+        {
+          ""name"": ""HP Regeneration / Splash Damage / HP Regeneration"",
+          ""items"": [77,27,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Splash Damage"",
+          ""items"": [45,77,27]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""HP Regeneration / Revive / Debuffer (Slow)"",
+          ""items"": [77,15,45]
+        },
+        {
+          ""name"": ""HP Regeneration / Splash Damage / HP Regeneration"",
+          ""items"": [77,27,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Splash Damage"",
+          ""items"": [45,77,27]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Regeneração de Vida / Reviver / Debuffer (Lentidão)"",
+          ""items"": [77,15,45]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Dano em área / Regeneração de Vida"",
+          ""items"": [77,27,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Dano em área"",
+          ""items"": [45,77,27]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Regeneração de Vida / Reviver / Debuffer (Lentidão)"",
+          ""items"": [77,15,45]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Dano em área / Regeneração de Vida"",
+          ""items"": [77,27,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Dano em área"",
+          ""items"": [45,77,27]
+        }
+      ]";;
+;;;;Rengar;"""Revive / Life Steal / Critical Damage / Critical Chance""";"""Reviver / Roubo de Vida / Dano Crítico / Chance de Crítico""";Guardian Angel;The Bloodthirster;Infinity Edge;"""Attack Speed / Critical Damage / Critical Chance / Life Steal""";"""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida""";Guinsoo's Rageblade;Infinity Edge;The Bloodthirster;"""Critical Damage / Critical Chance / Attack Speed / Buffer (Double Range) / Attack Damage / Life on Hit""";"""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Buffer (Dobra Alcance) / Dano de Ataque / Vida ao acertar""";Infinity Edge;Rapid Firecannon;Hand of Justice;15;16;19;[15,16,19];23;19;16;[23,19,16];19;22;49;[19,22,49];"""bestSets"": [
+        {
+          ""name"": ""Revive / Life Steal / Critical Damage / Critical Chance"",
+          ""items"": [15,16,19]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Speed / Buffer (Double Range) / Attack Damage / Life on Hit"",
+          ""items"": [19,22,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Revive / Life Steal / Critical Damage / Critical Chance"",
+          ""items"": [15,16,19]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Speed / Buffer (Double Range) / Attack Damage / Life on Hit"",
+          ""items"": [19,22,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reviver / Roubo de Vida / Dano Crítico / Chance de Crítico"",
+          ""items"": [15,16,19]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Buffer (Dobra Alcance) / Dano de Ataque / Vida ao acertar"",
+          ""items"": [19,22,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reviver / Roubo de Vida / Dano Crítico / Chance de Crítico"",
+          ""items"": [15,16,19]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [23,19,16]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Buffer (Dobra Alcance) / Dano de Ataque / Vida ao acertar"",
+          ""items"": [19,22,49]
+        }
+      ]";;
+;;;;Sejuani;"""Mana Generation / Revive / Burn Damage / Debuffer (Prevent Heal)""";"""Geração de Mana / Reviver / Dano de Queimadura / Debuffer (Previne Cura)""";Spear of Shojin;Guardian Angel;Morellonomicon;"""Mana Generation / Revive / Debuffer (Slow)""";"""Geração de Mana / Reviver / Debuffer (Lentidão)""";Spear of Shojin;Guardian Angel;Frozen Heart;"""Mana Generation / HP Regeneration / Magic Resistance""";"""Geração de Mana / Regeneração de Vida / Resistência Mágica""";Seraph's Embrace;Warmog's Armor;Dragon's Claw;14;15;37;[14,15,37];14;15;45;[14,15,45];44;77;66;[44,77,66];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Revive / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [14,15,37]
+        },
+        {
+          ""name"": ""Mana Generation / Revive / Debuffer (Slow)"",
+          ""items"": [14,15,45]
+        },
+        {
+          ""name"": ""Mana Generation / HP Regeneration / Magic Resistance"",
+          ""items"": [44,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Revive / Burn Damage / Debuffer (Prevent Heal)"",
+          ""items"": [14,15,37]
+        },
+        {
+          ""name"": ""Mana Generation / Revive / Debuffer (Slow)"",
+          ""items"": [14,15,45]
+        },
+        {
+          ""name"": ""Mana Generation / HP Regeneration / Magic Resistance"",
+          ""items"": [44,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Reviver / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [14,15,37]
+        },
+        {
+          ""name"": ""Geração de Mana / Reviver / Debuffer (Lentidão)"",
+          ""items"": [14,15,45]
+        },
+        {
+          ""name"": ""Geração de Mana / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [44,77,66]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Reviver / Dano de Queimadura / Debuffer (Previne Cura)"",
+          ""items"": [14,15,37]
+        },
+        {
+          ""name"": ""Geração de Mana / Reviver / Debuffer (Lentidão)"",
+          ""items"": [14,15,45]
+        },
+        {
+          ""name"": ""Geração de Mana / Regeneração de Vida / Resistência Mágica"",
+          ""items"": [44,77,66]
+        }
+      ]";;
+;;;;Shen;"""HP Regeneration / Magic Resistance / Debuffer (attack speed)""";"""Regeneração de Vida / Resistência Mágica / Debuffer (velocidade de ataque)""";Warmog's Armor;Dragon's Claw;Iceborn Gauntlet;"""HP Regeneration / Magic Resistance / Revive""";"""Regeneração de Vida / Resistência Mágica / Reviver""";Warmog's Armor;Dragon's Claw;Guardian Angel;"""Debuffer (Slow) / Magic Resistance / HP Regeneration""";"""Debuffer (Lentidão) / Resistência Mágica / Regeneração de Vida""";Frozen Heart;Dragon's Claw;Warmog's Armor;77;66;59;[77,66,59];77;66;15;[77,66,15];45;66;77;[45,66,77];"""bestSets"": [
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Debuffer (attack speed)"",
+          ""items"": [77,66,59]
+        },
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Revive"",
+          ""items"": [77,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / Magic Resistance / HP Regeneration"",
+          ""items"": [45,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Debuffer (attack speed)"",
+          ""items"": [77,66,59]
+        },
+        {
+          ""name"": ""HP Regeneration / Magic Resistance / Revive"",
+          ""items"": [77,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / Magic Resistance / HP Regeneration"",
+          ""items"": [45,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Debuffer (velocidade de ataque)"",
+          ""items"": [77,66,59]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Reviver"",
+          ""items"": [77,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [45,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Debuffer (velocidade de ataque)"",
+          ""items"": [77,66,59]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Resistência Mágica / Reviver"",
+          ""items"": [77,66,15]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [45,66,77]
+        }
+      ]";;
+;;;;Shyvana;"""Life Steal / HP Regeneration / Attack Speed""";"""Roubo de Vida / Regeneração de Vida / Velocidade de Ataque""";Hextech Gunblade;Warmog's Armor;Guinsoo's Rageblade;"""Attack Speed / Reflect Damage / HP Regeneration""";"""Velocidade de Ataque / Reflete Dano / Regeneração de Vida""";Guinsoo's Rageblade;Thornmail;Warmog's Armor;"""Splash Damage / HP Regeneration / Attack Speed""";"""Dano em área / Regeneração de Vida / Velocidade de Ataque""";Titanic Hydra;Warmog's Armor;Guinsoo's Rageblade;13;77;23;[13,77,23];23;55;77;[23,55,77];27;77;23;[27,77,23];"""bestSets"": [
+        {
+          ""name"": ""Life Steal / HP Regeneration / Attack Speed"",
+          ""items"": [13,77,23]
+        },
+        {
+          ""name"": ""Attack Speed / Reflect Damage / HP Regeneration"",
+          ""items"": [23,55,77]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / Attack Speed"",
+          ""items"": [27,77,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Life Steal / HP Regeneration / Attack Speed"",
+          ""items"": [13,77,23]
+        },
+        {
+          ""name"": ""Attack Speed / Reflect Damage / HP Regeneration"",
+          ""items"": [23,55,77]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / Attack Speed"",
+          ""items"": [27,77,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Velocidade de Ataque"",
+          ""items"": [13,77,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Reflete Dano / Regeneração de Vida"",
+          ""items"": [23,55,77]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Velocidade de Ataque"",
+          ""items"": [27,77,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Roubo de Vida / Regeneração de Vida / Velocidade de Ataque"",
+          ""items"": [13,77,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Reflete Dano / Regeneração de Vida"",
+          ""items"": [23,55,77]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Velocidade de Ataque"",
+          ""items"": [27,77,23]
+        }
+      ]";;
+;;;;Swain;"""Burn Damage / Debuffer (Prevent Heal) / Revive / HP Regeneration""";"""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Regeneração de Vida""";Morellonomicon;Guardian Angel;Warmog's Armor;"""Mana Generation / Chance to Spell Crit / HP Regeneration""";"""Geração de Mana / Chance dos Feitiços darem dano Crítico / Regeneração de Vida""";Seraph's Embrace;Jeweled Gauntlet;Warmog's Armor;"""Revive / Magic Resistance / HP Regeneration""";"""Reviver / Resistência Mágica / Regeneração de Vida""";Guardian Angel;Dragon's Claw;Warmog's Armor;37;15;77;[37,15,77];44;39;77;[44,39,77];15;66;77;[15,66,77];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / HP Regeneration"",
+          ""items"": [37,15,77]
+        },
+        {
+          ""name"": ""Mana Generation / Chance to Spell Crit / HP Regeneration"",
+          ""items"": [44,39,77]
+        },
+        {
+          ""name"": ""Revive / Magic Resistance / HP Regeneration"",
+          ""items"": [15,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Revive / HP Regeneration"",
+          ""items"": [37,15,77]
+        },
+        {
+          ""name"": ""Mana Generation / Chance to Spell Crit / HP Regeneration"",
+          ""items"": [44,39,77]
+        },
+        {
+          ""name"": ""Revive / Magic Resistance / HP Regeneration"",
+          ""items"": [15,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Regeneração de Vida"",
+          ""items"": [37,15,77]
+        },
+        {
+          ""name"": ""Geração de Mana / Chance dos Feitiços darem dano Crítico / Regeneração de Vida"",
+          ""items"": [44,39,77]
+        },
+        {
+          ""name"": ""Reviver / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [15,66,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Reviver / Regeneração de Vida"",
+          ""items"": [37,15,77]
+        },
+        {
+          ""name"": ""Geração de Mana / Chance dos Feitiços darem dano Crítico / Regeneração de Vida"",
+          ""items"": [44,39,77]
+        },
+        {
+          ""name"": ""Reviver / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [15,66,77]
+        }
+      ]";;
+;;;;Tristana;"""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / Debuffer (Reduce Star)""";"""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Debuffer (Reduz Estrela)""";Red Buff;Hush;Cursed Blade;"""Attack Speed / Debuffer (Prevent Mana) / True Damage (Max Health)""";"""Velocidade de Ataque / Debuffer (Impede de Ganhar mana) / Dano Verdadeiro (Vida Máxima)""";Guinsoo's Rageblade;hush;giant slayer;"""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / True Damage (Max Health)""";"""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Dano Verdadeiro (Vida Máxima)""";Red Buff;Hush;Giant Slayer;57;46;26;[57,46,26];23;46;12;[23,46,12];57;46;12;[57,46,12];"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / Debuffer (Reduce Star)"",
+          ""items"": [57,46,26]
+        },
+        {
+          ""name"": ""Attack Speed / Debuffer (Prevent Mana) / True Damage (Max Health)"",
+          ""items"": [23,46,12]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / True Damage (Max Health)"",
+          ""items"": [57,46,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / Debuffer (Reduce Star)"",
+          ""items"": [57,46,26]
+        },
+        {
+          ""name"": ""Attack Speed / Debuffer (Prevent Mana) / True Damage (Max Health)"",
+          ""items"": [23,46,12]
+        },
+        {
+          ""name"": ""Burn Damage / Debuffer (Prevent Heal) / Debuffer (Prevent Mana) / True Damage (Max Health)"",
+          ""items"": [57,46,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Debuffer (Reduz Estrela)"",
+          ""items"": [57,46,26]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Debuffer (Impede de Ganhar mana) / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [23,46,12]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [57,46,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Debuffer (Reduz Estrela)"",
+          ""items"": [57,46,26]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Debuffer (Impede de Ganhar mana) / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [23,46,12]
+        },
+        {
+          ""name"": ""Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Impede de Ganhar mana) / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [57,46,12]
+        }
+      ]";;
+;;;;Twisted Fate;"""Splash Damage / Splash Damage / Attack Speed""";"""Dano em área / Dano em área / Velocidade de Ataque""";Statikk Shiv;Statikk Shiv;Guinsoo's Rageblade;"""Attack Speed / Splash Damage / Mana Generation""";"""Velocidade de Ataque / Dano em área / Geração de Mana""";Guinsoo's Rageblade;Statikk Shiv;Spear of Shojin;"""Mana Generation / Mana Generation / Attack Speed""";"""Geração de Mana / Geração de Mana / Velocidade de Ataque""";Spear of Shojin;Spear of Shojin;Guinsoo's Rageblade;24;24;23;[24,24,23];23;24;14;[23,24,14];14;14;23;[14,14,23];"""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Splash Damage / Attack Speed"",
+          ""items"": [24,24,23]
+        },
+        {
+          ""name"": ""Attack Speed / Splash Damage / Mana Generation"",
+          ""items"": [23,24,14]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Splash Damage / Splash Damage / Attack Speed"",
+          ""items"": [24,24,23]
+        },
+        {
+          ""name"": ""Attack Speed / Splash Damage / Mana Generation"",
+          ""items"": [23,24,14]
+        },
+        {
+          ""name"": ""Mana Generation / Mana Generation / Attack Speed"",
+          ""items"": [14,14,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano em área / Dano em área / Velocidade de Ataque"",
+          ""items"": [24,24,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano em área / Geração de Mana"",
+          ""items"": [23,24,14]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano em área / Dano em área / Velocidade de Ataque"",
+          ""items"": [24,24,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano em área / Geração de Mana"",
+          ""items"": [23,24,14]
+        },
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Velocidade de Ataque"",
+          ""items"": [14,14,23]
+        }
+      ]";;
+;;;;Varus;"""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed""";"""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque""";Runaan's Hurricane;Hush;Guinsoo's Rageblade;"""Attack Speed / Mana Generation / Critical Damage / Critical Chance""";"""Velocidade de Ataque / Geração de Mana / Dano Crítico / Chance de Crítico""";Guinsoo's Rageblade;Spear of Shojin;Infinity Edge;"""Mirror Attack / Attack Speed / True Damage (Max Health)""";"""Ataque Espelhado / Velocidade de Ataque / Dano Verdadeiro (Vida Máxima)""";Runaan's Hurricane;Guinsoo's Rageblade;Giant Slayer;68;46;23;[68,46,23];23;14;19;[23,14,19];68;23;12;[68,23,12];"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Critical Damage / Critical Chance"",
+          ""items"": [23,14,19]
+        },
+        {
+          ""name"": ""Mirror Attack / Attack Speed / True Damage (Max Health)"",
+          ""items"": [68,23,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / Critical Damage / Critical Chance"",
+          ""items"": [23,14,19]
+        },
+        {
+          ""name"": ""Mirror Attack / Attack Speed / True Damage (Max Health)"",
+          ""items"": [68,23,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Dano Crítico / Chance de Crítico"",
+          ""items"": [23,14,19]
+        },
+        {
+          ""name"": ""Ataque Espelhado / Velocidade de Ataque / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [68,23,12]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Dano Crítico / Chance de Crítico"",
+          ""items"": [23,14,19]
+        },
+        {
+          ""name"": ""Ataque Espelhado / Velocidade de Ataque / Dano Verdadeiro (Vida Máxima)"",
+          ""items"": [68,23,12]
+        }
+      ]";;
+;;;;Vayne;"""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed""";"""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque""";Runaan's Hurricane;Hush;Guinsoo's Rageblade;"""Attack Speed / Attack Speed / Buffer (Double Range) / Critical Damage / Critical Chance""";"""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Dano Crítico / Chance de Crítico""";Guinsoo's Rageblade;Rapid Firecannon;Infinity Edge;"""Mirror Attack / True Damage (Max Health) / Attack Speed""";"""Ataque Espelhado / Dano Verdadeiro (Vida Máxima) / Velocidade de Ataque""";Runaan's Hurricane;giant slayer;Guinsoo's Rageblade;68;46;23;[68,46,23];23;22;19;[23,22,19];68;12;23;[68,12,23];"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Critical Damage / Critical Chance"",
+          ""items"": [23,22,19]
+        },
+        {
+          ""name"": ""Mirror Attack / True Damage (Max Health) / Attack Speed"",
+          ""items"": [68,12,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mirror Attack / Debuffer (Prevent Mana) / Attack Speed"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Attack Speed / Attack Speed / Buffer (Double Range) / Critical Damage / Critical Chance"",
+          ""items"": [23,22,19]
+        },
+        {
+          ""name"": ""Mirror Attack / True Damage (Max Health) / Attack Speed"",
+          ""items"": [68,12,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Dano Crítico / Chance de Crítico"",
+          ""items"": [23,22,19]
+        },
+        {
+          ""name"": ""Ataque Espelhado / Dano Verdadeiro (Vida Máxima) / Velocidade de Ataque"",
+          ""items"": [68,12,23]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Ataque Espelhado / Debuffer (Impede de Ganhar mana) / Velocidade de Ataque"",
+          ""items"": [68,46,23]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Velocidade de Ataque / Buffer (Dobra Alcance) / Dano Crítico / Chance de Crítico"",
+          ""items"": [23,22,19]
+        },
+        {
+          ""name"": ""Ataque Espelhado / Dano Verdadeiro (Vida Máxima) / Velocidade de Ataque"",
+          ""items"": [68,12,23]
+        }
+      ]";;
+;;;;Veigar;"""Mana Generation / Mana Generation / Mana Generation""";"""Geração de Mana / Geração de Mana / Geração de Mana""";Spear of Shojin;Spear of Shojin;Seraph's Embrace;"""Mana Generation / Chance to Spell Crit / Mana Generation""";"""Geração de Mana / Chance dos Feitiços darem dano Crítico / Geração de Mana""";Spear of Shojin;Jeweled Gauntlet;Seraph's Embrace;"""Mana Generation / Attack Speed / Mana Generation""";"""Geração de Mana / Velocidade de Ataque / Geração de Mana""";Seraph's Embrace;Guinsoo's Rageblade;Spear of Shojin;14;14;44;[14,14,44];14;39;44;[14,39,44];44;23;14;[44,23,14];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Mana Generation"",
+          ""items"": [14,14,44]
+        },
+        {
+          ""name"": ""Mana Generation / Chance to Spell Crit / Mana Generation"",
+          ""items"": [14,39,44]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Mana Generation"",
+          ""items"": [44,23,14]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Mana Generation / Mana Generation"",
+          ""items"": [14,14,44]
+        },
+        {
+          ""name"": ""Mana Generation / Chance to Spell Crit / Mana Generation"",
+          ""items"": [14,39,44]
+        },
+        {
+          ""name"": ""Mana Generation / Attack Speed / Mana Generation"",
+          ""items"": [44,23,14]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Geração de Mana"",
+          ""items"": [14,14,44]
+        },
+        {
+          ""name"": ""Geração de Mana / Chance dos Feitiços darem dano Crítico / Geração de Mana"",
+          ""items"": [14,39,44]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Geração de Mana"",
+          ""items"": [44,23,14]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Geração de Mana / Geração de Mana"",
+          ""items"": [14,14,44]
+        },
+        {
+          ""name"": ""Geração de Mana / Chance dos Feitiços darem dano Crítico / Geração de Mana"",
+          ""items"": [14,39,44]
+        },
+        {
+          ""name"": ""Geração de Mana / Velocidade de Ataque / Geração de Mana"",
+          ""items"": [44,23,14]
+        }
+      ]";;
+;;;;Vi;"""HP Regeneration / HP Regeneration / Revive""";"""Regeneração de Vida / Regeneração de Vida / Reviver""";Warmog's Armor;Warmog's Armor;Guardian Angel;"""Debuffer (Slow) / Magic Resistance / HP Regeneration""";"""Debuffer (Lentidão) / Resistência Mágica / Regeneração de Vida""";Frozen Heart;Dragon's Claw;Warmog's Armor;"""Splash Damage / HP Regeneration / HP Regeneration""";"""Dano em área / Regeneração de Vida / Regeneração de Vida""";Titanic Hydra;Warmog's Armor;Warmog's Armor;77;77;15;[77,77,15];45;66;77;[45,66,77];27;77;77;[27,77,77];"""bestSets"": [
+        {
+          ""name"": ""HP Regeneration / HP Regeneration / Revive"",
+          ""items"": [77,77,15]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / Magic Resistance / HP Regeneration"",
+          ""items"": [45,66,77]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / HP Regeneration"",
+          ""items"": [27,77,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""HP Regeneration / HP Regeneration / Revive"",
+          ""items"": [77,77,15]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / Magic Resistance / HP Regeneration"",
+          ""items"": [45,66,77]
+        },
+        {
+          ""name"": ""Splash Damage / HP Regeneration / HP Regeneration"",
+          ""items"": [27,77,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Regeneração de Vida / Regeneração de Vida / Reviver"",
+          ""items"": [77,77,15]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [45,66,77]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Regeneração de Vida"",
+          ""items"": [27,77,77]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Regeneração de Vida / Regeneração de Vida / Reviver"",
+          ""items"": [77,77,15]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Resistência Mágica / Regeneração de Vida"",
+          ""items"": [45,66,77]
+        },
+        {
+          ""name"": ""Dano em área / Regeneração de Vida / Regeneração de Vida"",
+          ""items"": [27,77,77]
+        }
+      ]";;
+;;;;Volibear;"""Attack Speed / Buffer (Double Range) / Attack Speed / Buffer (Double Range) / Debuffer (Prevent Mana)""";"""Velocidade de Ataque / Buffer (Dobra Alcance) / Velocidade de Ataque / Buffer (Dobra Alcance) / Debuffer (Impede de Ganhar mana)""";Rapid Firecannon;Rapid Firecannon;Hush;"""Attack Speed / Buffer (Double Range) / True Damage (Max Health) / Debuffer (Disarm)""";"""Velocidade de Ataque / Buffer (Dobra Alcance) / Dano Verdadeiro (Vida Máxima) / Debuffer (Desarmar)""";Rapid Firecannon;Giant Slayer;Sword Breaker;"""Attack Speed / Buffer (Double Range) / Burn Damage / Debuffer (Prevent Heal) / Debuffer (Disarm)""";"""Velocidade de Ataque / Buffer (Dobra Alcance) / Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Desarmar)""";Rapid Firecannon;Red Buff;Sword Breaker;22;22;46;[22,22,46];22;12;56;[22,12,56];22;57;56;[22,57,56];"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Buffer (Double Range) / Attack Speed / Buffer (Double Range) / Debuffer (Prevent Mana)"",
+          ""items"": [22,22,46]
+        },
+        {
+          ""name"": ""Attack Speed / Buffer (Double Range) / True Damage (Max Health) / Debuffer (Disarm)"",
+          ""items"": [22,12,56]
+        },
+        {
+          ""name"": ""Attack Speed / Buffer (Double Range) / Burn Damage / Debuffer (Prevent Heal) / Debuffer (Disarm)"",
+          ""items"": [22,57,56]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Attack Speed / Buffer (Double Range) / Attack Speed / Buffer (Double Range) / Debuffer (Prevent Mana)"",
+          ""items"": [22,22,46]
+        },
+        {
+          ""name"": ""Attack Speed / Buffer (Double Range) / True Damage (Max Health) / Debuffer (Disarm)"",
+          ""items"": [22,12,56]
+        },
+        {
+          ""name"": ""Attack Speed / Buffer (Double Range) / Burn Damage / Debuffer (Prevent Heal) / Debuffer (Disarm)"",
+          ""items"": [22,57,56]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Buffer (Dobra Alcance) / Velocidade de Ataque / Buffer (Dobra Alcance) / Debuffer (Impede de Ganhar mana)"",
+          ""items"": [22,22,46]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Buffer (Dobra Alcance) / Dano Verdadeiro (Vida Máxima) / Debuffer (Desarmar)"",
+          ""items"": [22,12,56]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Buffer (Dobra Alcance) / Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Desarmar)"",
+          ""items"": [22,57,56]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Velocidade de Ataque / Buffer (Dobra Alcance) / Velocidade de Ataque / Buffer (Dobra Alcance) / Debuffer (Impede de Ganhar mana)"",
+          ""items"": [22,22,46]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Buffer (Dobra Alcance) / Dano Verdadeiro (Vida Máxima) / Debuffer (Desarmar)"",
+          ""items"": [22,12,56]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Buffer (Dobra Alcance) / Dano de Queimadura / Debuffer (Previne Cura) / Debuffer (Desarmar)"",
+          ""items"": [22,57,56]
+        }
+      ]";;
+;;;;Warwick;"""Revive / HP Regeneration / HP Regeneration""";"""Reviver / Regeneração de Vida / Regeneração de Vida""";Guardian Angel;Warmog's Armor;Warmog's Armor;"""Debuffer (Slow) / HP Regeneration / Revive""";"""Debuffer (Lentidão) / Regeneração de Vida / Reviver""";Frozen Heart;Warmog's Armor;Guardian Angel;"""HP Regeneration / HP Regeneration / Splash Damage""";"""Regeneração de Vida / Regeneração de Vida / Dano em área""";Warmog's Armor;Warmog's Armor;Titanic Hydra;15;77;77;[15,77,77];45;77;15;[45,77,15];77;77;27;[77,77,27];"""bestSets"": [
+        {
+          ""name"": ""Revive / HP Regeneration / HP Regeneration"",
+          ""items"": [15,77,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Revive"",
+          ""items"": [45,77,15]
+        },
+        {
+          ""name"": ""HP Regeneration / HP Regeneration / Splash Damage"",
+          ""items"": [77,77,27]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Revive / HP Regeneration / HP Regeneration"",
+          ""items"": [15,77,77]
+        },
+        {
+          ""name"": ""Debuffer (Slow) / HP Regeneration / Revive"",
+          ""items"": [45,77,15]
+        },
+        {
+          ""name"": ""HP Regeneration / HP Regeneration / Splash Damage"",
+          ""items"": [77,77,27]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reviver / Regeneração de Vida / Regeneração de Vida"",
+          ""items"": [15,77,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Reviver"",
+          ""items"": [45,77,15]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Regeneração de Vida / Dano em área"",
+          ""items"": [77,77,27]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Reviver / Regeneração de Vida / Regeneração de Vida"",
+          ""items"": [15,77,77]
+        },
+        {
+          ""name"": ""Debuffer (Lentidão) / Regeneração de Vida / Reviver"",
+          ""items"": [45,77,15]
+        },
+        {
+          ""name"": ""Regeneração de Vida / Regeneração de Vida / Dano em área"",
+          ""items"": [77,77,27]
+        }
+      ]";;
+;;;;Yasuo;"""Mana Generation / Magic Resistance / Splash Damage""";"""Geração de Mana / Resistência Mágica / Dano em área""";Seraph's Embrace;Dragon's Claw;Luden's Echo;"""Attack Speed / Mana Generation / HP Regeneration""";"""Velocidade de Ataque / Geração de Mana / Regeneração de Vida""";Guinsoo's Rageblade;Seraph's Embrace;Warmog's Armor;"""Mana Generation / Critical Damage / Critical Chance / Life Steal""";"""Geração de Mana / Dano Crítico / Chance de Crítico / Roubo de Vida""";Seraph's Embrace;Infinity Edge;Hextech Gunblade;44;66;34;[44,66,34];23;44;77;[23,44,77];44;19;13;[44,19,13];"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Magic Resistance / Splash Damage"",
+          ""items"": [44,66,34]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / HP Regeneration"",
+          ""items"": [23,44,77]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [44,19,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Mana Generation / Magic Resistance / Splash Damage"",
+          ""items"": [44,66,34]
+        },
+        {
+          ""name"": ""Attack Speed / Mana Generation / HP Regeneration"",
+          ""items"": [23,44,77]
+        },
+        {
+          ""name"": ""Mana Generation / Critical Damage / Critical Chance / Life Steal"",
+          ""items"": [44,19,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Resistência Mágica / Dano em área"",
+          ""items"": [44,66,34]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Regeneração de Vida"",
+          ""items"": [23,44,77]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [44,19,13]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Geração de Mana / Resistência Mágica / Dano em área"",
+          ""items"": [44,66,34]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Geração de Mana / Regeneração de Vida"",
+          ""items"": [23,44,77]
+        },
+        {
+          ""name"": ""Geração de Mana / Dano Crítico / Chance de Crítico / Roubo de Vida"",
+          ""items"": [44,19,13]
+        }
+      ]";;
+;;;;Zed;"""Critical Damage / Critical Chance / Revive / Life Steal""";"""Dano Crítico / Chance de Crítico / Reviver / Roubo de Vida""";Infinity Edge;Guardian Angel;The Bloodthirster;"""Critical Damage / Critical Chance / Attack Speed / Buffer (Double Range) / Life Steal""";"""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida""";Infinity Edge;Rapid Firecannon;The Bloodthirster;"""Attack Speed / Critical Damage / Critical Chance / Attack Damage / Life on Hit""";"""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar""";Guinsoo's Rageblade;Infinity Edge;Hand of Justice;19;15;16;[19,15,16];19;22;16;[19,22,16];23;19;49;[23,19,49];"""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Critical Chance / Revive / Life Steal"",
+          ""items"": [19,15,16]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [19,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Attack Damage / Life on Hit"",
+          ""items"": [23,19,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Critical Damage / Critical Chance / Revive / Life Steal"",
+          ""items"": [19,15,16]
+        },
+        {
+          ""name"": ""Critical Damage / Critical Chance / Attack Speed / Buffer (Double Range) / Life Steal"",
+          ""items"": [19,22,16]
+        },
+        {
+          ""name"": ""Attack Speed / Critical Damage / Critical Chance / Attack Damage / Life on Hit"",
+          ""items"": [23,19,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Reviver / Roubo de Vida"",
+          ""items"": [19,15,16]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [19,22,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar"",
+          ""items"": [23,19,49]
+        }
+      ]";"""bestSets"": [
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Reviver / Roubo de Vida"",
+          ""items"": [19,15,16]
+        },
+        {
+          ""name"": ""Dano Crítico / Chance de Crítico / Velocidade de Ataque / Buffer (Dobra Alcance) / Roubo de Vida"",
+          ""items"": [19,22,16]
+        },
+        {
+          ""name"": ""Velocidade de Ataque / Dano Crítico / Chance de Crítico / Dano de Ataque / Vida ao acertar"",
+          ""items"": [23,19,49]
+        }
+      ]";;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
