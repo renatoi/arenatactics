@@ -2185,10 +2185,10 @@
           ""items"": [14,49,19]
         }
       ]";;
-;;;;Rek'Sai;"""HP Regeneration / Revive / Debuffer (Slow)""";"""Regeneração de Vida / Reviver / Debuffer (Lentidão)""";Warmog's Armor;Guardian Angel;Frozen Heart;"""HP Regeneration / Splash Damage / HP Regeneration""";"""Regeneração de Vida / Dano em área / Regeneração de Vida""";Warmog's Armor;Titanic Hydra;Warmog's Armor;"""Debuffer (Slow) / HP Regeneration / Splash Damage""";"""Debuffer (Lentidão) / Regeneração de Vida / Dano em área""";Frozen Heart;Warmog's Armor;Titanic Hydra;77;15;45;[77,15,45];77;27;77;[77,27,77];45;77;27;[45,77,27];"""bestSets"": [
+;;;;Rek'Sai;"""HP Regeneration / Debuffer (Slow) / Revive""";"""Regeneração de Vida / Debuffer (Lentidão) / Reviver""";Warmog's Armor;Frozen Heart;Guardian Angel;"""HP Regeneration / Splash Damage / HP Regeneration""";"""Regeneração de Vida / Dano em área / Regeneração de Vida""";Warmog's Armor;Titanic Hydra;Warmog's Armor;"""Debuffer (Slow) / HP Regeneration / Splash Damage""";"""Debuffer (Lentidão) / Regeneração de Vida / Dano em área""";Frozen Heart;Warmog's Armor;Titanic Hydra;77;45;15;[77,45,15];77;27;77;[77,27,77];45;77;27;[45,77,27];"""bestSets"": [
         {
-          ""name"": ""HP Regeneration / Revive / Debuffer (Slow)"",
-          ""items"": [77,15,45]
+          ""name"": ""HP Regeneration / Debuffer (Slow) / Revive"",
+          ""items"": [77,45,15]
         },
         {
           ""name"": ""HP Regeneration / Splash Damage / HP Regeneration"",
@@ -2200,8 +2200,8 @@
         }
       ]";"""bestSets"": [
         {
-          ""name"": ""HP Regeneration / Revive / Debuffer (Slow)"",
-          ""items"": [77,15,45]
+          ""name"": ""HP Regeneration / Debuffer (Slow) / Revive"",
+          ""items"": [77,45,15]
         },
         {
           ""name"": ""HP Regeneration / Splash Damage / HP Regeneration"",
@@ -2213,8 +2213,8 @@
         }
       ]";"""bestSets"": [
         {
-          ""name"": ""Regeneração de Vida / Reviver / Debuffer (Lentidão)"",
-          ""items"": [77,15,45]
+          ""name"": ""Regeneração de Vida / Debuffer (Lentidão) / Reviver"",
+          ""items"": [77,45,15]
         },
         {
           ""name"": ""Regeneração de Vida / Dano em área / Regeneração de Vida"",
@@ -2226,8 +2226,8 @@
         }
       ]";"""bestSets"": [
         {
-          ""name"": ""Regeneração de Vida / Reviver / Debuffer (Lentidão)"",
-          ""items"": [77,15,45]
+          ""name"": ""Regeneração de Vida / Debuffer (Lentidão) / Reviver"",
+          ""items"": [77,45,15]
         },
         {
           ""name"": ""Regeneração de Vida / Dano em área / Regeneração de Vida"",
