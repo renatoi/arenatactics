@@ -9,6 +9,7 @@
 }
 .detail {
   flex: auto;
+  padding: 12px 24px;
 }
 
 /* master */
@@ -23,7 +24,7 @@
   margin-bottom: 8px;
 }
 .masterHeading {
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
   padding: 8px 4px;
   text-transform: uppercase;
@@ -45,7 +46,7 @@
   display: block;
   margin-bottom: 2px;
   padding: 2px;
-  font-size: 12px;
+  font-size: 14px;
 }
 a.navLink {
   color: white;
@@ -106,7 +107,6 @@ a.navLinkSelected {
 
 /* detail */
 .detail {
-  padding: 12px;
   overflow: auto;
 }
 

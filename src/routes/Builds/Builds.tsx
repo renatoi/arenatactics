@@ -248,11 +248,11 @@ const BuildsComponent: React.FC<BuildsProps> = ({
             })}
         </MasterList>
       </Master>
-      <Detail className={cx(styles.buildsDetail, "Scrollable")}>
+      <Detail className={cx(styles.buildsDetail)}>
         {selectedBuild != null ? (
-          <>
+          <article className={styles.buildsDetailArticle}>
             <h1 className={styles.buildsTitle}>{selectedBuild.name}</h1>
-            <p>Last update: Patch 9.20.</p>
+            <p>Last update: Patch 9.21.</p>
             <h2 id="team-composition" className={styles.heading}>
               {getLocalizedText("comps.teamComposition")}
             </h2>
@@ -274,7 +274,7 @@ const BuildsComponent: React.FC<BuildsProps> = ({
               {getLocalizedText("comps.guide")}
             </h2>
             <MarkdownViewer value={selectedBuild.guide} />
-          </>
+          </article>
         ) : (
           <p style={{ minHeight: "80%" }}>
             {getLocalizedText("comps.compSelect")}

@@ -41,8 +41,9 @@ const ItemSFC: React.FC<ItemProps> = ({
           <ItemImage itemKey={currentItem.key} width={16} height={16} alt="" />
           {currentItem.name}
         </h3>
-        <p className={styles.itemDesc}>
-          {getItemDescription(currentItem.desc, currentItem.effects)}
+        <p className={styles.itemDesc} dangerouslySetInnerHTML={{
+          __html: getItemDescription(currentItem.desc, currentItem.effects)
+        }}>
         </p>
         <div className={styles.itemSourceList}>
           {Array.isArray(currentItem.from) &&
