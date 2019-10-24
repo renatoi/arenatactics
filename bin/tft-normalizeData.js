@@ -143,6 +143,7 @@ function normalizeData(locale) {
         newItemsData.byId[itemId] = itemsData[itemId];
         newItemsData.byId[itemId].id = itemId;
         newItemsData.byId[itemId].key = itemKey;
+        newItemsData.byId[itemId].from = itemsData[itemId].from.map(fromId => `${fromId}`);
         newItemsData.byId[itemId].desc = newItemsData.byId[itemId].desc
           .replace(/\<i\>(.+)\<\/i\>/g, "$1")
           .replace(/\<br\>/g, " ")
